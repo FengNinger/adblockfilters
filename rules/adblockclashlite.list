@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20251006002633
-# Last modified: 2025/10/06 00:26:33
-# Blocked domains: 4979
+# Version: 20251006095030
+# Last modified: 2025/10/06 09:50:30
+# Blocked domains: 4974
 #
 [Rule]
 DOMAIN-SUFFIX,00xvppy.cn,REJECT-DROP
@@ -158,7 +158,6 @@ DOMAIN-SUFFIX,312m2s6.shop,REJECT-DROP
 DOMAIN-SUFFIX,d1.3158.cn,REJECT-DROP
 DOMAIN-SUFFIX,31up.icu,REJECT-DROP
 DOMAIN-SUFFIX,mg.32r.com,REJECT-DROP
-DOMAIN-SUFFIX,336bakp.cn,REJECT-DROP
 DOMAIN-SUFFIX,ad.dev.360.cn,REJECT-DROP
 DOMAIN-SUFFIX,ad.jia.360.cn,REJECT-DROP
 DOMAIN-SUFFIX,c.sayhi.360.cn,REJECT-DROP
@@ -1458,7 +1457,6 @@ DOMAIN-SUFFIX,egrent.cn,REJECT-DROP
 DOMAIN-SUFFIX,egsxdp.cn,REJECT-DROP
 DOMAIN-SUFFIX,ehmhqcn.cn,REJECT-DROP
 DOMAIN-SUFFIX,ehxyz.com,REJECT-DROP
-DOMAIN-SUFFIX,eiwdj.cn,REJECT-DROP
 DOMAIN-SUFFIX,tr.ekatox.com,REJECT-DROP
 DOMAIN-SUFFIX,glser-groupr.ekelk.com,REJECT-DROP
 DOMAIN-SUFFIX,ekzmk.icu,REJECT-DROP
@@ -1928,7 +1926,6 @@ DOMAIN-SUFFIX,hj8gf.icu,REJECT-DROP
 DOMAIN-SUFFIX,gentian-frd.hjapi.com,REJECT-DROP
 DOMAIN-SUFFIX,resu8.hjfile.cn,REJECT-DROP
 DOMAIN-SUFFIX,hjpqt.cn,REJECT-DROP
-DOMAIN-SUFFIX,erconsumerair.hjwenyl.cn,REJECT-DROP
 DOMAIN-SUFFIX,hkeig.com,REJECT-DROP
 DOMAIN-SUFFIX,hlstlyy.com,REJECT-DROP
 DOMAIN-SUFFIX,hly.com,REJECT-DROP
@@ -3827,7 +3824,6 @@ DOMAIN-SUFFIX,httpdns.danuoyi.tbcache.com,REJECT-DROP
 DOMAIN-SUFFIX,g.tbcdn.cn,REJECT-DROP
 DOMAIN-SUFFIX,a1.tbuz.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,dlied6.bytes.tcdnos.com,REJECT-DROP
-DOMAIN-SUFFIX,dlied6.yz.tcdnos.com,REJECT-DROP
 DOMAIN-SUFFIX,tcdvvv.top,REJECT-DROP
 DOMAIN-SUFFIX,tchkcc.cn,REJECT-DROP
 DOMAIN-SUFFIX,gwrtdp-tn690bfadt.tclclouds.com,REJECT-DROP
@@ -3908,7 +3904,6 @@ DOMAIN-SUFFIX,img2.titan007.com,REJECT-DROP
 DOMAIN-SUFFIX,a.tiyuxiu.com,REJECT-DROP
 DOMAIN-SUFFIX,tjnwfjy.cn,REJECT-DROP
 DOMAIN-SUFFIX,tjqwb.cn,REJECT-DROP
-DOMAIN-SUFFIX,tkydv.cn,REJECT-DROP
 DOMAIN-SUFFIX,livetech.shopee.co.th.tlivecdn.com,REJECT-DROP
 DOMAIN-SUFFIX,tnfno.icu,REJECT-DROP
 DOMAIN-SUFFIX,site-p2p-ads.tngdigital.com.my,REJECT-DROP
