@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20251007094757
-# Last modified: 2025/10/07 09:47:57
-# Blocked domains: 4971
+# Version: 20251007163230
+# Last modified: 2025/10/07 16:32:30
+# Blocked domains: 4969
 #
 local=/00xvppy.cn/
 local=/0240c45ce998f834.com/
@@ -2615,6 +2615,7 @@ local=/manyou.com/
 local=/adx.maplehaze.cn/
 local=/maps-icloud.today/
 local=/sdk.markmedia.com.cn/
+local=/www.mashangyoushu.cn/
 local=/mathtype.cn/
 local=/metrics.mathworks.cn/
 local=/smetrics.mathworks.cn/
@@ -2705,7 +2706,6 @@ local=/microad-cn.com/
 local=/microad.jp/
 local=/stat.microvirt.com/
 local=/midway.run/
-local=/migrosvip.click/
 local=/migroteams.click/
 local=/app.log.nf.migu.cn/
 local=/uem.migu.cn/
@@ -2901,7 +2901,6 @@ local=/nithisp.cn/
 local=/taobao.niucha.ren/
 local=/njzyjy.cn/
 local=/nkscdn.com/
-local=/nlhki1k.cn/
 local=/nlyuuy.cn/
 local=/nmgyllh.cn/
 local=/nmntgd.cn/
@@ -3080,7 +3079,6 @@ local=/pufhzpt.cn/
 local=/pig.pupuapi.com/
 local=/puqer.cn/
 local=/ums.pushpia.cn/
-local=/quiteern.puycril.cn/
 local=/pv4b.com/
 local=/pvk2e.icu/
 local=/pxhuiben.com/

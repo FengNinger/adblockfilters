@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20251007094757
-# Last modified: 2025/10/07 09:47:57
-# Blocked domains: 4971
+# Version: 20251007163230
+# Last modified: 2025/10/07 16:32:30
+# Blocked domains: 4969
 #
 [Rule]
 DOMAIN-SUFFIX,00xvppy.cn,REJECT-DROP
@@ -2616,6 +2616,7 @@ DOMAIN-SUFFIX,manyou.com,REJECT-DROP
 DOMAIN-SUFFIX,adx.maplehaze.cn,REJECT-DROP
 DOMAIN-SUFFIX,maps-icloud.today,REJECT-DROP
 DOMAIN-SUFFIX,sdk.markmedia.com.cn,REJECT-DROP
+DOMAIN-SUFFIX,www.mashangyoushu.cn,REJECT-DROP
 DOMAIN-SUFFIX,mathtype.cn,REJECT-DROP
 DOMAIN-SUFFIX,metrics.mathworks.cn,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.mathworks.cn,REJECT-DROP
@@ -2706,7 +2707,6 @@ DOMAIN-SUFFIX,microad-cn.com,REJECT-DROP
 DOMAIN-SUFFIX,microad.jp,REJECT-DROP
 DOMAIN-SUFFIX,stat.microvirt.com,REJECT-DROP
 DOMAIN-SUFFIX,midway.run,REJECT-DROP
-DOMAIN-SUFFIX,migrosvip.click,REJECT-DROP
 DOMAIN-SUFFIX,migroteams.click,REJECT-DROP
 DOMAIN-SUFFIX,app.log.nf.migu.cn,REJECT-DROP
 DOMAIN-SUFFIX,uem.migu.cn,REJECT-DROP
@@ -2902,7 +2902,6 @@ DOMAIN-SUFFIX,nithisp.cn,REJECT-DROP
 DOMAIN-SUFFIX,taobao.niucha.ren,REJECT-DROP
 DOMAIN-SUFFIX,njzyjy.cn,REJECT-DROP
 DOMAIN-SUFFIX,nkscdn.com,REJECT-DROP
-DOMAIN-SUFFIX,nlhki1k.cn,REJECT-DROP
 DOMAIN-SUFFIX,nlyuuy.cn,REJECT-DROP
 DOMAIN-SUFFIX,nmgyllh.cn,REJECT-DROP
 DOMAIN-SUFFIX,nmntgd.cn,REJECT-DROP
@@ -3081,7 +3080,6 @@ DOMAIN-SUFFIX,pufhzpt.cn,REJECT-DROP
 DOMAIN-SUFFIX,pig.pupuapi.com,REJECT-DROP
 DOMAIN-SUFFIX,puqer.cn,REJECT-DROP
 DOMAIN-SUFFIX,ums.pushpia.cn,REJECT-DROP
-DOMAIN-SUFFIX,quiteern.puycril.cn,REJECT-DROP
 DOMAIN-SUFFIX,pv4b.com,REJECT-DROP
 DOMAIN-SUFFIX,pvk2e.icu,REJECT-DROP
 DOMAIN-SUFFIX,pxhuiben.com,REJECT-DROP
