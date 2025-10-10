@@ -3,13 +3,12 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20251010163205
-! Last modified: 2025/10/10 16:32:05
-! Blocked domains: 4951
+! Version: 20251011003001
+! Last modified: 2025/10/11 00:30:01
+! Blocked domains: 4928
 ! unBlocked domains: 16
 !
 ||00xvppy.cn^
-||0240c45ce998f834.com^
 ||img.0279.net^
 ||027dir.com^
 ||o.027eat.com^
@@ -22,14 +21,12 @@
 ||080999.cn^
 ||087tqb.cn^
 ||0941.org^
-||0a4e760d2daf1fa2.com^
 ||0dwm.icu^
 ||0m483y7.cn^
 ||10000xing.cn^
 ||1717.1000uc.com^
 ||smartad.10010.com^
 ||1.1010pic.com^
-||10b331d3cc4780b7.com^
 ||adm.10jqka.com.cn^
 ||stat.10jqka.com.cn^
 ||v.110route.cn^
@@ -101,9 +98,6 @@
 ||st.19mi.net^
 ||1buo.icu^
 ||1dki0.icu^
-||1eec0e66f0e80266.com^
-||1efe4a57d7975099.com^
-||1fae577ba345e18c.com^
 ||1gmzo.icu^
 ||1gtp.icu^
 ||1jok.icu^
@@ -134,7 +128,6 @@
 ||25662zubo23739.com^
 ||2607.cn^
 ||js.263y.com^
-||27ba5537f507479a.com^
 ||a1.289.com^
 ||2efgcdcjr000.fun^
 ||2girls1finger.org^
@@ -222,8 +215,6 @@
 ||classic.39health.com^
 ||39jz.com^
 ||vip.3a9.net^
-||3ad12ee81ad419b2.com^
-||3d45c52274d34e5b.com^
 ||fc.3dmgame.com^
 ||ga1.3dmgame.com^
 ||gostat.3g.cn^
@@ -239,11 +230,9 @@
 ||ios-pclog.3u.com^
 ||41grk.icu^
 ||44629.com^
-||472741a4e2e11746.com^
 ||4bfx0u.com^
 ||4cx5.icu^
 ||4d0m.cn^
-||4fabc37f9505ea63.com^
 ||4fs3r.icu^
 ||4t6u.icu^
 ||1.5000yan.com^
@@ -328,8 +317,6 @@
 ||6789.net^
 ||67it.com^
 ||68287zubo85737.com^
-||6b7affbdece4d5cd.com^
-||6d7f79b3dec2df44.com^
 ||6efgcdcjr000.fun^
 ||6ft8a.icu^
 ||6gute.icu^
@@ -338,21 +325,17 @@
 ||6uzxtlv.cn^
 ||6v4.work^
 ||6v6.work^
-||71aaaef8b6c3ac37.com^
 ||trail.71baomu.com^
 ||alicoccdncnc-xn.inter.71edge.com^
 ||alicoccdnct-xn.inter.71edge.com^
 ||bdcdncnc.inter.71edge.com^
 ||7299tu75.cc^
-||72f989e3933a34e5.com^
 ||73336zubo25326.com^
-||74cbed9c0c828a3a.com^
 ||777bb111ww.com^
 ||1.78500.cn^
 ||7aey.icu^
 ||7car.com.cn^
 ||7cbwus.cn^
-||7d66a9dc43713c21.com^
 ||7dot.cn^
 ||7f7rt.icu^
 ||7jkzmbd.cn^
@@ -382,7 +365,6 @@
 ||88la.la^
 ||88lmfff666.com^
 ||8ail6.icu^
-||8dc3ea5cf9d7dd40.com^
 ||8ff0.cn^
 ||8gra3.icu^
 ||8le8le.com^
@@ -400,8 +382,6 @@
 ||961.com^
 ||11.96131.com.cn^
 ||96382zubo66756.com^
-||9692bc70da600f84.com^
-||96c6d63ce42dfe7f.com^
 ||96rj.icu^
 ||9800.com^
 ||42gixk.98kk89.com^
@@ -422,11 +402,9 @@
 ||9tdun9zm3.cn^
 ||9wee.com^
 ||9xxy.icu^
-||a1096391186.top^
 ||a2wx.icu^
 ||a32a.com.cn^
 ||a395813236.cn^
-||a39c596c48747066.com^
 ||a3p4.net^
 ||a48505.cn^
 ||a910445285.cn^
@@ -486,7 +464,6 @@
 ||adxvip.com^
 ||adyun.com^
 ||adzp.cn^
-||ae293a323b99091b.com^
 ||af6s.icu^
 ||analytics.afirstsoft.cn^
 ||app.aflink.com^
@@ -682,6 +659,7 @@
 ||iadsdk.apple.com^
 ||securemetrics.apple.com.cn^
 ||fpb1.apple886.com^
+||st.appsad.cn^
 ||adx.appsdk.com.cn^
 ||appsdt.com^
 ||tracking.apptrackerlink.com^
@@ -877,7 +855,6 @@
 ||baycode.cn^
 ||bayescom.com^
 ||bayimob.com^
-||bb4035948ad007d2.com^
 ||bbbazlp.cn^
 ||du1.bbdj.com^
 ||event.bblmw.com^
@@ -894,7 +871,6 @@
 ||httpdns.bcelive.com^
 ||bcglkfu.cn^
 ||m.bchchk.cn^
-||bdac7d8ad9ee8362.com^
 ||bdhcpll.cn^
 ||ecma.bdimg.com^
 ||ecmb.bdimg.com^
@@ -998,9 +974,7 @@
 ||p9-ad-sign.byteimg.com^
 ||s.c-ctrip.com^
 ||c05ua.icu^
-||c105cfd06397a835.com^
 ||b1.c1km4.com^
-||c37a3a6b65537b09.com^
 ||c4d4.cn^
 ||c4uy.icu^
 ||cadcc.icu^
@@ -1021,9 +995,9 @@
 ||cartx.cloud^
 ||super.cat898.com^
 ||tracking.cat898.com^
-||cb1fd3a31fe93412.com^
 ||adv.ccb.com^
 ||ad.ccement.com^
+||mtrace.ysp.cctv.cn^
 ||ad.cctv.com^
 ||httpdns.cctv.com^
 ||p.data.cctv.com^
@@ -1207,7 +1181,6 @@
 ||d-markets.net^
 ||ggjs.d17.cc^
 ||d5r.icu^
-||d7db7d73544d0ab6.com^
 ||d7ytrv7yxa.com^
 ||dabaicai.com^
 ||daccp.cn^
@@ -1493,7 +1466,6 @@
 ||ad.exyws.org^
 ||veepai-device-log.eye4.cn^
 ||qp.ezfxpuo.cn^
-||f9655ab9f2121b85.com^
 ||fakjkwp.cn^
 ||z2.fakutownee.cn^
 ||falal.cn^
@@ -1514,7 +1486,6 @@
 ||hugelog.fcbox.com^
 ||fcqztan.cn^
 ||fdhvczd.cn^
-||fe12943aa959f2e9.com^
 ||1.feihua.com^
 ||wmeng.feihuadns.com^
 ||feitian001.com^
@@ -1878,6 +1849,7 @@
 ||logbak.hicloud.com^
 ||logservice.hicloud.com^
 ||logservice-dra.platform.hicloud.com^
+||logservice-dre.platform.hicloud.com^
 ||logservice1.hicloud.com^
 ||ads-drcn.platform.hihonorcloud.com^
 ||honorsearch-dra.hiboard.hihonorcloud.com^
@@ -2156,6 +2128,7 @@
 ||c.uaa.iqiyi.com^
 ||cards-css.iqiyi.com^
 ||cm.passport.iqiyi.com^
+||cs-feige.iqiyi.com^
 ||doh.iqiyi.com^
 ||emoticon-sns.iqiyi.com^
 ||emoticon.sns.iqiyi.com^
@@ -2686,6 +2659,7 @@
 ||analytics.be.mi.com^
 ||d.g.mi.com^
 ||e.mi.com^
+||h5.tv.mi.com^
 ||idm.iot.mi.com^
 ||in.tv.global.mi.com^
 ||migc.g.mi.com^
@@ -3654,6 +3628,7 @@
 ||roi.soulapp.cn^
 ||sgg.southcn.com^
 ||cod.southmoney.com^
+||speedhorse.site^
 ||spkh.cn^
 ||www.sports-333.cn^
 ||sptwj.cn^
@@ -4164,6 +4139,7 @@
 ||co-vcode-api.vivoglobal.com^
 ||co-vcode-od.vivoglobal.com^
 ||co-vcode-or.vivoglobal.com^
+||de-gdpr-err-up.vivoglobal.com^
 ||err.up.vivoglobal.com^
 ||eu-cota.vivoglobal.com^
 ||eu-domaincfg.vivoglobal.com^
@@ -4256,6 +4232,7 @@
 ||ru-vcode-api.vivoglobal.com^
 ||ru-vcode-od.vivoglobal.com^
 ||ru-vcode-or.vivoglobal.com^
+||sca-cota.vivoglobal.com^
 ||sca-domaincfg.vivoglobal.com^
 ||sca-err-up.vivoglobal.com^
 ||sca-onrt-stsdk.vivoglobal.com^
