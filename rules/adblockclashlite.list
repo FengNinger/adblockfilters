@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20251013002730
-# Last modified: 2025/10/13 00:27:30
-# Blocked domains: 4914
+# Version: 20251013095657
+# Last modified: 2025/10/13 09:56:57
+# Blocked domains: 4912
 #
 [Rule]
 DOMAIN-SUFFIX,00xvppy.cn,REJECT-DROP
@@ -1377,7 +1377,6 @@ DOMAIN-SUFFIX,a.dxzy163.com,REJECT-DROP
 DOMAIN-SUFFIX,a.dyjqd.com,REJECT-DROP
 DOMAIN-SUFFIX,by.dyq.cn,REJECT-DROP
 DOMAIN-SUFFIX,hl.dyq.cn,REJECT-DROP
-DOMAIN-SUFFIX,dz1ebfi.cn,REJECT-DROP
 DOMAIN-SUFFIX,dl.dzqzd.com,REJECT-DROP
 DOMAIN-SUFFIX,dzylvox.shop,REJECT-DROP
 DOMAIN-SUFFIX,stat-ssl.e-map.ne.jp,REJECT-DROP
@@ -3622,7 +3621,6 @@ DOMAIN-SUFFIX,cod.southmoney.com,REJECT-DROP
 DOMAIN-SUFFIX,speedhorse.site,REJECT-DROP
 DOMAIN-SUFFIX,spkh.cn,REJECT-DROP
 DOMAIN-SUFFIX,www.sports-333.cn,REJECT-DROP
-DOMAIN-SUFFIX,sptwj.cn,REJECT-DROP
 DOMAIN-SUFFIX,sq59.cn,REJECT-DROP
 DOMAIN-SUFFIX,srbzw.cn,REJECT-DROP
 DOMAIN-SUFFIX,sscefsol.com,REJECT-DROP
