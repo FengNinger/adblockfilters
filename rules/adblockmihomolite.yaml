@@ -4,9 +4,9 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20251014003059
-  # Last modified: 2025/10/14 00:30:59
-  # Blocked domains: 4913
+  # Version: 20251014094939
+  # Last modified: 2025/10/14 09:49:39
+  # Blocked domains: 4907
   #
   - '+.00xvppy.cn'
   - '+.img.0279.net'
@@ -3353,7 +3353,6 @@ payload:
   - '+.logcollection.ronghub.com'
   - '+.stats.cn.ronghub.com'
   - '+.static.rongkao.com'
-  - '+.essfication.rpaarit.cn'
   - '+.rpahyhn.cn'
   - '+.rpkcqtf.cn'
   - '+.rsvqlz.cn'
@@ -3401,7 +3400,6 @@ payload:
   - '+.sbjwz.cn'
   - '+.pay.sboot.cn'
   - '+.sc126.com'
-  - '+.smetrics.schindler.cn'
   - '+.scjpqut.cn'
   - '+.sckfcn.cn'
   - '+.statscollector.sd-rtn.com'
@@ -3516,8 +3514,6 @@ payload:
   - '+.log.m.sm.cn'
   - '+.sugs.m.sm.cn'
   - '+.video-ad.sm.cn'
-  - '+.data.aftersales.smart.com'
-  - '+.data.ajo-dev.notifications.future.smart.com'
   - '+.data.ajo-dev.srv.smart.com'
   - '+.data.ajo-stage.srv.smart.com'
   - '+.data.dev-notifications.future.smart.com'
@@ -4040,7 +4036,6 @@ payload:
   - '+.vaxgyly.cn'
   - '+.log.vcgame.cn'
   - '+.m.vcsoat.cn'
-  - '+.vdrth.cn'
   - '+.g.analytics.versa-ai.com'
   - '+.veryboys.com'
   - '+.vgfj.cn'
@@ -4597,7 +4592,6 @@ payload:
   - '+.ygwdai.cn'
   - '+.ygxgk.cn'
   - '+.ygzqlnt.cn'
-  - '+.yhbbn.cn'
   - '+.yhbsk.cn'
   - '+.yhjccj.cn'
   - '+.data.yhydl.com'
