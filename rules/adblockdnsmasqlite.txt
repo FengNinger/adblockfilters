@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20251016163437
-# Last modified: 2025/10/16 16:34:37
-# Blocked domains: 4847
+# Version: 20251017003151
+# Last modified: 2025/10/17 00:31:51
+# Blocked domains: 4838
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -1177,7 +1177,6 @@ local=/daque.cn/
 local=/daraz.com/
 local=/net.daraz.lk/
 local=/net.daraz.pk/
-local=/sgtm.darryring.com/
 local=/dashet.com/
 local=/gate.datacaciques.com/
 local=/pv.datacaciques.com/
@@ -1435,7 +1434,6 @@ local=/excsyrv.cn/
 local=/exevcl.cn/
 local=/ad.exyws.org/
 local=/veepai-device-log.eye4.cn/
-local=/qp.ezfxpuo.cn/
 local=/fakjkwp.cn/
 local=/z2.fakutownee.cn/
 local=/falal.cn/
@@ -1829,8 +1827,6 @@ local=/log-dre.platform.hihonorcloud.com/
 local=/log-drru.platform.hihonorcloud.com/
 local=/hiido.com/
 local=/analytics.shop.hisense.com/
-local=/api-4know-em.hismarttv.com/
-local=/api-4know-eu.hismarttv.com/
 local=/api-gps.hismarttv.com/
 local=/api-gps-eu.hismarttv.com/
 local=/api-gps-na.hismarttv.com/
@@ -2539,7 +2535,6 @@ local=/adsapi.manhuaren.com/
 local=/bi.manhuaren.com/
 local=/euadsapi.manhuaren.com/
 local=/manyou.com/
-local=/adx.maplehaze.cn/
 local=/maps-icloud.today/
 local=/sdk.markmedia.com.cn/
 local=/www.mashangyoushu.cn/
@@ -2628,7 +2623,6 @@ local=/miaozhen.com/
 local=/micro-xdb.com/
 local=/microad-cn.com/
 local=/microad.jp/
-local=/stat.microvirt.com/
 local=/midway.run/
 local=/app.log.nf.migu.cn/
 local=/uem.migu.cn/
@@ -2652,7 +2646,6 @@ local=/abroad.api.comm.intl.miui.com/
 local=/activity.browser.intl.miui.com/
 local=/adv.sec.miui.com/
 local=/adv.sec.intl.miui.com/
-local=/api-rec.stellar.intl.miui.com/
 local=/api.accelerator.intl.miui.com/
 local=/api.aurogon.intl.miui.com/
 local=/api.browser.intl.miui.com/
@@ -3382,7 +3375,6 @@ local=/sc.shayugg.com/
 local=/link.shengcekeji.com/
 local=/shengminsy.com/
 local=/shenlinlive.cn/
-local=/sg-open-set-api.shenshiads.com/
 local=/hm.e.shifen.com/
 local=/httpdns.n.shifen.com/
 local=/jpaasne.e.shifen.com/
@@ -3529,7 +3521,6 @@ local=/888.tv.sohu.com/
 local=/ads.sohu.com/
 local=/assp.sohu.com/
 local=/bd.hd.sohu.com/
-local=/changyan.sohu.com/
 local=/click2.hd.sohu.com/
 local=/count.vrs.sohu.com/
 local=/ctr.hd.sohu.com/
