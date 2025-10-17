@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20251017003151
-# Last modified: 2025/10/17 00:31:51
-# Blocked domains: 4838
+# Version: 20251017095023
+# Last modified: 2025/10/17 09:50:23
+# Blocked domains: 4839
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -404,7 +404,6 @@ local=/a48505.cn/
 local=/a910445285.cn/
 local=/a9v8.cn/
 local=/aa88691468.cn/
-local=/aalairq.cn/
 local=/aaoffice.cn/
 local=/abcde4374968.cn/
 local=/smetrics.abercrombie.cn/
@@ -1434,6 +1433,7 @@ local=/excsyrv.cn/
 local=/exevcl.cn/
 local=/ad.exyws.org/
 local=/veepai-device-log.eye4.cn/
+local=/qp.ezfxpuo.cn/
 local=/fakjkwp.cn/
 local=/z2.fakutownee.cn/
 local=/falal.cn/
@@ -1965,7 +1965,6 @@ local=/statwup.huya.com/
 local=/udblog.huya.com/
 local=/va.huya.com/
 local=/ylog.huya.com/
-local=/hwjsv.cn/
 local=/hypers.com/
 local=/t.hypers.com.cn/
 local=/hzbxm.com/
@@ -2623,6 +2622,7 @@ local=/miaozhen.com/
 local=/micro-xdb.com/
 local=/microad-cn.com/
 local=/microad.jp/
+local=/stat.microvirt.com/
 local=/midway.run/
 local=/app.log.nf.migu.cn/
 local=/uem.migu.cn/
@@ -3375,6 +3375,7 @@ local=/sc.shayugg.com/
 local=/link.shengcekeji.com/
 local=/shengminsy.com/
 local=/shenlinlive.cn/
+local=/sg-open-set-api.shenshiads.com/
 local=/hm.e.shifen.com/
 local=/httpdns.n.shifen.com/
 local=/jpaasne.e.shifen.com/
