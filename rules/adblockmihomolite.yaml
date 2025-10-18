@@ -4,9 +4,9 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20251018162930
-  # Last modified: 2025/10/18 16:29:30
-  # Blocked domains: 4837
+  # Version: 20251019002723
+  # Last modified: 2025/10/19 00:27:23
+  # Blocked domains: 4838
   #
   - '+.00xvppy.cn'
   - '+.img.0279.net'
@@ -249,6 +249,7 @@ payload:
   - '+.trace.51jingying.com'
   - '+.a1.51shiti.cn'
   - '+.51taifu.com'
+  - '+.ad.51wnl-cq.com'
   - '+.ad.51wnl.com'
   - '+.51yes.com'
   - '+.game.51yund.com'
@@ -405,6 +406,7 @@ payload:
   - '+.a910445285.cn'
   - '+.a9v8.cn'
   - '+.aa88691468.cn'
+  - '+.aaaweb.cn'
   - '+.aaoffice.cn'
   - '+.abcde4374968.cn'
   - '+.smetrics.abercrombie.cn'
@@ -471,6 +473,7 @@ payload:
   - '+.report-europe.agora.io'
   - '+.report-north-america.agora.io'
   - '+.statscollector-1.agora.io'
+  - '+.statscollector-1-asia.agora.io'
   - '+.statscollector-1-north-america.agora.io'
   - '+.tracking.agora.io'
   - '+.webcollector-rtm.agora.io'
@@ -711,7 +714,6 @@ payload:
   - '+.click.bes.baidu.com'
   - '+.cm.baidu.com'
   - '+.collector.dcdn.baidu.com'
-  - '+.console.bce.baidu.com'
   - '+.cpro.baidu.com'
   - '+.cpro.zhidao.baidu.com'
   - '+.cpu.baidu.com'
@@ -755,7 +757,6 @@ payload:
   - '+.kstj.baidu.com'
   - '+.libs.baidu.com'
   - '+.log.music.baidu.com'
-  - '+.login.bce.baidu.com'
   - '+.luimg.baidu.com'
   - '+.m1.baidu.com'
   - '+.miao.baidu.com'
@@ -1177,6 +1178,7 @@ payload:
   - '+.daraz.com'
   - '+.net.daraz.lk'
   - '+.net.daraz.pk'
+  - '+.sgtm.darryring.com'
   - '+.dashet.com'
   - '+.gate.datacaciques.com'
   - '+.pv.datacaciques.com'
@@ -1238,7 +1240,6 @@ payload:
   - '+.events-dra-op-dbankcloud-com-dra.region.dbankedge.cn'
   - '+.events-dra-op-hicloud-com-dra.appacc.dbankedge.cn'
   - '+.events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn'
-  - '+.events-dre-op-dbankcloud-com-dre.appacc-region.dbankedge.cn'
   - '+.events-dre-op-hicloud-com-dre.appacc.dbankedge.cn'
   - '+.hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn'
   - '+.hisearch-dra-dt-dbankcloud-com-dra.appacc-region.dbankedge.cn'
@@ -1816,7 +1817,6 @@ payload:
   - '+.logbak.hicloud.com'
   - '+.logservice.hicloud.com'
   - '+.logservice-dra.platform.hicloud.com'
-  - '+.logservice-dre.platform.hicloud.com'
   - '+.logservice1.hicloud.com'
   - '+.ads-drcn.platform.hihonorcloud.com'
   - '+.honorsearch-dra.hiboard.hihonorcloud.com'
@@ -2535,6 +2535,7 @@ payload:
   - '+.bi.manhuaren.com'
   - '+.euadsapi.manhuaren.com'
   - '+.manyou.com'
+  - '+.adx.maplehaze.cn'
   - '+.maps-icloud.today'
   - '+.sdk.markmedia.com.cn'
   - '+.www.mashangyoushu.cn'
@@ -2647,6 +2648,7 @@ payload:
   - '+.activity.browser.intl.miui.com'
   - '+.adv.sec.miui.com'
   - '+.adv.sec.intl.miui.com'
+  - '+.api-rec.stellar.intl.miui.com'
   - '+.api.accelerator.intl.miui.com'
   - '+.api.aurogon.intl.miui.com'
   - '+.api.browser.intl.miui.com'
@@ -4057,6 +4059,7 @@ payload:
   - '+.co-domaincfg.vivoglobal.com'
   - '+.co-onrt-stsdk.vivoglobal.com'
   - '+.co-ort-stsdk.vivoglobal.com'
+  - '+.co-pnrt-stsdk.vivoglobal.com'
   - '+.co-romsp-unifyconfig.vivoglobal.com'
   - '+.co-st-sl.vivoglobal.com'
   - '+.co-stsdk.vivoglobal.com'
@@ -4064,7 +4067,6 @@ payload:
   - '+.co-vcode-api.vivoglobal.com'
   - '+.co-vcode-od.vivoglobal.com'
   - '+.co-vcode-or.vivoglobal.com'
-  - '+.de-gdpr-err-up.vivoglobal.com'
   - '+.err.up.vivoglobal.com'
   - '+.eu-domaincfg.vivoglobal.com'
   - '+.eu-errup.vivoglobal.com'
@@ -4073,7 +4075,6 @@ payload:
   - '+.eu-p.vivoglobal.com'
   - '+.eu-romsp-unifyconfig.vivoglobal.com'
   - '+.eu-st-sl.vivoglobal.com'
-  - '+.eu-timesync.vivoglobal.com'
   - '+.eu-vcode-api.vivoglobal.com'
   - '+.eu-vcode-od.vivoglobal.com'
   - '+.eu-vcode-or.vivoglobal.com'

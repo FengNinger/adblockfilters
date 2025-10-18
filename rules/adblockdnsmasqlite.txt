@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20251018162930
-# Last modified: 2025/10/18 16:29:30
-# Blocked domains: 4837
+# Version: 20251019002723
+# Last modified: 2025/10/19 00:27:23
+# Blocked domains: 4838
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -248,6 +248,7 @@ local=/web.51fishplace.com/
 local=/trace.51jingying.com/
 local=/a1.51shiti.cn/
 local=/51taifu.com/
+local=/ad.51wnl-cq.com/
 local=/ad.51wnl.com/
 local=/51yes.com/
 local=/game.51yund.com/
@@ -404,6 +405,7 @@ local=/a48505.cn/
 local=/a910445285.cn/
 local=/a9v8.cn/
 local=/aa88691468.cn/
+local=/aaaweb.cn/
 local=/aaoffice.cn/
 local=/abcde4374968.cn/
 local=/smetrics.abercrombie.cn/
@@ -470,6 +472,7 @@ local=/report-edge.agora.io/
 local=/report-europe.agora.io/
 local=/report-north-america.agora.io/
 local=/statscollector-1.agora.io/
+local=/statscollector-1-asia.agora.io/
 local=/statscollector-1-north-america.agora.io/
 local=/tracking.agora.io/
 local=/webcollector-rtm.agora.io/
@@ -710,7 +713,6 @@ local=/cbjs.baidu.com/
 local=/click.bes.baidu.com/
 local=/cm.baidu.com/
 local=/collector.dcdn.baidu.com/
-local=/console.bce.baidu.com/
 local=/cpro.baidu.com/
 local=/cpro.zhidao.baidu.com/
 local=/cpu.baidu.com/
@@ -754,7 +756,6 @@ local=/itsdata.map.baidu.com/
 local=/kstj.baidu.com/
 local=/libs.baidu.com/
 local=/log.music.baidu.com/
-local=/login.bce.baidu.com/
 local=/luimg.baidu.com/
 local=/m1.baidu.com/
 local=/miao.baidu.com/
@@ -1176,6 +1177,7 @@ local=/daque.cn/
 local=/daraz.com/
 local=/net.daraz.lk/
 local=/net.daraz.pk/
+local=/sgtm.darryring.com/
 local=/dashet.com/
 local=/gate.datacaciques.com/
 local=/pv.datacaciques.com/
@@ -1237,7 +1239,6 @@ local=/events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn/
 local=/events-dra-op-dbankcloud-com-dra.region.dbankedge.cn/
 local=/events-dra-op-hicloud-com-dra.appacc.dbankedge.cn/
 local=/events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn/
-local=/events-dre-op-dbankcloud-com-dre.appacc-region.dbankedge.cn/
 local=/events-dre-op-hicloud-com-dre.appacc.dbankedge.cn/
 local=/hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn/
 local=/hisearch-dra-dt-dbankcloud-com-dra.appacc-region.dbankedge.cn/
@@ -1815,7 +1816,6 @@ local=/grs.hicloud.com/
 local=/logbak.hicloud.com/
 local=/logservice.hicloud.com/
 local=/logservice-dra.platform.hicloud.com/
-local=/logservice-dre.platform.hicloud.com/
 local=/logservice1.hicloud.com/
 local=/ads-drcn.platform.hihonorcloud.com/
 local=/honorsearch-dra.hiboard.hihonorcloud.com/
@@ -2534,6 +2534,7 @@ local=/adsapi.manhuaren.com/
 local=/bi.manhuaren.com/
 local=/euadsapi.manhuaren.com/
 local=/manyou.com/
+local=/adx.maplehaze.cn/
 local=/maps-icloud.today/
 local=/sdk.markmedia.com.cn/
 local=/www.mashangyoushu.cn/
@@ -2646,6 +2647,7 @@ local=/abroad.api.comm.intl.miui.com/
 local=/activity.browser.intl.miui.com/
 local=/adv.sec.miui.com/
 local=/adv.sec.intl.miui.com/
+local=/api-rec.stellar.intl.miui.com/
 local=/api.accelerator.intl.miui.com/
 local=/api.aurogon.intl.miui.com/
 local=/api.browser.intl.miui.com/
@@ -4056,6 +4058,7 @@ local=/cname-sin01-stsdk09.vivoglobal.com/
 local=/co-domaincfg.vivoglobal.com/
 local=/co-onrt-stsdk.vivoglobal.com/
 local=/co-ort-stsdk.vivoglobal.com/
+local=/co-pnrt-stsdk.vivoglobal.com/
 local=/co-romsp-unifyconfig.vivoglobal.com/
 local=/co-st-sl.vivoglobal.com/
 local=/co-stsdk.vivoglobal.com/
@@ -4063,7 +4066,6 @@ local=/co-timesync.vivoglobal.com/
 local=/co-vcode-api.vivoglobal.com/
 local=/co-vcode-od.vivoglobal.com/
 local=/co-vcode-or.vivoglobal.com/
-local=/de-gdpr-err-up.vivoglobal.com/
 local=/err.up.vivoglobal.com/
 local=/eu-domaincfg.vivoglobal.com/
 local=/eu-errup.vivoglobal.com/
@@ -4072,7 +4074,6 @@ local=/eu-ort-stsdk.vivoglobal.com/
 local=/eu-p.vivoglobal.com/
 local=/eu-romsp-unifyconfig.vivoglobal.com/
 local=/eu-st-sl.vivoglobal.com/
-local=/eu-timesync.vivoglobal.com/
 local=/eu-vcode-api.vivoglobal.com/
 local=/eu-vcode-od.vivoglobal.com/
 local=/eu-vcode-or.vivoglobal.com/
