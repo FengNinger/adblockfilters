@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20251018003006
-# Last modified: 2025/10/18 00:30:06
-# Blocked domains: 4838
+# Version: 20251018094525
+# Last modified: 2025/10/18 09:45:25
+# Blocked domains: 4837
 #
 [Rule]
 DOMAIN-SUFFIX,00xvppy.cn,REJECT-DROP
@@ -3011,7 +3011,6 @@ DOMAIN-SUFFIX,e-tax-celer.qerdocb.cn,REJECT-DROP
 DOMAIN-SUFFIX,qfnoyix.cn,REJECT-DROP
 DOMAIN-SUFFIX,qgg7e.icu,REJECT-DROP
 DOMAIN-SUFFIX,qgwqrf.cn,REJECT-DROP
-DOMAIN-SUFFIX,m-sbisec.qhddjzs.cn,REJECT-DROP
 DOMAIN-SUFFIX,sbisec-jp.qhddjzs.cn,REJECT-DROP
 DOMAIN-SUFFIX,qhicumg.cn,REJECT-DROP
 DOMAIN-SUFFIX,jspassport.ssl.qhimg.com,REJECT-DROP
@@ -3317,7 +3316,6 @@ DOMAIN-SUFFIX,rumt-zh.com,REJECT-DROP
 DOMAIN-SUFFIX,abc.ruodian360.com,REJECT-DROP
 DOMAIN-SUFFIX,rvbztg.cn,REJECT-DROP
 DOMAIN-SUFFIX,rvzlobj.cn,REJECT-DROP
-DOMAIN-SUFFIX,rwsignal.com,REJECT-DROP
 DOMAIN-SUFFIX,rxys.cn,REJECT-DROP
 DOMAIN-SUFFIX,rz261.cn,REJECT-DROP
 DOMAIN-SUFFIX,rzsgxmm.cn,REJECT-DROP
@@ -3804,6 +3802,7 @@ DOMAIN-SUFFIX,fp.tongdun.net,REJECT-DROP
 DOMAIN-SUFFIX,sky.tongjiai.com,REJECT-DROP
 DOMAIN-SUFFIX,ato.tooopen.com,REJECT-DROP
 DOMAIN-SUFFIX,topsem.com,REJECT-DROP
+DOMAIN-SUFFIX,static.topxgun.com,REJECT-DROP
 DOMAIN-SUFFIX,api.touch-moblie.com,REJECT-DROP
 DOMAIN-SUFFIX,touclick.com,REJECT-DROP
 DOMAIN-SUFFIX,toushibao.com,REJECT-DROP
