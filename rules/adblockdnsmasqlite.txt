@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20251019162759
-# Last modified: 2025/10/19 16:27:59
-# Blocked domains: 4836
+# Version: 20251020002748
+# Last modified: 2025/10/20 00:27:48
+# Blocked domains: 4842
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -972,6 +972,7 @@ local=/super.cat898.com/
 local=/tracking.cat898.com/
 local=/adv.ccb.com/
 local=/ad.ccement.com/
+local=/mtrace.ysp.cctv.cn/
 local=/ad.cctv.com/
 local=/httpdns.cctv.com/
 local=/p.data.cctv.com/
@@ -1177,7 +1178,6 @@ local=/daque.cn/
 local=/daraz.com/
 local=/net.daraz.lk/
 local=/net.daraz.pk/
-local=/sgtm.darryring.com/
 local=/dashet.com/
 local=/gate.datacaciques.com/
 local=/pv.datacaciques.com/
@@ -1239,6 +1239,7 @@ local=/events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn/
 local=/events-dra-op-dbankcloud-com-dra.region.dbankedge.cn/
 local=/events-dra-op-hicloud-com-dra.appacc.dbankedge.cn/
 local=/events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn/
+local=/events-dre-op-dbankcloud-com-dre.appacc-region.dbankedge.cn/
 local=/events-dre-op-hicloud-com-dre.appacc.dbankedge.cn/
 local=/hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn/
 local=/hisearch-dra-dt-dbankcloud-com-dra.appacc-region.dbankedge.cn/
@@ -1816,6 +1817,7 @@ local=/grs.hicloud.com/
 local=/logbak.hicloud.com/
 local=/logservice.hicloud.com/
 local=/logservice-dra.platform.hicloud.com/
+local=/logservice-dre.platform.hicloud.com/
 local=/logservice1.hicloud.com/
 local=/ads-drcn.platform.hihonorcloud.com/
 local=/honorsearch-dra.hiboard.hihonorcloud.com/
@@ -1827,6 +1829,8 @@ local=/log-dre.platform.hihonorcloud.com/
 local=/log-drru.platform.hihonorcloud.com/
 local=/hiido.com/
 local=/analytics.shop.hisense.com/
+local=/api-4know-em.hismarttv.com/
+local=/api-4know-eu.hismarttv.com/
 local=/api-gps.hismarttv.com/
 local=/api-gps-eu.hismarttv.com/
 local=/api-gps-na.hismarttv.com/
@@ -2610,6 +2614,7 @@ local=/resolver.gslb.mi-idc.com/
 local=/ad.mi.com/
 local=/d.g.mi.com/
 local=/e.mi.com/
+local=/h5.tv.mi.com/
 local=/idm.iot.mi.com/
 local=/in.tv.global.mi.com/
 local=/migc.g.mi.com/
@@ -4065,6 +4070,7 @@ local=/co-timesync.vivoglobal.com/
 local=/co-vcode-api.vivoglobal.com/
 local=/co-vcode-od.vivoglobal.com/
 local=/co-vcode-or.vivoglobal.com/
+local=/de-gdpr-err-up.vivoglobal.com/
 local=/err.up.vivoglobal.com/
 local=/eu-domaincfg.vivoglobal.com/
 local=/eu-errup.vivoglobal.com/
