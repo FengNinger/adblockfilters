@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20251020163316
-# Last modified: 2025/10/20 16:33:16
-# Blocked domains: 4841
+# Version: 20251021003128
+# Last modified: 2025/10/21 00:31:28
+# Blocked domains: 4843
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -49,7 +49,6 @@ local=/iadmusicmatvideo.music.126.net/
 local=/img1.126.net/
 local=/img3.126.net/
 local=/mimg.126.net/
-local=/pg-ad-b1.ws.126.net/
 local=/stat.ws.126.net/
 local=/webstat.ws.126.net/
 local=/yt-adp.ws.126.net/
@@ -95,7 +94,6 @@ local=/165tchuang.com/
 local=/match.p4p.1688.com/
 local=/17173.com/
 local=/s.17173cdn.com/
-local=/st.19mi.net/
 local=/1buo.icu/
 local=/1dki0.icu/
 local=/1gmzo.icu/
@@ -860,7 +858,6 @@ local=/zz.bdstatic.com/
 local=/smetrics.beatsbydre.com/
 local=/smetrics.beatsbydre.com.cn/
 local=/beencounter.com/
-local=/analytics.behr.com/
 local=/images.explore.behr.com/
 local=/beizi.biz/
 local=/smetrics.benefitcosmetics.com.cn/
@@ -1178,6 +1175,7 @@ local=/daque.cn/
 local=/daraz.com/
 local=/net.daraz.lk/
 local=/net.daraz.pk/
+local=/sgtm.darryring.com/
 local=/dashet.com/
 local=/gate.datacaciques.com/
 local=/pv.datacaciques.com/
@@ -1672,6 +1670,7 @@ local=/pgdt.gtimg.cn/
 local=/tianshu.gtimg.cn/
 local=/ra.gtimg.com/
 local=/splashqqlive.gtimg.com/
+local=/tui.gtimg.com/
 local=/wa.gtimg.com/
 local=/gtpxvpi.cn/
 local=/bd1.guancha.cn/
@@ -2072,7 +2071,6 @@ local=/innity.com/
 local=/innity.net/
 local=/inping.com/
 local=/oascentral.inq7.net/
-local=/api-data-collection.insta360.cn/
 local=/cane.intel.cn/
 local=/dogo.intel.cn/
 local=/intely.cn/
@@ -2447,6 +2445,7 @@ local=/s.lenovo.com/
 local=/fsr.lenovomm.com/
 local=/prw.lenovomm.com/
 local=/pushapi.lenovomm.com/
+local=/sdac.lenovomm.com/
 local=/susapi.lenovomm.com/
 local=/uss-pid.lenovomm.com/
 local=/lenzmx.com/
@@ -2846,6 +2845,7 @@ local=/logserver.nzxcloud.cn/
 local=/o8zoz.icu/
 local=/oaclrst.cn/
 local=/oadz.com/
+local=/gtm.oasisfeng.com/
 local=/analytics.oceanengine.com/
 local=/adcanopus.offerstrack.net/
 local=/dopemobi.offerstrack.net/
@@ -3049,6 +3049,7 @@ local=/data.video.qiyi.com/
 local=/meta.video.qiyi.com/
 local=/msg.video.qiyi.com/
 local=/msg2.video.qiyi.com/
+local=/static.qiyi.com/
 local=/mall0.qiyipic.com/
 local=/qiyou.com/
 local=/8131.qizhihaotian.cn/
@@ -3657,7 +3658,6 @@ local=/adashx4id.ut.taobao.com/
 local=/adashx4sg.ut.taobao.com/
 local=/adashx4yt.m.taobao.com/
 local=/adashxgc.ut.taobao.com/
-local=/ae-alimelog.taobao.com/
 local=/agoodm.m.taobao.com/
 local=/ai.taobao.com/
 local=/ai.m.taobao.com/
@@ -4078,6 +4078,7 @@ local=/eu-ort-stsdk.vivoglobal.com/
 local=/eu-p.vivoglobal.com/
 local=/eu-romsp-unifyconfig.vivoglobal.com/
 local=/eu-st-sl.vivoglobal.com/
+local=/eu-timesync.vivoglobal.com/
 local=/eu-vcode-api.vivoglobal.com/
 local=/eu-vcode-od.vivoglobal.com/
 local=/eu-vcode-or.vivoglobal.com/
@@ -4400,6 +4401,7 @@ local=/preload.xiaomi.com/
 local=/redirect.pandora.xiaomi.com/
 local=/register.xmpush.global.xiaomi.com/
 local=/resolver.mi.xiaomi.com/
+local=/sdkconfig.ad.eu.xiaomi.com/
 local=/sdkconfig.ad.india.xiaomi.com/
 local=/sdkconfig.ad.rus.xiaomi.com/
 local=/stat.pandora.xiaomi.com/

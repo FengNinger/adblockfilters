@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20251020163316
-! Last modified: 2025/10/20 16:33:16
-! Blocked domains: 4841
+! Version: 20251021003128
+! Last modified: 2025/10/21 00:31:28
+! Blocked domains: 4843
 ! unBlocked domains: 16
 !
 ||00xvppy.cn^
@@ -50,7 +50,6 @@
 ||img1.126.net^
 ||img3.126.net^
 ||mimg.126.net^
-||pg-ad-b1.ws.126.net^
 ||stat.ws.126.net^
 ||webstat.ws.126.net^
 ||yt-adp.ws.126.net^
@@ -96,7 +95,6 @@
 ||match.p4p.1688.com^
 ||17173.com^
 ||s.17173cdn.com^
-||st.19mi.net^
 ||1buo.icu^
 ||1dki0.icu^
 ||1gmzo.icu^
@@ -861,7 +859,6 @@
 ||smetrics.beatsbydre.com^
 ||smetrics.beatsbydre.com.cn^
 ||beencounter.com^
-||analytics.behr.com^
 ||images.explore.behr.com^
 ||beizi.biz^
 ||smetrics.benefitcosmetics.com.cn^
@@ -1179,6 +1176,7 @@
 ||daraz.com^
 ||net.daraz.lk^
 ||net.daraz.pk^
+||sgtm.darryring.com^
 ||dashet.com^
 ||gate.datacaciques.com^
 ||pv.datacaciques.com^
@@ -1673,6 +1671,7 @@
 ||tianshu.gtimg.cn^
 ||ra.gtimg.com^
 ||splashqqlive.gtimg.com^
+||tui.gtimg.com^
 ||wa.gtimg.com^
 ||gtpxvpi.cn^
 ||bd1.guancha.cn^
@@ -2073,7 +2072,6 @@
 ||innity.net^
 ||inping.com^
 ||oascentral.inq7.net^
-||api-data-collection.insta360.cn^
 ||cane.intel.cn^
 ||dogo.intel.cn^
 ||intely.cn^
@@ -2448,6 +2446,7 @@
 ||fsr.lenovomm.com^
 ||prw.lenovomm.com^
 ||pushapi.lenovomm.com^
+||sdac.lenovomm.com^
 ||susapi.lenovomm.com^
 ||uss-pid.lenovomm.com^
 ||lenzmx.com^
@@ -2847,6 +2846,7 @@
 ||o8zoz.icu^
 ||oaclrst.cn^
 ||oadz.com^
+||gtm.oasisfeng.com^
 ||analytics.oceanengine.com^
 ||adcanopus.offerstrack.net^
 ||dopemobi.offerstrack.net^
@@ -3050,6 +3050,7 @@
 ||meta.video.qiyi.com^
 ||msg.video.qiyi.com^
 ||msg2.video.qiyi.com^
+||static.qiyi.com^
 ||mall0.qiyipic.com^
 ||qiyou.com^
 ||8131.qizhihaotian.cn^
@@ -3658,7 +3659,6 @@
 ||adashx4sg.ut.taobao.com^
 ||adashx4yt.m.taobao.com^
 ||adashxgc.ut.taobao.com^
-||ae-alimelog.taobao.com^
 ||agoodm.m.taobao.com^
 ||ai.taobao.com^
 ||ai.m.taobao.com^
@@ -4079,6 +4079,7 @@
 ||eu-p.vivoglobal.com^
 ||eu-romsp-unifyconfig.vivoglobal.com^
 ||eu-st-sl.vivoglobal.com^
+||eu-timesync.vivoglobal.com^
 ||eu-vcode-api.vivoglobal.com^
 ||eu-vcode-od.vivoglobal.com^
 ||eu-vcode-or.vivoglobal.com^
@@ -4401,6 +4402,7 @@
 ||redirect.pandora.xiaomi.com^
 ||register.xmpush.global.xiaomi.com^
 ||resolver.mi.xiaomi.com^
+||sdkconfig.ad.eu.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||sdkconfig.ad.rus.xiaomi.com^
 ||stat.pandora.xiaomi.com^

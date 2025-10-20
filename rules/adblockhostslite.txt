@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20251020163316
-# Last modified: 2025/10/20 16:33:16
-# Blocked domains: 4841
+# Version: 20251021003128
+# Last modified: 2025/10/21 00:31:28
+# Blocked domains: 4843
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -64,7 +64,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	img1.126.net
 0.0.0.0	img3.126.net
 0.0.0.0	mimg.126.net
-0.0.0.0	pg-ad-b1.ws.126.net
 0.0.0.0	stat.ws.126.net
 0.0.0.0	webstat.ws.126.net
 0.0.0.0	yt-adp.ws.126.net
@@ -110,7 +109,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	match.p4p.1688.com
 0.0.0.0	17173.com
 0.0.0.0	s.17173cdn.com
-0.0.0.0	st.19mi.net
 0.0.0.0	1buo.icu
 0.0.0.0	1dki0.icu
 0.0.0.0	1gmzo.icu
@@ -875,7 +873,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	smetrics.beatsbydre.com
 0.0.0.0	smetrics.beatsbydre.com.cn
 0.0.0.0	beencounter.com
-0.0.0.0	analytics.behr.com
 0.0.0.0	images.explore.behr.com
 0.0.0.0	beizi.biz
 0.0.0.0	smetrics.benefitcosmetics.com.cn
@@ -1193,6 +1190,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	daraz.com
 0.0.0.0	net.daraz.lk
 0.0.0.0	net.daraz.pk
+0.0.0.0	sgtm.darryring.com
 0.0.0.0	dashet.com
 0.0.0.0	gate.datacaciques.com
 0.0.0.0	pv.datacaciques.com
@@ -1687,6 +1685,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	tianshu.gtimg.cn
 0.0.0.0	ra.gtimg.com
 0.0.0.0	splashqqlive.gtimg.com
+0.0.0.0	tui.gtimg.com
 0.0.0.0	wa.gtimg.com
 0.0.0.0	gtpxvpi.cn
 0.0.0.0	bd1.guancha.cn
@@ -2087,7 +2086,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	innity.net
 0.0.0.0	inping.com
 0.0.0.0	oascentral.inq7.net
-0.0.0.0	api-data-collection.insta360.cn
 0.0.0.0	cane.intel.cn
 0.0.0.0	dogo.intel.cn
 0.0.0.0	intely.cn
@@ -2462,6 +2460,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	fsr.lenovomm.com
 0.0.0.0	prw.lenovomm.com
 0.0.0.0	pushapi.lenovomm.com
+0.0.0.0	sdac.lenovomm.com
 0.0.0.0	susapi.lenovomm.com
 0.0.0.0	uss-pid.lenovomm.com
 0.0.0.0	lenzmx.com
@@ -2861,6 +2860,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	o8zoz.icu
 0.0.0.0	oaclrst.cn
 0.0.0.0	oadz.com
+0.0.0.0	gtm.oasisfeng.com
 0.0.0.0	analytics.oceanengine.com
 0.0.0.0	adcanopus.offerstrack.net
 0.0.0.0	dopemobi.offerstrack.net
@@ -3064,6 +3064,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	meta.video.qiyi.com
 0.0.0.0	msg.video.qiyi.com
 0.0.0.0	msg2.video.qiyi.com
+0.0.0.0	static.qiyi.com
 0.0.0.0	mall0.qiyipic.com
 0.0.0.0	qiyou.com
 0.0.0.0	8131.qizhihaotian.cn
@@ -3672,7 +3673,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	adashx4sg.ut.taobao.com
 0.0.0.0	adashx4yt.m.taobao.com
 0.0.0.0	adashxgc.ut.taobao.com
-0.0.0.0	ae-alimelog.taobao.com
 0.0.0.0	agoodm.m.taobao.com
 0.0.0.0	ai.taobao.com
 0.0.0.0	ai.m.taobao.com
@@ -4093,6 +4093,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	eu-p.vivoglobal.com
 0.0.0.0	eu-romsp-unifyconfig.vivoglobal.com
 0.0.0.0	eu-st-sl.vivoglobal.com
+0.0.0.0	eu-timesync.vivoglobal.com
 0.0.0.0	eu-vcode-api.vivoglobal.com
 0.0.0.0	eu-vcode-od.vivoglobal.com
 0.0.0.0	eu-vcode-or.vivoglobal.com
@@ -4415,6 +4416,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	redirect.pandora.xiaomi.com
 0.0.0.0	register.xmpush.global.xiaomi.com
 0.0.0.0	resolver.mi.xiaomi.com
+0.0.0.0	sdkconfig.ad.eu.xiaomi.com
 0.0.0.0	sdkconfig.ad.india.xiaomi.com
 0.0.0.0	sdkconfig.ad.rus.xiaomi.com
 0.0.0.0	stat.pandora.xiaomi.com
