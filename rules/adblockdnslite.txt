@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20251021163524
-! Last modified: 2025/10/21 16:35:24
-! Blocked domains: 4842
+! Version: 20251022003208
+! Last modified: 2025/10/22 00:32:08
+! Blocked domains: 4839
 ! unBlocked domains: 16
 !
 ||00xvppy.cn^
@@ -50,6 +50,7 @@
 ||img1.126.net^
 ||img3.126.net^
 ||mimg.126.net^
+||pg-ad-b1.ws.126.net^
 ||stat.ws.126.net^
 ||webstat.ws.126.net^
 ||yt-adp.ws.126.net^
@@ -95,6 +96,7 @@
 ||match.p4p.1688.com^
 ||17173.com^
 ||s.17173cdn.com^
+||st.19mi.net^
 ||1buo.icu^
 ||1dki0.icu^
 ||1gmzo.icu^
@@ -859,6 +861,7 @@
 ||smetrics.beatsbydre.com^
 ||smetrics.beatsbydre.com.cn^
 ||beencounter.com^
+||analytics.behr.com^
 ||images.explore.behr.com^
 ||beizi.biz^
 ||smetrics.benefitcosmetics.com.cn^
@@ -1176,7 +1179,6 @@
 ||daraz.com^
 ||net.daraz.lk^
 ||net.daraz.pk^
-||sgtm.darryring.com^
 ||dashet.com^
 ||gate.datacaciques.com^
 ||pv.datacaciques.com^
@@ -2071,6 +2073,7 @@
 ||innity.net^
 ||inping.com^
 ||oascentral.inq7.net^
+||api-data-collection.insta360.cn^
 ||cane.intel.cn^
 ||dogo.intel.cn^
 ||intely.cn^
@@ -2612,7 +2615,6 @@
 ||ad.mi.com^
 ||d.g.mi.com^
 ||e.mi.com^
-||h5.tv.mi.com^
 ||idm.iot.mi.com^
 ||in.tv.global.mi.com^
 ||migc.g.mi.com^
@@ -2845,7 +2847,6 @@
 ||o8zoz.icu^
 ||oaclrst.cn^
 ||oadz.com^
-||gtm.oasisfeng.com^
 ||analytics.oceanengine.com^
 ||adcanopus.offerstrack.net^
 ||dopemobi.offerstrack.net^
@@ -3049,7 +3050,6 @@
 ||meta.video.qiyi.com^
 ||msg.video.qiyi.com^
 ||msg2.video.qiyi.com^
-||static.qiyi.com^
 ||mall0.qiyipic.com^
 ||qiyou.com^
 ||8131.qizhihaotian.cn^
@@ -3658,6 +3658,7 @@
 ||adashx4sg.ut.taobao.com^
 ||adashx4yt.m.taobao.com^
 ||adashxgc.ut.taobao.com^
+||ae-alimelog.taobao.com^
 ||agoodm.m.taobao.com^
 ||ai.taobao.com^
 ||ai.m.taobao.com^
@@ -3793,7 +3794,6 @@
 ||tjqwb.cn^
 ||livetech.shopee.co.th.tlivecdn.com^
 ||tnfno.icu^
-||site-p2p-ads.tngdigital.com.my^
 ||hbv.tobeacon.cn^
 ||st.todesk.com^
 ||adsapi.togothermany.cn^
@@ -4061,10 +4061,8 @@
 ||co-domaincfg.vivoglobal.com^
 ||co-onrt-stsdk.vivoglobal.com^
 ||co-ort-stsdk.vivoglobal.com^
-||co-pnrt-stsdk.vivoglobal.com^
 ||co-romsp-unifyconfig.vivoglobal.com^
 ||co-st-sl.vivoglobal.com^
-||co-stsdk.vivoglobal.com^
 ||co-timesync.vivoglobal.com^
 ||co-vcode-api.vivoglobal.com^
 ||co-vcode-od.vivoglobal.com^
@@ -4401,7 +4399,6 @@
 ||redirect.pandora.xiaomi.com^
 ||register.xmpush.global.xiaomi.com^
 ||resolver.mi.xiaomi.com^
-||sdkconfig.ad.eu.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
 ||sdkconfig.ad.rus.xiaomi.com^
 ||stat.pandora.xiaomi.com^
