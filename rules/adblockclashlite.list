@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20251022003209
-# Last modified: 2025/10/22 00:32:09
-# Blocked domains: 4839
+# Version: 20251022095650
+# Last modified: 2025/10/22 09:56:50
+# Blocked domains: 4834
 #
 [Rule]
 DOMAIN-SUFFIX,00xvppy.cn,REJECT-DROP
@@ -395,7 +395,6 @@ DOMAIN-SUFFIX,99box.com,REJECT-DROP
 DOMAIN-SUFFIX,collect.9em.cn,REJECT-DROP
 DOMAIN-SUFFIX,9ics.cn,REJECT-DROP
 DOMAIN-SUFFIX,9kh5b.cn,REJECT-DROP
-DOMAIN-SUFFIX,9tdun9zm3.cn,REJECT-DROP
 DOMAIN-SUFFIX,9wee.com,REJECT-DROP
 DOMAIN-SUFFIX,9xxy.icu,REJECT-DROP
 DOMAIN-SUFFIX,a2wx.icu,REJECT-DROP
@@ -1375,7 +1374,6 @@ DOMAIN-SUFFIX,easytomessage.com,REJECT-DROP
 DOMAIN-SUFFIX,eblnzoq.cn,REJECT-DROP
 DOMAIN-SUFFIX,jb.ecar168.cn,REJECT-DROP
 DOMAIN-SUFFIX,eccki.cn,REJECT-DROP
-DOMAIN-SUFFIX,eclicks.cn,REJECT-DROP
 DOMAIN-SUFFIX,eddcc.icu,REJECT-DROP
 DOMAIN-SUFFIX,accgovgetwayuk-70ldffym6a.edgeone.app,REJECT-DROP
 DOMAIN-SUFFIX,earthewndegtheyased.edgeone.app,REJECT-DROP
@@ -1805,7 +1803,6 @@ DOMAIN-SUFFIX,hfisngksng.com,REJECT-DROP
 DOMAIN-SUFFIX,hgjxp.cn,REJECT-DROP
 DOMAIN-SUFFIX,hgkzl.cn,REJECT-DROP
 DOMAIN-SUFFIX,hgpbhuj.cn,REJECT-DROP
-DOMAIN-SUFFIX,www3-vpass-jp.hhqzr.cn,REJECT-DROP
 DOMAIN-SUFFIX,hhttm.top,REJECT-DROP
 DOMAIN-SUFFIX,sdd.hi1718.com,REJECT-DROP
 DOMAIN-SUFFIX,adx-dra.op.hicloud.com,REJECT-DROP
@@ -3165,7 +3162,6 @@ DOMAIN-SUFFIX,report.qqweb.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,report.syzs.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,report.trade.weixin.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,report.tv.kohesport.qq.com,REJECT-DROP
-DOMAIN-SUFFIX,res.imtt.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,rh.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,rmonitor.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,rs1.qq.com,REJECT-DROP
@@ -3479,7 +3475,6 @@ DOMAIN-SUFFIX,form-submission-workspace.ajo-stage.srv.smart.com,REJECT-DROP
 DOMAIN-SUFFIX,raffle-entry.info.smart.com,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.future.smart.com,REJECT-DROP
 DOMAIN-SUFFIX,sms.info.smart.com,REJECT-DROP
-DOMAIN-SUFFIX,smpkw.com,REJECT-DROP
 DOMAIN-SUFFIX,smucdn.com,REJECT-DROP
 DOMAIN-SUFFIX,errortracking.snapp.site,REJECT-DROP
 DOMAIN-SUFFIX,sensors.snappea.com,REJECT-DROP
@@ -3726,7 +3721,6 @@ DOMAIN-SUFFIX,tehxcmh3.com,REJECT-DROP
 DOMAIN-SUFFIX,tekvea.shop,REJECT-DROP
 DOMAIN-SUFFIX,telegramcn.co,REJECT-DROP
 DOMAIN-SUFFIX,jpz.telegramn.com.cn,REJECT-DROP
-DOMAIN-SUFFIX,telepzow.cn,REJECT-DROP
 DOMAIN-SUFFIX,teleqpnm.cn,REJECT-DROP
 DOMAIN-SUFFIX,go.telesafe.cn,REJECT-DROP
 DOMAIN-SUFFIX,apd-pcdnvodstat.teg.tencent-cloud.net,REJECT-DROP
@@ -3858,7 +3852,8 @@ DOMAIN-SUFFIX,lm1.tuliu.com,REJECT-DROP
 DOMAIN-SUFFIX,tumeite.cn,REJECT-DROP
 DOMAIN-SUFFIX,analy.tuniu.cn,REJECT-DROP
 DOMAIN-SUFFIX,api.tusdk.com,REJECT-DROP
-DOMAIN-SUFFIX,tutuapp.com,REJECT-DROP
+DOMAIN-SUFFIX,asdkd.tutuapp.com,REJECT-DROP
+DOMAIN-SUFFIX,log.tutuapp.com,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.tuvsud.cn,REJECT-DROP
 DOMAIN-SUFFIX,tuvtpxp.cn,REJECT-DROP
 DOMAIN-SUFFIX,appwall.tv2phone.cn,REJECT-DROP

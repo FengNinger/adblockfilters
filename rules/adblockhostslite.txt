@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20251022003209
-# Last modified: 2025/10/22 00:32:09
-# Blocked domains: 4839
+# Version: 20251022095650
+# Last modified: 2025/10/22 09:56:50
+# Blocked domains: 4834
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -409,7 +409,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	collect.9em.cn
 0.0.0.0	9ics.cn
 0.0.0.0	9kh5b.cn
-0.0.0.0	9tdun9zm3.cn
 0.0.0.0	9wee.com
 0.0.0.0	9xxy.icu
 0.0.0.0	a2wx.icu
@@ -1389,7 +1388,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	eblnzoq.cn
 0.0.0.0	jb.ecar168.cn
 0.0.0.0	eccki.cn
-0.0.0.0	eclicks.cn
 0.0.0.0	eddcc.icu
 0.0.0.0	accgovgetwayuk-70ldffym6a.edgeone.app
 0.0.0.0	earthewndegtheyased.edgeone.app
@@ -1819,7 +1817,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	hgjxp.cn
 0.0.0.0	hgkzl.cn
 0.0.0.0	hgpbhuj.cn
-0.0.0.0	www3-vpass-jp.hhqzr.cn
 0.0.0.0	hhttm.top
 0.0.0.0	sdd.hi1718.com
 0.0.0.0	adx-dra.op.hicloud.com
@@ -3179,7 +3176,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	report.syzs.qq.com
 0.0.0.0	report.trade.weixin.qq.com
 0.0.0.0	report.tv.kohesport.qq.com
-0.0.0.0	res.imtt.qq.com
 0.0.0.0	rh.qq.com
 0.0.0.0	rmonitor.qq.com
 0.0.0.0	rs1.qq.com
@@ -3493,7 +3489,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	raffle-entry.info.smart.com
 0.0.0.0	smetrics.future.smart.com
 0.0.0.0	sms.info.smart.com
-0.0.0.0	smpkw.com
 0.0.0.0	smucdn.com
 0.0.0.0	errortracking.snapp.site
 0.0.0.0	sensors.snappea.com
@@ -3740,7 +3735,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	tekvea.shop
 0.0.0.0	telegramcn.co
 0.0.0.0	jpz.telegramn.com.cn
-0.0.0.0	telepzow.cn
 0.0.0.0	teleqpnm.cn
 0.0.0.0	go.telesafe.cn
 0.0.0.0	apd-pcdnvodstat.teg.tencent-cloud.net
@@ -3872,7 +3866,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	tumeite.cn
 0.0.0.0	analy.tuniu.cn
 0.0.0.0	api.tusdk.com
-0.0.0.0	tutuapp.com
+0.0.0.0	asdkd.tutuapp.com
+0.0.0.0	log.tutuapp.com
 0.0.0.0	smetrics.tuvsud.cn
 0.0.0.0	tuvtpxp.cn
 0.0.0.0	appwall.tv2phone.cn
