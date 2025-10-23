@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20251023095223
-# Last modified: 2025/10/23 09:52:23
-# Blocked domains: 4824
+# Version: 20251023163422
+# Last modified: 2025/10/23 16:34:22
+# Blocked domains: 4831
 #
 [Rule]
 DOMAIN-SUFFIX,00xvppy.cn,REJECT-DROP
@@ -1434,6 +1434,7 @@ DOMAIN-SUFFIX,excsyrv.cn,REJECT-DROP
 DOMAIN-SUFFIX,exevcl.cn,REJECT-DROP
 DOMAIN-SUFFIX,ad.exyws.org,REJECT-DROP
 DOMAIN-SUFFIX,veepai-device-log.eye4.cn,REJECT-DROP
+DOMAIN-SUFFIX,qp.ezfxpuo.cn,REJECT-DROP
 DOMAIN-SUFFIX,fakjkwp.cn,REJECT-DROP
 DOMAIN-SUFFIX,z2.fakutownee.cn,REJECT-DROP
 DOMAIN-SUFFIX,falal.cn,REJECT-DROP
@@ -1912,6 +1913,7 @@ DOMAIN-SUFFIX,hsrgnac.cn,REJECT-DROP
 DOMAIN-SUFFIX,hstpnetwork.com,REJECT-DROP
 DOMAIN-SUFFIX,g.hsw.cn,REJECT-DROP
 DOMAIN-SUFFIX,hswfj.cn,REJECT-DROP
+DOMAIN-SUFFIX,hsych.com,REJECT-DROP
 DOMAIN-SUFFIX,hthvc.icu,REJECT-DROP
 DOMAIN-SUFFIX,httpdns.pro,REJECT-DROP
 DOMAIN-SUFFIX,app-analytics-ru.huami.com,REJECT-DROP
@@ -2621,6 +2623,7 @@ DOMAIN-SUFFIX,miaozhen.com,REJECT-DROP
 DOMAIN-SUFFIX,micro-xdb.com,REJECT-DROP
 DOMAIN-SUFFIX,microad-cn.com,REJECT-DROP
 DOMAIN-SUFFIX,microad.jp,REJECT-DROP
+DOMAIN-SUFFIX,stat.microvirt.com,REJECT-DROP
 DOMAIN-SUFFIX,midway.run,REJECT-DROP
 DOMAIN-SUFFIX,app.log.nf.migu.cn,REJECT-DROP
 DOMAIN-SUFFIX,uem.migu.cn,REJECT-DROP
@@ -3371,6 +3374,7 @@ DOMAIN-SUFFIX,sc.shayugg.com,REJECT-DROP
 DOMAIN-SUFFIX,link.shengcekeji.com,REJECT-DROP
 DOMAIN-SUFFIX,shengminsy.com,REJECT-DROP
 DOMAIN-SUFFIX,shenlinlive.cn,REJECT-DROP
+DOMAIN-SUFFIX,sg-open-set-api.shenshiads.com,REJECT-DROP
 DOMAIN-SUFFIX,hm.e.shifen.com,REJECT-DROP
 DOMAIN-SUFFIX,httpdns.n.shifen.com,REJECT-DROP
 DOMAIN-SUFFIX,jpaasne.e.shifen.com,REJECT-DROP
@@ -3847,6 +3851,7 @@ DOMAIN-SUFFIX,tumeite.cn,REJECT-DROP
 DOMAIN-SUFFIX,analy.tuniu.cn,REJECT-DROP
 DOMAIN-SUFFIX,api.tusdk.com,REJECT-DROP
 DOMAIN-SUFFIX,asdkd.tutuapp.com,REJECT-DROP
+DOMAIN-SUFFIX,log.tutuapp.com,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.tuvsud.cn,REJECT-DROP
 DOMAIN-SUFFIX,tuvtpxp.cn,REJECT-DROP
 DOMAIN-SUFFIX,appwall.tv2phone.cn,REJECT-DROP
@@ -4619,6 +4624,7 @@ DOMAIN-SUFFIX,youxiaoad.com,REJECT-DROP
 DOMAIN-SUFFIX,wenxue.youzhicn.com,REJECT-DROP
 DOMAIN-SUFFIX,yoyi.tv,REJECT-DROP
 DOMAIN-SUFFIX,analysis.yozocloud.cn,REJECT-DROP
+DOMAIN-SUFFIX,log.ys7.com,REJECT-DROP
 DOMAIN-SUFFIX,ysdqww.com,REJECT-DROP
 DOMAIN-SUFFIX,ysjwj.com,REJECT-DROP
 DOMAIN-SUFFIX,yuanlin15.cn,REJECT-DROP
@@ -4818,6 +4824,7 @@ DOMAIN-SUFFIX,zuchui.cn,REJECT-DROP
 DOMAIN-SUFFIX,ad.zui.com,REJECT-DROP
 DOMAIN-SUFFIX,ad.zuimeitianqi.com,REJECT-DROP
 DOMAIN-SUFFIX,dl.zuimeitianqi.com,REJECT-DROP
+DOMAIN-SUFFIX,hw.zuimeitianqi.com,REJECT-DROP
 DOMAIN-SUFFIX,log2.zuimeitianqi.com,REJECT-DROP
 DOMAIN-SUFFIX,zukddms.cn,REJECT-DROP
 DOMAIN-SUFFIX,zunue.cn,REJECT-DROP
