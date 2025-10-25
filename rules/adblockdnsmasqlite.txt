@@ -3,8 +3,8 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20251025162846
-# Last modified: 2025/10/25 16:28:46
+# Version: 20251026002816
+# Last modified: 2025/10/26 00:28:16
 # Blocked domains: 4823
 #
 local=/00xvppy.cn/
@@ -402,7 +402,6 @@ local=/a48505.cn/
 local=/a910445285.cn/
 local=/a9v8.cn/
 local=/aa88691468.cn/
-local=/aaaweb.cn/
 local=/aaoffice.cn/
 local=/abcde4374968.cn/
 local=/smetrics.abercrombie.cn/
@@ -469,7 +468,6 @@ local=/report-edge.agora.io/
 local=/report-europe.agora.io/
 local=/report-north-america.agora.io/
 local=/statscollector-1.agora.io/
-local=/statscollector-1-asia.agora.io/
 local=/statscollector-1-north-america.agora.io/
 local=/tracking.agora.io/
 local=/webcollector-rtm.agora.io/
@@ -2017,6 +2015,7 @@ local=/seeder.igetget.com/
 local=/ihclam.cn/
 local=/fpbone.ihowguide.com/
 local=/ihtqqws.cn/
+local=/appadapi.ihuman.com/
 local=/iimedia.cn/
 local=/www.iiyout.cn/
 local=/ijinshan.com/
@@ -2836,6 +2835,7 @@ local=/logserver.nzxcloud.cn/
 local=/o8zoz.icu/
 local=/oaclrst.cn/
 local=/oadz.com/
+local=/gtm.oasisfeng.com/
 local=/analytics.oceanengine.com/
 local=/adcanopus.offerstrack.net/
 local=/dopemobi.offerstrack.net/
@@ -4053,13 +4053,13 @@ local=/co-vcode-or.vivoglobal.com/
 local=/de-gdpr-err-up.vivoglobal.com/
 local=/err.up.vivoglobal.com/
 local=/eu-cota.vivoglobal.com/
+local=/eu-domaincfg.vivoglobal.com/
 local=/eu-errup.vivoglobal.com/
 local=/eu-onrt-stsdk.vivoglobal.com/
 local=/eu-ort-stsdk.vivoglobal.com/
 local=/eu-p.vivoglobal.com/
 local=/eu-romsp-unifyconfig.vivoglobal.com/
 local=/eu-st-sl.vivoglobal.com/
-local=/eu-timesync.vivoglobal.com/
 local=/eu-vcode-api.vivoglobal.com/
 local=/eu-vcode-od.vivoglobal.com/
 local=/eu-vcode-or.vivoglobal.com/
