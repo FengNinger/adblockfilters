@@ -4,9 +4,9 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20251027002835
-  # Last modified: 2025/10/27 00:28:35
-  # Blocked domains: 4830
+  # Version: 20251027100332
+  # Last modified: 2025/10/27 10:03:32
+  # Blocked domains: 4833
   #
   - '+.00xvppy.cn'
   - '+.img.0279.net'
@@ -262,6 +262,7 @@ payload:
   - '+.a.52zxw.com'
   - '+.53kf.com'
   - '+.54kefu.net'
+  - '+.down.54nb.com'
   - '+.55.la'
   - '+.55726zubo56686.com'
   - '+.acs.56.com'
@@ -641,7 +642,6 @@ payload:
   - '+.track-ger.aqara.com'
   - '+.pay.aqiu6.com'
   - '+.mastercard-rhizat.aqssw.cn'
-  - '+.armboq.cn'
   - '+.a.armystar.com'
   - '+.trk.arozone.cn'
   - '+.arpun.com'
@@ -2917,6 +2917,7 @@ payload:
   - '+.pcupd.com'
   - '+.video-dsp.pddpic.com'
   - '+.download.pdf00.cn'
+  - '+.download.pdf00.com'
   - '+.pdhhmf.cn'
   - '+.pdiabbi.cn'
   - '+.pdxubxc.cn'
@@ -3015,7 +3016,6 @@ payload:
   - '+.qfnoyix.cn'
   - '+.qgg7e.icu'
   - '+.qgwqrf.cn'
-  - '+.sbisec-jp.qhddjzs.cn'
   - '+.qhicumg.cn'
   - '+.jspassport.ssl.qhimg.com'
   - '+.m.qhxcdmfj.cn'
@@ -3221,6 +3221,7 @@ payload:
   - '+.zxcv.3g.qq.com'
   - '+.wxaintpcos.wxqcloud.qq.com.cn'
   - '+.a1.qqan.com'
+  - '+.down.qqfarmer.com.cn'
   - '+.sdk-ab-config.qquanquan.com'
   - '+.tracelog-debug.qquanquan.com'
   - '+.qqxi6.icu'
@@ -3714,7 +3715,7 @@ payload:
   - '+.log.tec73.com'
   - '+.1.tecbbs.com'
   - '+.tongji.techweb.com.cn'
-  - '+.www.tecunonline.com'
+  - '+.tecunonline.com'
   - '+.tehxcmh3.com'
   - '+.tekvea.shop'
   - '+.telegramcn.co'
@@ -4644,6 +4645,7 @@ payload:
   - '+.123.ywxww.net'
   - '+.ftp.ywxww.net'
   - '+.adsclick.yx.js.cn'
+  - '+.qiniuyunxz.yxflzs.com'
   - '+.yxgfcj.com'
   - '+.ad.a.yximgs.com'
   - '+.ali-ad.a.yximgs.com'
@@ -4677,6 +4679,7 @@ payload:
   - '+.adapi.yynetwk.com'
   - '+.yystzl.cn'
   - '+.yyw114.cn'
+  - '+.yzkzixun.com'
   - '+.yznwyng.cn'
   - '+.yktj.yzz.cn'
   - '+.z3zex.icu'
