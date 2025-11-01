@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20251101162933
-! Last modified: 2025/11/01 16:29:33
-! Blocked domains: 4815
+! Version: 20251102002727
+! Last modified: 2025/11/02 00:27:27
+! Blocked domains: 4814
 !
 00xvppy.cn
 img.0279.net
@@ -465,6 +465,7 @@ report-edge.agora.io
 report-europe.agora.io
 report-north-america.agora.io
 statscollector-1.agora.io
+statscollector-1-asia.agora.io
 statscollector-1-north-america.agora.io
 tracking.agora.io
 webcollector-rtm.agora.io
@@ -1232,6 +1233,7 @@ events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn
 events-dra-op-dbankcloud-com-dra.region.dbankedge.cn
 events-dra-op-hicloud-com-dra.appacc.dbankedge.cn
 events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn
+events-dre-op-dbankcloud-com-dre.appacc-region.dbankedge.cn
 events-dre-op-hicloud-com-dre.appacc.dbankedge.cn
 hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn
 hisearch-dra-dt-dbankcloud-com-dra.appacc-region.dbankedge.cn
@@ -1571,7 +1573,6 @@ liveats-vod.video.ptqy.gitv.tv
 msg.ptqy.gitv.tv
 ota.ptqy.gitv.tv
 policy.video.ptqy.gitv.tv
-puma-api.ptqy.gitv.tv
 sdk-cache.video.ptqy.gitv.tv
 sdk.ptqy.gitv.tv
 static.ptqy.gitv.tv
@@ -2081,6 +2082,7 @@ apisgame.iqiyi.com
 c.uaa.iqiyi.com
 cards-css.iqiyi.com
 cm.passport.iqiyi.com
+cs-feige.iqiyi.com
 doh.iqiyi.com
 emoticon-sns.iqiyi.com
 emoticon.sns.iqiyi.com
@@ -2261,6 +2263,7 @@ kivo.fun
 adl.kkguan.com
 houyi.kkmh.com
 ipv4.kkmh.com
+logsdk.klingai.com
 kmgfjc.cn
 kmhmyaj.cn
 kmihknj.cn
@@ -2393,7 +2396,6 @@ adashx.ut.lazada.com
 amdc.lazada.com
 h-adashx.ut.lazada.com
 orange-dc.lazada.com
-ph-log-emagzal.lazada.com
 sg-log-emagzal.lazada.com
 jmacs-m.lazada.com.my
 msgacs-m.lazada.com.my
@@ -2518,7 +2520,6 @@ adsapi.manhuaren.com
 bi.manhuaren.com
 euadsapi.manhuaren.com
 manyou.com
-adx.maplehaze.cn
 maps-icloud.today
 sdk.markmedia.com.cn
 www.mashangyoushu.cn
@@ -3433,6 +3434,7 @@ analytics.sixt.cn
 1.sj33.net
 sjdfuvz.cn
 sjoy7rq.cn
+clog.skysrt.com
 m.slshiye.cn
 sm-tc.cn
 c.sm.cn
@@ -3502,6 +3504,7 @@ theta.sogoucdn.com
 ads.sohu.com
 assp.sohu.com
 bd.hd.sohu.com
+changyan.sohu.com
 click2.hd.sohu.com
 count.vrs.sohu.com
 ctr.hd.sohu.com
@@ -3693,7 +3696,6 @@ gwrtdp-tn690bfadt.tclclouds.com
 site.tdk.cn
 tracking.tdk.cn
 metrics.teamviewer.cn
-log.tec73.com
 1.tecbbs.com
 tongji.techweb.com.cn
 tecunonline.com
@@ -3843,7 +3845,6 @@ twjsx.cn
 twzui6.com
 livetech.shopee.co.id.txlivecdn.com
 livetech.shopee.co.th.txlivecdn.com
-livetech.shopee.vn.txlivecdn.com
 txscn.cn
 m.txtxr.com
 u.txuesoft.cn
@@ -4036,12 +4037,10 @@ co-ort-stsdk.vivoglobal.com
 co-pnrt-stsdk.vivoglobal.com
 co-romsp-unifyconfig.vivoglobal.com
 co-st-sl.vivoglobal.com
-co-stsdk.vivoglobal.com
 co-timesync.vivoglobal.com
 co-vcode-api.vivoglobal.com
 co-vcode-od.vivoglobal.com
 co-vcode-or.vivoglobal.com
-de-gdpr-err-up.vivoglobal.com
 err.up.vivoglobal.com
 eu-cota.vivoglobal.com
 eu-domaincfg.vivoglobal.com

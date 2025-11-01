@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2025/11/01 16:29:33
-#!support=4815
+#!date=2025/11/02 00:27:27
+#!support=4814
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,00xvppy.cn
@@ -469,6 +469,7 @@ DOMAIN-SUFFIX,report-edge.agora.io
 DOMAIN-SUFFIX,report-europe.agora.io
 DOMAIN-SUFFIX,report-north-america.agora.io
 DOMAIN-SUFFIX,statscollector-1.agora.io
+DOMAIN-SUFFIX,statscollector-1-asia.agora.io
 DOMAIN-SUFFIX,statscollector-1-north-america.agora.io
 DOMAIN-SUFFIX,tracking.agora.io
 DOMAIN-SUFFIX,webcollector-rtm.agora.io
@@ -1236,6 +1237,7 @@ DOMAIN-SUFFIX,events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn
 DOMAIN-SUFFIX,events-dra-op-dbankcloud-com-dra.region.dbankedge.cn
 DOMAIN-SUFFIX,events-dra-op-hicloud-com-dra.appacc.dbankedge.cn
 DOMAIN-SUFFIX,events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn
+DOMAIN-SUFFIX,events-dre-op-dbankcloud-com-dre.appacc-region.dbankedge.cn
 DOMAIN-SUFFIX,events-dre-op-hicloud-com-dre.appacc.dbankedge.cn
 DOMAIN-SUFFIX,hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn
 DOMAIN-SUFFIX,hisearch-dra-dt-dbankcloud-com-dra.appacc-region.dbankedge.cn
@@ -1575,7 +1577,6 @@ DOMAIN-SUFFIX,liveats-vod.video.ptqy.gitv.tv
 DOMAIN-SUFFIX,msg.ptqy.gitv.tv
 DOMAIN-SUFFIX,ota.ptqy.gitv.tv
 DOMAIN-SUFFIX,policy.video.ptqy.gitv.tv
-DOMAIN-SUFFIX,puma-api.ptqy.gitv.tv
 DOMAIN-SUFFIX,sdk-cache.video.ptqy.gitv.tv
 DOMAIN-SUFFIX,sdk.ptqy.gitv.tv
 DOMAIN-SUFFIX,static.ptqy.gitv.tv
@@ -2085,6 +2086,7 @@ DOMAIN-SUFFIX,apisgame.iqiyi.com
 DOMAIN-SUFFIX,c.uaa.iqiyi.com
 DOMAIN-SUFFIX,cards-css.iqiyi.com
 DOMAIN-SUFFIX,cm.passport.iqiyi.com
+DOMAIN-SUFFIX,cs-feige.iqiyi.com
 DOMAIN-SUFFIX,doh.iqiyi.com
 DOMAIN-SUFFIX,emoticon-sns.iqiyi.com
 DOMAIN-SUFFIX,emoticon.sns.iqiyi.com
@@ -2265,6 +2267,7 @@ DOMAIN-SUFFIX,kivo.fun
 DOMAIN-SUFFIX,adl.kkguan.com
 DOMAIN-SUFFIX,houyi.kkmh.com
 DOMAIN-SUFFIX,ipv4.kkmh.com
+DOMAIN-SUFFIX,logsdk.klingai.com
 DOMAIN-SUFFIX,kmgfjc.cn
 DOMAIN-SUFFIX,kmhmyaj.cn
 DOMAIN-SUFFIX,kmihknj.cn
@@ -2397,7 +2400,6 @@ DOMAIN-SUFFIX,adashx.ut.lazada.com
 DOMAIN-SUFFIX,amdc.lazada.com
 DOMAIN-SUFFIX,h-adashx.ut.lazada.com
 DOMAIN-SUFFIX,orange-dc.lazada.com
-DOMAIN-SUFFIX,ph-log-emagzal.lazada.com
 DOMAIN-SUFFIX,sg-log-emagzal.lazada.com
 DOMAIN-SUFFIX,jmacs-m.lazada.com.my
 DOMAIN-SUFFIX,msgacs-m.lazada.com.my
@@ -2522,7 +2524,6 @@ DOMAIN-SUFFIX,adsapi.manhuaren.com
 DOMAIN-SUFFIX,bi.manhuaren.com
 DOMAIN-SUFFIX,euadsapi.manhuaren.com
 DOMAIN-SUFFIX,manyou.com
-DOMAIN-SUFFIX,adx.maplehaze.cn
 DOMAIN-SUFFIX,maps-icloud.today
 DOMAIN-SUFFIX,sdk.markmedia.com.cn
 DOMAIN-SUFFIX,www.mashangyoushu.cn
@@ -3437,6 +3438,7 @@ DOMAIN-SUFFIX,analytics.sixt.cn
 DOMAIN-SUFFIX,1.sj33.net
 DOMAIN-SUFFIX,sjdfuvz.cn
 DOMAIN-SUFFIX,sjoy7rq.cn
+DOMAIN-SUFFIX,clog.skysrt.com
 DOMAIN-SUFFIX,m.slshiye.cn
 DOMAIN-SUFFIX,sm-tc.cn
 DOMAIN-SUFFIX,c.sm.cn
@@ -3506,6 +3508,7 @@ DOMAIN-SUFFIX,888.tv.sohu.com
 DOMAIN-SUFFIX,ads.sohu.com
 DOMAIN-SUFFIX,assp.sohu.com
 DOMAIN-SUFFIX,bd.hd.sohu.com
+DOMAIN-SUFFIX,changyan.sohu.com
 DOMAIN-SUFFIX,click2.hd.sohu.com
 DOMAIN-SUFFIX,count.vrs.sohu.com
 DOMAIN-SUFFIX,ctr.hd.sohu.com
@@ -3697,7 +3700,6 @@ DOMAIN-SUFFIX,gwrtdp-tn690bfadt.tclclouds.com
 DOMAIN-SUFFIX,site.tdk.cn
 DOMAIN-SUFFIX,tracking.tdk.cn
 DOMAIN-SUFFIX,metrics.teamviewer.cn
-DOMAIN-SUFFIX,log.tec73.com
 DOMAIN-SUFFIX,1.tecbbs.com
 DOMAIN-SUFFIX,tongji.techweb.com.cn
 DOMAIN-SUFFIX,tecunonline.com
@@ -3847,7 +3849,6 @@ DOMAIN-SUFFIX,twjsx.cn
 DOMAIN-SUFFIX,twzui6.com
 DOMAIN-SUFFIX,livetech.shopee.co.id.txlivecdn.com
 DOMAIN-SUFFIX,livetech.shopee.co.th.txlivecdn.com
-DOMAIN-SUFFIX,livetech.shopee.vn.txlivecdn.com
 DOMAIN-SUFFIX,txscn.cn
 DOMAIN-SUFFIX,m.txtxr.com
 DOMAIN-SUFFIX,u.txuesoft.cn
@@ -4040,12 +4041,10 @@ DOMAIN-SUFFIX,co-ort-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,co-pnrt-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,co-romsp-unifyconfig.vivoglobal.com
 DOMAIN-SUFFIX,co-st-sl.vivoglobal.com
-DOMAIN-SUFFIX,co-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,co-timesync.vivoglobal.com
 DOMAIN-SUFFIX,co-vcode-api.vivoglobal.com
 DOMAIN-SUFFIX,co-vcode-od.vivoglobal.com
 DOMAIN-SUFFIX,co-vcode-or.vivoglobal.com
-DOMAIN-SUFFIX,de-gdpr-err-up.vivoglobal.com
 DOMAIN-SUFFIX,err.up.vivoglobal.com
 DOMAIN-SUFFIX,eu-cota.vivoglobal.com
 DOMAIN-SUFFIX,eu-domaincfg.vivoglobal.com
