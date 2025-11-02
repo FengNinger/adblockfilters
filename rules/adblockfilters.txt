@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20251102100138
-! Last modified: 2025/11/02 10:01:38
-! Blocked Filters: 98415
+! Version: 20251102162758
+! Last modified: 2025/11/02 16:27:58
+! Blocked Filters: 98416
 !
 ###AC_ad
 ###AD_160
@@ -62654,10 +62654,9 @@ next.gr#@##ad_banner
 nextapple.com###lrec01
 nextapple.com##div[class^="na-ad-"]
 nextchessmove.com##.h-\[112px\].flex.justify-center
+nextchessmove.com#%#//scriptlet('remove-node-text', 'script', 'head.appendChild.bind')
+nextchessmove.com$$script:contains(head.appendChild.bind)
 nextchessmove.com,leckerschmecker.me,moin.de,sportanalytic.com,tbsradio.jp,talkwithstranger.com,cool-style.com.tw,forsal.pl,gazetaprawna.pl,heureka.cz,missyusa.com,pressian.com,issuya.com,eurointegration.com.ua,worldhistory.org,etnews.com,iusm.co.kr,lamire.jp,picrew.me,text-compare.com,etnewskorea.com,gadgets360.com,mydaily.co.kr,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,sportsrec.com,reportera.co.kr,tweaksforgeeks.com,fourfourtwo.co.kr,flatpanelshd.com,wfmz.com,videogamemods.com,jin115.com,hoyme.jp,blog.esuteru.com,blog.livedoor.jp,itainews.com$$script[onload="error-report.com"]
-nextchessmove.com,razzball.com,newatlas.com#%#//scriptlet('prevent-setTimeout', '[native code]', '500')
-nextchessmove.com,razzball.com,newatlas.com#%#//scriptlet('remove-node-text', 'script', 'head.appendChild.bind')
-nextchessmove.com,razzball.com,newatlas.com$$script:contains(head.appendChild.bind)
 nextdoor.com##.nas-container
 nextdoor.com#?#div[data-v3-view-type="V3Wrapper"]:has(> span[data-testid="feed-item-visibility-tracker"] > div[id^="feedItem_"] span[class*="Item"]:contains(Sponsored))
 nextdoor.com,sptfy.be###ad
@@ -67827,6 +67826,9 @@ raymond.cc##div[id^="snhb-incontent"]
 raymond.cc##div[id^="snhb-sidebar"]
 raymond.cc##section[class="hide-mbl hide-tbl"][style="background: #ffffff; text-align: left;"]
 razorpay.com##p > a[target="blank"] > img
+razzball.com,newatlas.com#%#//scriptlet('prevent-setTimeout', '[native code]', '500')
+razzball.com,newatlas.com#%#//scriptlet('remove-node-text', 'script', 'head.appendChild.bind')
+razzball.com,newatlas.com$$script:contains(head.appendChild.bind)
 rcgroups.com###posts > div[align="center"]+table[width="100%"][align="center"]
 rcgroups.com###wrapper > table[width="100%"][height="25"]
 rcgroups.com##a[href*="/adclick.php?bannerid="]
@@ -86526,7 +86528,6 @@ zzzyk.com###Tinfo
 ||easyporn.xxx/tmp/
 ||easysol.net^$third-party
 ||easyview.eu/sw.js
-||eatcells.com/land/$popup
 ||ebay.com/delstats/
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebay.com/scl/js/ScandalLoader.js
