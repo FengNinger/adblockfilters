@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20251103163522
-# Last modified: 2025/11/03 16:35:22
-# Blocked domains: 4767
+# Version: 20251104002941
+# Last modified: 2025/11/04 00:29:41
+# Blocked domains: 4766
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -48,7 +48,6 @@ local=/iadmusicmatvideo.music.126.net/
 local=/img1.126.net/
 local=/img3.126.net/
 local=/mimg.126.net/
-local=/pg-ad-b1.ws.126.net/
 local=/stat.ws.126.net/
 local=/webstat.ws.126.net/
 local=/yt-adp.ws.126.net/
@@ -72,7 +71,6 @@ local=/count.mail.163.com/
 local=/countly.mail.163.com/
 local=/crash.163.com/
 local=/crashlytics.163.com/
-local=/e-p4p.163.com/
 local=/fa.163.com/
 local=/fp-upload.dun.163.com/
 local=/g.163.com/
@@ -94,7 +92,6 @@ local=/165tchuang.com/
 local=/match.p4p.1688.com/
 local=/17173.com/
 local=/s.17173cdn.com/
-local=/st.19mi.net/
 local=/1buo.icu/
 local=/1gtp.icu/
 local=/1jok.icu/
@@ -377,6 +374,7 @@ local=/999bb222ww.com/
 local=/999xx333kk.com/
 local=/999xx999kk.com/
 local=/99box.com/
+local=/collect.9em.cn/
 local=/9ics.cn/
 local=/9kh5b.cn/
 local=/9wee.com/
@@ -845,7 +843,6 @@ local=/zz.bdstatic.com/
 local=/smetrics.beatsbydre.com/
 local=/smetrics.beatsbydre.com.cn/
 local=/beencounter.com/
-local=/analytics.behr.com/
 local=/images.explore.behr.com/
 local=/beizi.biz/
 local=/smetrics.benefitcosmetics.com.cn/
@@ -952,6 +949,7 @@ local=/super.cat898.com/
 local=/tracking.cat898.com/
 local=/adv.ccb.com/
 local=/ad.ccement.com/
+local=/mtrace.ysp.cctv.cn/
 local=/ad.cctv.com/
 local=/httpdns.cctv.com/
 local=/p.data.cctv.com/
@@ -1157,7 +1155,6 @@ local=/daque.cn/
 local=/daraz.com/
 local=/net.daraz.lk/
 local=/net.daraz.pk/
-local=/sgtm.darryring.com/
 local=/dashet.com/
 local=/gate.datacaciques.com/
 local=/pv.datacaciques.com/
@@ -1345,7 +1342,6 @@ local=/easou.com/
 local=/ay.eastmoney.com/
 local=/bdstatic.eastmoney.com/
 local=/bdwblog.eastmoney.com/
-local=/cmsjs.eastmoney.com/
 local=/cp2.eastmoney.com/
 local=/emdcadvertise.eastmoney.com/
 local=/huaxiang.eastmoney.com/
@@ -2413,6 +2409,7 @@ local=/s.lenovo.com/
 local=/fsr.lenovomm.com/
 local=/prw.lenovomm.com/
 local=/pushapi.lenovomm.com/
+local=/sdac.lenovomm.com/
 local=/susapi.lenovomm.com/
 local=/uss-pid.lenovomm.com/
 local=/lenzmx.com/
@@ -2576,6 +2573,7 @@ local=/resolver.gslb.mi-idc.com/
 local=/ad.mi.com/
 local=/d.g.mi.com/
 local=/e.mi.com/
+local=/h5.tv.mi.com/
 local=/idm.iot.mi.com/
 local=/in.tv.global.mi.com/
 local=/migc.g.mi.com/
@@ -3801,6 +3799,7 @@ local=/twjsx.cn/
 local=/twzui6.com/
 local=/livetech.shopee.co.id.txlivecdn.com/
 local=/livetech.shopee.co.th.txlivecdn.com/
+local=/livetech.shopee.vn.txlivecdn.com/
 local=/txscn.cn/
 local=/m.txtxr.com/
 local=/u.txuesoft.cn/
