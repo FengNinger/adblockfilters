@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20251106163425
-# Last modified: 2025/11/06 16:34:25
-# Blocked domains: 4757
+# Version: 20251107003425
+# Last modified: 2025/11/07 00:34:25
+# Blocked domains: 4758
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -542,6 +542,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	bmvip.alimama.cn
 0.0.0.0	cb.alimama.cn
 0.0.0.0	acookie.alimama.com
+0.0.0.0	static.alimama.com
 0.0.0.0	openmonitor.alipay-eco.com
 0.0.0.0	amdc.alipay.com
 0.0.0.0	collect.alipay.com
@@ -1233,7 +1234,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	events-dra-op-dbankcloud-com-dra.region.dbankedge.cn
 0.0.0.0	events-dra-op-hicloud-com-dra.appacc.dbankedge.cn
 0.0.0.0	events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn
-0.0.0.0	events-dre-op-dbankcloud-com-dre.appacc-region.dbankedge.cn
 0.0.0.0	events-dre-op-hicloud-com-dre.appacc.dbankedge.cn
 0.0.0.0	hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn
 0.0.0.0	dchdmhf.cn
@@ -1658,6 +1658,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	tianshu.gtimg.cn
 0.0.0.0	ra.gtimg.com
 0.0.0.0	splashqqlive.gtimg.com
+0.0.0.0	tui.gtimg.com
 0.0.0.0	wa.gtimg.com
 0.0.0.0	gtpxvpi.cn
 0.0.0.0	bd1.guancha.cn
@@ -1813,6 +1814,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	hiido.com
 0.0.0.0	analytics.shop.hisense.com
 0.0.0.0	api-4know-em.hismarttv.com
+0.0.0.0	api-4know-eu.hismarttv.com
 0.0.0.0	api-gps.hismarttv.com
 0.0.0.0	api-gps-eu.hismarttv.com
 0.0.0.0	api-gps-na.hismarttv.com
@@ -1918,6 +1920,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	drcn-weather.cloud.huawei.com
 0.0.0.0	hwa.his.huawei.com
 0.0.0.0	httpdns.huaweicloud.com
+0.0.0.0	uba.huaweicloud.com
 0.0.0.0	hubcloud.com.cn
 0.0.0.0	hubiazhi.com
 0.0.0.0	huishenghuiying.com.cn
@@ -2002,7 +2005,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ihclam.cn
 0.0.0.0	fpbone.ihowguide.com
 0.0.0.0	ihtqqws.cn
-0.0.0.0	appadapi.ihuman.com
 0.0.0.0	iimedia.cn
 0.0.0.0	www.iiyout.cn
 0.0.0.0	ijinshan.com
@@ -2621,7 +2623,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	api-rec.stellar.intl.miui.com
 0.0.0.0	api.accelerator.intl.miui.com
 0.0.0.0	api.aurogon.intl.miui.com
-0.0.0.0	api.browser.intl.miui.com
 0.0.0.0	api.brs.intl.miui.com
 0.0.0.0	api.collect.data.intl.miui.com
 0.0.0.0	api.competition.intl.miui.com
@@ -3602,7 +3603,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	adashx4sg.ut.taobao.com
 0.0.0.0	adashx4yt.m.taobao.com
 0.0.0.0	adashxgc.ut.taobao.com
-0.0.0.0	ae-alimelog.taobao.com
 0.0.0.0	agoodm.m.taobao.com
 0.0.0.0	ai.taobao.com
 0.0.0.0	ai.m.taobao.com
@@ -3807,6 +3807,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	twzui6.com
 0.0.0.0	livetech.shopee.co.id.txlivecdn.com
 0.0.0.0	livetech.shopee.co.th.txlivecdn.com
+0.0.0.0	livetech.shopee.vn.txlivecdn.com
 0.0.0.0	txscn.cn
 0.0.0.0	m.txtxr.com
 0.0.0.0	u.txuesoft.cn
@@ -3996,8 +3997,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	co-domaincfg.vivoglobal.com
 0.0.0.0	co-onrt-stsdk.vivoglobal.com
 0.0.0.0	co-ort-stsdk.vivoglobal.com
+0.0.0.0	co-pnrt-stsdk.vivoglobal.com
 0.0.0.0	co-romsp-unifyconfig.vivoglobal.com
 0.0.0.0	co-st-sl.vivoglobal.com
+0.0.0.0	co-stsdk.vivoglobal.com
 0.0.0.0	co-timesync.vivoglobal.com
 0.0.0.0	co-vcode-api.vivoglobal.com
 0.0.0.0	co-vcode-od.vivoglobal.com
@@ -4093,7 +4096,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ru-vcode-api.vivoglobal.com
 0.0.0.0	ru-vcode-od.vivoglobal.com
 0.0.0.0	ru-vcode-or.vivoglobal.com
-0.0.0.0	sca-cota.vivoglobal.com
 0.0.0.0	sca-domaincfg.vivoglobal.com
 0.0.0.0	sca-err-up.vivoglobal.com
 0.0.0.0	sca-onrt-stsdk.vivoglobal.com
@@ -4329,7 +4331,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ottl7-l2.pandora.xiaomi.com
 0.0.0.0	package.box.xiaomi.com
 0.0.0.0	pi.ias.xiaomi.com
-0.0.0.0	preload.xiaomi.com
 0.0.0.0	redirect.pandora.xiaomi.com
 0.0.0.0	register.xmpush.global.xiaomi.com
 0.0.0.0	resolver.mi.xiaomi.com

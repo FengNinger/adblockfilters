@@ -4,9 +4,9 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20251106163425
-  # Last modified: 2025/11/06 16:34:25
-  # Blocked domains: 4757
+  # Version: 20251107003425
+  # Last modified: 2025/11/07 00:34:25
+  # Blocked domains: 4758
   #
   - '+.00xvppy.cn'
   - '+.img.0279.net'
@@ -528,6 +528,7 @@ payload:
   - '+.bmvip.alimama.cn'
   - '+.cb.alimama.cn'
   - '+.acookie.alimama.com'
+  - '+.static.alimama.com'
   - '+.openmonitor.alipay-eco.com'
   - '+.amdc.alipay.com'
   - '+.collect.alipay.com'
@@ -1219,7 +1220,6 @@ payload:
   - '+.events-dra-op-dbankcloud-com-dra.region.dbankedge.cn'
   - '+.events-dra-op-hicloud-com-dra.appacc.dbankedge.cn'
   - '+.events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn'
-  - '+.events-dre-op-dbankcloud-com-dre.appacc-region.dbankedge.cn'
   - '+.events-dre-op-hicloud-com-dre.appacc.dbankedge.cn'
   - '+.hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn'
   - '+.dchdmhf.cn'
@@ -1644,6 +1644,7 @@ payload:
   - '+.tianshu.gtimg.cn'
   - '+.ra.gtimg.com'
   - '+.splashqqlive.gtimg.com'
+  - '+.tui.gtimg.com'
   - '+.wa.gtimg.com'
   - '+.gtpxvpi.cn'
   - '+.bd1.guancha.cn'
@@ -1799,6 +1800,7 @@ payload:
   - '+.hiido.com'
   - '+.analytics.shop.hisense.com'
   - '+.api-4know-em.hismarttv.com'
+  - '+.api-4know-eu.hismarttv.com'
   - '+.api-gps.hismarttv.com'
   - '+.api-gps-eu.hismarttv.com'
   - '+.api-gps-na.hismarttv.com'
@@ -1904,6 +1906,7 @@ payload:
   - '+.drcn-weather.cloud.huawei.com'
   - '+.hwa.his.huawei.com'
   - '+.httpdns.huaweicloud.com'
+  - '+.uba.huaweicloud.com'
   - '+.hubcloud.com.cn'
   - '+.hubiazhi.com'
   - '+.huishenghuiying.com.cn'
@@ -1988,7 +1991,6 @@ payload:
   - '+.ihclam.cn'
   - '+.fpbone.ihowguide.com'
   - '+.ihtqqws.cn'
-  - '+.appadapi.ihuman.com'
   - '+.iimedia.cn'
   - '+.www.iiyout.cn'
   - '+.ijinshan.com'
@@ -2607,7 +2609,6 @@ payload:
   - '+.api-rec.stellar.intl.miui.com'
   - '+.api.accelerator.intl.miui.com'
   - '+.api.aurogon.intl.miui.com'
-  - '+.api.browser.intl.miui.com'
   - '+.api.brs.intl.miui.com'
   - '+.api.collect.data.intl.miui.com'
   - '+.api.competition.intl.miui.com'
@@ -3588,7 +3589,6 @@ payload:
   - '+.adashx4sg.ut.taobao.com'
   - '+.adashx4yt.m.taobao.com'
   - '+.adashxgc.ut.taobao.com'
-  - '+.ae-alimelog.taobao.com'
   - '+.agoodm.m.taobao.com'
   - '+.ai.taobao.com'
   - '+.ai.m.taobao.com'
@@ -3793,6 +3793,7 @@ payload:
   - '+.twzui6.com'
   - '+.livetech.shopee.co.id.txlivecdn.com'
   - '+.livetech.shopee.co.th.txlivecdn.com'
+  - '+.livetech.shopee.vn.txlivecdn.com'
   - '+.txscn.cn'
   - '+.m.txtxr.com'
   - '+.u.txuesoft.cn'
@@ -3982,8 +3983,10 @@ payload:
   - '+.co-domaincfg.vivoglobal.com'
   - '+.co-onrt-stsdk.vivoglobal.com'
   - '+.co-ort-stsdk.vivoglobal.com'
+  - '+.co-pnrt-stsdk.vivoglobal.com'
   - '+.co-romsp-unifyconfig.vivoglobal.com'
   - '+.co-st-sl.vivoglobal.com'
+  - '+.co-stsdk.vivoglobal.com'
   - '+.co-timesync.vivoglobal.com'
   - '+.co-vcode-api.vivoglobal.com'
   - '+.co-vcode-od.vivoglobal.com'
@@ -4079,7 +4082,6 @@ payload:
   - '+.ru-vcode-api.vivoglobal.com'
   - '+.ru-vcode-od.vivoglobal.com'
   - '+.ru-vcode-or.vivoglobal.com'
-  - '+.sca-cota.vivoglobal.com'
   - '+.sca-domaincfg.vivoglobal.com'
   - '+.sca-err-up.vivoglobal.com'
   - '+.sca-onrt-stsdk.vivoglobal.com'
@@ -4315,7 +4317,6 @@ payload:
   - '+.ottl7-l2.pandora.xiaomi.com'
   - '+.package.box.xiaomi.com'
   - '+.pi.ias.xiaomi.com'
-  - '+.preload.xiaomi.com'
   - '+.redirect.pandora.xiaomi.com'
   - '+.register.xmpush.global.xiaomi.com'
   - '+.resolver.mi.xiaomi.com'
