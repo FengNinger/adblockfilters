@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20251110163519
-# Last modified: 2025/11/10 16:35:19
-# Blocked domains: 4764
+# Version: 20251111003359
+# Last modified: 2025/11/11 00:33:59
+# Blocked domains: 4767
 #
 [Rule]
 DOMAIN-SUFFIX,00xvppy.cn,REJECT-DROP
@@ -35,7 +35,6 @@ DOMAIN-SUFFIX,1.11467.com,REJECT-DROP
 DOMAIN-SUFFIX,appversion.115.com,REJECT-DROP
 DOMAIN-SUFFIX,bj1.118pan.com,REJECT-DROP
 DOMAIN-SUFFIX,bdwmhz.120askimages.com,REJECT-DROP
-DOMAIN-SUFFIX,120jj.cn,REJECT-DROP
 DOMAIN-SUFFIX,js1.122cha.com,REJECT-DROP
 DOMAIN-SUFFIX,ad.12306.cn,REJECT-DROP
 DOMAIN-SUFFIX,123cha.com,REJECT-DROP
@@ -93,7 +92,6 @@ DOMAIN-SUFFIX,165tchuang.com,REJECT-DROP
 DOMAIN-SUFFIX,match.p4p.1688.com,REJECT-DROP
 DOMAIN-SUFFIX,17173.com,REJECT-DROP
 DOMAIN-SUFFIX,s.17173cdn.com,REJECT-DROP
-DOMAIN-SUFFIX,st.19mi.net,REJECT-DROP
 DOMAIN-SUFFIX,1buo.icu,REJECT-DROP
 DOMAIN-SUFFIX,1gtp.icu,REJECT-DROP
 DOMAIN-SUFFIX,1jok.icu,REJECT-DROP
@@ -240,7 +238,6 @@ DOMAIN-SUFFIX,web.51fishplace.com,REJECT-DROP
 DOMAIN-SUFFIX,trace.51jingying.com,REJECT-DROP
 DOMAIN-SUFFIX,a1.51shiti.cn,REJECT-DROP
 DOMAIN-SUFFIX,51taifu.com,REJECT-DROP
-DOMAIN-SUFFIX,ad.51wnl-cq.com,REJECT-DROP
 DOMAIN-SUFFIX,ad.51wnl.com,REJECT-DROP
 DOMAIN-SUFFIX,51yes.com,REJECT-DROP
 DOMAIN-SUFFIX,game.51yund.com,REJECT-DROP
@@ -376,6 +373,7 @@ DOMAIN-SUFFIX,999bb222ww.com,REJECT-DROP
 DOMAIN-SUFFIX,999xx333kk.com,REJECT-DROP
 DOMAIN-SUFFIX,999xx999kk.com,REJECT-DROP
 DOMAIN-SUFFIX,99box.com,REJECT-DROP
+DOMAIN-SUFFIX,collect.9em.cn,REJECT-DROP
 DOMAIN-SUFFIX,9ics.cn,REJECT-DROP
 DOMAIN-SUFFIX,9kh5b.cn,REJECT-DROP
 DOMAIN-SUFFIX,9wee.com,REJECT-DROP
@@ -699,6 +697,7 @@ DOMAIN-SUFFIX,cbjs.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,click.bes.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,cm.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,collector.dcdn.baidu.com,REJECT-DROP
+DOMAIN-SUFFIX,console.bce.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,cpro.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,cpro.zhidao.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,cpu.baidu.com,REJECT-DROP
@@ -742,6 +741,7 @@ DOMAIN-SUFFIX,itsdata.map.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,kstj.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,libs.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,log.music.baidu.com,REJECT-DROP
+DOMAIN-SUFFIX,login.bce.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,luimg.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,m1.baidu.com,REJECT-DROP
 DOMAIN-SUFFIX,miao.baidu.com,REJECT-DROP
@@ -1347,7 +1347,6 @@ DOMAIN-SUFFIX,easou.com,REJECT-DROP
 DOMAIN-SUFFIX,ay.eastmoney.com,REJECT-DROP
 DOMAIN-SUFFIX,bdstatic.eastmoney.com,REJECT-DROP
 DOMAIN-SUFFIX,bdwblog.eastmoney.com,REJECT-DROP
-DOMAIN-SUFFIX,cmsjs.eastmoney.com,REJECT-DROP
 DOMAIN-SUFFIX,cp2.eastmoney.com,REJECT-DROP
 DOMAIN-SUFFIX,emdcadvertise.eastmoney.com,REJECT-DROP
 DOMAIN-SUFFIX,huaxiang.eastmoney.com,REJECT-DROP
@@ -1648,6 +1647,7 @@ DOMAIN-SUFFIX,pgdt.gtimg.cn,REJECT-DROP
 DOMAIN-SUFFIX,tianshu.gtimg.cn,REJECT-DROP
 DOMAIN-SUFFIX,ra.gtimg.com,REJECT-DROP
 DOMAIN-SUFFIX,splashqqlive.gtimg.com,REJECT-DROP
+DOMAIN-SUFFIX,tui.gtimg.com,REJECT-DROP
 DOMAIN-SUFFIX,wa.gtimg.com,REJECT-DROP
 DOMAIN-SUFFIX,gtpxvpi.cn,REJECT-DROP
 DOMAIN-SUFFIX,bd1.guancha.cn,REJECT-DROP
@@ -1791,6 +1791,7 @@ DOMAIN-SUFFIX,grs.hicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,logbak.hicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,logservice.hicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,logservice-dra.platform.hicloud.com,REJECT-DROP
+DOMAIN-SUFFIX,logservice-dre.platform.hicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,logservice1.hicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,ads-drcn.platform.hihonorcloud.com,REJECT-DROP
 DOMAIN-SUFFIX,honorsearch-dra.hiboard.hihonorcloud.com,REJECT-DROP
@@ -2028,7 +2029,6 @@ DOMAIN-SUFFIX,inepost.top,REJECT-DROP
 DOMAIN-SUFFIX,link.infineon.cn,REJECT-DROP
 DOMAIN-SUFFIX,link.infineon.com,REJECT-DROP
 DOMAIN-SUFFIX,reply.infineon.com,REJECT-DROP
-DOMAIN-SUFFIX,ssgtm.infineon.com,REJECT-DROP
 DOMAIN-SUFFIX,track-e.infineon.com,REJECT-DROP
 DOMAIN-SUFFIX,trk.ingersollrandproducts.cn,REJECT-DROP
 DOMAIN-SUFFIX,apidns.kwd.inkuai.com,REJECT-DROP
@@ -2041,7 +2041,6 @@ DOMAIN-SUFFIX,innity.com,REJECT-DROP
 DOMAIN-SUFFIX,innity.net,REJECT-DROP
 DOMAIN-SUFFIX,inping.com,REJECT-DROP
 DOMAIN-SUFFIX,oascentral.inq7.net,REJECT-DROP
-DOMAIN-SUFFIX,api-data-collection.insta360.cn,REJECT-DROP
 DOMAIN-SUFFIX,cane.intel.cn,REJECT-DROP
 DOMAIN-SUFFIX,dogo.intel.cn,REJECT-DROP
 DOMAIN-SUFFIX,intely.cn,REJECT-DROP
@@ -2241,6 +2240,7 @@ DOMAIN-SUFFIX,kivo.fun,REJECT-DROP
 DOMAIN-SUFFIX,adl.kkguan.com,REJECT-DROP
 DOMAIN-SUFFIX,houyi.kkmh.com,REJECT-DROP
 DOMAIN-SUFFIX,ipv4.kkmh.com,REJECT-DROP
+DOMAIN-SUFFIX,logsdk.klingai.com,REJECT-DROP
 DOMAIN-SUFFIX,kmgfjc.cn,REJECT-DROP
 DOMAIN-SUFFIX,kmhmyaj.cn,REJECT-DROP
 DOMAIN-SUFFIX,kmihknj.cn,REJECT-DROP
@@ -2410,6 +2410,7 @@ DOMAIN-SUFFIX,s.lenovo.com,REJECT-DROP
 DOMAIN-SUFFIX,fsr.lenovomm.com,REJECT-DROP
 DOMAIN-SUFFIX,prw.lenovomm.com,REJECT-DROP
 DOMAIN-SUFFIX,pushapi.lenovomm.com,REJECT-DROP
+DOMAIN-SUFFIX,sdac.lenovomm.com,REJECT-DROP
 DOMAIN-SUFFIX,susapi.lenovomm.com,REJECT-DROP
 DOMAIN-SUFFIX,uss-pid.lenovomm.com,REJECT-DROP
 DOMAIN-SUFFIX,lenzmx.com,REJECT-DROP
@@ -2573,6 +2574,7 @@ DOMAIN-SUFFIX,resolver.gslb.mi-idc.com,REJECT-DROP
 DOMAIN-SUFFIX,ad.mi.com,REJECT-DROP
 DOMAIN-SUFFIX,d.g.mi.com,REJECT-DROP
 DOMAIN-SUFFIX,e.mi.com,REJECT-DROP
+DOMAIN-SUFFIX,h5.tv.mi.com,REJECT-DROP
 DOMAIN-SUFFIX,idm.iot.mi.com,REJECT-DROP
 DOMAIN-SUFFIX,in.tv.global.mi.com,REJECT-DROP
 DOMAIN-SUFFIX,migc.g.mi.com,REJECT-DROP
@@ -3406,6 +3408,7 @@ DOMAIN-SUFFIX,log.m.sm.cn,REJECT-DROP
 DOMAIN-SUFFIX,sugs.m.sm.cn,REJECT-DROP
 DOMAIN-SUFFIX,video-ad.sm.cn,REJECT-DROP
 DOMAIN-SUFFIX,data.aftersales.smart.com,REJECT-DROP
+DOMAIN-SUFFIX,data.ajo-dev.notifications.future.smart.com,REJECT-DROP
 DOMAIN-SUFFIX,data.ajo-dev.srv.smart.com,REJECT-DROP
 DOMAIN-SUFFIX,data.ajo-stage.srv.smart.com,REJECT-DROP
 DOMAIN-SUFFIX,data.dev-notifications.future.smart.com,REJECT-DROP

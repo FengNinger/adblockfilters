@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20251110163519
-# Last modified: 2025/11/10 16:35:19
-# Blocked domains: 4764
+# Version: 20251111003359
+# Last modified: 2025/11/11 00:33:59
+# Blocked domains: 4767
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -49,7 +49,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	appversion.115.com
 0.0.0.0	bj1.118pan.com
 0.0.0.0	bdwmhz.120askimages.com
-0.0.0.0	120jj.cn
 0.0.0.0	js1.122cha.com
 0.0.0.0	ad.12306.cn
 0.0.0.0	123cha.com
@@ -107,7 +106,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	match.p4p.1688.com
 0.0.0.0	17173.com
 0.0.0.0	s.17173cdn.com
-0.0.0.0	st.19mi.net
 0.0.0.0	1buo.icu
 0.0.0.0	1gtp.icu
 0.0.0.0	1jok.icu
@@ -254,7 +252,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	trace.51jingying.com
 0.0.0.0	a1.51shiti.cn
 0.0.0.0	51taifu.com
-0.0.0.0	ad.51wnl-cq.com
 0.0.0.0	ad.51wnl.com
 0.0.0.0	51yes.com
 0.0.0.0	game.51yund.com
@@ -390,6 +387,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	999xx333kk.com
 0.0.0.0	999xx999kk.com
 0.0.0.0	99box.com
+0.0.0.0	collect.9em.cn
 0.0.0.0	9ics.cn
 0.0.0.0	9kh5b.cn
 0.0.0.0	9wee.com
@@ -713,6 +711,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	click.bes.baidu.com
 0.0.0.0	cm.baidu.com
 0.0.0.0	collector.dcdn.baidu.com
+0.0.0.0	console.bce.baidu.com
 0.0.0.0	cpro.baidu.com
 0.0.0.0	cpro.zhidao.baidu.com
 0.0.0.0	cpu.baidu.com
@@ -756,6 +755,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	kstj.baidu.com
 0.0.0.0	libs.baidu.com
 0.0.0.0	log.music.baidu.com
+0.0.0.0	login.bce.baidu.com
 0.0.0.0	luimg.baidu.com
 0.0.0.0	m1.baidu.com
 0.0.0.0	miao.baidu.com
@@ -1361,7 +1361,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ay.eastmoney.com
 0.0.0.0	bdstatic.eastmoney.com
 0.0.0.0	bdwblog.eastmoney.com
-0.0.0.0	cmsjs.eastmoney.com
 0.0.0.0	cp2.eastmoney.com
 0.0.0.0	emdcadvertise.eastmoney.com
 0.0.0.0	huaxiang.eastmoney.com
@@ -1662,6 +1661,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	tianshu.gtimg.cn
 0.0.0.0	ra.gtimg.com
 0.0.0.0	splashqqlive.gtimg.com
+0.0.0.0	tui.gtimg.com
 0.0.0.0	wa.gtimg.com
 0.0.0.0	gtpxvpi.cn
 0.0.0.0	bd1.guancha.cn
@@ -1805,6 +1805,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	logbak.hicloud.com
 0.0.0.0	logservice.hicloud.com
 0.0.0.0	logservice-dra.platform.hicloud.com
+0.0.0.0	logservice-dre.platform.hicloud.com
 0.0.0.0	logservice1.hicloud.com
 0.0.0.0	ads-drcn.platform.hihonorcloud.com
 0.0.0.0	honorsearch-dra.hiboard.hihonorcloud.com
@@ -2042,7 +2043,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	link.infineon.cn
 0.0.0.0	link.infineon.com
 0.0.0.0	reply.infineon.com
-0.0.0.0	ssgtm.infineon.com
 0.0.0.0	track-e.infineon.com
 0.0.0.0	trk.ingersollrandproducts.cn
 0.0.0.0	apidns.kwd.inkuai.com
@@ -2055,7 +2055,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	innity.net
 0.0.0.0	inping.com
 0.0.0.0	oascentral.inq7.net
-0.0.0.0	api-data-collection.insta360.cn
 0.0.0.0	cane.intel.cn
 0.0.0.0	dogo.intel.cn
 0.0.0.0	intely.cn
@@ -2255,6 +2254,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	adl.kkguan.com
 0.0.0.0	houyi.kkmh.com
 0.0.0.0	ipv4.kkmh.com
+0.0.0.0	logsdk.klingai.com
 0.0.0.0	kmgfjc.cn
 0.0.0.0	kmhmyaj.cn
 0.0.0.0	kmihknj.cn
@@ -2424,6 +2424,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	fsr.lenovomm.com
 0.0.0.0	prw.lenovomm.com
 0.0.0.0	pushapi.lenovomm.com
+0.0.0.0	sdac.lenovomm.com
 0.0.0.0	susapi.lenovomm.com
 0.0.0.0	uss-pid.lenovomm.com
 0.0.0.0	lenzmx.com
@@ -2587,6 +2588,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.mi.com
 0.0.0.0	d.g.mi.com
 0.0.0.0	e.mi.com
+0.0.0.0	h5.tv.mi.com
 0.0.0.0	idm.iot.mi.com
 0.0.0.0	in.tv.global.mi.com
 0.0.0.0	migc.g.mi.com
@@ -3420,6 +3422,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sugs.m.sm.cn
 0.0.0.0	video-ad.sm.cn
 0.0.0.0	data.aftersales.smart.com
+0.0.0.0	data.ajo-dev.notifications.future.smart.com
 0.0.0.0	data.ajo-dev.srv.smart.com
 0.0.0.0	data.ajo-stage.srv.smart.com
 0.0.0.0	data.dev-notifications.future.smart.com
