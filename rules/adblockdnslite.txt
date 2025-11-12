@@ -3,8 +3,8 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20251112003245
-! Last modified: 2025/11/12 00:32:45
+! Version: 20251112095742
+! Last modified: 2025/11/12 09:57:42
 ! Blocked domains: 4764
 ! unBlocked domains: 16
 !
@@ -90,7 +90,10 @@
 ||ye.dun.163yun.com^
 ||165tchuang.com^
 ||match.p4p.1688.com^
-||17173.com^
+||cvda.17173.com^
+||log1.17173.com^
+||stat.v.17173.com^
+||vda.17173.com^
 ||s.17173cdn.com^
 ||t.17track.net^
 ||1buo.icu^
@@ -627,7 +630,6 @@
 ||tracking.apptrackerlink.com^
 ||track-ger.aqara.com^
 ||pay.aqiu6.com^
-||mastercard-rhizat.aqssw.cn^
 ||a.armystar.com^
 ||trk.arozone.cn^
 ||arpun.com^
@@ -3320,7 +3322,6 @@
 ||link.shengcekeji.com^
 ||shengminsy.com^
 ||shenlinlive.cn^
-||sg-open-set-api.shenshiads.com^
 ||hm.e.shifen.com^
 ||httpdns.n.shifen.com^
 ||jpaasne.e.shifen.com^
@@ -4747,7 +4748,6 @@
 ||zoosnet.net^
 ||zoossoft.net^
 ||zowralr.cn^
-||zqvhr.cn^
 ||zsjxwj.com^
 ||steam.zssjsq.com^
 ||ztcadx.com^
