@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20251115003256
-! Last modified: 2025/11/15 00:32:56
-! Blocked Filters: 98601
+! Version: 20251115095404
+! Last modified: 2025/11/15 09:54:04
+! Blocked Filters: 98638
 !
 ###AC_ad
 ###AD_160
@@ -25904,6 +25904,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||app.freeinvoicebuilder.com/*/index.php$xmlhttprequest,elemhide,jsinject,extension
 @@||app.hubspot.com/api/ads/$~third-party
 @@||app.humanornot.ai^$stealth=referrer
+@@||app.hype.it/assets/packages/mixpanel_flutter/assets/mixpanel.js$~third-party
 @@||app.impact.com^$jsinject,elemhide,extension
 @@||app.khz.se/api/*&ad_type=preroll-channel$domain=ilikeradio.se
 @@||app.plex.tv^$extension
@@ -37091,6 +37092,7 @@ anon-v.com##div[style="max-width: 640px; text-align: center; margin: 0 auto;"]
 anon-v.com,camwhorescloud.com,dirtyship.com#%#//scriptlet("abort-current-inline-script", "onload", "onclick")
 anon.tools#%#//scriptlet('prevent-setTimeout', 'Ad Blocker Detected')
 anoneko.com,dmhy.org,ye1213.com##div[id$="_ad"] > a:first-child > img
+anonfile.co,arahdrive.com,fastupload.io,video.hizliresim.com##.vr-adv-unit
 anonym.to##a[href^="https://www.spyoff.com"]
 anonymouse.org#%#window.addEventListener('DOMContentLoaded', function() { document.body.innerHTML = document.body.innerHTML.replace(/Adverts/g, ""); })
 anonymousemail.me##.center > a[target="_blank"] > img
@@ -37518,7 +37520,6 @@ arabseed.net##center > a[rel="nofollow"] > img
 arabtimesonline.com,independent.co.ug,udaipurkiran.com##.e3lan
 arageek.com##main div[class^="css-ar-"]:has(> .chakra-aspect-ratio > ins[id*="_"])
 arahcloud.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
-arahdrive.com,fastupload.io,video.hizliresim.com##.vr-adv-unit
 arahtekno.com,gnaija.net#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 arangscans.com##body > div[class="font-sans"]
 aranzulla.it###ad97090
@@ -39115,6 +39116,7 @@ bestbuy.ca#@#.text_ad
 bestbuy.ca#@#.text_ads
 bestbuy.ca,bestbuy.com##[id^="atwb-ninja-carousel"]
 bestbuy.com###sponsored-carousel-na
+bestbuy.com##.atwa-ninja-carousel:has(div[data-testid="sponsored-sbb"])
 bestbuy.com##.atwb-display-ad
 bestbuy.com##.display-ad-wrapper
 bestbuy.com##.generic-morpher:has(.spns-label)
@@ -82706,6 +82708,7 @@ zzzyk.com###Tinfo
 ||adx-*.dbankedge.cn^
 ||adx-*.op.dbankcloud.com.edgekey.net^
 ||adx-t.com^$popup
+||adxprtz.com^$popup
 ||adyen.com/checkoutshopper/images/analytics.png?
 ||adyen.com/checkoutshopper/v2/analytics/log?
 ||adzblockersentinel.net^$popup
@@ -83613,6 +83616,7 @@ zzzyk.com###Tinfo
 ||atool.org/res/ads/
 ||atoplay.com/js/rtads.js
 ||atpanel.com^$image
+||atpansagean.com^$popup
 ||atptour.com^*/sponsors/
 ||att.com/scripts/adobe/prod/marketing.min.js
 ||att.ydss.cn/attachments/portal/
@@ -83623,6 +83627,7 @@ zzzyk.com###Tinfo
 ||atzekromchan.com^$popup
 ||aucdn.net^$media,domain=clgt.one
 ||aucdn.net^$media,domain=vxxx.com
+||aucmoartoas.com^$popup
 ||auction.co.kr/ad/log.js
 ||auction.co.kr/montelena.js
 ||auctionzip.com/eKtvxkQ2/init.js
@@ -84774,6 +84779,7 @@ zzzyk.com###Tinfo
 ||calguns.net/images/ad
 ||caliente.mx/integration-scripts/tracking.min.js
 ||californiatimes.com/privacy/$image
+||call_domainname_here.$all
 ||callisto.fm^$third-party
 ||calltouch.ru^$third-party
 ||calm.com/api/12Xk43jk/init.js
@@ -85653,6 +85659,7 @@ zzzyk.com###Tinfo
 ||connect.facebook.net^*/fbds.js$third-party
 ||connect.facebook.net^*/pcm.js$third-party
 ||connecteam.com/bi/api/ReportHit/
+||connectif.cloud^$third-party
 ||consali.com^$popup
 ||consent.api.osano.com/record
 ||consent.cookiefirst.com^$badfilter
@@ -86684,6 +86691,7 @@ zzzyk.com###Tinfo
 ||easyporn.xxx/tmp/
 ||easysol.net^$third-party
 ||easyview.eu/sw.js
+||eatcells.com/land/$popup
 ||ebay.com/delstats/
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebay.com/scl/js/ScandalLoader.js
@@ -87025,6 +87033,7 @@ zzzyk.com###Tinfo
 ||ezprice.com.tw/ezysm/
 ||ezprice.com.tw/js/*_ysm_
 ||eztv.ag/images/pcprotect/
+||ezyenrwcmo.com^$popup
 ||f*.baidu.com/it/u=*,*&fm=$third-party,domain=~hao123.com|~haokan.com|~yoojia.com
 ||f-log-*.grammarly.io^
 ||f.cdngeek.com^$domain=edugeek.net
@@ -87359,6 +87368,7 @@ zzzyk.com###Tinfo
 ||flowplayer.com/releases/ads/
 ||flurry.agentportal-*.yahoodns.net^
 ||flurry.agentportal.*.yahoodns.net^
+||flushedheartedcollect.com^$popup
 ||flux.com/geo.html?
 ||flv2mp3.by/get-rtb-url
 ||flvto.biz/get-rtb-url
@@ -87408,6 +87418,7 @@ zzzyk.com###Tinfo
 ||for-iwara-tools.tyamahori.com/ninjaFillter/
 ||forabodiesonly.com/mopar/sidebarbanners/
 ||forarchenchan.com^$popup
+||forazelftor.com^$popup
 ||fordforums.com.au/logos/
 ||forebears.io/data/*/dna-h.html?*&ads=
 ||forethought.ai/workflow/tracking-event
@@ -87421,6 +87432,7 @@ zzzyk.com###Tinfo
 ||formstack.com/forms/js/*/analytics_
 ||formula1.com/api/track
 ||formula1.com/etc/designs/fom-website/libs.advertisement.min.js
+||forthdigestive.com^$popup
 ||fortune.com/comscore-json/
 ||fortyphlosiona.com^$popup
 ||forum.ge/trash/Proservice_domain.png
@@ -88002,6 +88014,7 @@ zzzyk.com###Tinfo
 ||go2av.com/js/AM.js
 ||go2cdn.org/brand/$third-party
 ||go2linkfast.com^$popup
+||go2linktrack.com^$popup
 ||go2tutor.com/lifebox.asp
 ||go4kora.tv/assets/js/script_antiAdBlock_*.js
 ||go_service.aieasypic.com^$domain=wuxia.click
@@ -88125,6 +88138,7 @@ zzzyk.com###Tinfo
 ||grabo.bg^$third-party
 ||gradientdescent.de/*/*/components/Adds_*.js
 ||grafana.net/collect/
+||grairdou.com^$popup
 ||grajteraz.pl/bfb/*.php
 ||grammarcheck.me/wp-content/plugins/lasso/
 ||grammarist.com/*/*.jpeg$script
@@ -88136,6 +88150,7 @@ zzzyk.com###Tinfo
 ||graphicex.com/fo/350x250
 ||grapseex.com^$popup
 ||gratisreem.shop^$popup
+||grauglak.com^$popup
 ||gray-wbay-prod.cdn.arcpublishing.com/pf/resources/js/ads/arcads.js
 ||greatandhra.com/images/landing/
 ||greenet.cn^*_popu_$popup
@@ -88150,6 +88165,7 @@ zzzyk.com###Tinfo
 ||groupon.com/analytic/
 ||groupon.com/javascripts/common/affiliate_widget/
 ||groupondata.com/tracky
+||growingtotallycandied.com^$popup
 ||grs.dbankcloud.
 ||grscty.com/images/banner/
 ||grtimed.com/material/*_960x110_
@@ -88989,6 +89005,7 @@ zzzyk.com###Tinfo
 ||id.google.*/verify/
 ||id.verticalhealth.net/script.js?partnerid=
 ||ideng.com^$third-party
+||identifyillustration.com^$popup
 ||idiva.com/analytics_
 ||idlebrain.com/images4/footer-
 ||idlebrain.com/images5/main-
@@ -89851,6 +89868,7 @@ zzzyk.com###Tinfo
 ||jobvite.com/analytics.js
 ||jockey.com/event/
 ||jockey.com/scripts/omt-base.js
+||jocmiglenedsupi.com^$popup
 ||joemonster.org/build/js/prebid_*.js
 ||joggo.run/api/events
 ||johojima.com/wp-content/uploads/*/bn_*.jpg
@@ -89874,6 +89892,7 @@ zzzyk.com###Tinfo
 ||jpg.church/*.php?cat$popup
 ||jpg.church/quicknoisilyheadbites.js
 ||jpysvip.net/ad/
+||jqtree.com^$popup
 ||jrj.com.cn/h5Ad?
 ||jrj.com.cn/s?z=
 ||jrjimg.cn/ad/
@@ -90202,6 +90221,7 @@ zzzyk.com###Tinfo
 ||kostool.cn/screenshot/
 ||kotanopan.com/wp-content/uploads/*/*.js
 ||kour.io/api/track
+||kovla.com/static/js/popunder
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
 ||koyso.com/aclib.js
 ||koyso.com/static/js/abcd.
@@ -91666,6 +91686,7 @@ zzzyk.com###Tinfo
 ||mxtoolbox.com/Public/Lookup.aspx/GetNextInlineAd
 ||mxzmz.com/js/
 ||my-dirty-hobby.com/?sub=$third-party
+||my-redirect-bucket-unique-*.s3.ap-northeast-1.amazonaws.com^$all
 ||my0511.com/*/ad_
 ||my0538.com^*/thumb_1000_70_
 ||my18pussy.com/ab/
@@ -92091,6 +92112,7 @@ zzzyk.com###Tinfo
 ||notifadz.com^$third-party
 ||notifpushnext.net^$popup
 ||notify.solutions^$third-party
+||notiksio.com^$third-party
 ||notion.so/api/v*/teV1
 ||notube.*/p/$popup
 ||notyf.com/pixel/
@@ -92254,6 +92276,7 @@ zzzyk.com###Tinfo
 ||oilofasia.com/images/banners/
 ||oita-press.co.jp/js2020/analytics.js
 ||ok.ru/dk?cmd=videoStatNew
+||okaidsotsah.com^$popup
 ||okbmf.com/imgad/
 ||okbmf.com^*950_120
 ||oklink.com/api/explorer/v2/index/text-advertisement?
@@ -92317,6 +92340,7 @@ zzzyk.com###Tinfo
 ||onet.pl/eclk/
 ||onet.pl^*/tags?
 ||onetech.pl/wp-content/uploads/*/*/banner1-1.jpg
+||onetouch19.com^$popup
 ||onetrust.
 ||onetrust.com^$ping
 ||onhockey.tv/mayki*.gif
@@ -92456,6 +92480,7 @@ zzzyk.com###Tinfo
 ||outbound.io/v2/track
 ||outlook.live.com/ows/*/OutlookOptions/AdsAggregate
 ||outputter.io/uploads/$subdocument
+||ouzalruksengung.com^$popup
 ||oval.id/tracker/
 ||overclockers.co.uk/KitGuru/similarArticle?sku=$domain=kitguru.net
 ||overstock.com/analytics/
@@ -93225,6 +93250,7 @@ zzzyk.com###Tinfo
 ||prebid-cache*.ifunny.co^
 ||pregchan.com/.static/pages/dlsite.html
 ||premium-members.com^$popup
+||premium4kflix.top^$popup
 ||premiumaffi.com^$popup
 ||premiumimpression.com^$third-party
 ||premonitioninventdisagree.com^$popup
@@ -93964,6 +93990,7 @@ zzzyk.com###Tinfo
 ||riju.com/pr/$domain=jpfans.com|jpseek.com
 ||rimworldbase.com/wp-content/plugins/mireia-tools/assets/js/anti-adblock.js
 ||rintor.space/t2632cd43215.js
+||riscati.com^$popup
 ||risextube.com/t/
 ||rising.cn/js/haoAdData.js
 ||rising.cn/rxbox/
@@ -94766,6 +94793,7 @@ zzzyk.com###Tinfo
 ||sinajs.cn/t6/home/js/pl/guide/adforfqy/
 ||sinajs.cn/t6/home/js/pl/guide/bigday/
 ||singaporemotherhood.com/redirad/script.js
+||singaporetradingchallengetracker1.com^$popup
 ||singlesexdates.com^$popup
 ||singlewomenmeet.com^$popup
 ||singtao.ca/editions/affiliate_
@@ -95205,6 +95233,7 @@ zzzyk.com###Tinfo
 ||stake.com/*&clickId=$popup
 ||stake.mba/?c=$document
 ||stamfordadvocate.com/413gkwMT/init.js
+||stammerail.com^$popup
 ||standvirtual.com^$ping
 ||stapadblockuser.art/stat/
 ||stapadblockuser.click/stat/
@@ -95616,6 +95645,7 @@ zzzyk.com###Tinfo
 ||svonm.com/www.katsomo.fi/config.json$replace=/"enabled": true\,/"enabled": false\,/i,domain=mtv.fi,important
 ||svr.lnk.news/click.php$popup
 ||sw76r85eda3k.com/need/h5.
+||swagtraffcom.com^$popup
 ||swarm.video/j79z9kzty.js
 ||swarm.video/nsns.js
 ||swarm.video/stats/
@@ -95819,6 +95849,7 @@ zzzyk.com###Tinfo
 ||techtarget.com^*/GetCookiesWithCallback?
 ||techug.com/aatb/
 ||techweb.com/beacon/
+||tecmugheksoa.com^$popup
 ||tecnoandroid.it/wp-content/uploads/*/vivo
 ||teenfinder.com/landing/$popup,third-party
 ||teenporn.ws/a_nevbl^
@@ -96027,6 +96058,7 @@ zzzyk.com###Tinfo
 ||thisvid.com/enblk/
 ||thisvid.com/js/exblk/
 ||thizissam.in/beardeddragon/iguana.js
+||thnqemehtyfe.com^$popup
 ||thothd.*^$replace=/(protect_block:[\s\S]*?')[\s\S]*?'/\$1'/,document
 ||thothd.com/player/player_ads.html?advertising_id=$subdocument,redirect=noopframe,domain=thothd.com|thothd.to
 ||thothd.com/player/stats.php?event=Init$image,redirect=1x1-transparent.gif,domain=thothd.com|thothd.to
@@ -96198,6 +96230,8 @@ zzzyk.com###Tinfo
 ||toolslib.net/assets/custom/img/4d5/mb_square_buy.jpg
 ||toolslib.net/assets/custom/img/4d5/u2s_leaderboard_en.png
 ||toolslib.net/assets/custom/img/placeholders/placeholder_$image
+||top-performance.club^$popup
+||top-performance.top^$popup
 ||top.baidu.com/js/nsclick.js
 ||top.gg/api/auctions/i
 ||top.l2jbrasil.com/banner/
@@ -96721,6 +96755,7 @@ zzzyk.com###Tinfo
 ||underwriting.allclassical.org/player-banners/
 ||undress.app/ad_banners/
 ||unecne.com/wp-content/uploads/*ad-
+||ungiblechan.com^$popup
 ||uni-duesseldorf.de/cgi-bin/nph-count?
 ||unibet.co.uk/*affiliate$popup
 ||unibet.de/stan/campaign.do?*&affiliateId=$subdocument,third-party
@@ -96856,6 +96891,7 @@ zzzyk.com###Tinfo
 ||uuu9.tieba.com^$subdocument
 ||uviu.com/_xd/
 ||uviu.com/activity/
+||uvoonaix.top^$popup
 ||uwants.com/dfp_forum.php?au=Uwants_Web_
 ||uwants.com^*_prod.html
 ||uxmatters.com/images/sponsors/
@@ -97456,6 +97492,7 @@ zzzyk.com###Tinfo
 ||wholevideos.com/js/vast-im.js
 ||wholewowblog.com^$popup
 ||whomyip.com^$third-party
+||whookroo.com^$popup
 ||whooshkaa.com/identify
 ||whooshkaa.com/listen/track
 ||whosread.com/counter/
