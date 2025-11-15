@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20251115162947
-! Last modified: 2025/11/15 16:29:47
-! Blocked Filters: 98648
+! Version: 20251116002811
+! Last modified: 2025/11/16 00:28:11
+! Blocked Filters: 98649
 !
 ###AC_ad
 ###AD_160
@@ -6545,6 +6545,7 @@
 ##.adLargeRec
 ##.adLargeRect
 ##.adLat
+##.adLayer
 ##.adLeader
 ##.adLeaderBoard_container
 ##.adLeaderForum
@@ -57917,7 +57918,6 @@ linkedin.com##.go-premium
 linkedin.com##.jserp-ad-container
 linkedin.com##.premium-search-upsell
 linkedin.com##.scaffold-finite-scroll__content > div > div[data-id^="urn:li:activity:"]:has(.update-components-text-view > span[aria-hidden="true"]):not(:has(li-icon > svg))
-linkedin.com##[componentkey*="_expandedurn:li:sponsoredContentV2"]
 linkedin.com##[componentkey*="urn:li:sponsoredContentV2"]
 linkedin.com##article[data-is-sponsored]
 linkedin.com##iframe[componentkey$="_ad"]
@@ -65219,6 +65219,7 @@ ping-test.net##.rek970x90
 ping-test.net##div[style^="width: 336px; height: 280px;"]
 ping.chinaz.com##.sth > .col-red
 ping.eu##td > center[style="margin-bottom: 2px;"]
+ping0.cc###websites-wrap:has([rel$="sponsored"])
 ping0.cc##.aditems
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
@@ -82653,6 +82654,7 @@ zzzyk.com###Tinfo
 ||ads-dmp-collect.*.karrotmarket.com^
 ||ads.*.kugou.com^
 ||ads.*.yahoo.com^
+||ads.comperia.pl/www/delivery/afr.php$important
 ||ads.livetv*.me^
 ||ads.planetwin365affiliate.com^$popup,third-party
 ||ads.talk.tv/ads.talktv.min.js
@@ -86170,6 +86172,7 @@ zzzyk.com###Tinfo
 ||desperateseller.co.uk/affiliates/
 ||detectiveconanworld.com/images/support-us-brave.png
 ||detentionquasipairs.com^$popup
+||dethijohoagra.com^$popup
 ||dev.to/bb/sidebar_left^
 ||dev.to/billboards/sidebar_left^
 ||dev.to/fallback_activity_recorder
@@ -86700,7 +86703,6 @@ zzzyk.com###Tinfo
 ||easyporn.xxx/tmp/
 ||easysol.net^$third-party
 ||easyview.eu/sw.js
-||eatcells.com/land/$popup
 ||ebay.com/delstats/
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebay.com/scl/js/ScandalLoader.js
@@ -92952,7 +92954,6 @@ zzzyk.com###Tinfo
 ||player.octivid.com/*/video?*&custom_ads=$removeparam=custom_ads,domain=kooora.com
 ||player.ooyala.com/errors/report?
 ||player.performgroup.com/eplayer.js$domain=fcinternews.it
-||player.sendtonews.com^$third-party
 ||player.serverbk.com/bkcdn*.xml
 ||player.twitch.tv/js/embed/$domain=wiki.fextralife.com
 ||player.twitch.tv/js/embed/v1.js$domain=wago.io|uesp.net

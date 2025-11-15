@@ -3,8 +3,8 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20251115162947
-# Last modified: 2025/11/15 16:29:47
+# Version: 20251116002811
+# Last modified: 2025/11/16 00:28:11
 # Blocked domains: 4745
 #
 127.0.0.1	localhost
@@ -554,7 +554,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	alipaylog.com
 0.0.0.0	namcah.alipearlhair.com
 0.0.0.0	acjs.aliyun.com
-0.0.0.0	update.aegis.aliyun.com
 0.0.0.0	ad-host-backup-america.oss-us-west-1.aliyuncs.com
 0.0.0.0	ad-host-backup-asia.oss-ap-southeast-1.aliyuncs.com
 0.0.0.0	ad-host-backup-europe.oss-eu-central-1.aliyuncs.com
@@ -714,6 +713,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	click.bes.baidu.com
 0.0.0.0	cm.baidu.com
 0.0.0.0	collector.dcdn.baidu.com
+0.0.0.0	console.bce.baidu.com
 0.0.0.0	cpro.baidu.com
 0.0.0.0	cpro.zhidao.baidu.com
 0.0.0.0	cpu.baidu.com
@@ -757,6 +757,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	kstj.baidu.com
 0.0.0.0	libs.baidu.com
 0.0.0.0	log.music.baidu.com
+0.0.0.0	login.bce.baidu.com
 0.0.0.0	luimg.baidu.com
 0.0.0.0	m1.baidu.com
 0.0.0.0	miao.baidu.com
@@ -1176,7 +1177,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	net.daraz.lk
 0.0.0.0	net.daraz.pk
 0.0.0.0	sgtm.darryring.com
-0.0.0.0	clickserve.dartsearch.net
 0.0.0.0	dashet.com
 0.0.0.0	gate.datacaciques.com
 0.0.0.0	pv.datacaciques.com
@@ -1309,6 +1309,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	dotcounter.douyutv.com
 0.0.0.0	dpjzzgw.cn
 0.0.0.0	drdwy.com
+0.0.0.0	drivethelife.com
 0.0.0.0	dspunion.com
 0.0.0.0	parcel-locker.dsyl8.com
 0.0.0.0	analytics.dsyqt.com
@@ -1575,6 +1576,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sdk-cache.video.ptqy.gitv.tv
 0.0.0.0	sdk.ptqy.gitv.tv
 0.0.0.0	static.ptqy.gitv.tv
+0.0.0.0	t7z.cupid.ptqy.gitv.tv
 0.0.0.0	time.video.ptqy.gitv.tv
 0.0.0.0	50m.gkcyc.com
 0.0.0.0	gknybkl.cn
@@ -1766,7 +1768,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	obus-cn.dc.heytapmobi.com
 0.0.0.0	obus-config-cn.heytapmobi.com
 0.0.0.0	obus-dc10-cn.heytapmobi.com
-0.0.0.0	obus-dc2-cn.heytapmobi.com
 0.0.0.0	obus-dc20058-cn.heytapmobi.com
 0.0.0.0	obus-dc2007-cn.heytapmobi.com
 0.0.0.0	obus-dc20123-cn.heytapmobi.com
@@ -1793,6 +1794,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	hgpbhuj.cn
 0.0.0.0	hhttm.top
 0.0.0.0	sdd.hi1718.com
+0.0.0.0	adx-dra.op.hicloud.com
 0.0.0.0	adx-dre.op.hicloud.com
 0.0.0.0	connect-dre.hispace.hicloud.com
 0.0.0.0	data.hicloud.com
@@ -1814,7 +1816,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	log-drru.platform.hihonorcloud.com
 0.0.0.0	hiido.com
 0.0.0.0	analytics.shop.hisense.com
-0.0.0.0	api-4know-em.hismarttv.com
 0.0.0.0	api-4know-eu.hismarttv.com
 0.0.0.0	api-gps.hismarttv.com
 0.0.0.0	api-gps-eu.hismarttv.com
@@ -2005,7 +2006,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ihclam.cn
 0.0.0.0	fpbone.ihowguide.com
 0.0.0.0	ihtqqws.cn
-0.0.0.0	appadapi.ihuman.com
 0.0.0.0	iimedia.cn
 0.0.0.0	www.iiyout.cn
 0.0.0.0	ijinshan.com
@@ -2251,7 +2251,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	adl.kkguan.com
 0.0.0.0	houyi.kkmh.com
 0.0.0.0	ipv4.kkmh.com
-0.0.0.0	logsdk.klingai.com
 0.0.0.0	kmgfjc.cn
 0.0.0.0	kmhmyaj.cn
 0.0.0.0	kmihknj.cn
@@ -3090,6 +3089,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	oimsgad.qq.com
 0.0.0.0	omgid.qq.com
 0.0.0.0	omgmta1.qq.com
+0.0.0.0	oth.eve.mdt.qq.com
+0.0.0.0	oth.str.mdt.qq.com
 0.0.0.0	p2p.qq.com
 0.0.0.0	p2pupdate.gamedl.qq.com
 0.0.0.0	p2pupgrade.gamedl.qq.com
@@ -3656,7 +3657,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	site.tdk.cn
 0.0.0.0	tracking.tdk.cn
 0.0.0.0	metrics.teamviewer.cn
-0.0.0.0	log.tec73.com
 0.0.0.0	1.tecbbs.com
 0.0.0.0	tongji.techweb.com.cn
 0.0.0.0	tecunonline.com
@@ -3984,6 +3984,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	cname-de-stsdk.vivoglobal.com
 0.0.0.0	cname-in-apport-stsdk.vivoglobal.com
 0.0.0.0	cname-in-bom01-nginxpool03.vivoglobal.com
+0.0.0.0	cname-in-ctdbonrt-stsdk.vivoglobal.com
 0.0.0.0	cname-sin01-stsdk09.vivoglobal.com
 0.0.0.0	co-domaincfg.vivoglobal.com
 0.0.0.0	co-onrt-stsdk.vivoglobal.com
@@ -4300,7 +4301,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	api.miui.security.xiaomi.com
 0.0.0.0	api.xmpush.global.xiaomi.com
 0.0.0.0	appstore.cdn.pandora.xiaomi.com
-0.0.0.0	appstore.pandora.xiaomi.com
 0.0.0.0	awssgp0-files.fds.api.xiaomi.com
 0.0.0.0	bigdata-lbs-pri-c3.alb.xiaomi.com
 0.0.0.0	bss.pandora.xiaomi.com
