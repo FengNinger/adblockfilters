@@ -4,9 +4,9 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20251117163633
-  # Last modified: 2025/11/17 16:36:33
-  # Blocked domains: 4753
+  # Version: 20251118003513
+  # Last modified: 2025/11/18 00:35:13
+  # Blocked domains: 4761
   #
   - '+.00xvppy.cn'
   - '+.img.0279.net'
@@ -378,6 +378,7 @@ payload:
   - '+.999xx333kk.com'
   - '+.999xx999kk.com'
   - '+.99box.com'
+  - '+.collect.9em.cn'
   - '+.9ics.cn'
   - '+.9kh5b.cn'
   - '+.9wee.com'
@@ -456,6 +457,7 @@ payload:
   - '+.report-europe.agora.io'
   - '+.report-north-america.agora.io'
   - '+.statscollector-1.agora.io'
+  - '+.statscollector-1-asia.agora.io'
   - '+.statscollector-1-north-america.agora.io'
   - '+.tracking.agora.io'
   - '+.webcollector-rtm.agora.io'
@@ -1347,7 +1349,6 @@ payload:
   - '+.ay.eastmoney.com'
   - '+.bdstatic.eastmoney.com'
   - '+.bdwblog.eastmoney.com'
-  - '+.cmsjs.eastmoney.com'
   - '+.cp2.eastmoney.com'
   - '+.emdcadvertise.eastmoney.com'
   - '+.huaxiang.eastmoney.com'
@@ -1647,6 +1648,7 @@ payload:
   - '+.tianshu.gtimg.cn'
   - '+.ra.gtimg.com'
   - '+.splashqqlive.gtimg.com'
+  - '+.tui.gtimg.com'
   - '+.wa.gtimg.com'
   - '+.gtpxvpi.cn'
   - '+.bd1.guancha.cn'
@@ -1790,6 +1792,7 @@ payload:
   - '+.logbak.hicloud.com'
   - '+.logservice.hicloud.com'
   - '+.logservice-dra.platform.hicloud.com'
+  - '+.logservice-dre.platform.hicloud.com'
   - '+.logservice1.hicloud.com'
   - '+.ads-drcn.platform.hihonorcloud.com'
   - '+.honorsearch-dra.hiboard.hihonorcloud.com'
@@ -1810,6 +1813,7 @@ payload:
   - '+.api-launcher-eu.hismarttv.com'
   - '+.api-launcher-na.hismarttv.com'
   - '+.api-launcher-sa.hismarttv.com'
+  - '+.api.eu.hismarttv.com'
   - '+.auth-em.hismarttv.com'
   - '+.auth-eu.hismarttv.com'
   - '+.auth-launcher-eu.hismarttv.com'
@@ -2239,6 +2243,7 @@ payload:
   - '+.adl.kkguan.com'
   - '+.houyi.kkmh.com'
   - '+.ipv4.kkmh.com'
+  - '+.logsdk.klingai.com'
   - '+.kmgfjc.cn'
   - '+.kmhmyaj.cn'
   - '+.kmihknj.cn'
@@ -2406,6 +2411,7 @@ payload:
   - '+.fsr.lenovomm.com'
   - '+.prw.lenovomm.com'
   - '+.pushapi.lenovomm.com'
+  - '+.sdac.lenovomm.com'
   - '+.susapi.lenovomm.com'
   - '+.uss-pid.lenovomm.com'
   - '+.lenzmx.com'
@@ -2570,6 +2576,7 @@ payload:
   - '+.ad.mi.com'
   - '+.d.g.mi.com'
   - '+.e.mi.com'
+  - '+.h5.tv.mi.com'
   - '+.idm.iot.mi.com'
   - '+.in.tv.global.mi.com'
   - '+.migc.g.mi.com'
@@ -3235,6 +3242,7 @@ payload:
   - '+.rhinogo.cn'
   - '+.richh.cn'
   - '+.ad.richmob.cn'
+  - '+.bi-tracker-cn.rivergame.net'
   - '+.bi-tracker-global.rivergame.net'
   - '+.tatracker-us.rivergame.net'
   - '+.rmzbfum.cn'
@@ -3987,6 +3995,7 @@ payload:
   - '+.co-vcode-api.vivoglobal.com'
   - '+.co-vcode-od.vivoglobal.com'
   - '+.co-vcode-or.vivoglobal.com'
+  - '+.de-gdpr-err-up.vivoglobal.com'
   - '+.err.up.vivoglobal.com'
   - '+.eu-cota.vivoglobal.com'
   - '+.eu-domaincfg.vivoglobal.com'
@@ -4164,7 +4173,6 @@ payload:
   - '+.ad.weibo.com'
   - '+.alitui.weibo.com'
   - '+.tui.weibo.com'
-  - '+.widget.weibo.com'
   - '+.api-z.weidian.com'
   - '+.logtake.weidian.com'
   - '+.weidianyuedu.com'

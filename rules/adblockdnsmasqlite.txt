@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20251117163633
-# Last modified: 2025/11/17 16:36:33
-# Blocked domains: 4753
+# Version: 20251118003513
+# Last modified: 2025/11/18 00:35:13
+# Blocked domains: 4761
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -377,6 +377,7 @@ local=/999bb222ww.com/
 local=/999xx333kk.com/
 local=/999xx999kk.com/
 local=/99box.com/
+local=/collect.9em.cn/
 local=/9ics.cn/
 local=/9kh5b.cn/
 local=/9wee.com/
@@ -455,6 +456,7 @@ local=/report-edge.agora.io/
 local=/report-europe.agora.io/
 local=/report-north-america.agora.io/
 local=/statscollector-1.agora.io/
+local=/statscollector-1-asia.agora.io/
 local=/statscollector-1-north-america.agora.io/
 local=/tracking.agora.io/
 local=/webcollector-rtm.agora.io/
@@ -1346,7 +1348,6 @@ local=/easou.com/
 local=/ay.eastmoney.com/
 local=/bdstatic.eastmoney.com/
 local=/bdwblog.eastmoney.com/
-local=/cmsjs.eastmoney.com/
 local=/cp2.eastmoney.com/
 local=/emdcadvertise.eastmoney.com/
 local=/huaxiang.eastmoney.com/
@@ -1646,6 +1647,7 @@ local=/pgdt.gtimg.cn/
 local=/tianshu.gtimg.cn/
 local=/ra.gtimg.com/
 local=/splashqqlive.gtimg.com/
+local=/tui.gtimg.com/
 local=/wa.gtimg.com/
 local=/gtpxvpi.cn/
 local=/bd1.guancha.cn/
@@ -1789,6 +1791,7 @@ local=/grs.hicloud.com/
 local=/logbak.hicloud.com/
 local=/logservice.hicloud.com/
 local=/logservice-dra.platform.hicloud.com/
+local=/logservice-dre.platform.hicloud.com/
 local=/logservice1.hicloud.com/
 local=/ads-drcn.platform.hihonorcloud.com/
 local=/honorsearch-dra.hiboard.hihonorcloud.com/
@@ -1809,6 +1812,7 @@ local=/api-gps-sa.hismarttv.com/
 local=/api-launcher-eu.hismarttv.com/
 local=/api-launcher-na.hismarttv.com/
 local=/api-launcher-sa.hismarttv.com/
+local=/api.eu.hismarttv.com/
 local=/auth-em.hismarttv.com/
 local=/auth-eu.hismarttv.com/
 local=/auth-launcher-eu.hismarttv.com/
@@ -2238,6 +2242,7 @@ local=/kivo.fun/
 local=/adl.kkguan.com/
 local=/houyi.kkmh.com/
 local=/ipv4.kkmh.com/
+local=/logsdk.klingai.com/
 local=/kmgfjc.cn/
 local=/kmhmyaj.cn/
 local=/kmihknj.cn/
@@ -2405,6 +2410,7 @@ local=/s.lenovo.com/
 local=/fsr.lenovomm.com/
 local=/prw.lenovomm.com/
 local=/pushapi.lenovomm.com/
+local=/sdac.lenovomm.com/
 local=/susapi.lenovomm.com/
 local=/uss-pid.lenovomm.com/
 local=/lenzmx.com/
@@ -2569,6 +2575,7 @@ local=/resolver.gslb.mi-idc.com/
 local=/ad.mi.com/
 local=/d.g.mi.com/
 local=/e.mi.com/
+local=/h5.tv.mi.com/
 local=/idm.iot.mi.com/
 local=/in.tv.global.mi.com/
 local=/migc.g.mi.com/
@@ -3234,6 +3241,7 @@ local=/track.msadcenter.rfjq.com/
 local=/rhinogo.cn/
 local=/richh.cn/
 local=/ad.richmob.cn/
+local=/bi-tracker-cn.rivergame.net/
 local=/bi-tracker-global.rivergame.net/
 local=/tatracker-us.rivergame.net/
 local=/rmzbfum.cn/
@@ -3986,6 +3994,7 @@ local=/co-timesync.vivoglobal.com/
 local=/co-vcode-api.vivoglobal.com/
 local=/co-vcode-od.vivoglobal.com/
 local=/co-vcode-or.vivoglobal.com/
+local=/de-gdpr-err-up.vivoglobal.com/
 local=/err.up.vivoglobal.com/
 local=/eu-cota.vivoglobal.com/
 local=/eu-domaincfg.vivoglobal.com/
@@ -4163,7 +4172,6 @@ local=/gw5.push.mcp.weibo.cn/
 local=/ad.weibo.com/
 local=/alitui.weibo.com/
 local=/tui.weibo.com/
-local=/widget.weibo.com/
 local=/api-z.weidian.com/
 local=/logtake.weidian.com/
 local=/weidianyuedu.com/
