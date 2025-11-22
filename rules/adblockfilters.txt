@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20251122095234
-! Last modified: 2025/11/22 09:52:34
-! Blocked Filters: 98752
+! Version: 20251122163052
+! Last modified: 2025/11/22 16:30:52
+! Blocked Filters: 98760
 !
 ###AC_ad
 ###AD_160
@@ -24031,8 +24031,8 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 ://ad1.
 ://adn.*/zone/$popup
 ://adn.*/zone/$subdocument
-://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
-://ads.$~image,~xmlhttprequest,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.axon.ai|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.business.bell.ca|~ads.cafebazaar.ir|~ads.chewy.com|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.ferrarichat.com|~ads.finance|~ads.flytant.com|~ads.fund|~ads.google.cn|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.luarmor.net|~ads.magalu.com|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.misskey.io|~ads.mobilebet.com|~ads.mojagazetka.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.palmettostatearmory.com|~ads.pinterest.com|~ads.realizeperformance.com|~ads.remix.es|~ads.rohlik.cz|~ads.rohlik.group|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.siriusxmmedia.com|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.sociogram.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.tuver.ru|~ads.twitter.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.vk.ru|~ads.watson.ch|~ads.wildberries.ru|~ads.x.com|~ads.yandex|~reempresa.org
+://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.umd.edu|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
+://ads.$~image,~xmlhttprequest,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.axon.ai|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.business.bell.ca|~ads.cafebazaar.ir|~ads.chewy.com|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.ferrarichat.com|~ads.finance|~ads.flytant.com|~ads.fund|~ads.google.cn|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.luarmor.net|~ads.magalu.com|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.misskey.io|~ads.mobilebet.com|~ads.mojagazetka.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.palmettostatearmory.com|~ads.pinterest.com|~ads.realizeperformance.com|~ads.remix.es|~ads.rohlik.cz|~ads.rohlik.group|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.siriusxmmedia.com|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.sociogram.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.tuver.ru|~ads.twitter.com|~ads.typepad.jp|~ads.umd.edu|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.vk.ru|~ads.watson.ch|~ads.wildberries.ru|~ads.x.com|~ads.yandex|~reempresa.org
 ://ads2.
 ://adsbb.
 ://adserving.
@@ -38005,7 +38005,7 @@ aura.ge##a[href="https://talizi.ge/ka/"]
 aura.ge##a[href="https://trinx.ge/"]
 ausdroid.net#$#body.td-background-link { cursor: auto !important; }
 ausdroid.net#%#//scriptlet('set-constant', 'td_ad_background_click_link', 'undefined')
-austinchronicle.com,carmag.co.za,shawlocal.com,thegazette.com,vodacomsoccer.com###top-leaderboard
+austinchronicle.com,carmag.co.za,fleetnews.co.uk,shawlocal.com,thegazette.com,vodacomsoccer.com###top-leaderboard
 australianaviation.com.au#?##main_sidebar > div.widget_text:has(> div.textwidget  > div[id^="mm-az"])
 australianaviation.com.au#?#.top-footer > div.widget_text:has(> div.textwidget > div[id$="-ad"])
 australianfrequentflyer.com.au##.messageList > li[id^="post-"] + .funzone
@@ -41809,6 +41809,7 @@ chromeactions.com#$#body > div { margin-top: 0px !important; }
 chromeactions.com#$#body { margin-top: 0px !important; }
 chromeactions.com#%#(()=>{const e={apply:(e,n,t)=>{const i=t[1];return i&&"addEventListener"===i&&t[2]&&"function"==typeof t[2].value&&t[2].value.toString().includes("string_indexOf")&&(t[2].value=()=>{}),Reflect.apply(e,n,t)}};window.Object.defineProperty=new Proxy(window.Object.defineProperty,e)})();
 chromecj.com##.topblock
+chromeunboxed.com##.BuyButton
 chromeunboxed.com##.topSpace
 chron.com,seattlepi.com,sfchronicle.com,timesunion.com##[data-block-type="ad"]
 chronicle.com##.GoogleDfpAd-container
@@ -70663,7 +70664,6 @@ slant.co##.SummaryPage-LustreEmbed
 slant.co##._SummaryPageSponsoredOptionView
 slashdot.org###announcement
 slashdot.org###cloud
-slashdot.org###floating-content
 slashdot.org###main-nav-badge-link
 slashdot.org###slashdot_deals
 slashdot.org##.ad-blocked-newsletter
@@ -70673,6 +70673,7 @@ slashdot.org##.deals-wrapper
 slashdot.org#$##main-nav-button { visibility: hidden !important; }
 slashdot.org#?#.fhitem-story.fhitem:has-text(Sponsored Content)
 slashdot.org#?#.fhitem:has(> header > div.ntv-sponsored-disclaimer)
+slashdot.org,sourceforge.net###floating-content
 slashfilm.com###primis-container
 slashfilm.com##.under-art
 slashfilm.com,healthdigest.com###primis-container
@@ -72131,6 +72132,7 @@ startribune.com##div[data-testid="sponsored-list-ad"]
 startup.ch##.smallbanner
 startupcafe.ro###block-views-block-events-block-2
 startupcafe.ro##.main-partners
+startuphub.ai##.newsletter-ad-container
 startups.co.uk##.headline-sponsor
 starwank.com##.content > .top > center
 starwank.com,faptor.com##.zpot-horizontal-img
@@ -76710,6 +76712,7 @@ uhdpaper.com##.ad_bars
 uhuseries.com##a[target="_blank"][rel*="sponsored"]:not([href^="https://nav.cx/"]) > img
 uiadmin.net##.jump-linker
 uii.io,short.pe,clik.pw##div[style="z-index:99999;position:fixed;bottom:10px;left:50%;transform: translateX(-50%)"]
+uindex.org##[style*="border: 2px solid #ff4081; background: #fff0f6; padding: 14px;"]
 uindex.org##body > div[style^="text-align"]:has(> div > a[href="https://mybunny.tv"])
 uindex.org#%#//scriptlet('prevent-setTimeout', 'window.open(url,')
 uinterview.com###above-content
@@ -81015,6 +81018,10 @@ yts-official.com#%#//scriptlet('set-constant', 'AB_Detector', 'noopFunc')
 yts-official.org##.container > a[rel="nofollow"] > img[style]
 yts-official.org#%#//scriptlet('set-constant', 'AB_Detector', 'noopFunc')
 yts-subs.com##a[href^="https://amzn.to/"] > img
+yts.*###dontfoid
+yts.*##.bbj:has-text(Warning)
+yts.*##.col-lg-12:has-text(Please enable)
+yts.*##.home-content > div:has(.blue ~ a img[src*="/images/download"])
 yts.do###movie-poster > a[target="_blank"]
 yts.lt,yts.*##.container div[class]:not([id]) > div[class]:not([id]):has(> div.title ~ p.blue ~ a[href][rel="noindex, nofollow"])
 yts.lt,yts.*,seir-sanduk.com,daddylive3.com,sterham.net,buffsports.io,soccerstreams7.com,loadvid.com,telewizjada.top,tv247us.live,kaa.to,strumyk.net,ogladaj.in,istreameast.app,streamingnow.mov,watchug.to,primewire.tf,worldsports.st,filecrypt.cc,veplay.top,colegialasdeverdad.*,crackstreams.cx,flixrave.me,anime4i.com,cuttyy.com,daddylive.*,zavalise.com,wooflix.tv,yassflix.net,swipebreed.net,eurekaddl.lat,pawastreams.pro,en.tgo-tv.xyz,miztv.shop,vidlink.pro,knaben.xyz,powstream.*,rojadirectaenvivo.pl,ext.to,nepu.to,capo4play.com,wawacity.cfd,1337x.to,zone-telechargement.*,kickassanime.mx,redecanais.in,streameast.*,thestreameast.*,anroll.net,anarchy-stream.com,freckledine.net,buffstreams.app,sanet.lc,1stream.eu,sportsonline.*,dl-protect.link,cricstreams.re,extreme-down.*,eztvx.to,skidrowreloaded.com,olympicstreams.*,streambucket.net,modsfire.com,official.nbabite.com,sportsonline.*#%#//scriptlet('abort-on-property-read', 'Adcash')
@@ -86932,6 +86939,7 @@ zzzyk.com###Tinfo
 ||eng24.com/js_new/copyright_float.
 ||engage.ajc.com/prod/ajc/loader.min.js
 ||engagemaster.com^$third-party
+||engageplatform.com/api/trace/d/record?
 ||engerio.sk/api/v1/listener/
 ||engineering.com/scripts/$script,domain=eng-tips.com
 ||englishlightnovels.files.wordpress.com/*/amazonprime-banner.jpg$domain=englishlightnovels.com
