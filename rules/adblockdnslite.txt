@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20251122163052
-! Last modified: 2025/11/22 16:30:52
-! Blocked domains: 4725
+! Version: 20251123002921
+! Last modified: 2025/11/23 00:29:21
+! Blocked domains: 4731
 ! unBlocked domains: 16
 !
 ||00xvppy.cn^
@@ -245,6 +245,7 @@
 ||ad.51wnl.com^
 ||51yes.com^
 ||game.51yund.com^
+||go.5211game.com^
 ||52aoteman.com^
 ||52kuwang.cn^
 ||5y9nfpes.52pk.com^
@@ -624,6 +625,7 @@
 ||iadsdk.apple.com^
 ||securemetrics.apple.com.cn^
 ||fpb1.apple886.com^
+||st.appsad.cn^
 ||adx.appsdk.com.cn^
 ||appsdt.com^
 ||tracking.apptrackerlink.com^
@@ -1556,7 +1558,6 @@
 ||sdk-cache.video.ptqy.gitv.tv^
 ||sdk.ptqy.gitv.tv^
 ||static.ptqy.gitv.tv^
-||t7z.cupid.ptqy.gitv.tv^
 ||time.video.ptqy.gitv.tv^
 ||50m.gkcyc.com^
 ||gknybkl.cn^
@@ -1802,6 +1803,7 @@
 ||api-launcher-eu.hismarttv.com^
 ||api-launcher-na.hismarttv.com^
 ||api-launcher-sa.hismarttv.com^
+||api.eu.hismarttv.com^
 ||auth-em.hismarttv.com^
 ||auth-eu.hismarttv.com^
 ||auth-launcher-eu.hismarttv.com^
@@ -1809,6 +1811,7 @@
 ||auth-launcher-sa.hismarttv.com^
 ||auth-na.hismarttv.com^
 ||auth-phone-ap.hismarttv.com^
+||auth-phone-na.hismarttv.com^
 ||auth-sa.hismarttv.com^
 ||cdn-plugin-sync-upgrade-juui.hismarttv.com^
 ||msg-na.hismarttv.com^
@@ -2050,6 +2053,7 @@
 ||c.uaa.iqiyi.com^
 ||cards-css.iqiyi.com^
 ||cm.passport.iqiyi.com^
+||cs-feige.iqiyi.com^
 ||doh.iqiyi.com^
 ||emoticon-sns.iqiyi.com^
 ||emoticon.sns.iqiyi.com^
@@ -2392,6 +2396,7 @@
 ||o.lenovo.com^
 ||s.lenovo.com^
 ||fsr.lenovomm.com^
+||prw.lenovomm.com^
 ||pushapi.lenovomm.com^
 ||susapi.lenovomm.com^
 ||uss-pid.lenovomm.com^
@@ -2481,7 +2486,6 @@
 ||bi.manhuaren.com^
 ||euadsapi.manhuaren.com^
 ||manyou.com^
-||adx.maplehaze.cn^
 ||maps-icloud.today^
 ||sdk.markmedia.com.cn^
 ||www.mashangyoushu.cn^
@@ -2593,9 +2597,9 @@
 ||activity.browser.intl.miui.com^
 ||adv.sec.miui.com^
 ||adv.sec.intl.miui.com^
+||api-rec.stellar.intl.miui.com^
 ||api.accelerator.intl.miui.com^
 ||api.aurogon.intl.miui.com^
-||api.browser.intl.miui.com^
 ||api.brs.intl.miui.com^
 ||api.collect.data.intl.miui.com^
 ||api.competition.intl.miui.com^
@@ -2930,6 +2934,7 @@
 ||qawxpzm.cn^
 ||cp.qbaobei.com^
 ||uplog.qbox.me^
+||log.qcast.cn^
 ||qchannel04.cn^
 ||log.qvb.qcloud.com^
 ||tracker-00.qvb.qcloud.com^
@@ -3143,7 +3148,6 @@
 ||xmaterial.tu.qq.com^
 ||ysdk.qq.com^
 ||yun-hl.3g.qq.com^
-||zxcv.3g.qq.com^
 ||wxaintpcos.wxqcloud.qq.com.cn^
 ||a1.qqan.com^
 ||down.qqfarmer.com.cn^
@@ -3541,7 +3545,6 @@
 ||clog.tanshudata.com^
 ||seiya.tantanapp.com^
 ||tanv.com^
-||click.tanx.com^
 ||cms.tanx.com^
 ||df.tanx.com^
 ||ef-dongfeng.tanx.com^
@@ -3965,6 +3968,7 @@
 ||co-vcode-api.vivoglobal.com^
 ||co-vcode-od.vivoglobal.com^
 ||co-vcode-or.vivoglobal.com^
+||err.up.vivoglobal.com^
 ||eu-cota.vivoglobal.com^
 ||eu-domaincfg.vivoglobal.com^
 ||eu-errup.vivoglobal.com^
@@ -4019,6 +4023,7 @@
 ||kz-vcode-api.vivoglobal.com^
 ||kz-vcode-od.vivoglobal.com^
 ||kz-vcode-or.vivoglobal.com^
+||mx-cota.vivoglobal.com^
 ||mx-domaincfg.vivoglobal.com^
 ||mx-err-up.vivoglobal.com^
 ||mx-onrt-stsdk.vivoglobal.com^
@@ -4290,6 +4295,7 @@
 ||ottl7-l2.pandora.xiaomi.com^
 ||package.box.xiaomi.com^
 ||pi.ias.xiaomi.com^
+||preload.xiaomi.com^
 ||redirect.pandora.xiaomi.com^
 ||register.xmpush.global.xiaomi.com^
 ||resolver.mi.xiaomi.com^
