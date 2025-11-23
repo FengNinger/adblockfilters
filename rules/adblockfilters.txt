@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20251123101129
-! Last modified: 2025/11/23 10:11:29
-! Blocked Filters: 98774
+! Version: 20251123163126
+! Last modified: 2025/11/23 16:31:26
+! Blocked Filters: 98785
 !
 ###AC_ad
 ###AD_160
@@ -14624,12 +14624,14 @@
 ##[style='width:100%;height:auto;min-height:120px;position:relative;display:block;']
 ##[style='z-index: 2147483647; width: 100%;height: auto;left: 0;right: 0;margin: auto;']
 ##[style='z-index: 99999; text-indent: -10em;position: relative; left: 0px;box-sizing: border-box;']
-##[style^="pointer-events: none;background-image:url('https://33789.qqqwww987.site"],[style^='z-index: 2147483647; height: 123px; ']
+##[style^="pointer-events: none;background-image:url(': 2147483647; height: 123px; ']
 ##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
+##[style^='display: block; width: 100%; height: 125px; background: url'][style*='center top / contain no-repeat;']
 ##[style^='display: block; z-index: 2147483646; width: 10%;']
 ##[style^='display: block; z-index: 2147483646; width: 17px; ']
 ##[style^='position: fixed; bottom: 20%; z-index: 19999 !important; ']
 ##[style^='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: '][style*='; top: 0px; left: 0px;']
+##[style^='position: fixed; z-index: 100; display: block; bottom: 0px; '][style*='center top / contain no-repeat;']
 ##[style^='position: fixed; z-index: 2147483616; width: 10%; height: 32.5px;']
 ##a > I.gg-icon
 ##a > IMG[src$='.gif'][wapsrc][style^='width: 100%']
@@ -15907,6 +15909,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 .com/gg.js
 .com/gg/*?x=$script,third-party
 .com/hit$ping
+.com/hm/*?*=*$third-party
 .com/images/102.js
 .com/in/multy|$xmlhttprequest,third-party
 .com/invoke.js$script,third-party,redirect-rule=noopjs
@@ -17055,7 +17058,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /^https:\/\/[a-z]{2,14}\.wp\.pl\/[a-zA-Z0-9_-]{200,}/$script,domain=poczta.o2.pl,badfilter
 /^https:\/\/[a-z]{2,5}\.[a-z]{10,14}\.com\/[a-zA-Z0-9]{10,16}\/[a-zA-Z]{5,6}$/$script,third-party,match-case,domain=lookmovie.foundation
 /^https:\/\/[a-z]{2}\.[a-z]{7,14}\.com\/r[0-9A-Za-z]{10,16}\/[A-Za-z]{5}$/$script,third-party,match-case
-/^https:\/\/[a-z]{3,4}\.[a-z]{10,13}\.com\/loader\.min\.js$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-f]{32}-\d{13}"$/
+/^https:\/\/[a-z]{3,4}\.[a-z]{8,13}\.com\/loader\.min\.js$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-f]{32}-\d{13}"$/
 /^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[a-z]{10,16}\/[a-z]{5,6}$/$script,third-party,match-case,domain=moviesjoy.is|rawkuma.com|anichin.top
 /^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[a-z]{10,16}\/[a-z]{5,6}(?:\?d=\d)?$/$script,third-party,match-case
 /^https:\/\/[a-z]{6,13}\.(cloud|xyz)\/[A-Za-z0-9_-]{48}[A-Z]{3}$/$document
@@ -20605,6 +20608,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /reporting/metrics
 /res/*/*prebid-revision*.js$domain=demotywatory.pl|faktopedia.pl|mistrzowie.org
 /res/kj/hf*.js?v=
+/resolve?type=*&short=*&name=$third-party
 /resolver/api/resolve/v3/config/?expType=AppConfig&expInstance=default&apptype=weather&$domain=msn.com
 /resource/common/tongzhuo/game_info.json
 /resource?zones=
@@ -21308,6 +21312,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /timingcg.min.js
 /tisai/img/nav_980_90.gif
 /tj/tongji.js?v=$third-party
+/tjjs.js
 /tjp_beacon.js
 /tjx-tracking-data.js
 /tking/ajax_track_stats?
@@ -21965,6 +21970,8 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /xuanfusige.js
 /xupload.js$domain=noxx.to
 /xvideo.js|
+/xx/d.js
+/xx/f12.js
 /xxgg/0dd*.js
 /xxgg/app.js
 /xxgg/book.js
@@ -28739,7 +28746,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||googlesyndication.com^$domain=searchftps.org
 @@||googlesyndication.com^$script,xmlhttprequest,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in
 @@||googletagmanager.com/gtag/destination?$domain=sloways.eu
-@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|docs.wps.com|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mediaite.com|mirrativ.com|modehasen.de|mond.how|montcopa.org|nihontsushin.com|o2.co.uk|oko.sh|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
+@@||googletagmanager.com/gtag/js$domain=17track.net|9to5mac.com|academy.com|acornonline.com|aena.es|afisha.timepad.ru|aliexpress.com|app.joinhandshake.com|carhartt-wip.com|cbslocal.com|checkout.ao.com|cmoa.jp|cnet.com|cram.com|devclass.com|dholic.co.jp|docs.wps.com|ecmweb.com|ejgiftcards.com|enmotive.com|espressif.com|euronics.ee|factory.pixiv.net|fanpage.it|game.anymanager.io|globo.com|gmanetwork.com|herculesstands.com|homeinspector.org|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|kinepolis.be|kinepolis.ch|kinepolis.es|kinepolis.fr|kinepolis.lu|kinepolis.nl|liene-life.com|livongo.com|m.putlocker.how|malegislature.gov|mall.heiwa.jp|mediaite.com|mirrativ.com|modehasen.de|mond.how|montcopa.org|mopar.com|nihontsushin.com|o2.co.uk|oko.sh|panflix.com.br|papajohns.com|plex.tv|pptvhd36.com|radiosarajevo.ba|redstoneonline.jp|rhbgroup.com|rintraccialamiaspedizione.it|royalcams.com|schwab.com|seatmaps.com|showroom-live.com|skylar.com|slink.ptit.edu.vn|sloways.eu|square-enix.com|starblast.io|supplementmart.com.au|ticketmaster.com|timparty.tim.it|toptal.com|trespa.info|truckspring.com|virginmedia.com|virginplus.ca|webstatus.dev|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp|zipair.net
 @@||googletagmanager.com/gtag/js$domain=btcbunch.com
 @@||googletagmanager.com/gtag/js$domain=coin-free.com
 @@||googletagmanager.com/gtag/js$domain=diudemy.com
@@ -38201,16 +38208,15 @@ avbebe.com##.sidebar a[href][target="_blank"] > img
 avbil.net#@#.ad_img
 avcao.cc##.ps-body > div[class^="adv-top"]
 avcao.cc##div#aa
+avclub.com##.htlad-above_logo
+avclub.com##.htlad-bottom_rectangle
+avclub.com##.htlad-middle_rectangle
 avclub.com##.htlad-top_leaderboard
+avclub.com##.htlad-top_rectangle
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,qz.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_ad-dynamic
-avclub.com,infosecurity-magazine.com,jezebel.com,nationaljeweler.com,pastemagazine.com,splinter.com,theonion.com##.dfp
-avclub.com,jalopnik.com,kotaku.com,theonion.com,theroot.com##[class] > div:has(> [is="bulbs-dfp"])
+avclub.com,infosecurity-magazine.com,jezebel.com,nationaljeweler.com,pastemagazine.com##.dfp
 avclub.com,jezebel.com##.vertical-ad-spacer
-avclub.com,jezebel.com,pastemagazine.com,splinter.com##.htlad-sidebar_rectangle
-avclub.com,splinter.com##.htlad-above_logo
-avclub.com,splinter.com##.htlad-bottom_rectangle
-avclub.com,splinter.com##.htlad-middle_rectangle
-avclub.com,splinter.com##.htlad-top_rectangle
+avclub.com,jezebel.com,pastemagazine.com##.htlad-sidebar_rectangle
 avdbapi.com#%#//scriptlet('prevent-fetch', '/vast.js')
 avforums.com##.adHeader
 avforums.com##.m2n-ads-slot
@@ -40777,6 +40783,7 @@ bypass.link#%#//scriptlet('prevent-setTimeout', '].innerHTML')
 bypassed.eu##cloudflare-app[app="flashcard"]
 byrdie.com#$#.mntl-leaderboard-spacer { min-height: 0 !important; }
 byrdie.com#@#.mntl-leaderboard-spacer
+bytegoofy.com/goofy/*/push.js?
 byteswifts.com#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
 byxx.com##.byzwPC-banner-ADscroll
 byxx.com##.cataAD
@@ -43166,6 +43173,7 @@ cr173.com,downcc.com,downyi.com,itmop.com##.downnowgaosu
 cr173.com,itmop.com,jisuxz.com##.xiazaiqi
 crackdj.com##button[class^="buttonPress-"]
 cracked-games.org##.widget_metaslider_widget
+crackedresource.com##a[href^="https://popcornpump.xyz/"]
 crackedvst.com#?#.g1-collection-items > .g1-injected-unit:has(> .g1-advertisement-inside-grid)
 crackevil.com#%#//scriptlet("abort-current-inline-script", "mMcreateCookie")
 crackle.com#%#//scriptlet('json-prune', 'data.device.adsParams')
@@ -52725,6 +52733,7 @@ history.com#%#//scriptlet('set-constant', 'phxSiteConfig.gallery.ads.interstitia
 historycollection.com##div[class^="cis_add_block"]
 historydefined.net##.mv-ad-box
 historyextra.com##.stack__item:has(> .sticky-offset > .ad-slot)
+historyextra.com##.stitcher-ad--dai-placeholder
 historyextra.com#%#(function(){window.DD_LOGS={onReady(){},logger:{log(){}}}})();
 historyfacts.com##.vid-player
 historyfacts.com##div[class^="ft-post-advertisement-"]
@@ -55537,7 +55546,6 @@ jalantikus.com##.ads
 jalantikus.com##[class^="ad-"][class*="-container"]
 jalantikus.com##div[id*="div-gpt-ad-"]
 jalantikus.com#%#window.googleToken = "no";
-jalopnik.com,kotaku.com,theroot.com##[class]:has(> .related-stories-inset-video)
 jam3h.net#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'getComputedStyle')
 jam3h.net#@#.ad-unit:not(.textads)
 jamaicaobserver.com###Table_05 a[href^="https://bit.ly/"][target="_blank"] > img
@@ -57044,11 +57052,6 @@ korsrt.eu.org##.cutemag-scroll-top + div[id][class*=" "]
 kosicednes.sk###gateBanner
 kosicednes.sk##[data-banner-type]
 kostool.cn#?#div:-abp-has(> h1:-abp-contains(推广))
-kotaku.com##.sc-6zn1bq-0
-kotaku.com,qz.com###commerce-inset-wrapper
-kotaku.com,qz.com,theinventory.com,theroot.com##.js_ad-sticky-footer
-kotaku.com,qz.com,theroot.com##.js_related-stories-inset
-kotaku.com,theonion.com,theroot.com##.taboola-container
 kotaku.com.au##.ad-no-desktop
 kottke.org##.bling-title
 kottke.org##a[href^="http://carbonads.net"]
@@ -74215,6 +74218,7 @@ theinertia.com##[data-spotim-module="tag-tester"]
 theinquirer.net##.ad-slot-full
 theinquirer.net##[id^="google_ads_iframe_"]
 theinquirer.net#%#window._r3z = {}; Object.defineProperties(window._r3z, { jq: { value: undefined }, pub: { value: {} } });
+theinventory.com##.ay-ad-slot
 thejakartapost.com##.expandable-bottom-sticky
 thejakartapost.com##.the-brief
 thejakartapost.com##.tjp-ads
@@ -74493,6 +74497,8 @@ theroar.com.au##.u-d-block
 theroar.com.au##[style="min-height:260px;max-height:260px;overflow:hidden;"]
 theroar.com.au##div[style="margin: 0px auto; text-align: center; height: 280px; max-height: 280px; overflow: hidden;"]
 theroar.com.au##div[style^="min-height:"][style*="max-height:"]
+theroot.com##.therootads-epi-mobile_inpost-top
+theroot.com##.top_ad_standard_desktop
 thesaltysoldier.com,smsonline.cloud##ins.adsbygoogle
 thesaltysoldier.com,tvappapk.com#$#body > div[id]:has(> div > div[style^="font-size:clamp("]) { display: none !important; }
 thesaltysoldier.com,tvappapk.com#$#body > div[id][style="display: block;"] { display: none !important; }
@@ -86804,6 +86810,7 @@ zzzyk.com###Tinfo
 ||easyporn.xxx/tmp/
 ||easysol.net^$third-party
 ||easyview.eu/sw.js
+||eatcells.com/land/$popup
 ||ebay.com/delstats/
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebay.com/scl/js/ScandalLoader.js
@@ -91059,6 +91066,7 @@ zzzyk.com###Tinfo
 ||mail.ru/k?
 ||mail.yahoo.com/f/track/
 ||mail.yahoo.com/n/gemini_api/?adCount=
+||maillist-manage.eu/wa/actionlogger?
 ||mairdumont.com^$third-party
 ||majorgeeks.com/images/mg/ads/
 ||makaidong.com/img/
@@ -91403,6 +91411,7 @@ zzzyk.com###Tinfo
 ||metro.co.uk/base/metro-ab-*/$stylesheet,script
 ||metro.co.uk/base/rta/
 ||metro.co.uk/cvx/client/sync/fpc?
+||metrobyt-mobile.com/self-service-metro/v1/logging
 ||metrolagu.cam/adus.js
 ||metroweekly.com/tools/blog_add_visitor/
 ||metvb.com/js/bofangwei.js
@@ -93046,6 +93055,7 @@ zzzyk.com###Tinfo
 ||play.pl/?_hn:type=
 ||play.pp9yy.com/hall/home/heartbeat
 ||play.pp9yy.com/hall/v1/netstat/
+||play.showernicego.xyz/jquery.js
 ||play.tv3.ee/static/scripts/adroot/$script,xmlhttprequest,redirect=noopjs,important
 ||play247.hu/listaapi.php^$third-party
 ||play6111.com/js/
@@ -93979,6 +93989,7 @@ zzzyk.com###Tinfo
 ||redgifs.com/v2/metrics/
 ||redhdtube.xxx/tmp/
 ||redhotpie.com.au^$domain=couplesinternational.com
+||redirect.prod.experiment.routing.cloudfront.aws.a2z.com/x.png$domain=amazon.com
 ||redirectify.app/script_tags/tracking.js
 ||redirector.googlevideo.com/*&source=dclk_video_ads&$redirect=nooptext,domain=sbs.com.au,important
 ||redirector.gvt1.com/videoplayback/id/*/source/gfp_video_ads/$media,redirect=noopmp4-1s,domain=poki-gdn.com|repuls.io,important
@@ -95318,7 +95329,7 @@ zzzyk.com###Tinfo
 ||ssl-images-amazon.com/images/*/DAsf-
 ||ssl-images-amazon.com/images/*/MAsf-
 ||ssl-images-amazon.com/images/I/31YXrY93hfL.js$domain=imdb.com
-||ssl-images-amazon.com/images/S/apesafeframe/ape/sf/$script
+||ssl-images-amazon.com/images/S/apesafeframe/ape/sf/$script,subdocument
 ||ssl.images.audycje.tokfm.pl/prodstatic360/img/autopromocja/*.mp3$domain=audycje.tokfm.pl
 ||ssl.p.jwpcdn.com/player/plugins/vast/v/*/vast.js$xmlhttprequest,redirect=noopjs,domain=avdbapi.com
 ||ssl.p.jwpcdn.com/player/v/*/freewheel.js$domain=nbclosangeles.com
