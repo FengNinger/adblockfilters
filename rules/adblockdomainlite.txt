@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20251125163553
-! Last modified: 2025/11/25 16:35:53
-! Blocked domains: 4748
+! Version: 20251126003534
+! Last modified: 2025/11/26 00:35:34
+! Blocked domains: 4738
 !
 00xvppy.cn
 img.0279.net
@@ -241,7 +241,6 @@ web.51fishplace.com
 trace.51jingying.com
 a1.51shiti.cn
 51taifu.com
-ad.51wnl-cq.com
 ad.51wnl.com
 51yes.com
 game.51yund.com
@@ -377,7 +376,6 @@ a1.99966.cn
 999xx333kk.com
 999xx999kk.com
 99box.com
-collect.9em.cn
 9ics.cn
 9kh5b.cn
 9wee.com
@@ -955,7 +953,6 @@ super.cat898.com
 tracking.cat898.com
 adv.ccb.com
 ad.ccement.com
-mtrace.ysp.cctv.cn
 ad.cctv.com
 httpdns.cctv.com
 p.data.cctv.com
@@ -1040,6 +1037,7 @@ clarins.com.cn
 log-api.cli.im
 bd1.click.com.cn
 clicki.cn
+7xi9g1.com1.z0.glb.clouddn.com
 bkt.clouddn.com
 advertise.cloudlinks.cn
 log.cmbchina.com
@@ -1060,6 +1058,7 @@ analytics.cnblogs.com
 adm.cloud.cnfol.com
 abcd.cnhuoche.com
 hmjs.cnmo-img.com.cn
+webcert.cnmstl.net
 smuc.cnnfootballclub.com
 adp.cnool.net
 clickcount.cnool.net
@@ -1220,10 +1219,8 @@ events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn
 events-dra-op-dbankcloud-com-dra.region.dbankedge.cn
 events-dra-op-hicloud-com-dra.appacc.dbankedge.cn
 events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn
-events-dre-op-dbankcloud-com-dre.appacc-region.dbankedge.cn
 events-dre-op-hicloud-com-dre.appacc.dbankedge.cn
 hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn
-hisearch-dra-dt-dbankcloud-com-dra.appacc-region.dbankedge.cn
 dchdmhf.cn
 ddbuwo.cn
 dm1.ddwk8.cn
@@ -1645,7 +1642,6 @@ pgdt.gtimg.cn
 tianshu.gtimg.cn
 ra.gtimg.com
 splashqqlive.gtimg.com
-tui.gtimg.com
 wa.gtimg.com
 gtpxvpi.cn
 bd1.guancha.cn
@@ -2025,6 +2021,7 @@ inad.com
 analytics.inbobi.com
 link.infineon.cn
 link.infineon.com
+ssgtm.infineon.com
 track-e.infineon.com
 trk.ingersollrandproducts.cn
 apidns.kwd.inkuai.com
@@ -2404,7 +2401,6 @@ s.lenovo.com
 fsr.lenovomm.com
 prw.lenovomm.com
 pushapi.lenovomm.com
-sdac.lenovomm.com
 susapi.lenovomm.com
 uss-pid.lenovomm.com
 lenzmx.com
@@ -2892,7 +2888,6 @@ pic50.pingguolv.com
 api.pingstart.com
 bd1.pipaw.com
 pkjl00l.cn
-pl520.com
 placidocn.com
 bdx.playnext.cn
 pmensrl.cn
@@ -3235,7 +3230,6 @@ track.msadcenter.rfjq.com
 rhinogo.cn
 richh.cn
 ad.richmob.cn
-bi-tracker-cn.rivergame.net
 bi-tracker-global.rivergame.net
 tatracker-us.rivergame.net
 rmzbfum.cn
@@ -3456,7 +3450,6 @@ theta.sogoucdn.com
 ads.sohu.com
 assp.sohu.com
 bd.hd.sohu.com
-changyan.sohu.com
 click2.hd.sohu.com
 count.vrs.sohu.com
 ctr.hd.sohu.com
@@ -3558,7 +3551,6 @@ talkingdata.com
 clog.tanshudata.com
 seiya.tantanapp.com
 tanv.com
-click.tanx.com
 cms.tanx.com
 df.tanx.com
 ef-dongfeng.tanx.com
@@ -3976,15 +3968,12 @@ cname-sin01-stsdk09.vivoglobal.com
 co-domaincfg.vivoglobal.com
 co-onrt-stsdk.vivoglobal.com
 co-ort-stsdk.vivoglobal.com
-co-pnrt-stsdk.vivoglobal.com
 co-romsp-unifyconfig.vivoglobal.com
 co-st-sl.vivoglobal.com
-co-stsdk.vivoglobal.com
 co-timesync.vivoglobal.com
 co-vcode-api.vivoglobal.com
 co-vcode-od.vivoglobal.com
 co-vcode-or.vivoglobal.com
-de-gdpr-err-up.vivoglobal.com
 err.up.vivoglobal.com
 eu-cota.vivoglobal.com
 eu-domaincfg.vivoglobal.com
@@ -4162,6 +4151,7 @@ gw5.push.mcp.weibo.cn
 ad.weibo.com
 alitui.weibo.com
 tui.weibo.com
+widget.weibo.com
 api-z.weidian.com
 logtake.weidian.com
 weidianyuedu.com
