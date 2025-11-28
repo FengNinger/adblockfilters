@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20251128003218
-# Last modified: 2025/11/28 00:32:18
-# Blocked domains: 4725
+# Version: 20251128095609
+# Last modified: 2025/11/28 09:56:09
+# Blocked domains: 4731
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -171,6 +171,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	mclean.f.360.cn
 0.0.0.0	msch.f.360.cn
 0.0.0.0	mvconf.f.360.cn
+0.0.0.0	openbox.mobilem.360.cn
 0.0.0.0	papi.look.360.cn
 0.0.0.0	pscan.f.360.cn
 0.0.0.0	pub.se.360.cn
@@ -307,6 +308,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	simba.6.cn
 0.0.0.0	union.6.cn
 0.0.0.0	609999.xyz
+0.0.0.0	t1.612.com
 0.0.0.0	parcel-locker.628xg.com
 0.0.0.0	644446.com
 0.0.0.0	m5.66077.cn
@@ -1355,12 +1357,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	ay.eastmoney.com
 0.0.0.0	bdstatic.eastmoney.com
 0.0.0.0	bdwblog.eastmoney.com
-0.0.0.0	cmsjs.eastmoney.com
 0.0.0.0	cp2.eastmoney.com
 0.0.0.0	emdcadvertise.eastmoney.com
 0.0.0.0	huaxiang.eastmoney.com
 0.0.0.0	same.eastmoney.com
-0.0.0.0	easyliao.com
 0.0.0.0	easytomessage.com
 0.0.0.0	eblnzoq.cn
 0.0.0.0	jb.ecar168.cn
@@ -1644,6 +1644,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	growingio.com
 0.0.0.0	cspmkl.gruppal.com
 0.0.0.0	logs.gshopper.com
+0.0.0.0	w1.gskwai.com
 0.0.0.0	gsnlc.cn
 0.0.0.0	stat.gspaceteam.com
 0.0.0.0	csi.gstatic.com
@@ -2084,7 +2085,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	subscription.iqiyi.com
 0.0.0.0	tpa-hcdn.iqiyi.com
 0.0.0.0	yuedu.iqiyi.com
-0.0.0.0	m.iqiyipic.com
 0.0.0.0	trk.irco.com.cn
 0.0.0.0	irs03.com
 0.0.0.0	iscrv.com
@@ -2136,7 +2136,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	im-x.jd.com
 0.0.0.0	img-x.jd.com
 0.0.0.0	janapi.jd.com
-0.0.0.0	jcm.jd.com
 0.0.0.0	jpushjd.m.jd.com
 0.0.0.0	jrclick.jd.com
 0.0.0.0	jzt.jd.com
@@ -2740,7 +2739,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	sdk.stat.foreign.nearme.com.cn
 0.0.0.0	storedl3f.nearme.com.cn
 0.0.0.0	finance.needtoday.com
-0.0.0.0	nejmqianyan.cn
 0.0.0.0	neolit.cn
 0.0.0.0	tracking.nesox.com
 0.0.0.0	sea.net.edu.cn
@@ -2899,7 +2897,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	dluat.pokerbros.net
 0.0.0.0	i.pokerbros.net
 0.0.0.0	polyfill-js.cn
-0.0.0.0	pop800.com
 0.0.0.0	poqwua.cn
 0.0.0.0	fp-it-acc.portal101.cn
 0.0.0.0	webtrack.pospal.cn
@@ -3037,7 +3034,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	cc.map.qq.com
 0.0.0.0	cfg.imtt.qq.com
 0.0.0.0	commdata.v.qq.com
-0.0.0.0	d3g.qq.com
 0.0.0.0	dnet.mb.qq.com
 0.0.0.0	dns.weixin.qq.com
 0.0.0.0	dp3.qq.com
@@ -3104,7 +3100,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	report.syzs.qq.com
 0.0.0.0	report.trade.weixin.qq.com
 0.0.0.0	report.tv.kohesport.qq.com
-0.0.0.0	res.imtt.qq.com
 0.0.0.0	rh.qq.com
 0.0.0.0	rmonitor.qq.com
 0.0.0.0	rs1.qq.com
@@ -3207,6 +3202,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	r528e.cn
 0.0.0.0	r75tia.cn
 0.0.0.0	luaqxb.rainso.com
+0.0.0.0	ads-sdk-api.ranfenghd.com
 0.0.0.0	bespoke-analytics.razerapi.com
 0.0.0.0	rb1hdiqv.cn
 0.0.0.0	rbjpti.top
@@ -3322,6 +3318,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	shtatuo.cn
 0.0.0.0	shudi8.com
 0.0.0.0	shuiguo.com
+0.0.0.0	umini.shujupie.com
 0.0.0.0	shulsbs.cn
 0.0.0.0	js.shunqi.com
 0.0.0.0	shunxingmc.cn
@@ -3396,6 +3393,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	log.m.sm.cn
 0.0.0.0	sugs.m.sm.cn
 0.0.0.0	video-ad.sm.cn
+0.0.0.0	adx-ad.smart-tv.cn
+0.0.0.0	launcher.smart-tv.cn
+0.0.0.0	launcherimg.smart-tv.cn
+0.0.0.0	mission-pub.smart-tv.cn
+0.0.0.0	newvoice.chiq5.smart-tv.cn
 0.0.0.0	data.aftersales.smart.com
 0.0.0.0	data.ajo-stage.srv.smart.com
 0.0.0.0	data.dev-notifications.future.smart.com
@@ -3514,7 +3516,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	tad.suning.com
 0.0.0.0	sunriseoutdoor.cn
 0.0.0.0	superads.cn
-0.0.0.0	52mj.susuwei.cn
 0.0.0.0	bdunion1.suxiazai.com
 0.0.0.0	download.suxiazai.com
 0.0.0.0	mscs.svaeuzh.cn
@@ -3701,7 +3702,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	yptqys.tianqistatic.com
 0.0.0.0	gjh9v.tianshilv.cn
 0.0.0.0	fz.tiansys.cn
-0.0.0.0	tingyun.com
+0.0.0.0	wkrd.tingyun.com
 0.0.0.0	tisszhb.cn
 0.0.0.0	img2.titan007.com
 0.0.0.0	a.tiyuxiu.com
@@ -3717,6 +3718,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	track.tom.com
 0.0.0.0	track.tomwx.net
 0.0.0.0	tongbaimi.cn
+0.0.0.0	fp.tongdun.net
 0.0.0.0	sky.tongjiai.com
 0.0.0.0	ato.tooopen.com
 0.0.0.0	topsem.com
@@ -3763,6 +3765,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ts166.net
 0.0.0.0	ttdbh.com
 0.0.0.0	www.ttyyuuoo.com
+0.0.0.0	ad.api.3g.tudou.com
 0.0.0.0	go.tuev.cn
 0.0.0.0	tuhzjrr.cn
 0.0.0.0	tuia.cn
@@ -3818,6 +3821,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	track.uc.cn
 0.0.0.0	woodpecker.uc.cn
 0.0.0.0	u.uc123.com
+0.0.0.0	u.ucfly.com
 0.0.0.0	adtrack.ucweb.com
 0.0.0.0	adtrack-intl.ucweb.com
 0.0.0.0	bts-la.ucweb.com
@@ -3838,6 +3842,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ucsec1.ucweb.com
 0.0.0.0	ucus.ucweb.com
 0.0.0.0	up4.ucweb.com
+0.0.0.0	m.uczzd.cn
 0.0.0.0	udeztrb.cn
 0.0.0.0	udrig.com
 0.0.0.0	uenmh.cn
@@ -3898,6 +3903,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	veryboys.com
 0.0.0.0	vgfj.cn
 0.0.0.0	vgnyli.top
+0.0.0.0	serconsole.vicp.cc
 0.0.0.0	goldbye.vicp.net
 0.0.0.0	ns1.vicp.net
 0.0.0.0	hw-p2p-pull.video-voip.com

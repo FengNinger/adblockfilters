@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20251128003217
-! Last modified: 2025/11/28 00:32:17
-! Blocked domains: 4725
+! Version: 20251128095609
+! Last modified: 2025/11/28 09:56:09
+! Blocked domains: 4731
 ! unBlocked domains: 16
 !
 ||00xvppy.cn^
@@ -157,6 +157,7 @@
 ||mclean.f.360.cn^
 ||msch.f.360.cn^
 ||mvconf.f.360.cn^
+||openbox.mobilem.360.cn^
 ||papi.look.360.cn^
 ||pscan.f.360.cn^
 ||pub.se.360.cn^
@@ -293,6 +294,7 @@
 ||simba.6.cn^
 ||union.6.cn^
 ||609999.xyz^
+||t1.612.com^
 ||parcel-locker.628xg.com^
 ||644446.com^
 ||m5.66077.cn^
@@ -1341,12 +1343,10 @@
 ||ay.eastmoney.com^
 ||bdstatic.eastmoney.com^
 ||bdwblog.eastmoney.com^
-||cmsjs.eastmoney.com^
 ||cp2.eastmoney.com^
 ||emdcadvertise.eastmoney.com^
 ||huaxiang.eastmoney.com^
 ||same.eastmoney.com^
-||easyliao.com^
 ||easytomessage.com^
 ||eblnzoq.cn^
 ||jb.ecar168.cn^
@@ -1630,6 +1630,7 @@
 ||growingio.com^
 ||cspmkl.gruppal.com^
 ||logs.gshopper.com^
+||w1.gskwai.com^
 ||gsnlc.cn^
 ||stat.gspaceteam.com^
 ||csi.gstatic.com^
@@ -2070,7 +2071,6 @@
 ||subscription.iqiyi.com^
 ||tpa-hcdn.iqiyi.com^
 ||yuedu.iqiyi.com^
-||m.iqiyipic.com^
 ||trk.irco.com.cn^
 ||irs03.com^
 ||iscrv.com^
@@ -2122,7 +2122,6 @@
 ||im-x.jd.com^
 ||img-x.jd.com^
 ||janapi.jd.com^
-||jcm.jd.com^
 ||jpushjd.m.jd.com^
 ||jrclick.jd.com^
 ||jzt.jd.com^
@@ -2726,7 +2725,6 @@
 ||sdk.stat.foreign.nearme.com.cn^
 ||storedl3f.nearme.com.cn^
 ||finance.needtoday.com^
-||nejmqianyan.cn^
 ||neolit.cn^
 ||tracking.nesox.com^
 ||sea.net.edu.cn^
@@ -2885,7 +2883,6 @@
 ||dluat.pokerbros.net^
 ||i.pokerbros.net^
 ||polyfill-js.cn^
-||pop800.com^
 ||poqwua.cn^
 ||fp-it-acc.portal101.cn^
 ||webtrack.pospal.cn^
@@ -3023,7 +3020,6 @@
 ||cc.map.qq.com^
 ||cfg.imtt.qq.com^
 ||commdata.v.qq.com^
-||d3g.qq.com^
 ||dnet.mb.qq.com^
 ||dns.weixin.qq.com^
 ||dp3.qq.com^
@@ -3090,7 +3086,6 @@
 ||report.syzs.qq.com^
 ||report.trade.weixin.qq.com^
 ||report.tv.kohesport.qq.com^
-||res.imtt.qq.com^
 ||rh.qq.com^
 ||rmonitor.qq.com^
 ||rs1.qq.com^
@@ -3193,6 +3188,7 @@
 ||r528e.cn^
 ||r75tia.cn^
 ||luaqxb.rainso.com^
+||ads-sdk-api.ranfenghd.com^
 ||bespoke-analytics.razerapi.com^
 ||rb1hdiqv.cn^
 ||rbjpti.top^
@@ -3308,6 +3304,7 @@
 ||shtatuo.cn^
 ||shudi8.com^
 ||shuiguo.com^
+||umini.shujupie.com^
 ||shulsbs.cn^
 ||js.shunqi.com^
 ||shunxingmc.cn^
@@ -3382,6 +3379,11 @@
 ||log.m.sm.cn^
 ||sugs.m.sm.cn^
 ||video-ad.sm.cn^
+||adx-ad.smart-tv.cn^
+||launcher.smart-tv.cn^
+||launcherimg.smart-tv.cn^
+||mission-pub.smart-tv.cn^
+||newvoice.chiq5.smart-tv.cn^
 ||data.aftersales.smart.com^
 ||data.ajo-stage.srv.smart.com^
 ||data.dev-notifications.future.smart.com^
@@ -3500,7 +3502,6 @@
 ||tad.suning.com^
 ||sunriseoutdoor.cn^
 ||superads.cn^
-||52mj.susuwei.cn^
 ||bdunion1.suxiazai.com^
 ||download.suxiazai.com^
 ||mscs.svaeuzh.cn^
@@ -3687,7 +3688,7 @@
 ||yptqys.tianqistatic.com^
 ||gjh9v.tianshilv.cn^
 ||fz.tiansys.cn^
-||tingyun.com^
+||wkrd.tingyun.com^
 ||tisszhb.cn^
 ||img2.titan007.com^
 ||a.tiyuxiu.com^
@@ -3703,6 +3704,7 @@
 ||track.tom.com^
 ||track.tomwx.net^
 ||tongbaimi.cn^
+||fp.tongdun.net^
 ||sky.tongjiai.com^
 ||ato.tooopen.com^
 ||topsem.com^
@@ -3749,6 +3751,7 @@
 ||ts166.net^
 ||ttdbh.com^
 ||www.ttyyuuoo.com^
+||ad.api.3g.tudou.com^
 ||go.tuev.cn^
 ||tuhzjrr.cn^
 ||tuia.cn^
@@ -3804,6 +3807,7 @@
 ||track.uc.cn^
 ||woodpecker.uc.cn^
 ||u.uc123.com^
+||u.ucfly.com^
 ||adtrack.ucweb.com^
 ||adtrack-intl.ucweb.com^
 ||bts-la.ucweb.com^
@@ -3824,6 +3828,7 @@
 ||ucsec1.ucweb.com^
 ||ucus.ucweb.com^
 ||up4.ucweb.com^
+||m.uczzd.cn^
 ||udeztrb.cn^
 ||udrig.com^
 ||uenmh.cn^
@@ -3884,6 +3889,7 @@
 ||veryboys.com^
 ||vgfj.cn^
 ||vgnyli.top^
+||serconsole.vicp.cc^
 ||goldbye.vicp.net^
 ||ns1.vicp.net^
 ||hw-p2p-pull.video-voip.com^
