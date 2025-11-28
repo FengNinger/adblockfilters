@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20251128095609
-# Last modified: 2025/11/28 09:56:09
-# Blocked domains: 4731
+# Version: 20251128163524
+# Last modified: 2025/11/28 16:35:24
+# Blocked domains: 4726
 #
 [Rule]
 DOMAIN-SUFFIX,00xvppy.cn,REJECT-DROP
@@ -3379,11 +3379,6 @@ DOMAIN-SUFFIX,image-ad.sm.cn,REJECT-DROP
 DOMAIN-SUFFIX,log.m.sm.cn,REJECT-DROP
 DOMAIN-SUFFIX,sugs.m.sm.cn,REJECT-DROP
 DOMAIN-SUFFIX,video-ad.sm.cn,REJECT-DROP
-DOMAIN-SUFFIX,adx-ad.smart-tv.cn,REJECT-DROP
-DOMAIN-SUFFIX,launcher.smart-tv.cn,REJECT-DROP
-DOMAIN-SUFFIX,launcherimg.smart-tv.cn,REJECT-DROP
-DOMAIN-SUFFIX,mission-pub.smart-tv.cn,REJECT-DROP
-DOMAIN-SUFFIX,newvoice.chiq5.smart-tv.cn,REJECT-DROP
 DOMAIN-SUFFIX,data.aftersales.smart.com,REJECT-DROP
 DOMAIN-SUFFIX,data.ajo-stage.srv.smart.com,REJECT-DROP
 DOMAIN-SUFFIX,data.dev-notifications.future.smart.com,REJECT-DROP
