@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20251129095546
-! Last modified: 2025/11/29 09:55:46
-! Blocked Filters: 99414
+! Version: 20251129163231
+! Last modified: 2025/11/29 16:32:31
+! Blocked Filters: 99410
 !
 ###AC_ad
 ###AD_160
@@ -24435,7 +24435,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@.php$subdocument,stealth=referrer,domain=/dizipal\d+.com/
 @@.php?id=$script,domain=surirt.com
 @@.php?play_vid=$subdocument,stealth=referrer,domain=xyflv.cc
-@@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
+@@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|digit77.com|e9china.net|upxin.net
 @@.png#$domain=almezoryae.com
 @@.png#$domain=cle0desktop.blogspot.com
 @@.png#$domain=fforfree.net
@@ -24541,8 +24541,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@/advert3.js|$~third-party,domain=waaw.tv|hqq.tv
 @@/advert_$domain=pisen.com.cn|wb.qq.com
 @@/advertise/*$domain=ceair.com|sfbuy.com
-@@/advertisement.$domain=gametower.com.tw
-@@/advertisement.js$domain=gimhoy.com
 @@/advertisement/*$domain=ininin.com|midea.com|muyingzhijia.com|nmkjxy.com
 @@/advertising-$~script,~image,domain=forums.macrumors.com
 @@/advertising/*$domain=315.sh.cn
@@ -24909,7 +24907,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||11street.my/totalsearch/
 @@||120.132.57.41/pjk/pag/
 @@||12306.cn/otn/resources/images/pic/new-ad
-@@||123dhang.com/supo/advertisement.js
 @@||123link.biz/js/blockadblock.js
 @@||123link.biz^$generichide
 @@||123link.pw/1/2/advertisement.js
@@ -25010,7 +25007,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||58b.tv^$generichide
 @@||58cdn.com.cn/tuiguang/center/
 @@||58huanbao.com/skin/defaultcs2660/images/ad
-@@||590103.idv.tw/advertisement.js
 @@||5dm.link^$subdocument,stealth=referrer
 @@||5ggyan.com^$generichide
 @@||5qidgde.com^$generichide
@@ -25550,7 +25546,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||aixifan.com/acfun-H5/public/script/sensorsdata.
 @@||aixifan.com/acsdk/log.min.js?
 @@||aixifan.com/dotnet/20130418/script/fingerprint.
-@@||aixifan.com/static/home/widget/basic/advertisement/advertisement.$stylesheet
 @@||aixifan.com^*/sensorsdata.min.js?$domain=acfun.cn
 @@||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/mirage*.js$domain=rule34.xxx
 @@||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js$domain=cloudvideo.tv
@@ -26465,6 +26460,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||brookaccessory.com^$stealth=dpi
 @@||browser-intake-datadoghq.com^$domain=pluto.tv
 @@||browser.covatic.io/sdk/v1/bauer.js$script,domain=hellorayo.co.uk
+@@||browser.events.data.microsoft.com/onecollector/$script,xmlhttprequest,domain=microsoft.com
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|alphaxiv.org|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|members.bifa.film|menshealth.com|ocado.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 @@||browser.yandex.*/sync/$stealth=useragent
 @@||browserbench.org^$generichide
@@ -27427,7 +27423,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||d.tailtarget.com/profiles.js$domain=superesportes.com.br
 @@||d0000d.com^$generichide
 @@||d000d.com^$generichide
-@@||d1-dm.com^$generichide
 @@||d13nu0oomnx5ti.cloudfront.net^$domain=rethmic.com
 @@||d192r5l88wrng7.cloudfront.net^$subdocument,domain=bowfile.com
 @@||d1ayxb9ooonjts.cloudfront.net/bitly2/$domain=bitly.com
@@ -30015,7 +30010,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||kdpic.pchome.com.tw/img/js/xpcadshow.js$domain=game735.com
 @@||kdpic.pchome.com.tw/img/js/xpcadshow.js$script,domain=10co.xyz
 @@||kecapku.com^$generichide
-@@||kehai.com/front/dist/app/site/list/advertisement.js
 @@||keibana.com/wp-content/uploads/*/300x250_$~third-party
 @@||keizai.biz^$generichide
 @@||kejilion.pro^$generichide
@@ -34667,7 +34661,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||uptostream.com/assets/$script,stylesheet
 @@||uptostream.com^$csp=worker-src 'none'
 @@||upvtt.com/uploads^$third-party
-@@||upxin.net/advertisement.js
 @@||upxin.net^$generichide
 @@||uragongaming.blogspot.com^$generichide
 @@||urbanmilwaukee.com/wp-content/themes/*/js/prebid-ads.js
@@ -80148,6 +80141,7 @@ www.xhfz2.com##DIV.pctext
 www.xhfz2.com##span.lileft > A[style^='float:left;color:']
 www.xvideos.com###ad-footer
 www.xvideos.com##.thumb-ad
+www.yahoo.com##.h-\[90px\].z-2
 www.yahoo.com##[id^="mid-center-ad"]
 www.yahoo.com##body#news-content-app li:has(.inset-0)
 www.yahoo.com##body.font-yahoobeta > div.items-center:has(style)
@@ -83115,6 +83109,7 @@ zzzyk.com###Tinfo
 ||activistpost.com/*/*.jpg$script
 ||actu.fr/assets/js/smarttag5280-1.js
 ||aculturerpa.info^$popup
+||acuris.com/wat/v2/data-event
 ||acwifi.net/wp-content/uploads/2019/11/20191119.jpg
 ||acwifi.net/wp-content/uploads/2022/08/0825-750.png
 ||acxiomapac.com^$third-party
@@ -96386,6 +96381,7 @@ zzzyk.com###Tinfo
 ||sweetwater.com/p2TBVNJZ/init.js
 ||sweeva.com/images/banner250.gif
 ||swetrix.com^$third-party
+||swi.neobox.ebu.io/v3/collect?
 ||swiatkoni.pl/file/Banner_
 ||swiftypecdn.com/cc.js$third-party
 ||swiftypecdn.com/te.js$third-party
