@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20251129163231
-# Last modified: 2025/11/29 16:32:31
-# Blocked domains: 4741
+# Version: 20251130003035
+# Last modified: 2025/11/30 00:30:35
+# Blocked domains: 4746
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -458,6 +458,7 @@ local=/report-edge.agora.io/
 local=/report-europe.agora.io/
 local=/report-north-america.agora.io/
 local=/statscollector-1.agora.io/
+local=/statscollector-1-asia.agora.io/
 local=/statscollector-1-north-america.agora.io/
 local=/tracking.agora.io/
 local=/webcollector-rtm.agora.io/
@@ -1039,6 +1040,7 @@ local=/clarins.com.cn/
 local=/log-api.cli.im/
 local=/bd1.click.com.cn/
 local=/clicki.cn/
+local=/7xi9g1.com1.z0.glb.clouddn.com/
 local=/bkt.clouddn.com/
 local=/advertise.cloudlinks.cn/
 local=/log.cmbchina.com/
@@ -1643,6 +1645,7 @@ local=/pgdt.gtimg.cn/
 local=/tianshu.gtimg.cn/
 local=/ra.gtimg.com/
 local=/splashqqlive.gtimg.com/
+local=/tui.gtimg.com/
 local=/wa.gtimg.com/
 local=/gtpxvpi.cn/
 local=/bd1.guancha.cn/
@@ -2564,6 +2567,7 @@ local=/resolver.gslb.mi-idc.com/
 local=/ad.mi.com/
 local=/d.g.mi.com/
 local=/e.mi.com/
+local=/h5.tv.mi.com/
 local=/idm.iot.mi.com/
 local=/in.tv.global.mi.com/
 local=/migc.g.mi.com/
@@ -3972,6 +3976,7 @@ local=/co-ort-stsdk.vivoglobal.com/
 local=/co-pnrt-stsdk.vivoglobal.com/
 local=/co-romsp-unifyconfig.vivoglobal.com/
 local=/co-st-sl.vivoglobal.com/
+local=/co-stsdk.vivoglobal.com/
 local=/co-timesync.vivoglobal.com/
 local=/co-vcode-api.vivoglobal.com/
 local=/co-vcode-od.vivoglobal.com/
