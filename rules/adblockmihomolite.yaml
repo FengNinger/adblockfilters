@@ -4,9 +4,9 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20251201163903
-  # Last modified: 2025/12/01 16:39:03
-  # Blocked domains: 4742
+  # Version: 20251202003646
+  # Last modified: 2025/12/02 00:36:46
+  # Blocked domains: 4746
   #
   - '+.00xvppy.cn'
   - '+.img.0279.net'
@@ -102,7 +102,6 @@ payload:
   - '+.1jok.icu'
   - '+.1kanz.cn'
   - '+.1l1.cc'
-  - '+.1mpi.com'
   - '+.d1.1ppt.com'
   - '+.1qingdao.com'
   - '+.1rtb.com'
@@ -381,6 +380,7 @@ payload:
   - '+.999xx333kk.com'
   - '+.999xx999kk.com'
   - '+.99box.com'
+  - '+.collect.9em.cn'
   - '+.9ics.cn'
   - '+.9kh5b.cn'
   - '+.9wee.com'
@@ -958,6 +958,7 @@ payload:
   - '+.tracking.cat898.com'
   - '+.adv.ccb.com'
   - '+.ad.ccement.com'
+  - '+.mtrace.ysp.cctv.cn'
   - '+.ad.cctv.com'
   - '+.httpdns.cctv.com'
   - '+.p.data.cctv.com'
@@ -1790,6 +1791,7 @@ payload:
   - '+.logbak.hicloud.com'
   - '+.logservice.hicloud.com'
   - '+.logservice-dra.platform.hicloud.com'
+  - '+.logservice-dre.platform.hicloud.com'
   - '+.logservice1.hicloud.com'
   - '+.ads-drcn.platform.hihonorcloud.com'
   - '+.honorsearch-dra.hiboard.hihonorcloud.com'
@@ -2402,6 +2404,7 @@ payload:
   - '+.fsr.lenovomm.com'
   - '+.prw.lenovomm.com'
   - '+.pushapi.lenovomm.com'
+  - '+.sdac.lenovomm.com'
   - '+.susapi.lenovomm.com'
   - '+.uss-pid.lenovomm.com'
   - '+.lenzmx.com'
@@ -4169,6 +4172,7 @@ payload:
   - '+.ad.weplayer.cc'
   - '+.crosspromotion.weplayer.cc'
   - '+.wesat.cn'
+  - '+.s1.wesiedu.com'
   - '+.count.west263.com'
   - '+.perfsight.wetest.net'
   - '+.htrace.wetvinfo.com'
