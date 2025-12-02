@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20251202163751
-# Last modified: 2025/12/02 16:37:51
-# Blocked domains: 4743
+# Version: 20251203003717
+# Last modified: 2025/12/03 00:37:17
+# Blocked domains: 4735
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -242,7 +242,6 @@ local=/web.51fishplace.com/
 local=/trace.51jingying.com/
 local=/a1.51shiti.cn/
 local=/51taifu.com/
-local=/ad.51wnl-cq.com/
 local=/ad.51wnl.com/
 local=/51yes.com/
 local=/game.51yund.com/
@@ -379,7 +378,6 @@ local=/999bb222ww.com/
 local=/999xx333kk.com/
 local=/999xx999kk.com/
 local=/99box.com/
-local=/collect.9em.cn/
 local=/9ics.cn/
 local=/9kh5b.cn/
 local=/9wee.com/
@@ -703,6 +701,7 @@ local=/cbjs.baidu.com/
 local=/click.bes.baidu.com/
 local=/cm.baidu.com/
 local=/collector.dcdn.baidu.com/
+local=/console.bce.baidu.com/
 local=/cpro.baidu.com/
 local=/cpro.zhidao.baidu.com/
 local=/cpu.baidu.com/
@@ -746,6 +745,7 @@ local=/itsdata.map.baidu.com/
 local=/kstj.baidu.com/
 local=/libs.baidu.com/
 local=/log.music.baidu.com/
+local=/login.bce.baidu.com/
 local=/luimg.baidu.com/
 local=/m1.baidu.com/
 local=/miao.baidu.com/
@@ -957,7 +957,6 @@ local=/super.cat898.com/
 local=/tracking.cat898.com/
 local=/adv.ccb.com/
 local=/ad.ccement.com/
-local=/mtrace.ysp.cctv.cn/
 local=/ad.cctv.com/
 local=/httpdns.cctv.com/
 local=/p.data.cctv.com/
@@ -1222,7 +1221,6 @@ local=/events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn/
 local=/events-dra-op-dbankcloud-com-dra.region.dbankedge.cn/
 local=/events-dra-op-hicloud-com-dra.appacc.dbankedge.cn/
 local=/events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn/
-local=/events-dre-op-dbankcloud-com-dre.appacc-region.dbankedge.cn/
 local=/events-dre-op-hicloud-com-dre.appacc.dbankedge.cn/
 local=/hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn/
 local=/hisearch-dra-dt-dbankcloud-com-dra.appacc-region.dbankedge.cn/
@@ -1788,7 +1786,6 @@ local=/grs.hicloud.com/
 local=/logbak.hicloud.com/
 local=/logservice.hicloud.com/
 local=/logservice-dra.platform.hicloud.com/
-local=/logservice-dre.platform.hicloud.com/
 local=/logservice1.hicloud.com/
 local=/ads-drcn.platform.hihonorcloud.com/
 local=/honorsearch-dra.hiboard.hihonorcloud.com/
@@ -1908,6 +1905,7 @@ local=/ads.huantest.com/
 local=/drcn-weather.cloud.huawei.com/
 local=/hwa.his.huawei.com/
 local=/httpdns.huaweicloud.com/
+local=/uba.huaweicloud.com/
 local=/hubcloud.com.cn/
 local=/hubiazhi.com/
 local=/huishenghuiying.com.cn/
@@ -2401,7 +2399,6 @@ local=/s.lenovo.com/
 local=/fsr.lenovomm.com/
 local=/prw.lenovomm.com/
 local=/pushapi.lenovomm.com/
-local=/sdac.lenovomm.com/
 local=/susapi.lenovomm.com/
 local=/uss-pid.lenovomm.com/
 local=/lenzmx.com/
@@ -3964,20 +3961,16 @@ local=/cname-asia-st-exappupgrade.vivoglobal.com/
 local=/cname-de-stsdk.vivoglobal.com/
 local=/cname-in-apport-stsdk.vivoglobal.com/
 local=/cname-in-bom01-nginxpool03.vivoglobal.com/
-local=/cname-in-ctdbonrt-stsdk.vivoglobal.com/
 local=/cname-sin01-stsdk09.vivoglobal.com/
 local=/co-domaincfg.vivoglobal.com/
 local=/co-onrt-stsdk.vivoglobal.com/
 local=/co-ort-stsdk.vivoglobal.com/
-local=/co-pnrt-stsdk.vivoglobal.com/
 local=/co-romsp-unifyconfig.vivoglobal.com/
 local=/co-st-sl.vivoglobal.com/
-local=/co-stsdk.vivoglobal.com/
 local=/co-timesync.vivoglobal.com/
 local=/co-vcode-api.vivoglobal.com/
 local=/co-vcode-od.vivoglobal.com/
 local=/co-vcode-or.vivoglobal.com/
-local=/de-gdpr-err-up.vivoglobal.com/
 local=/err.up.vivoglobal.com/
 local=/eu-cota.vivoglobal.com/
 local=/eu-domaincfg.vivoglobal.com/
@@ -4168,7 +4161,6 @@ local=/ws.wenshenxiu.com/
 local=/ad.weplayer.cc/
 local=/crosspromotion.weplayer.cc/
 local=/wesat.cn/
-local=/s1.wesiedu.com/
 local=/count.west263.com/
 local=/perfsight.wetest.net/
 local=/htrace.wetvinfo.com/
