@@ -4,8 +4,8 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20251205003731
-  # Last modified: 2025/12/05 00:37:31
+  # Version: 20251205100131
+  # Last modified: 2025/12/05 10:01:31
   # Blocked domains: 4720
   #
   - '+.00xvppy.cn'
@@ -2105,8 +2105,7 @@ payload:
   - '+.eventlog.jackpot.de'
   - '+.a3.jandan.net'
   - '+.japps.cn'
-  - '+.jscode.jbzj.com'
-  - '+.mm.jbzj.com'
+  - '+.jbzj.com'
   - '+.stat.jc001.cn'
   - '+.jcchunya.cn'
   - '+.addata.jd.com'
@@ -3826,6 +3825,7 @@ payload:
   - '+.uerzyr.cn'
   - '+.ugdtimg.com'
   - '+.uhabo.com'
+  - '+.file.uhsea.com'
   - '+.bdjs.uimg.cn'
   - '+.ujian.cc'
   - '+.ultrapay.net'
