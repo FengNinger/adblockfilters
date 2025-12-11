@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20251211163733
-! Last modified: 2025/12/11 16:37:33
-! Blocked domains: 4672
+! Version: 20251212003902
+! Last modified: 2025/12/12 00:39:02
+! Blocked domains: 4653
 !
 00xvppy.cn
 img.0279.net
@@ -232,7 +232,6 @@ web.51fishplace.com
 trace.51jingying.com
 a1.51shiti.cn
 51taifu.com
-ad.51wnl-cq.com
 ad.51wnl.com
 51yes.com
 game.51yund.com
@@ -441,7 +440,6 @@ report-edge.agora.io
 report-europe.agora.io
 report-north-america.agora.io
 statscollector-1.agora.io
-statscollector-1-asia.agora.io
 statscollector-1-north-america.agora.io
 tracking.agora.io
 webcollector-rtm.agora.io
@@ -1018,7 +1016,6 @@ clarins.com.cn
 log-api.cli.im
 bd1.click.com.cn
 clicki.cn
-7xi9g1.com1.z0.glb.clouddn.com
 bkt.clouddn.com
 advertise.cloudlinks.cn
 log.cmbchina.com
@@ -1451,7 +1448,6 @@ fugetech.com
 fujincenter.com
 adm.funshion.com
 jobsfe.funshion.com
-neirong.funshion.com
 po.funshion.com
 pub.funshion.com
 pv.funshion.com
@@ -1517,10 +1513,10 @@ liveats-vod.video.ptqy.gitv.tv
 msg.ptqy.gitv.tv
 ota.ptqy.gitv.tv
 policy.video.ptqy.gitv.tv
-puma-api.ptqy.gitv.tv
 sdk-cache.video.ptqy.gitv.tv
 sdk.ptqy.gitv.tv
 static.ptqy.gitv.tv
+t7z.cupid.ptqy.gitv.tv
 time.video.ptqy.gitv.tv
 50m.gkcyc.com
 gknybkl.cn
@@ -1703,7 +1699,6 @@ conf-sg.dc.heytapmobi.com
 darvin-ec.ads.heytapmobi.com
 data.ads.heytapmobi.com
 dcintl.push.heytapmobi.com
-dragate-cn.dc.heytapmobi.com
 dragate-sg.dc.heytapmobi.com
 epoch-id.cdo.heytapmobi.com
 httpdns.ocloud.heytapmobi.com
@@ -1713,7 +1708,6 @@ iot-earbuds-cn.heytapmobi.com
 obus-cn.dc.heytapmobi.com
 obus-config-cn.heytapmobi.com
 obus-dc10-cn.heytapmobi.com
-obus-dc2-cn.heytapmobi.com
 obus-dc20058-cn.heytapmobi.com
 obus-dc2007-cn.heytapmobi.com
 obus-dc20123-cn.heytapmobi.com
@@ -1761,7 +1755,6 @@ log-dre.platform.hihonorcloud.com
 log-drru.platform.hihonorcloud.com
 hiido.com
 analytics.shop.hisense.com
-api-4know-em.hismarttv.com
 api-4know-eu.hismarttv.com
 api-gps.hismarttv.com
 api-gps-eu.hismarttv.com
@@ -1770,7 +1763,6 @@ api-gps-sa.hismarttv.com
 api-launcher-eu.hismarttv.com
 api-launcher-na.hismarttv.com
 api-launcher-sa.hismarttv.com
-api.eu.hismarttv.com
 auth-em.hismarttv.com
 auth-eu.hismarttv.com
 auth-launcher-eu.hismarttv.com
@@ -1952,7 +1944,6 @@ seeder.igetget.com
 ihclam.cn
 fpbone.ihowguide.com
 ihtqqws.cn
-appadapi.ihuman.com
 iimedia.cn
 www.iiyout.cn
 ijinshan.com
@@ -2016,7 +2007,6 @@ apisgame.iqiyi.com
 c.uaa.iqiyi.com
 cards-css.iqiyi.com
 cm.passport.iqiyi.com
-cs-feige.iqiyi.com
 doh.iqiyi.com
 emoticon-sns.iqiyi.com
 emoticon.sns.iqiyi.com
@@ -2445,7 +2435,6 @@ adsapi.manhuaren.com
 bi.manhuaren.com
 euadsapi.manhuaren.com
 manyou.com
-adx.maplehaze.cn
 maps-icloud.today
 sdk.markmedia.com.cn
 www.mashangyoushu.cn
@@ -2555,10 +2544,8 @@ abroad.api.comm.intl.miui.com
 activity.browser.intl.miui.com
 adv.sec.miui.com
 adv.sec.intl.miui.com
-api-rec.stellar.intl.miui.com
 api.accelerator.intl.miui.com
 api.aurogon.intl.miui.com
-api.browser.intl.miui.com
 api.brs.intl.miui.com
 api.collect.data.intl.miui.com
 api.competition.intl.miui.com
@@ -2889,7 +2876,6 @@ q8q.icu
 qawxpzm.cn
 cp.qbaobei.com
 uplog.qbox.me
-log.qcast.cn
 qchannel04.cn
 log.qvb.qcloud.com
 tracker-00.qvb.qcloud.com
@@ -3100,7 +3086,6 @@ wxsnsdythumb.wxs.qq.com
 xmaterial.tu.qq.com
 ysdk.qq.com
 yun-hl.3g.qq.com
-zxcv.3g.qq.com
 wxaintpcos.wxqcloud.qq.com.cn
 a1.qqan.com
 down.qqfarmer.com.cn
@@ -3328,7 +3313,6 @@ analytics.sixt.cn
 1.sj33.net
 sjdfuvz.cn
 sjoy7rq.cn
-clog.skysrt.com
 m.slshiye.cn
 sm-tc.cn
 c.sm.cn
@@ -3904,7 +3888,6 @@ asia-vcode-od.vivoglobal.com
 asia-vcode-or.vivoglobal.com
 asia-vpushonrt-stsdk.vivoglobal.com
 asia-vpushort-stsdk.vivoglobal.com
-cl-vcode-od.vivoglobal.com
 cname-asia-st-exappupgrade.vivoglobal.com
 cname-de-stsdk.vivoglobal.com
 cname-in-apport-stsdk.vivoglobal.com
@@ -3920,7 +3903,6 @@ co-timesync.vivoglobal.com
 co-vcode-api.vivoglobal.com
 co-vcode-od.vivoglobal.com
 co-vcode-or.vivoglobal.com
-err.up.vivoglobal.com
 eu-cota.vivoglobal.com
 eu-domaincfg.vivoglobal.com
 eu-errup.vivoglobal.com
@@ -4242,7 +4224,6 @@ o2o.api.xiaomi.com
 ottl7-l2.pandora.xiaomi.com
 package.box.xiaomi.com
 pi.ias.xiaomi.com
-preload.xiaomi.com
 redirect.pandora.xiaomi.com
 register.xmpush.global.xiaomi.com
 resolver.mi.xiaomi.com
