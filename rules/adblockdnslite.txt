@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20251213163233
-! Last modified: 2025/12/13 16:32:33
-! Blocked domains: 4653
+! Version: 20251214003114
+! Last modified: 2025/12/14 00:31:14
+! Blocked domains: 4652
 ! unBlocked domains: 16
 !
 ||00xvppy.cn^
@@ -72,7 +72,6 @@
 ||crash.163.com^
 ||crashlytics.163.com^
 ||e-p4p.163.com^
-||fa.163.com^
 ||fp-upload.dun.163.com^
 ||g.163.com^
 ||gb.corp.163.com^
@@ -441,6 +440,7 @@
 ||report-europe.agora.io^
 ||report-north-america.agora.io^
 ||statscollector-1.agora.io^
+||statscollector-1-asia.agora.io^
 ||statscollector-1-north-america.agora.io^
 ||tracking.agora.io^
 ||webcollector-rtm.agora.io^
@@ -1137,6 +1137,7 @@
 ||net.daraz.lk^
 ||net.daraz.pk^
 ||sgtm.darryring.com^
+||clickserve.dartsearch.net^
 ||dashet.com^
 ||gate.datacaciques.com^
 ||pv.datacaciques.com^
@@ -1266,7 +1267,6 @@
 ||dotcounter.douyutv.com^
 ||dpjzzgw.cn^
 ||drdwy.com^
-||drivethelife.com^
 ||dspunion.com^
 ||parcel-locker.dsyl8.com^
 ||analytics.dsyqt.com^
@@ -1766,7 +1766,6 @@
 ||api-gps-sa.hismarttv.com^
 ||api-launcher-eu.hismarttv.com^
 ||api-launcher-na.hismarttv.com^
-||api-launcher-sa.hismarttv.com^
 ||auth-em.hismarttv.com^
 ||auth-eu.hismarttv.com^
 ||auth-launcher-eu.hismarttv.com^
@@ -1774,6 +1773,7 @@
 ||auth-launcher-sa.hismarttv.com^
 ||auth-na.hismarttv.com^
 ||auth-phone-ap.hismarttv.com^
+||auth-phone-na.hismarttv.com^
 ||auth-sa.hismarttv.com^
 ||cdn-plugin-sync-upgrade-juui.hismarttv.com^
 ||msg-na.hismarttv.com^
@@ -1947,6 +1947,7 @@
 ||ihclam.cn^
 ||fpbone.ihowguide.com^
 ||ihtqqws.cn^
+||appadapi.ihuman.com^
 ||iimedia.cn^
 ||www.iiyout.cn^
 ||ijinshan.com^
@@ -2548,9 +2549,9 @@
 ||activity.browser.intl.miui.com^
 ||adv.sec.miui.com^
 ||adv.sec.intl.miui.com^
+||api-rec.stellar.intl.miui.com^
 ||api.accelerator.intl.miui.com^
 ||api.aurogon.intl.miui.com^
-||api.browser.intl.miui.com^
 ||api.brs.intl.miui.com^
 ||api.collect.data.intl.miui.com^
 ||api.competition.intl.miui.com^
@@ -3012,8 +3013,6 @@
 ||oimsgad.qq.com^
 ||omgid.qq.com^
 ||omgmta1.qq.com^
-||oth.eve.mdt.qq.com^
-||oth.str.mdt.qq.com^
 ||p2p.qq.com^
 ||p2pupdate.gamedl.qq.com^
 ||p2pupgrade.gamedl.qq.com^
@@ -3483,6 +3482,7 @@
 ||clog.tanshudata.com^
 ||seiya.tantanapp.com^
 ||tanv.com^
+||click.tanx.com^
 ||cms.tanx.com^
 ||df.tanx.com^
 ||ef-dongfeng.tanx.com^
@@ -3635,7 +3635,6 @@
 ||a.tiyuxiu.com^
 ||tjnwfjy.cn^
 ||tjqwb.cn^
-||livetech.shopee.co.th.tlivecdn.com^
 ||site-p2p-ads.tngdigital.com.my^
 ||hbv.tobeacon.cn^
 ||st.todesk.com^
