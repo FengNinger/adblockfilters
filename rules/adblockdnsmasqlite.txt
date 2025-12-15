@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20251215164007
-# Last modified: 2025/12/15 16:40:07
-# Blocked domains: 4673
+# Version: 20251216003920
+# Last modified: 2025/12/16 00:39:20
+# Blocked domains: 4679
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -367,6 +367,7 @@ local=/999bb222ww.com/
 local=/999xx333kk.com/
 local=/999xx999kk.com/
 local=/99box.com/
+local=/collect.9em.cn/
 local=/9ics.cn/
 local=/9kh5b.cn/
 local=/9wee.com/
@@ -1201,6 +1202,7 @@ local=/events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn/
 local=/events-dra-op-dbankcloud-com-dra.region.dbankedge.cn/
 local=/events-dra-op-hicloud-com-dra.appacc.dbankedge.cn/
 local=/events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn/
+local=/events-dre-op-dbankcloud-com-dre.appacc-region.dbankedge.cn/
 local=/events-dre-op-hicloud-com-dre.appacc.dbankedge.cn/
 local=/hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn/
 local=/hisearch-dra-dt-dbankcloud-com-dra.appacc-region.dbankedge.cn/
@@ -1744,6 +1746,7 @@ local=/hgkzl.cn/
 local=/hgpbhuj.cn/
 local=/hhttm.top/
 local=/sdd.hi1718.com/
+local=/adx-dra.op.hicloud.com/
 local=/adx-dre.op.hicloud.com/
 local=/connect-dre.hispace.hicloud.com/
 local=/data.hicloud.com/
@@ -1754,6 +1757,7 @@ local=/grs.hicloud.com/
 local=/logbak.hicloud.com/
 local=/logservice.hicloud.com/
 local=/logservice-dra.platform.hicloud.com/
+local=/logservice-dre.platform.hicloud.com/
 local=/logservice1.hicloud.com/
 local=/ads-drcn.platform.hihonorcloud.com/
 local=/honorsearch-dra.hiboard.hihonorcloud.com/
@@ -1774,6 +1778,7 @@ local=/api-gps-sa.hismarttv.com/
 local=/api-launcher-eu.hismarttv.com/
 local=/api-launcher-na.hismarttv.com/
 local=/api-launcher-sa.hismarttv.com/
+local=/api.eu.hismarttv.com/
 local=/auth-em.hismarttv.com/
 local=/auth-eu.hismarttv.com/
 local=/auth-launcher-eu.hismarttv.com/
@@ -2197,7 +2202,6 @@ local=/kmhmyaj.cn/
 local=/kmihknj.cn/
 local=/kmpxq.cn/
 local=/kmzayrt.cn/
-local=/kxlogo.knet.cn/
 local=/knliylh.cn/
 local=/ofkqiy.knowfashionstyle.com/
 local=/kolhudg.cn/
@@ -3104,6 +3108,7 @@ local=/wxsnsdythumb.wxs.qq.com/
 local=/xmaterial.tu.qq.com/
 local=/ysdk.qq.com/
 local=/yun-hl.3g.qq.com/
+local=/zxcv.3g.qq.com/
 local=/wxaintpcos.wxqcloud.qq.com.cn/
 local=/a1.qqan.com/
 local=/down.qqfarmer.com.cn/
@@ -3497,7 +3502,6 @@ local=/talkingdata.com/
 local=/clog.tanshudata.com/
 local=/seiya.tantanapp.com/
 local=/tanv.com/
-local=/click.tanx.com/
 local=/cms.tanx.com/
 local=/df.tanx.com/
 local=/ef-dongfeng.tanx.com/
@@ -3911,6 +3915,7 @@ local=/cname-asia-st-exappupgrade.vivoglobal.com/
 local=/cname-de-stsdk.vivoglobal.com/
 local=/cname-in-apport-stsdk.vivoglobal.com/
 local=/cname-in-bom01-nginxpool03.vivoglobal.com/
+local=/cname-in-ctdbonrt-stsdk.vivoglobal.com/
 local=/cname-sin01-stsdk09.vivoglobal.com/
 local=/co-domaincfg.vivoglobal.com/
 local=/co-onrt-stsdk.vivoglobal.com/
@@ -4245,6 +4250,7 @@ local=/o2o.api.xiaomi.com/
 local=/ottl7-l2.pandora.xiaomi.com/
 local=/package.box.xiaomi.com/
 local=/pi.ias.xiaomi.com/
+local=/preload.xiaomi.com/
 local=/redirect.pandora.xiaomi.com/
 local=/register.xmpush.global.xiaomi.com/
 local=/resolver.mi.xiaomi.com/
