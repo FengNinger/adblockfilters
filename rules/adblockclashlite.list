@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20251218003730
-# Last modified: 2025/12/18 00:37:30
-# Blocked domains: 4634
+# Version: 20251218100130
+# Last modified: 2025/12/18 10:01:30
+# Blocked domains: 4632
 #
 [Rule]
 DOMAIN-SUFFIX,00xvppy.cn,REJECT-DROP
@@ -1808,7 +1808,6 @@ DOMAIN-SUFFIX,sentry.eks.hoyoverse.com,REJECT-DROP
 DOMAIN-SUFFIX,sg-public-data-api.hoyoverse.com,REJECT-DROP
 DOMAIN-SUFFIX,ys-log-upload-os.hoyoverse.com,REJECT-DROP
 DOMAIN-SUFFIX,ecommhpi.ext.hp.com,REJECT-DROP
-DOMAIN-SUFFIX,elqtrk.ext.hp.com,REJECT-DROP
 DOMAIN-SUFFIX,images.autonomyinfo.hp.com,REJECT-DROP
 DOMAIN-SUFFIX,images.engage.hp.com,REJECT-DROP
 DOMAIN-SUFFIX,met1.hp.com,REJECT-DROP
@@ -2858,7 +2857,6 @@ DOMAIN-SUFFIX,ptengine.cn,REJECT-DROP
 DOMAIN-SUFFIX,pufhzpt.cn,REJECT-DROP
 DOMAIN-SUFFIX,pig.pupuapi.com,REJECT-DROP
 DOMAIN-SUFFIX,puqer.cn,REJECT-DROP
-DOMAIN-SUFFIX,ums.pushpia.cn,REJECT-DROP
 DOMAIN-SUFFIX,pv4b.com,REJECT-DROP
 DOMAIN-SUFFIX,pxhuiben.com,REJECT-DROP
 DOMAIN-SUFFIX,pygokay.cn,REJECT-DROP
