@@ -3,8 +3,8 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20251224163722
-! Last modified: 2025/12/24 16:37:22
+! Version: 20251225003315
+! Last modified: 2025/12/25 00:33:15
 ! Blocked domains: 4648
 !
 00xvppy.cn
@@ -441,6 +441,7 @@ report-edge.agora.io
 report-europe.agora.io
 report-north-america.agora.io
 statscollector-1.agora.io
+statscollector-1-asia.agora.io
 statscollector-1-north-america.agora.io
 tracking.agora.io
 webcollector-rtm.agora.io
@@ -552,7 +553,6 @@ jpg1.oss-cn-beijing.aliyuncs.com
 jun01.oss-cn-beijing.aliyuncs.com
 kmmgoogle.oss-ap-southeast-1.aliyuncs.com
 mobantong.oss-cn-hangzhou.aliyuncs.com
-o2o-ad-dev.oss-cn-shanghai.aliyuncs.com
 retcode-sg-lazada.arms.aliyuncs.com
 shaquevip.oss-cn-zhangjiakou.aliyuncs.com
 star-seo.oss-ap-northeast-1.aliyuncs.com
@@ -1361,7 +1361,6 @@ euitx.cn
 eujxqgh.cn
 duologinsupersdk.ewan.cn
 a.exam58.com
-excellenceads.com
 drovs.excelliance.cn
 excoino.com
 excsyrv.cn
@@ -1706,6 +1705,7 @@ iot-earbuds-cn.heytapmobi.com
 obus-cn.dc.heytapmobi.com
 obus-config-cn.heytapmobi.com
 obus-dc10-cn.heytapmobi.com
+obus-dc2-cn.heytapmobi.com
 obus-dc20058-cn.heytapmobi.com
 obus-dc2007-cn.heytapmobi.com
 obus-dc20123-cn.heytapmobi.com
@@ -1743,6 +1743,7 @@ grs.hicloud.com
 logbak.hicloud.com
 logservice.hicloud.com
 logservice-dra.platform.hicloud.com
+logservice-dre.platform.hicloud.com
 logservice1.hicloud.com
 ads-drcn.platform.hihonorcloud.com
 honorsearch-dra.hiboard.hihonorcloud.com
@@ -3086,7 +3087,6 @@ wxsnsdythumb.wxs.qq.com
 xmaterial.tu.qq.com
 ysdk.qq.com
 yun-hl.3g.qq.com
-zxcv.3g.qq.com
 wxaintpcos.wxqcloud.qq.com.cn
 a1.qqan.com
 down.qqfarmer.com.cn
@@ -3352,7 +3352,6 @@ log-lq.snssdk.com
 mcs.snssdk.com
 mercury-sdk.snssdk.com
 mon.snssdk.com
-mssdk-bu.snssdk.com
 open.snssdk.com
 pangolin.snssdk.com
 pc-mon.snssdk.com
@@ -3480,6 +3479,7 @@ talkingdata.com
 clog.tanshudata.com
 seiya.tantanapp.com
 tanv.com
+click.tanx.com
 cms.tanx.com
 df.tanx.com
 ef-dongfeng.tanx.com
@@ -3887,6 +3887,7 @@ asia-vpushonrt-stsdk.vivoglobal.com
 asia-vpushort-stsdk.vivoglobal.com
 cl-vcode-od.vivoglobal.com
 cname-asia-st-exappupgrade.vivoglobal.com
+cname-de-stsdk.vivoglobal.com
 cname-in-apport-stsdk.vivoglobal.com
 cname-in-bom01-nginxpool03.vivoglobal.com
 cname-sin01-stsdk09.vivoglobal.com
@@ -4308,7 +4309,6 @@ xulizui6.com
 ad.xunkids.com
 adsp.xunlei.com
 advertpay-vip-ssl.xunlei.com
-advertpay.vip.xunlei.com
 analytics-union.xunlei.com
 kkpgv2.xunlei.com
 soa-vip-ssl.xunlei.com
