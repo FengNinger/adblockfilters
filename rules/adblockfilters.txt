@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20251228102308
-! Last modified: 2025/12/28 10:23:08
-! Blocked Filters: 100040
+! Version: 20251228163426
+! Last modified: 2025/12/28 16:34:26
+! Blocked Filters: 100055
 !
 ###AC_ad
 ###AD_160
@@ -18214,6 +18214,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /cdn-cgi/pe/bag2?r[]=http%3A%2F%2Fope.tanx.com
 /cdn-cgi/ping?$image
 /cdn-cgi/rum?
+/cdn-cgi/rum|
 /cdn-cgi/zaraz/*
 /cdn_cookie_service.html
 /ce_l.aspx?showid=$third-party
@@ -20204,6 +20205,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /pageviews.gif?
 /pageviews.php?type=
 /pageviews?token=
+/parceldns.com/t/*$image
 /parsely.js
 /parsonsmaize/abilene.js$script
 /parsonsmaize/chanute.js$script
@@ -21487,6 +21489,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /track_visit.js
 /track_visit?
 /track_visitor?
+/trackbee.min.js
 /trackconversion?
 /tracker.ga.
 /tracker.gif?
@@ -64882,6 +64885,8 @@ orgasm.com###orgasm-girl-banner
 orgyxxxhub.com###invideo_2
 orgyxxxhub.com###objad
 originalindianporn.com,6japaneseporn.com##.center-place > .bns-place-ob > .bn-place
+originality.ai###bannerFrame
+originality.ai##.banner-element
 origo.hu##.os-content > .os-spar-holder
 origo.hu##a[href*="adverticum.net"]
 origo.hu#$#.hasHangar footer[style^="margin-bottom:"] { margin-bottom: 0!important; }
@@ -78195,6 +78200,8 @@ vecer.com#?#.relative > div.grid:has(> div.min-w-0 > div[id^="midasWidget"])
 vecernji.hr##.single-article__row--top-offer
 vecernji.hr##div[data-client="vecernji_hr_spotlight"]
 vecernji.hr#$?#.js_bannerWrapper.gallery__banner { remove: true; }
+vecteezy.com##.ez-sponsored-results
+vecteezy.com##.partner-sponsored-results
 vecteezy.com,videezy.com##.partner-sponsored-results
 vectogravic.com,rinconpsicologia.com##.site-container + div[id][class*=" "]
 vector-eps.com#$#.download-home + .disableadblock { display: none !important; }
@@ -84140,6 +84147,7 @@ zzzyk.com###Tinfo
 ||amazon.com/1/events/$domain=~aws.amazon.com
 ||amazon.com/aan/
 ||amazon.com/aan/$subdocument
+||amazon.com/cs/uedata
 ||amazon.com/e/xsp/imp?
 ||amazon.com/empty.gif?$image
 ||amazon.dev/getAds
@@ -84469,6 +84477,7 @@ zzzyk.com###Tinfo
 ||api.sardine.ai/assets/loader.min.js$third-party
 ||api.shutterstock.com^$domain=isorepublic.com
 ||api.slushy.com/ads/post
+||api.sovendus.com/js/landing.js
 ||api.sportplus.live/*/visitor-counter
 ||api.steampp.net/api/Advertisement/
 ||api.streamelements.com/science/
@@ -84526,6 +84535,7 @@ zzzyk.com###Tinfo
 ||app.tag-plus.com/ja/api/v1/unison_planet/heat_map
 ||app.torbobit.net/api/ads/
 ||app.trytada.com/addImpression
+||app.varify.io/varify.js
 ||app.wiki.gg/public/CCM_MREC_Ads_
 ||appanalysis*.banggood.com^
 ||appcms-gxr.asset.viewlift.com/build/*/client.*.js$replace=/throw Error\(.\(418\)\);/null;/,domain=gxr.world
@@ -91093,6 +91103,7 @@ zzzyk.com###Tinfo
 ||js-js.oss-cn-beijing.aliyuncs.com/mnpc-umeng.js$domain=dianyingim.com
 ||js.*2023*.live^
 ||js.*2023*.xyz^
+||js.cdn.applicationinsights.io/scripts/b/ai.3.gbl.min.js
 ||js.desiporn.tube/*/baker
 ||js.desiporn.tube/wovbrqqij/
 ||js.dropmms.net/adprovider.js
@@ -91803,6 +91814,7 @@ zzzyk.com###Tinfo
 ||listentoyt.com/vidbutton/$popup
 ||listrak.com/api/Activity/click
 ||listrak.com/api/Activity/impression
+||listrakbi.com/ModalImpression.ashx?
 ||listrakbi.com/activity/
 ||listrakbi.com/api/ActivityEvents/
 ||litecoin-faucet.com/assets/img/static/
@@ -95945,6 +95957,7 @@ zzzyk.com###Tinfo
 ||shopimind.com^$third-party
 ||shoplift.ai/api/events/
 ||shoplocal.com/it.ashx?
+||shopper.shop.pe/input.js
 ||shopper.shop.pe/pixel.png
 ||shopping.buffalonews.com/places/widget/widget
 ||shopping.udn.com/mall/cus/cat/OutWebAd.do?
@@ -98064,6 +98077,7 @@ zzzyk.com###Tinfo
 ||uecdn.es/js/pbmu.js
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 ||uefa.com/imgml/uefacom/sponsors/
+||ufe.helixo.co/scripts/sdk.min.js
 ||ufile.io/assets/js/ab.js
 ||ugent.be/js/log.js
 ||ugprod.geeksforgeeks.org/post/api/usertracking/
@@ -98220,6 +98234,7 @@ zzzyk.com###Tinfo
 ||useitbetter.com^$third-party
 ||uselessjunk.com^$domain=yoloselfie.com
 ||useproof.com^$third-party
+||user-back.ggcorp.me/statistics
 ||user-shield.com/*&clickid=$all
 ||user.042.cn/adver/adver.js
 ||usercentrics.eu/session/$image
