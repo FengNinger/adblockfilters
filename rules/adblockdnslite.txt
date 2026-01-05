@@ -3,8 +3,8 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20260105164147
-! Last modified: 2026/01/05 16:41:47
+! Version: 20260106003515
+! Last modified: 2026/01/06 00:35:15
 ! Blocked domains: 4644
 ! unBlocked domains: 16
 !
@@ -367,7 +367,6 @@
 ||999xx333kk.com^
 ||999xx999kk.com^
 ||99box.com^
-||collect.9em.cn^
 ||9ics.cn^
 ||9kh5b.cn^
 ||9wee.com^
@@ -1013,7 +1012,6 @@
 ||log-api.cli.im^
 ||bd1.click.com.cn^
 ||clicki.cn^
-||7xi9g1.com1.z0.glb.clouddn.com^
 ||bkt.clouddn.com^
 ||advertise.cloudlinks.cn^
 ||log.cmbchina.com^
@@ -1598,7 +1596,6 @@
 ||gtcqbnu.cn^
 ||pgdt.gtimg.cn^
 ||tianshu.gtimg.cn^
-||ra.gtimg.com^
 ||splashqqlive.gtimg.com^
 ||tui.gtimg.com^
 ||wa.gtimg.com^
@@ -1706,6 +1703,7 @@
 ||obus-cn.dc.heytapmobi.com^
 ||obus-config-cn.heytapmobi.com^
 ||obus-dc10-cn.heytapmobi.com^
+||obus-dc2-cn.heytapmobi.com^
 ||obus-dc20058-cn.heytapmobi.com^
 ||obus-dc2007-cn.heytapmobi.com^
 ||obus-dc20123-cn.heytapmobi.com^
@@ -1974,7 +1972,6 @@
 ||analytics.inbobi.com^
 ||link.infineon.cn^
 ||link.infineon.com^
-||ssgtm.infineon.com^
 ||track-e.infineon.com^
 ||trk.ingersollrandproducts.cn^
 ||apidns.kwd.inkuai.com^
@@ -2345,6 +2342,7 @@
 ||fsr.lenovomm.com^
 ||prw.lenovomm.com^
 ||pushapi.lenovomm.com^
+||sdac.lenovomm.com^
 ||susapi.lenovomm.com^
 ||uss-pid.lenovomm.com^
 ||lenzmx.com^
@@ -3478,6 +3476,7 @@
 ||clog.tanshudata.com^
 ||seiya.tantanapp.com^
 ||tanv.com^
+||click.tanx.com^
 ||cms.tanx.com^
 ||df.tanx.com^
 ||ef-dongfeng.tanx.com^
@@ -3606,6 +3605,7 @@
 ||tatrack.thinkyeah.com^
 ||trk.thomas-pump.cn^
 ||trail.thomsonreuters.cn^
+||ad.thsi.cn^
 ||tracking.ti.com^
 ||tracking.mail.ti.com^
 ||trackinginternal.ti.com^
