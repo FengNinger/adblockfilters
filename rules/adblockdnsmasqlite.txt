@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260106163937
-# Last modified: 2026/01/06 16:39:37
-# Blocked domains: 4644
+# Version: 20260107003733
+# Last modified: 2026/01/07 00:37:33
+# Blocked domains: 4638
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -1011,6 +1011,7 @@ local=/clarins.com.cn/
 local=/log-api.cli.im/
 local=/bd1.click.com.cn/
 local=/clicki.cn/
+local=/7xi9g1.com1.z0.glb.clouddn.com/
 local=/bkt.clouddn.com/
 local=/advertise.cloudlinks.cn/
 local=/log.cmbchina.com/
@@ -1506,7 +1507,6 @@ local=/liveats-vod.video.ptqy.gitv.tv/
 local=/msg.ptqy.gitv.tv/
 local=/ota.ptqy.gitv.tv/
 local=/policy.video.ptqy.gitv.tv/
-local=/puma-api.ptqy.gitv.tv/
 local=/sdk-cache.video.ptqy.gitv.tv/
 local=/sdk.ptqy.gitv.tv/
 local=/static.ptqy.gitv.tv/
@@ -1596,7 +1596,6 @@ local=/gtcqbnu.cn/
 local=/pgdt.gtimg.cn/
 local=/tianshu.gtimg.cn/
 local=/splashqqlive.gtimg.com/
-local=/tui.gtimg.com/
 local=/wa.gtimg.com/
 local=/gtpxvpi.cn/
 local=/bd1.guancha.cn/
@@ -1702,7 +1701,6 @@ local=/iot-earbuds-cn.heytapmobi.com/
 local=/obus-cn.dc.heytapmobi.com/
 local=/obus-config-cn.heytapmobi.com/
 local=/obus-dc10-cn.heytapmobi.com/
-local=/obus-dc2-cn.heytapmobi.com/
 local=/obus-dc20058-cn.heytapmobi.com/
 local=/obus-dc2007-cn.heytapmobi.com/
 local=/obus-dc20123-cn.heytapmobi.com/
@@ -1740,7 +1738,6 @@ local=/grs.hicloud.com/
 local=/logbak.hicloud.com/
 local=/logservice.hicloud.com/
 local=/logservice-dra.platform.hicloud.com/
-local=/logservice-dre.platform.hicloud.com/
 local=/logservice1.hicloud.com/
 local=/ads-drcn.platform.hihonorcloud.com/
 local=/honorsearch-dra.hiboard.hihonorcloud.com/
@@ -1971,6 +1968,7 @@ local=/inad.com/
 local=/analytics.inbobi.com/
 local=/link.infineon.cn/
 local=/link.infineon.com/
+local=/ssgtm.infineon.com/
 local=/track-e.infineon.com/
 local=/trk.ingersollrandproducts.cn/
 local=/apidns.kwd.inkuai.com/
@@ -2341,7 +2339,6 @@ local=/s.lenovo.com/
 local=/fsr.lenovomm.com/
 local=/prw.lenovomm.com/
 local=/pushapi.lenovomm.com/
-local=/sdac.lenovomm.com/
 local=/susapi.lenovomm.com/
 local=/uss-pid.lenovomm.com/
 local=/lenzmx.com/
@@ -2482,7 +2479,6 @@ local=/servicecut.meizu.com/
 local=/tongji.meizu.com/
 local=/tongji-res.meizu.com/
 local=/tongji-res1.meizu.com/
-local=/u.meizu.com/
 local=/umid.orion.meizu.com/
 local=/uxip.meizu.com/
 local=/ofd.meng-an.cn/
@@ -3081,7 +3077,6 @@ local=/wxsnsdythumb.wxs.qq.com/
 local=/xmaterial.tu.qq.com/
 local=/ysdk.qq.com/
 local=/yun-hl.3g.qq.com/
-local=/zxcv.3g.qq.com/
 local=/wxaintpcos.wxqcloud.qq.com.cn/
 local=/a1.qqan.com/
 local=/down.qqfarmer.com.cn/
@@ -3891,12 +3886,10 @@ local=/co-onrt-stsdk.vivoglobal.com/
 local=/co-ort-stsdk.vivoglobal.com/
 local=/co-romsp-unifyconfig.vivoglobal.com/
 local=/co-st-sl.vivoglobal.com/
-local=/co-stsdk.vivoglobal.com/
 local=/co-timesync.vivoglobal.com/
 local=/co-vcode-api.vivoglobal.com/
 local=/co-vcode-od.vivoglobal.com/
 local=/co-vcode-or.vivoglobal.com/
-local=/de-gdpr-err-up.vivoglobal.com/
 local=/err.up.vivoglobal.com/
 local=/eu-cota.vivoglobal.com/
 local=/eu-domaincfg.vivoglobal.com/
@@ -4403,6 +4396,7 @@ local=/dsp-impr2.youdao.com/
 local=/fanyiegg.youdao.com/
 local=/foundation.youdao.com/
 local=/gorgon.youdao.com/
+local=/impservice.youdao.com/
 local=/sdk-log-inter.youdao.com/
 local=/union.youdao.com/
 local=/ydpushserver.youdao.com/

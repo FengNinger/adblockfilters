@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260106163937
-! Last modified: 2026/01/06 16:39:37
-! Blocked domains: 4644
+! Version: 20260107003733
+! Last modified: 2026/01/07 00:37:33
+! Blocked domains: 4638
 !
 00xvppy.cn
 img.0279.net
@@ -1011,6 +1011,7 @@ clarins.com.cn
 log-api.cli.im
 bd1.click.com.cn
 clicki.cn
+7xi9g1.com1.z0.glb.clouddn.com
 bkt.clouddn.com
 advertise.cloudlinks.cn
 log.cmbchina.com
@@ -1506,7 +1507,6 @@ liveats-vod.video.ptqy.gitv.tv
 msg.ptqy.gitv.tv
 ota.ptqy.gitv.tv
 policy.video.ptqy.gitv.tv
-puma-api.ptqy.gitv.tv
 sdk-cache.video.ptqy.gitv.tv
 sdk.ptqy.gitv.tv
 static.ptqy.gitv.tv
@@ -1596,7 +1596,6 @@ gtcqbnu.cn
 pgdt.gtimg.cn
 tianshu.gtimg.cn
 splashqqlive.gtimg.com
-tui.gtimg.com
 wa.gtimg.com
 gtpxvpi.cn
 bd1.guancha.cn
@@ -1702,7 +1701,6 @@ iot-earbuds-cn.heytapmobi.com
 obus-cn.dc.heytapmobi.com
 obus-config-cn.heytapmobi.com
 obus-dc10-cn.heytapmobi.com
-obus-dc2-cn.heytapmobi.com
 obus-dc20058-cn.heytapmobi.com
 obus-dc2007-cn.heytapmobi.com
 obus-dc20123-cn.heytapmobi.com
@@ -1740,7 +1738,6 @@ grs.hicloud.com
 logbak.hicloud.com
 logservice.hicloud.com
 logservice-dra.platform.hicloud.com
-logservice-dre.platform.hicloud.com
 logservice1.hicloud.com
 ads-drcn.platform.hihonorcloud.com
 honorsearch-dra.hiboard.hihonorcloud.com
@@ -1971,6 +1968,7 @@ inad.com
 analytics.inbobi.com
 link.infineon.cn
 link.infineon.com
+ssgtm.infineon.com
 track-e.infineon.com
 trk.ingersollrandproducts.cn
 apidns.kwd.inkuai.com
@@ -2341,7 +2339,6 @@ s.lenovo.com
 fsr.lenovomm.com
 prw.lenovomm.com
 pushapi.lenovomm.com
-sdac.lenovomm.com
 susapi.lenovomm.com
 uss-pid.lenovomm.com
 lenzmx.com
@@ -2482,7 +2479,6 @@ servicecut.meizu.com
 tongji.meizu.com
 tongji-res.meizu.com
 tongji-res1.meizu.com
-u.meizu.com
 umid.orion.meizu.com
 uxip.meizu.com
 ofd.meng-an.cn
@@ -3081,7 +3077,6 @@ wxsnsdythumb.wxs.qq.com
 xmaterial.tu.qq.com
 ysdk.qq.com
 yun-hl.3g.qq.com
-zxcv.3g.qq.com
 wxaintpcos.wxqcloud.qq.com.cn
 a1.qqan.com
 down.qqfarmer.com.cn
@@ -3891,12 +3886,10 @@ co-onrt-stsdk.vivoglobal.com
 co-ort-stsdk.vivoglobal.com
 co-romsp-unifyconfig.vivoglobal.com
 co-st-sl.vivoglobal.com
-co-stsdk.vivoglobal.com
 co-timesync.vivoglobal.com
 co-vcode-api.vivoglobal.com
 co-vcode-od.vivoglobal.com
 co-vcode-or.vivoglobal.com
-de-gdpr-err-up.vivoglobal.com
 err.up.vivoglobal.com
 eu-cota.vivoglobal.com
 eu-domaincfg.vivoglobal.com
@@ -4403,6 +4396,7 @@ dsp-impr2.youdao.com
 fanyiegg.youdao.com
 foundation.youdao.com
 gorgon.youdao.com
+impservice.youdao.com
 sdk-log-inter.youdao.com
 union.youdao.com
 ydpushserver.youdao.com
