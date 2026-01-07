@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260107163923
-! Last modified: 2026/01/07 16:39:23
-! Blocked domains: 4635
+! Version: 20260108003832
+! Last modified: 2026/01/08 00:38:32
+! Blocked domains: 4625
 !
 00xvppy.cn
 img.0279.net
@@ -71,7 +71,6 @@ countly.mail.163.com
 crash.163.com
 crashlytics.163.com
 e-p4p.163.com
-fa.163.com
 fp-upload.dun.163.com
 g.163.com
 gb.corp.163.com
@@ -232,7 +231,6 @@ web.51fishplace.com
 trace.51jingying.com
 a1.51shiti.cn
 51taifu.com
-ad.51wnl-cq.com
 ad.51wnl.com
 51yes.com
 game.51yund.com
@@ -553,7 +551,6 @@ jpg1.oss-cn-beijing.aliyuncs.com
 jun01.oss-cn-beijing.aliyuncs.com
 kmmgoogle.oss-ap-southeast-1.aliyuncs.com
 mobantong.oss-cn-hangzhou.aliyuncs.com
-o2o-ad-dev.oss-cn-shanghai.aliyuncs.com
 retcode-sg-lazada.arms.aliyuncs.com
 shaquevip.oss-cn-zhangjiakou.aliyuncs.com
 star-seo.oss-ap-northeast-1.aliyuncs.com
@@ -609,7 +606,6 @@ appgift.sinaapp.com
 iadsdk.apple.com
 securemetrics.apple.com.cn
 fpb1.apple886.com
-st.appsad.cn
 adx.appsdk.com.cn
 appsdt.com
 tracking.apptrackerlink.com
@@ -827,6 +823,7 @@ zz.bdstatic.com
 smetrics.beatsbydre.com
 smetrics.beatsbydre.com.cn
 beencounter.com
+analytics.behr.com
 images.explore.behr.com
 beizi.biz
 smetrics.benefitcosmetics.com.cn
@@ -1726,7 +1723,6 @@ hgkzl.cn
 hgpbhuj.cn
 hhttm.top
 sdd.hi1718.com
-adx-dra.op.hicloud.com
 adx-dre.op.hicloud.com
 connect-dre.hispace.hicloud.com
 data.hicloud.com
@@ -1748,8 +1744,6 @@ log-dre.platform.hihonorcloud.com
 log-drru.platform.hihonorcloud.com
 hiido.com
 analytics.shop.hisense.com
-api-4know-em.hismarttv.com
-api-4know-eu.hismarttv.com
 api-gps.hismarttv.com
 api-gps-eu.hismarttv.com
 api-gps-na.hismarttv.com
@@ -2496,7 +2490,6 @@ mgzjin.cn
 resolver.gslb.mi-idc.com
 ad.mi.com
 d.g.mi.com
-h5.tv.mi.com
 idm.iot.mi.com
 in.tv.global.mi.com
 migc.g.mi.com
@@ -2532,7 +2525,6 @@ abroad.api.comm.intl.miui.com
 activity.browser.intl.miui.com
 adv.sec.miui.com
 adv.sec.intl.miui.com
-api-rec.stellar.intl.miui.com
 api.accelerator.intl.miui.com
 api.aurogon.intl.miui.com
 api.browser.intl.miui.com
@@ -2864,7 +2856,6 @@ q8q.icu
 qawxpzm.cn
 cp.qbaobei.com
 uplog.qbox.me
-log.qcast.cn
 qchannel04.cn
 log.qvb.qcloud.com
 tracker-00.qvb.qcloud.com
@@ -2887,6 +2878,7 @@ game.qidian.com
 qdp.qidian.com
 qienews.cn
 haostat.qihoo.com
+js.passport.qihucdn.com
 qijpaih.cn
 roibest-report-sdk.qiliangjia.com
 up.qingdaonews.com
@@ -3340,7 +3332,6 @@ log-lq.snssdk.com
 mcs.snssdk.com
 mercury-sdk.snssdk.com
 mon.snssdk.com
-mssdk-bu.snssdk.com
 open.snssdk.com
 pangolin.snssdk.com
 pc-mon.snssdk.com
@@ -3468,7 +3459,6 @@ talkingdata.com
 clog.tanshudata.com
 seiya.tantanapp.com
 tanv.com
-click.tanx.com
 cms.tanx.com
 df.tanx.com
 ef-dongfeng.tanx.com
@@ -3887,7 +3877,7 @@ co-timesync.vivoglobal.com
 co-vcode-api.vivoglobal.com
 co-vcode-od.vivoglobal.com
 co-vcode-or.vivoglobal.com
-err.up.vivoglobal.com
+de-gdpr-err-up.vivoglobal.com
 eu-cota.vivoglobal.com
 eu-domaincfg.vivoglobal.com
 eu-errup.vivoglobal.com
