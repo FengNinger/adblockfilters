@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20260109163905
-# Last modified: 2026/01/09 16:39:05
-# Blocked domains: 4620
+# Version: 20260110003643
+# Last modified: 2026/01/10 00:36:43
+# Blocked domains: 4616
 #
 [Rule]
 DOMAIN-SUFFIX,00xvppy.cn,REJECT-DROP
@@ -232,6 +232,7 @@ DOMAIN-SUFFIX,web.51fishplace.com,REJECT-DROP
 DOMAIN-SUFFIX,trace.51jingying.com,REJECT-DROP
 DOMAIN-SUFFIX,a1.51shiti.cn,REJECT-DROP
 DOMAIN-SUFFIX,51taifu.com,REJECT-DROP
+DOMAIN-SUFFIX,ad.51wnl-cq.com,REJECT-DROP
 DOMAIN-SUFFIX,ad.51wnl.com,REJECT-DROP
 DOMAIN-SUFFIX,51yes.com,REJECT-DROP
 DOMAIN-SUFFIX,game.51yund.com,REJECT-DROP
@@ -440,7 +441,6 @@ DOMAIN-SUFFIX,report-edge.agora.io,REJECT-DROP
 DOMAIN-SUFFIX,report-europe.agora.io,REJECT-DROP
 DOMAIN-SUFFIX,report-north-america.agora.io,REJECT-DROP
 DOMAIN-SUFFIX,statscollector-1.agora.io,REJECT-DROP
-DOMAIN-SUFFIX,statscollector-1-asia.agora.io,REJECT-DROP
 DOMAIN-SUFFIX,statscollector-1-north-america.agora.io,REJECT-DROP
 DOMAIN-SUFFIX,tracking.agora.io,REJECT-DROP
 DOMAIN-SUFFIX,webcollector-rtm.agora.io,REJECT-DROP
@@ -607,6 +607,7 @@ DOMAIN-SUFFIX,appgift.sinaapp.com,REJECT-DROP
 DOMAIN-SUFFIX,iadsdk.apple.com,REJECT-DROP
 DOMAIN-SUFFIX,securemetrics.apple.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,fpb1.apple886.com,REJECT-DROP
+DOMAIN-SUFFIX,st.appsad.cn,REJECT-DROP
 DOMAIN-SUFFIX,adx.appsdk.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,appsdt.com,REJECT-DROP
 DOMAIN-SUFFIX,tracking.apptrackerlink.com,REJECT-DROP
@@ -1186,7 +1187,6 @@ DOMAIN-SUFFIX,events-dra-op-dbankcloud-cn-dra.appacc.dbankedge.cn,REJECT-DROP
 DOMAIN-SUFFIX,events-dra-op-dbankcloud-com-dra.appacc.dbankedge.cn,REJECT-DROP
 DOMAIN-SUFFIX,events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn,REJECT-DROP
 DOMAIN-SUFFIX,events-dra-op-dbankcloud-com-dra.region.dbankedge.cn,REJECT-DROP
-DOMAIN-SUFFIX,events-dra-op-hicloud-com-dra.appacc.dbankedge.cn,REJECT-DROP
 DOMAIN-SUFFIX,events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn,REJECT-DROP
 DOMAIN-SUFFIX,events-dre-op-hicloud-com-dre.appacc.dbankedge.cn,REJECT-DROP
 DOMAIN-SUFFIX,hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn,REJECT-DROP
@@ -1758,7 +1758,6 @@ DOMAIN-SUFFIX,auth-launcher-na.hismarttv.com,REJECT-DROP
 DOMAIN-SUFFIX,auth-launcher-sa.hismarttv.com,REJECT-DROP
 DOMAIN-SUFFIX,auth-na.hismarttv.com,REJECT-DROP
 DOMAIN-SUFFIX,auth-phone-ap.hismarttv.com,REJECT-DROP
-DOMAIN-SUFFIX,auth-phone-na.hismarttv.com,REJECT-DROP
 DOMAIN-SUFFIX,auth-sa.hismarttv.com,REJECT-DROP
 DOMAIN-SUFFIX,cdn-plugin-sync-upgrade-juui.hismarttv.com,REJECT-DROP
 DOMAIN-SUFFIX,msg-na.hismarttv.com,REJECT-DROP
@@ -2527,6 +2526,7 @@ DOMAIN-SUFFIX,adv.sec.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,adv.sec.intl.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,api.accelerator.intl.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,api.aurogon.intl.miui.com,REJECT-DROP
+DOMAIN-SUFFIX,api.browser.intl.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,api.brs.intl.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,api.collect.data.intl.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,api.competition.intl.miui.com,REJECT-DROP
@@ -3048,6 +3048,7 @@ DOMAIN-SUFFIX,tpush.html5.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,trace.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,unitelogreport.reader.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,up-hl.3g.qq.com,REJECT-DROP
+DOMAIN-SUFFIX,updatecenter.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,uplog.inews.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,uu.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,video.dispatch.tc.qq.com,REJECT-DROP
@@ -3291,7 +3292,6 @@ DOMAIN-SUFFIX,analytics.sixt.cn,REJECT-DROP
 DOMAIN-SUFFIX,1.sj33.net,REJECT-DROP
 DOMAIN-SUFFIX,sjdfuvz.cn,REJECT-DROP
 DOMAIN-SUFFIX,sjoy7rq.cn,REJECT-DROP
-DOMAIN-SUFFIX,clog.skysrt.com,REJECT-DROP
 DOMAIN-SUFFIX,m.slshiye.cn,REJECT-DROP
 DOMAIN-SUFFIX,sm-tc.cn,REJECT-DROP
 DOMAIN-SUFFIX,c.sm.cn,REJECT-DROP
@@ -3862,7 +3862,6 @@ DOMAIN-SUFFIX,cname-asia-st-exappupgrade.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,cname-de-stsdk.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,cname-in-apport-stsdk.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,cname-in-bom01-nginxpool03.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,cname-in-ctdbonrt-stsdk.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,cname-sin01-stsdk09.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,co-domaincfg.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,co-onrt-stsdk.vivoglobal.com,REJECT-DROP
@@ -3873,8 +3872,6 @@ DOMAIN-SUFFIX,co-timesync.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,co-vcode-api.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,co-vcode-od.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,co-vcode-or.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,de-gdpr-err-up.vivoglobal.com,REJECT-DROP
-DOMAIN-SUFFIX,err.up.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,eu-cota.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,eu-domaincfg.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,eu-errup.vivoglobal.com,REJECT-DROP
@@ -4549,7 +4546,6 @@ DOMAIN-SUFFIX,gecko3-lf.zijieapi.com,REJECT-DROP
 DOMAIN-SUFFIX,gecko5-lf.zijieapi.com,REJECT-DROP
 DOMAIN-SUFFIX,log.zijieapi.com,REJECT-DROP
 DOMAIN-SUFFIX,log-klink.zijieapi.com,REJECT-DROP
-DOMAIN-SUFFIX,log5-applog-hl.zijieapi.com,REJECT-DROP
 DOMAIN-SUFFIX,log5-applog-lf.zijieapi.com,REJECT-DROP
 DOMAIN-SUFFIX,mcs.zijieapi.com,REJECT-DROP
 DOMAIN-SUFFIX,minigame5-normal-hl.zijieapi.com,REJECT-DROP
