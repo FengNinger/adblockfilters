@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260110100505
-! Last modified: 2026/01/10 10:05:05
-! Blocked Filters: 100318
+! Version: 20260110163425
+! Last modified: 2026/01/10 16:34:25
+! Blocked Filters: 100321
 !
 ###AC_ad
 ###AD_160
@@ -23505,7 +23505,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 4sysops.com##.article-content > div[id^="div-test-"][style="margin-bottom:21px; -webkit-hyphens: none; -ms-hyphens: none; hyphens: none; "]
 4sysops.com##.article-content > div[style="text-align:center;"]
 4sysops.com##div[id] > div[style^="min-height: 50px; width: 100%;"]
-4sysops.com,activistpost.com,aftvnews.com,arcadepunks.com,corrosionhour.com,corvetteblogger.com,dcrainmaker.com,discover.is,elhayat-life.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,macsources.com,manhuatop.org,mediachomp.com,metalsucks.net,mmoculture.com,monstersandcritics.com,motoringfile.com,nasaspaceflight.com,newsbtc.com,openloading.com,patriotfetch.com,planetofreviews.com,precinctreporter.com,prepperwebsite.com,rugbylad.ie,sashares.co.za,scienceabc.com,scienceandliteracy.org,sixteen-nine.net,snipercentral.com,spokesman-recorder.com,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,torrentmac.net,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com##.widget_custom_html
+4sysops.com,activistpost.com,aftvnews.com,arcadepunks.com,corrosionhour.com,corvetteblogger.com,dcrainmaker.com,discover.is,elhayat-life.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,inews.co.uk,macsources.com,manhuatop.org,mediachomp.com,metalsucks.net,mmoculture.com,monstersandcritics.com,motoringfile.com,nasaspaceflight.com,newsbtc.com,openloading.com,patriotfetch.com,planetofreviews.com,precinctreporter.com,prepperwebsite.com,rugbylad.ie,sashares.co.za,scienceabc.com,scienceandliteracy.org,sixteen-nine.net,snipercentral.com,spokesman-recorder.com,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,torrentmac.net,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com##.widget_custom_html
 4teachers.org###banner-wrapper
 4thsight.xyz###widget-in-article
 4thsight.xyz###widget-index-top
@@ -52196,6 +52196,7 @@ hacksnation.com#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
 hacksnation.com#@#.ad-unit:not(.textads)
 hackster.io###article_page_simple_ad_portal
 hackster.io##[data-hypernova-key="ModularAd"]
+hackster.io##[href="https://www.hackster.io/events"]
 hackyouriphone.org##.sweet-overlay
 hackyouriphone.org##div.show-sweet-alert
 hacpai.com##.index__ad
@@ -74640,6 +74641,7 @@ tempumail.com#%#//scriptlet('prevent-setTimeout', 'Ad Blocker')
 temu.com#?#.EKDT7a3v:-abp-contains(AD)
 temu.com#?#.EKDT7a3v:contains(AD)
 temu.com#?#.goods-container:-abp-contains(AD)
+temu.com#?#.goods-container:contains(AD)
 temu.com#?#.splide__slide:-abp-contains(AD)
 temu.com#?#.splide__slide:contains(AD)
 tenasia.hankyung.com#%#//scriptlet('trusted-create-element', 'head', 'link', 'rel="stylesheet" https://hkstatic.hankyung.com/css/rel/tenasia/w/common.css"')
@@ -76196,6 +76198,7 @@ tmohentai.com##div[class^="netloop-ad-banner"]
 tmonews.com##.featured-google
 tmonews.com##.sponsor-dfp
 tmtpost.com##.open-app
+tmz.com##.ad-header-wrapper
 tmz.com##.sidebar-widget iframe
 tnaflix.com###ads-under-video_
 tnaflix.com###zoneInPlayer
