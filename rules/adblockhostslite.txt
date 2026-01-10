@@ -3,8 +3,8 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260110003643
-# Last modified: 2026/01/10 00:36:43
+# Version: 20260110100505
+# Last modified: 2026/01/10 10:05:05
 # Blocked domains: 4616
 #
 127.0.0.1	localhost
@@ -259,7 +259,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	a.52zxw.com
 0.0.0.0	53kf.com
 0.0.0.0	54kefu.net
-0.0.0.0	down.54nb.com
 0.0.0.0	55.la
 0.0.0.0	55726zubo56686.com
 0.0.0.0	acs.56.com
@@ -3618,6 +3617,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	a.tiyuxiu.com
 0.0.0.0	tjnwfjy.cn
 0.0.0.0	tjqwb.cn
+0.0.0.0	livetech.shopee.co.th.tlivecdn.com
 0.0.0.0	site-p2p-ads.tngdigital.com.my
 0.0.0.0	hbv.tobeacon.cn
 0.0.0.0	st.todesk.com
@@ -3692,6 +3692,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	twjsx.cn
 0.0.0.0	twzui6.com
 0.0.0.0	livetech.shopee.co.id.txlivecdn.com
+0.0.0.0	livetech.shopee.co.th.txlivecdn.com
 0.0.0.0	livetech.shopee.vn.txlivecdn.com
 0.0.0.0	txscn.cn
 0.0.0.0	m.txtxr.com
@@ -3754,7 +3755,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	uerzyr.cn
 0.0.0.0	ugdtimg.com
 0.0.0.0	uhabo.com
-0.0.0.0	file.uhsea.com
 0.0.0.0	bdjs.uimg.cn
 0.0.0.0	ujian.cc
 0.0.0.0	ultrapay.net
