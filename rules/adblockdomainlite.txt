@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260110163425
-! Last modified: 2026/01/10 16:34:25
-! Blocked domains: 4616
+! Version: 20260111003203
+! Last modified: 2026/01/11 00:32:03
+! Blocked domains: 4617
 !
 00xvppy.cn
 img.0279.net
@@ -231,7 +231,6 @@ web.51fishplace.com
 trace.51jingying.com
 a1.51shiti.cn
 51taifu.com
-ad.51wnl-cq.com
 ad.51wnl.com
 51yes.com
 game.51yund.com
@@ -439,6 +438,7 @@ report-edge.agora.io
 report-europe.agora.io
 report-north-america.agora.io
 statscollector-1.agora.io
+statscollector-1-asia.agora.io
 statscollector-1-north-america.agora.io
 tracking.agora.io
 webcollector-rtm.agora.io
@@ -550,6 +550,7 @@ jpg1.oss-cn-beijing.aliyuncs.com
 jun01.oss-cn-beijing.aliyuncs.com
 kmmgoogle.oss-ap-southeast-1.aliyuncs.com
 mobantong.oss-cn-hangzhou.aliyuncs.com
+o2o-ad-dev.oss-cn-shanghai.aliyuncs.com
 retcode-sg-lazada.arms.aliyuncs.com
 shaquevip.oss-cn-zhangjiakou.aliyuncs.com
 star-seo.oss-ap-northeast-1.aliyuncs.com
@@ -1185,6 +1186,7 @@ events-dra-op-dbankcloud-cn-dra.appacc.dbankedge.cn
 events-dra-op-dbankcloud-com-dra.appacc.dbankedge.cn
 events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn
 events-dra-op-dbankcloud-com-dra.region.dbankedge.cn
+events-dra-op-hicloud-com-dra.appacc.dbankedge.cn
 events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn
 events-dre-op-hicloud-com-dre.appacc.dbankedge.cn
 hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn
@@ -1625,7 +1627,6 @@ s1.hanlinzhijia.com
 stats.hanmaker.com
 as1.m.hao123.com
 mini.hao123.com
-hao222.com
 cdn.haocaa.com
 js1.haoge500.com
 haoghost.com
@@ -1742,6 +1743,7 @@ log-dre.platform.hihonorcloud.com
 log-drru.platform.hihonorcloud.com
 hiido.com
 analytics.shop.hisense.com
+api-4know-em.hismarttv.com
 api-gps.hismarttv.com
 api-gps-eu.hismarttv.com
 api-gps-na.hismarttv.com
@@ -2467,7 +2469,6 @@ servicecut.meizu.com
 tongji.meizu.com
 tongji-res.meizu.com
 tongji-res1.meizu.com
-u.meizu.com
 umid.orion.meizu.com
 uxip.meizu.com
 ofd.meng-an.cn
@@ -2852,6 +2853,7 @@ www.q4ee.top
 qawxpzm.cn
 cp.qbaobei.com
 uplog.qbox.me
+log.qcast.cn
 qchannel04.cn
 log.qvb.qcloud.com
 tracker-00.qvb.qcloud.com
@@ -2874,7 +2876,6 @@ game.qidian.com
 qdp.qidian.com
 qienews.cn
 haostat.qihoo.com
-js.passport.qihucdn.com
 qijpaih.cn
 roibest-report-sdk.qiliangjia.com
 up.qingdaonews.com
@@ -3290,6 +3291,7 @@ analytics.sixt.cn
 1.sj33.net
 sjdfuvz.cn
 sjoy7rq.cn
+clog.skysrt.com
 m.slshiye.cn
 sm-tc.cn
 c.sm.cn
@@ -4065,7 +4067,6 @@ wfbdjl.cn
 whyfate.cn
 whytd.com
 log.wifi.com
-a.wifi33.com
 d.win10com.com
 winads.cn
 winbaicai.com
@@ -4172,7 +4173,6 @@ api.installer.xiaomi.com
 api.miui.security.xiaomi.com
 api.xmpush.global.xiaomi.com
 appstore.cdn.pandora.xiaomi.com
-appstore.pandora.xiaomi.com
 awssgp0-files.fds.api.xiaomi.com
 bigdata-lbs-pri-c3.alb.xiaomi.com
 bss.pandora.xiaomi.com
@@ -4183,6 +4183,7 @@ de.pandora.xiaomi.com
 dvb.pandora.xiaomi.com
 global-ad-extranet-pri-azams.alb.xiaomi.com
 global-ad-intl-pri-alisgp.alb.xiaomi.com
+globalvideo.cdn.pandora.intl.xiaomi.com
 image.cdn.pandora.xiaomi.com
 in-miuilog.sms.intl.xiaomi.com
 misc.pandora.xiaomi.com
@@ -4191,7 +4192,6 @@ o2o.api.xiaomi.com
 ottl7-l2.pandora.xiaomi.com
 package.box.xiaomi.com
 pi.ias.xiaomi.com
-preload.xiaomi.com
 redirect.pandora.xiaomi.com
 register.xmpush.global.xiaomi.com
 resolver.mi.xiaomi.com
@@ -4545,6 +4545,7 @@ gecko3-lf.zijieapi.com
 gecko5-lf.zijieapi.com
 log.zijieapi.com
 log-klink.zijieapi.com
+log5-applog-hl.zijieapi.com
 log5-applog-lf.zijieapi.com
 mcs.zijieapi.com
 minigame5-normal-hl.zijieapi.com
