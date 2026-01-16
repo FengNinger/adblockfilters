@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260116163812
-# Last modified: 2026/01/16 16:38:12
-# Blocked domains: 4597
+# Version: 20260117003759
+# Last modified: 2026/01/17 00:37:59
+# Blocked domains: 4590
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -248,7 +248,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.51wnl.com
 0.0.0.0	51yes.com
 0.0.0.0	game.51yund.com
-0.0.0.0	go.5211game.com
 0.0.0.0	52aoteman.com
 0.0.0.0	52kuwang.cn
 0.0.0.0	5y9nfpes.52pk.com
@@ -1444,7 +1443,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	fujincenter.com
 0.0.0.0	adm.funshion.com
 0.0.0.0	jobsfe.funshion.com
-0.0.0.0	neirong.funshion.com
 0.0.0.0	po.funshion.com
 0.0.0.0	pub.funshion.com
 0.0.0.0	pv.funshion.com
@@ -1512,6 +1510,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sdk-cache.video.ptqy.gitv.tv
 0.0.0.0	sdk.ptqy.gitv.tv
 0.0.0.0	static.ptqy.gitv.tv
+0.0.0.0	t7z.cupid.ptqy.gitv.tv
 0.0.0.0	time.video.ptqy.gitv.tv
 0.0.0.0	50m.gkcyc.com
 0.0.0.0	gknybkl.cn
@@ -1747,7 +1746,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	log-drru.platform.hihonorcloud.com
 0.0.0.0	hiido.com
 0.0.0.0	analytics.shop.hisense.com
-0.0.0.0	api-gps.hismarttv.com
 0.0.0.0	api-gps-eu.hismarttv.com
 0.0.0.0	api-gps-na.hismarttv.com
 0.0.0.0	api-gps-sa.hismarttv.com
@@ -2176,6 +2174,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	kxlogo.knet.cn
 0.0.0.0	knliylh.cn
 0.0.0.0	ofkqiy.knowfashionstyle.com
+0.0.0.0	kokojia.com
 0.0.0.0	kolhudg.cn
 0.0.0.0	info.kollmorgen.cn
 0.0.0.0	kolsh.cn
@@ -2333,6 +2332,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	o.lenovo.com
 0.0.0.0	s.lenovo.com
 0.0.0.0	fsr.lenovomm.com
+0.0.0.0	prw.lenovomm.com
 0.0.0.0	pushapi.lenovomm.com
 0.0.0.0	susapi.lenovomm.com
 0.0.0.0	uss-pid.lenovomm.com
@@ -2472,7 +2472,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	tongji.meizu.com
 0.0.0.0	tongji-res.meizu.com
 0.0.0.0	tongji-res1.meizu.com
-0.0.0.0	u.meizu.com
 0.0.0.0	umid.orion.meizu.com
 0.0.0.0	uxip.meizu.com
 0.0.0.0	ofd.meng-an.cn
@@ -2894,7 +2893,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	webstat.qiumibao.com
 0.0.0.0	qiuxl11.cn
 0.0.0.0	qiyegongqiu1.qiyegongqiu.com
-0.0.0.0	data.video.qiyi.com
 0.0.0.0	meta.video.qiyi.com
 0.0.0.0	msg.video.qiyi.com
 0.0.0.0	msg2.video.qiyi.com
@@ -3855,7 +3853,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	asia-vcode-or.vivoglobal.com
 0.0.0.0	asia-vpushonrt-stsdk.vivoglobal.com
 0.0.0.0	asia-vpushort-stsdk.vivoglobal.com
-0.0.0.0	cl-vcode-od.vivoglobal.com
 0.0.0.0	cname-asia-st-exappupgrade.vivoglobal.com
 0.0.0.0	cname-de-stsdk.vivoglobal.com
 0.0.0.0	cname-in-apport-stsdk.vivoglobal.com
@@ -3870,10 +3867,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	co-vcode-api.vivoglobal.com
 0.0.0.0	co-vcode-od.vivoglobal.com
 0.0.0.0	co-vcode-or.vivoglobal.com
-0.0.0.0	err.up.vivoglobal.com
 0.0.0.0	eu-cota.vivoglobal.com
 0.0.0.0	eu-domaincfg.vivoglobal.com
-0.0.0.0	eu-errup.vivoglobal.com
 0.0.0.0	eu-onrt-stsdk.vivoglobal.com
 0.0.0.0	eu-ort-stsdk.vivoglobal.com
 0.0.0.0	eu-p.vivoglobal.com
@@ -3947,7 +3942,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ru-err-up.vivoglobal.com
 0.0.0.0	ru-exstsdk.vivoglobal.com
 0.0.0.0	ru-onrt-stsdk.vivoglobal.com
-0.0.0.0	ru-ort-stsdk.vivoglobal.com
 0.0.0.0	ru-os-config-appstore.vivoglobal.com
 0.0.0.0	ru-p.vivoglobal.com
 0.0.0.0	ru-pnrt-stsdk.vivoglobal.com
@@ -4273,7 +4267,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.xunkids.com
 0.0.0.0	adsp.xunlei.com
 0.0.0.0	advertpay-vip-ssl.xunlei.com
-0.0.0.0	advertpay.vip.xunlei.com
 0.0.0.0	analytics-union.xunlei.com
 0.0.0.0	kkpgv2.xunlei.com
 0.0.0.0	soa-vip-ssl.xunlei.com
