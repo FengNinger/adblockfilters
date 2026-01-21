@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260121101257
-! Last modified: 2026/01/21 10:12:57
-! Blocked Filters: 100497
+! Version: 20260121164023
+! Last modified: 2026/01/21 16:40:23
+! Blocked Filters: 100502
 !
 ###AC_ad
 ###AD_160
@@ -24912,6 +24912,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@clicks.$domain=cimbclicks.com.my,~third-party
 @@doubleclick.net/ads/preferences/
 @@embed/$stealth=webrtc,domain=vipbox.lc
+@@favicon.ico$domain=indexsubtitle.cc
 @@get=*&short=*&refer=google$domain=advertisingcamps.com,stealth=referrer
 @@google$domain=focus.de,script
 @@googlesyndication.com$domain=bilinovel.com
@@ -36779,8 +36780,8 @@ alternative.me#?#.column > #alternatives > .alternatives-wrapper > li#pause:has(
 alternative.me#?#.container > .block[style]:has(> .adsbygoogle)
 alternativeto.net###alternative-list > ol > li[data-testid="item-pcloud"]:has(a[href^="https://partner.pcloud.com/"])
 alternativeto.net###alternative-list li:has(> div[class*="min-w-ad-"])
-alternativeto.net##.AdsenseAd_adLeaderboard__7Ob8k
-alternativeto.net##.AdsenseAd_adRectangle__e49Di
+alternativeto.net##.AdsenseAd-module-scss-module__6YBNDG__adLeaderboard
+alternativeto.net##.AdsenseAd-module-scss-module__6YBNDG__adRectangle
 alternativeto.net##.atf2-native-page
 alternativeto.net##.bannerLink
 alternativeto.net##.space-y-12> .w-full.py-6:not([data-testid])
@@ -43257,8 +43258,6 @@ competitionsguide.com.au##.prodcontainerAd
 complaintsingapore.com##[href*="/adv.php"]
 complaintsingapore.com##[href="https://thechillipadi.com/"]
 compleatgolfer.com,sacricketmag.com###slidein
-complex.com##.AdWrapper__AdPlaceholderContainer-sc-15idjh1-0
-complex.com##.base__header-ad
 complex.com##.latest-stories__ad
 complex.com##.suitcase-ad
 compositesworld.com##div[class^="adBlock--"]
@@ -44231,8 +44230,6 @@ dagens.com##.c-1 > .i-2
 dagens.com##.r-1
 dagens.com##.r-3
 dagens.com##.r-6
-dagens.com,dagens.de,dagens.dk##.t-1 > .con-0 > .r-2 .row > .c-1 > .generic-widget[class*=" i-"] > .g-0
-dagens.com,dagens.dk##.t-1 > .con-0 > .r-1 > .row > .c-0 > .generic-widget[class*=" i-"] > .g-0
 dagens.no##.column > div[data-type="generic-widget"]:has(> div.group > div.code-element > a[href^="https://www.partner-ads.com/"])
 dagensbyggeri.dk###megaboard-top-container
 dagensbyggeri.dk#$#.ads { display: block!important; }
@@ -47028,6 +47025,8 @@ ephoto360.com#%#//scriptlet("abort-current-inline-script", "$", "Adblock")
 ephotozine.com###epz-google-explore
 ephotozine.com##.LB-MPU
 ephotozine.com#?##content > div.hp-slot:has(div[id^="div-gpt-ad-"])
+epic.hellosports.live##.popSc
+epic.hellosports.live#%#//scriptlet('prevent-setTimeout', 'offsetHeight')
 epicbundle.com##.adExtraContentSuperBanner
 epicbundle.com##.background-click
 epicbundle.com##.sidebar > .networkBox + .mediumTagArea
@@ -54959,7 +54958,9 @@ indexsubtitle.cc#$##adblockModal[style] ~ .modal-backdrop { display: none !impor
 indexsubtitle.cc#$#body { overflow: auto !important; padding-right: 0 !important; }
 indexsubtitle.cc#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'adsbygoogle.js')
 indexsubtitle.cc#%#//scriptlet('abort-current-inline-script', 'document.onreadystatechange', '{return _0x')
+indexsubtitle.cc#%#//scriptlet('prevent-setTimeout', '-0x')
 indexsubtitle.cc#@#.ad-unit:not(.textads)
+indexsubtitle.cc#@#.google_ads
 indgovtjobs.in,techiesavi.com,magesy.blog###superadblocker
 indgovtjobs.in,techiesavi.com,magesy.blog#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'adsbygoogle.js')
 india.com###cbanner
@@ -55362,8 +55363,6 @@ interestingengineering.com###recommended-video
 interestingengineering.com##.Ad_adContainer__XNCwI
 interestingengineering.com##.Ad_ad__hm0Ut
 interestingengineering.com##.connatix-iframe-wrap
-interestingengineering.com##.t-h-\[130px\]
-interestingengineering.com##.t-h-\[176px\]
 interestingengineering.com##.t-h-\[280px\]
 interestingengineering.com##div[class="t-text-center t-mb-2"][style^="font-family: Roboto, sans-serif; font-weight: 400;"]
 interestingengineering.com##div[class^="Ad_"]
@@ -57525,6 +57524,8 @@ kisscos.net##.video-sponsor
 kisscos.net##span[id$="related"] > div[id^="container-"]
 kisshentai.net,onworks.net##div[id^="ad"]
 kissjav.*#?#.column > div.card > div.adv:upward(2)
+kissjav.com#%#//scriptlet('prevent-setTimeout', '.offsetHeight === 0')
+kissjav.com#@#.ad-unit:not(.textads)
 kissorg.net##.avm
 kisssub.org###kanban
 kisssub.org##a > img[src*=".0o0.ooo/"]
@@ -58155,7 +58156,6 @@ latimes.com##.google-dfp-ad-wrapper
 latimes.com##.lb-advert-container
 latimes.com##.trb_gptAd
 latimes.com##.trb_masthead_adBanner
-latimes.com,sandiegouniontribune.com##.revcontent
 latimes.com,sandiegouniontribune.com##.trb_ar_cont
 latinluchas.com##.zak-overlay-wrapper + div[id][class*=" "]
 latinohentai.com##aside.widget_media_image > a:not([href*="latinohentai.com"], [href*="twitter.com"], [href*="discord.gg"]) > img
@@ -69664,6 +69664,8 @@ rockpapershotgun.com##div[class^="commercial-slot-"]
 rockpapershotgun.com#$##page-wrapper { background: inherit!important; padding-top: inherit!important; }
 rockradio.com###ui #panel-ad.panel
 rogerebert.com##.page-content--ad-block
+rogerebert.com##.roger-review-inline-1-2
+rogerebert.com##.roger-review-inline-2-2
 rogerebert.com#?#.page-content > div[class="columns is-centered is-spaced--large"]:has(> .column > .page-content--block > .page-content--ad-block)
 rok.guide##.ancr-sticky
 rok.guide##.ancr-top-spacer
@@ -74657,6 +74659,7 @@ tellerreport.com#?#article.flex-column > div[class]:contains(/^ADS$/):upward(2)
 tellows-au.com,tellows-tr.com,tellows.*##li > .comment-body[style*="min-height: 250px;"]
 tellows-au.com,tellows-tr.com,tellows.at,tellows.be,tellows.ch,tellows.co,tellows.co.nz,tellows.co.uk,tellows.co.za,tellows.com,tellows.com.br,tellows.cz,tellows.de,tellows.es,tellows.fr,tellows.hu,tellows.in,tellows.it,tellows.jp,tellows.mx,tellows.nl,tellows.pl,tellows.pt,tellows.se,tellows.tw###singlecomments > li.comment:not([id])
 tellows.it#?##singlecomments > li:not([id]):has( > .comment-body > div[id^="adngin-"])
+tellows.net##.ad
 tellymix.co.uk###sidebar > div[style]
 tellymix.co.uk##.a-text
 tellymix.co.uk##.adb_top
@@ -75530,7 +75533,7 @@ thequint.com#@#.ad-unit:not(.textads)
 thequint.com#@#.ad-zone
 thequint.com#@#.adsbox
 therailwayhub.co.uk##.revive
-therealdeal.com##.AdUnit_adUnitWrapper__vhOwH
+therealdeal.com##.AdUnit_center__H9fGR
 therealdeal.com##[data-testid="test-div-id-for-pushdown"]
 therebel.media#$#iframe.embedly-embed { max-height: 400px!important; }
 therecord.media##.article__adunit
@@ -76663,6 +76666,7 @@ totalcalc.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 totalcmd.net##td > center > a[target="_blank"] > img
 totalcsgo.com#$#.body-container { background-image: none !important; cursor: auto !important; background-color: #f3f3f3 !important; }
 totaljerkface.com#?##container div[id="mainContainer"]:has(> div[id="adContainer"])
+totalprosports.com##.pw-leaderboard
 totalprosports.com##.tps-top-leaderboard
 totalprosports.com##[data-stn-player="n2psbctm"]
 totalsportek.*,casthill.net,nativesurge.net,embedtv-5.icu,animeunity.*,pornhoarder.*,dlhd.*,omuzaani.me,vidsrc.*,builddiamond.net,playdede.link,audioz.download,wavewalt.me,ricstream.me,anime4i.vip,vipleague.*,swipebreed.net,eurekaddl.lat,sanet.st,buffsports.*,olympicstreams.*#%#//scriptlet('abort-current-inline-script', 'globalThis', 'adserverDomain')
@@ -95834,6 +95838,7 @@ zzzyk.com###Tinfo
 ||s.ssl.qhres2.com/ssl/
 ||s.w-x.co/helios/twc/$script,domain=weather.com|wunderground.com
 ||s.weibo.com/widget.html
+||s.yimg.com/cv/apiv2/tw/bwchou25/
 ||s.yimg.com/ja/ap/$script,subdocument,domain=hk.news.yahoo.com|hk.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com|tw.yahoo.com
 ||s.yimg.com/ja/ap/tw/js/
 ||s.yimg.com/ma/auc/common/js/ext_y_straas_shell_*.js$domain=tw.bid.yahoo.com
