@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20260124163435
-! Last modified: 2026/01/24 16:34:35
-! Blocked domains: 4603
+! Version: 20260125003252
+! Last modified: 2026/01/25 00:32:52
+! Blocked domains: 4609
 ! unBlocked domains: 16
 !
 ||00xvppy.cn^
@@ -230,6 +230,7 @@
 ||m1.51kaowang.com^
 ||a1.51shiti.cn^
 ||51taifu.com^
+||ad.51wnl-cq.com^
 ||ad.51wnl.com^
 ||51yes.com^
 ||game.51yund.com^
@@ -425,6 +426,7 @@
 ||analytics.afirstsoft.cn^
 ||app.aflink.com^
 ||afterdg.cn^
+||data-reporting.agora.io^
 ||logservice.agora.io^
 ||logservice-rtm.agora.io^
 ||marketing.agora.io^
@@ -820,6 +822,7 @@
 ||smetrics.beatsbydre.com^
 ||smetrics.beatsbydre.com.cn^
 ||beencounter.com^
+||analytics.behr.com^
 ||images.explore.behr.com^
 ||beizi.biz^
 ||smetrics.benefitcosmetics.com.cn^
@@ -1183,6 +1186,7 @@
 ||events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn^
 ||events-dre-op-hicloud-com-dre.appacc.dbankedge.cn^
 ||hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn^
+||hisearch-dra-dt-dbankcloud-com-dra.appacc-region.dbankedge.cn^
 ||ddbuwo.cn^
 ||dm1.ddwk8.cn^
 ||deeterno.cn^
@@ -1274,7 +1278,6 @@
 ||vupload.duowan.com^
 ||adsmis.duxiaoman.com^
 ||dvtednm.cn^
-||dw365.cn^
 ||dweixin.cn^
 ||untitled.dwstatic.com^
 ||dxpmedia.com^
@@ -1495,6 +1498,7 @@
 ||msg.ptqy.gitv.tv^
 ||ota.ptqy.gitv.tv^
 ||policy.video.ptqy.gitv.tv^
+||puma-api.ptqy.gitv.tv^
 ||sdk-cache.video.ptqy.gitv.tv^
 ||sdk.ptqy.gitv.tv^
 ||static.ptqy.gitv.tv^
@@ -1677,6 +1681,7 @@
 ||darvin-ec.ads.heytapmobi.com^
 ||data.ads.heytapmobi.com^
 ||dcintl.push.heytapmobi.com^
+||dragate-cn.dc.heytapmobi.com^
 ||dragate-sg.dc.heytapmobi.com^
 ||epoch-id.cdo.heytapmobi.com^
 ||httpdns.ocloud.heytapmobi.com^
@@ -1736,15 +1741,16 @@
 ||api-gps.hismarttv.com^
 ||api-gps-eu.hismarttv.com^
 ||api-gps-na.hismarttv.com^
+||api-gps-sa.hismarttv.com^
 ||api-launcher-eu.hismarttv.com^
 ||api-launcher-na.hismarttv.com^
+||api-launcher-sa.hismarttv.com^
 ||auth-em.hismarttv.com^
 ||auth-eu.hismarttv.com^
 ||auth-launcher-eu.hismarttv.com^
 ||auth-launcher-na.hismarttv.com^
 ||auth-na.hismarttv.com^
 ||auth-phone-ap.hismarttv.com^
-||auth-phone-na.hismarttv.com^
 ||auth-sa.hismarttv.com^
 ||cdn-plugin-sync-upgrade-juui.hismarttv.com^
 ||msg-na.hismarttv.com^
@@ -1915,7 +1921,6 @@
 ||ihclam.cn^
 ||fpbone.ihowguide.com^
 ||ihtqqws.cn^
-||appadapi.ihuman.com^
 ||iimedia.cn^
 ||www.iiyout.cn^
 ||ijinshan.com^
@@ -3965,6 +3970,7 @@
 ||sca-vcode-api.vivoglobal.com^
 ||sca-vcode-od.vivoglobal.com^
 ||sca-vcode-or.vivoglobal.com^
+||sg-cfg-stsdk.vivoglobal.com^
 ||stsdk.vivoglobal.com^
 ||tr-cota.vivoglobal.com^
 ||tr-domaincfg.vivoglobal.com^
@@ -4266,6 +4272,7 @@
 ||ad.xunkids.com^
 ||adsp.xunlei.com^
 ||advertpay-vip-ssl.xunlei.com^
+||advertpay.vip.xunlei.com^
 ||analytics-union.xunlei.com^
 ||kkpgv2.xunlei.com^
 ||soa-vip-ssl.xunlei.com^
@@ -4474,7 +4481,6 @@
 ||api-analytics-de.zepp.com^
 ||api-analytics-us.zepp.com^
 ||api-analytics-us3.zepp.com^
-||app-analytics.zepp.com^
 ||ssp.zf313.com^
 ||mg.zgcqxjzny.cn^
 ||zgisp.net^

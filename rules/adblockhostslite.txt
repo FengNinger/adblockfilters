@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260124163435
-# Last modified: 2026/01/24 16:34:35
-# Blocked domains: 4603
+# Version: 20260125003252
+# Last modified: 2026/01/25 00:32:52
+# Blocked domains: 4609
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -244,6 +244,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	m1.51kaowang.com
 0.0.0.0	a1.51shiti.cn
 0.0.0.0	51taifu.com
+0.0.0.0	ad.51wnl-cq.com
 0.0.0.0	ad.51wnl.com
 0.0.0.0	51yes.com
 0.0.0.0	game.51yund.com
@@ -439,6 +440,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	analytics.afirstsoft.cn
 0.0.0.0	app.aflink.com
 0.0.0.0	afterdg.cn
+0.0.0.0	data-reporting.agora.io
 0.0.0.0	logservice.agora.io
 0.0.0.0	logservice-rtm.agora.io
 0.0.0.0	marketing.agora.io
@@ -834,6 +836,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	smetrics.beatsbydre.com
 0.0.0.0	smetrics.beatsbydre.com.cn
 0.0.0.0	beencounter.com
+0.0.0.0	analytics.behr.com
 0.0.0.0	images.explore.behr.com
 0.0.0.0	beizi.biz
 0.0.0.0	smetrics.benefitcosmetics.com.cn
@@ -1197,6 +1200,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn
 0.0.0.0	events-dre-op-hicloud-com-dre.appacc.dbankedge.cn
 0.0.0.0	hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn
+0.0.0.0	hisearch-dra-dt-dbankcloud-com-dra.appacc-region.dbankedge.cn
 0.0.0.0	ddbuwo.cn
 0.0.0.0	dm1.ddwk8.cn
 0.0.0.0	deeterno.cn
@@ -1288,7 +1292,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	vupload.duowan.com
 0.0.0.0	adsmis.duxiaoman.com
 0.0.0.0	dvtednm.cn
-0.0.0.0	dw365.cn
 0.0.0.0	dweixin.cn
 0.0.0.0	untitled.dwstatic.com
 0.0.0.0	dxpmedia.com
@@ -1509,6 +1512,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	msg.ptqy.gitv.tv
 0.0.0.0	ota.ptqy.gitv.tv
 0.0.0.0	policy.video.ptqy.gitv.tv
+0.0.0.0	puma-api.ptqy.gitv.tv
 0.0.0.0	sdk-cache.video.ptqy.gitv.tv
 0.0.0.0	sdk.ptqy.gitv.tv
 0.0.0.0	static.ptqy.gitv.tv
@@ -1691,6 +1695,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	darvin-ec.ads.heytapmobi.com
 0.0.0.0	data.ads.heytapmobi.com
 0.0.0.0	dcintl.push.heytapmobi.com
+0.0.0.0	dragate-cn.dc.heytapmobi.com
 0.0.0.0	dragate-sg.dc.heytapmobi.com
 0.0.0.0	epoch-id.cdo.heytapmobi.com
 0.0.0.0	httpdns.ocloud.heytapmobi.com
@@ -1750,15 +1755,16 @@ ff02::3	ip6-allhosts
 0.0.0.0	api-gps.hismarttv.com
 0.0.0.0	api-gps-eu.hismarttv.com
 0.0.0.0	api-gps-na.hismarttv.com
+0.0.0.0	api-gps-sa.hismarttv.com
 0.0.0.0	api-launcher-eu.hismarttv.com
 0.0.0.0	api-launcher-na.hismarttv.com
+0.0.0.0	api-launcher-sa.hismarttv.com
 0.0.0.0	auth-em.hismarttv.com
 0.0.0.0	auth-eu.hismarttv.com
 0.0.0.0	auth-launcher-eu.hismarttv.com
 0.0.0.0	auth-launcher-na.hismarttv.com
 0.0.0.0	auth-na.hismarttv.com
 0.0.0.0	auth-phone-ap.hismarttv.com
-0.0.0.0	auth-phone-na.hismarttv.com
 0.0.0.0	auth-sa.hismarttv.com
 0.0.0.0	cdn-plugin-sync-upgrade-juui.hismarttv.com
 0.0.0.0	msg-na.hismarttv.com
@@ -1929,7 +1935,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ihclam.cn
 0.0.0.0	fpbone.ihowguide.com
 0.0.0.0	ihtqqws.cn
-0.0.0.0	appadapi.ihuman.com
 0.0.0.0	iimedia.cn
 0.0.0.0	www.iiyout.cn
 0.0.0.0	ijinshan.com
@@ -3979,6 +3984,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sca-vcode-api.vivoglobal.com
 0.0.0.0	sca-vcode-od.vivoglobal.com
 0.0.0.0	sca-vcode-or.vivoglobal.com
+0.0.0.0	sg-cfg-stsdk.vivoglobal.com
 0.0.0.0	stsdk.vivoglobal.com
 0.0.0.0	tr-cota.vivoglobal.com
 0.0.0.0	tr-domaincfg.vivoglobal.com
@@ -4280,6 +4286,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.xunkids.com
 0.0.0.0	adsp.xunlei.com
 0.0.0.0	advertpay-vip-ssl.xunlei.com
+0.0.0.0	advertpay.vip.xunlei.com
 0.0.0.0	analytics-union.xunlei.com
 0.0.0.0	kkpgv2.xunlei.com
 0.0.0.0	soa-vip-ssl.xunlei.com
@@ -4488,7 +4495,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	api-analytics-de.zepp.com
 0.0.0.0	api-analytics-us.zepp.com
 0.0.0.0	api-analytics-us3.zepp.com
-0.0.0.0	app-analytics.zepp.com
 0.0.0.0	ssp.zf313.com
 0.0.0.0	mg.zgcqxjzny.cn
 0.0.0.0	zgisp.net
