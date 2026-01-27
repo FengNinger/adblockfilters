@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20260127164103
-! Last modified: 2026/01/27 16:41:03
-! Blocked domains: 4623
+! Version: 20260128003820
+! Last modified: 2026/01/28 00:38:20
+! Blocked domains: 4610
 ! unBlocked domains: 16
 !
 ||00xvppy.cn^
@@ -823,6 +823,7 @@
 ||smetrics.beatsbydre.com^
 ||smetrics.beatsbydre.com.cn^
 ||beencounter.com^
+||analytics.behr.com^
 ||images.explore.behr.com^
 ||beizi.biz^
 ||smetrics.benefitcosmetics.com.cn^
@@ -1123,6 +1124,7 @@
 ||daraz.com^
 ||net.daraz.lk^
 ||net.daraz.pk^
+||clickserve.dartsearch.net^
 ||dashet.com^
 ||gate.datacaciques.com^
 ||pv.datacaciques.com^
@@ -1184,7 +1186,6 @@
 ||events-dra-op-dbankcloud-com-dra.region.dbankedge.cn^
 ||events-dra-op-hicloud-com-dra.appacc.dbankedge.cn^
 ||events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn^
-||events-dre-op-dbankcloud-com-dre.appacc-region.dbankedge.cn^
 ||events-dre-op-hicloud-com-dre.appacc.dbankedge.cn^
 ||hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn^
 ||hisearch-dra-dt-dbankcloud-com-dra.appacc-region.dbankedge.cn^
@@ -1253,7 +1254,6 @@
 ||dotcounter.douyutv.com^
 ||dpjzzgw.cn^
 ||drdwy.com^
-||drivethelife.com^
 ||dspunion.com^
 ||parcel-locker.dsyl8.com^
 ||analytics.dsyqt.com^
@@ -1691,7 +1691,6 @@
 ||obus-cn.dc.heytapmobi.com^
 ||obus-config-cn.heytapmobi.com^
 ||obus-dc10-cn.heytapmobi.com^
-||obus-dc2-cn.heytapmobi.com^
 ||obus-dc20058-cn.heytapmobi.com^
 ||obus-dc2007-cn.heytapmobi.com^
 ||obus-dc20123-cn.heytapmobi.com^
@@ -1718,7 +1717,6 @@
 ||hgpbhuj.cn^
 ||hhttm.top^
 ||sdd.hi1718.com^
-||adx-dra.op.hicloud.com^
 ||adx-dre.op.hicloud.com^
 ||connect-dre.hispace.hicloud.com^
 ||data.hicloud.com^
@@ -1741,7 +1739,6 @@
 ||hiido.com^
 ||analytics.shop.hisense.com^
 ||api-4know-em.hismarttv.com^
-||api-4know-eu.hismarttv.com^
 ||api-gps.hismarttv.com^
 ||api-gps-eu.hismarttv.com^
 ||api-gps-na.hismarttv.com^
@@ -2049,7 +2046,6 @@
 ||jscode.jbzj.com^
 ||mm.jbzj.com^
 ||stat.jc001.cn^
-||jcchunya.cn^
 ||addata.jd.com^
 ||ads-union.jd.com^
 ||ads.union.jd.com^
@@ -2418,7 +2414,6 @@
 ||bi.manhuaren.com^
 ||euadsapi.manhuaren.com^
 ||manyou.com^
-||adx.maplehaze.cn^
 ||maps-icloud.today^
 ||sdk.markmedia.com.cn^
 ||mathtype.cn^
@@ -2490,7 +2485,6 @@
 ||resolver.gslb.mi-idc.com^
 ||ad.mi.com^
 ||d.g.mi.com^
-||h5.tv.mi.com^
 ||idm.iot.mi.com^
 ||in.tv.global.mi.com^
 ||migc.g.mi.com^
@@ -2987,8 +2981,6 @@
 ||oimsgad.qq.com^
 ||omgid.qq.com^
 ||omgmta1.qq.com^
-||oth.eve.mdt.qq.com^
-||oth.str.mdt.qq.com^
 ||p2p.qq.com^
 ||p2pupdate.gamedl.qq.com^
 ||p2pupgrade.gamedl.qq.com^
@@ -3142,7 +3134,6 @@
 ||rhinogo.cn^
 ||richh.cn^
 ||ad.richmob.cn^
-||bi-tracker-cn.rivergame.net^
 ||bi-tracker-global.rivergame.net^
 ||tatracker-us.rivergame.net^
 ||rmzbfum.cn^
@@ -3865,7 +3856,6 @@
 ||cname-de-stsdk.vivoglobal.com^
 ||cname-in-apport-stsdk.vivoglobal.com^
 ||cname-in-bom01-nginxpool03.vivoglobal.com^
-||cname-in-ctdbonrt-stsdk.vivoglobal.com^
 ||cname-sin01-stsdk09.vivoglobal.com^
 ||co-domaincfg.vivoglobal.com^
 ||co-onrt-stsdk.vivoglobal.com^
@@ -3876,7 +3866,6 @@
 ||co-vcode-api.vivoglobal.com^
 ||co-vcode-od.vivoglobal.com^
 ||co-vcode-or.vivoglobal.com^
-||de-gdpr-err-up.vivoglobal.com^
 ||err.up.vivoglobal.com^
 ||eu-cota.vivoglobal.com^
 ||eu-domaincfg.vivoglobal.com^
@@ -3967,7 +3956,6 @@
 ||ru-vcode-api.vivoglobal.com^
 ||ru-vcode-od.vivoglobal.com^
 ||ru-vcode-or.vivoglobal.com^
-||sca-cota.vivoglobal.com^
 ||sca-domaincfg.vivoglobal.com^
 ||sca-err-up.vivoglobal.com^
 ||sca-onrt-stsdk.vivoglobal.com^
@@ -4065,6 +4053,7 @@
 ||ad.weplayer.cc^
 ||crosspromotion.weplayer.cc^
 ||wesat.cn^
+||s1.wesiedu.com^
 ||count.west263.com^
 ||perfsight.wetest.net^
 ||htrace.wetvinfo.com^
@@ -4200,7 +4189,6 @@
 ||ottl7-l2.pandora.xiaomi.com^
 ||package.box.xiaomi.com^
 ||pi.ias.xiaomi.com^
-||preload.xiaomi.com^
 ||redirect.pandora.xiaomi.com^
 ||register.xmpush.global.xiaomi.com^
 ||resolver.mi.xiaomi.com^
@@ -4345,7 +4333,6 @@
 ||yinyouapp.com^
 ||yiqifa.com^
 ||11.yiqig.cn^
-||yiranxian.cn^
 ||yitongwl.cn^
 ||yiwk.com^
 ||wr.yiyouliao.com^
