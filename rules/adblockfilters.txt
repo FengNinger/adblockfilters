@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260131103010
-! Last modified: 2026/01/31 10:30:10
-! Blocked Filters: 100502
+! Version: 20260131163857
+! Last modified: 2026/01/31 16:38:57
+! Blocked Filters: 100504
 !
 ###AC_ad
 ###AD_160
@@ -29983,6 +29983,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||ipv4.google.com/sorry^$stealth
 @@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
 @@||iqiyi.com/*.html$stealth=webrtc
+@@||iqiyi.com/static/js/adfe.5aa3302c.js
 @@||iqos.com^$stealth=ip
 @@||irasutoya.blogspot.com^$generichide
 @@||irdeto.com/widevine/$stealth=3p-auth,domain=paramountplus.com|cbs.com
@@ -42800,6 +42801,7 @@ cngold.com.cn##.myGuangGao
 cngold.org##.ag_fwindow_ywp
 cngold.org##.fiexdAdvsClosed
 cngold.org##.fixed_jt
+cngold.org##.foot_megagame
 cngold.org##.headCompanys
 cngold.org##.in_content_left_advs
 cngold.org##.jams
@@ -80194,7 +80196,6 @@ wichspornos.com##.tf-sp
 wickedsick.tv#%#//scriptlet("abort-current-inline-script", "spot", "api/direct")
 wideo.wp.pl###__next > style + div[class*=" "]:empty
 wideo.wp.pl##div[class*=" "]:has(> img[src="https://std.wpcdn.pl/images/adv/placeholder_wp.svg"])
-wideopencountry.com###video-header
 widestream.io##.adBlockDetected + div[class]
 widzewtomy.net##.banner-height
 wielkahistoria.pl##.adsbygoogle + script + hr
@@ -85767,6 +85768,7 @@ zzzyk.com###Tinfo
 ||bitcotasks.com//files/banners/banner-
 ||bitcotasks.com/je.php
 ||bitcotasks.com/yo.php
+||bitdefender.top^$popup
 ||bitent.com/lock_html5/adscontrol.js
 ||bitfly.io/images/refb
 ||bitfly.io/js/nt.js
