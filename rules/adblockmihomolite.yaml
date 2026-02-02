@@ -4,9 +4,9 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20260202165400
-  # Last modified: 2026/02/02 16:54:00
-  # Blocked domains: 4594
+  # Version: 20260203005057
+  # Last modified: 2026/02/03 00:50:57
+  # Blocked domains: 4600
   #
   - '+.00xvppy.cn'
   - '+.img.0279.net'
@@ -809,6 +809,7 @@ payload:
   - '+.smetrics.beatsbydre.com'
   - '+.smetrics.beatsbydre.com.cn'
   - '+.beencounter.com'
+  - '+.analytics.behr.com'
   - '+.images.explore.behr.com'
   - '+.beizi.biz'
   - '+.smetrics.benefitcosmetics.com.cn'
@@ -1108,7 +1109,6 @@ payload:
   - '+.daraz.com'
   - '+.net.daraz.lk'
   - '+.net.daraz.pk'
-  - '+.sgtm.darryring.com'
   - '+.dashet.com'
   - '+.gate.datacaciques.com'
   - '+.pv.datacaciques.com'
@@ -1571,6 +1571,7 @@ payload:
   - '+.gtcqbnu.cn'
   - '+.pgdt.gtimg.cn'
   - '+.splashqqlive.gtimg.com'
+  - '+.tui.gtimg.com'
   - '+.wa.gtimg.com'
   - '+.gtpxvpi.cn'
   - '+.bd1.guancha.cn'
@@ -1675,6 +1676,7 @@ payload:
   - '+.obus-cn.dc.heytapmobi.com'
   - '+.obus-config-cn.heytapmobi.com'
   - '+.obus-dc10-cn.heytapmobi.com'
+  - '+.obus-dc2-cn.heytapmobi.com'
   - '+.obus-dc20058-cn.heytapmobi.com'
   - '+.obus-dc2007-cn.heytapmobi.com'
   - '+.obus-dc20123-cn.heytapmobi.com'
@@ -2498,12 +2500,14 @@ payload:
   - '+.log-upload-eur.mihoyo.com'
   - '+.log-upload-os.mihoyo.com'
   - '+.reksaidnslog.security.mihoyo.com'
+  - '+.trk.miltonroy.com.cn'
   - '+.wm.mipcdn.com'
   - '+.gg.miued.com'
   - '+.abroad.api.comm.intl.miui.com'
   - '+.activity.browser.intl.miui.com'
   - '+.adv.sec.miui.com'
   - '+.adv.sec.intl.miui.com'
+  - '+.api-rec.stellar.intl.miui.com'
   - '+.api.accelerator.intl.miui.com'
   - '+.api.aurogon.intl.miui.com'
   - '+.api.browser.intl.miui.com'
@@ -3044,6 +3048,7 @@ payload:
   - '+.xmaterial.tu.qq.com'
   - '+.ysdk.qq.com'
   - '+.yun-hl.3g.qq.com'
+  - '+.zxcv.3g.qq.com'
   - '+.wxaintpcos.wxqcloud.qq.com.cn'
   - '+.a1.qqan.com'
   - '+.down.qqfarmer.com.cn'
@@ -3309,6 +3314,7 @@ payload:
   - '+.mcs.snssdk.com'
   - '+.mercury-sdk.snssdk.com'
   - '+.mon.snssdk.com'
+  - '+.mssdk-bu.snssdk.com'
   - '+.open.snssdk.com'
   - '+.pangolin.snssdk.com'
   - '+.pc-mon.snssdk.com'
@@ -3838,6 +3844,7 @@ payload:
   - '+.cname-de-stsdk.vivoglobal.com'
   - '+.cname-in-apport-stsdk.vivoglobal.com'
   - '+.cname-in-bom01-nginxpool03.vivoglobal.com'
+  - '+.cname-in-ctdbonrt-stsdk.vivoglobal.com'
   - '+.cname-sin01-stsdk09.vivoglobal.com'
   - '+.co-domaincfg.vivoglobal.com'
   - '+.co-onrt-stsdk.vivoglobal.com'
@@ -4590,7 +4597,6 @@ payload:
   - '+.hw.zuimeitianqi.com'
   - '+.log2.zuimeitianqi.com'
   - '+.zukddms.cn'
-  - '+.zunue.cn'
   - '+.1.zuowenjun.com'
   - '+.zwjaoni.cn'
   - '+.zwlikv.cn'
