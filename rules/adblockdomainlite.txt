@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260203164924
-! Last modified: 2026/02/03 16:49:24
-! Blocked domains: 4600
+! Version: 20260204010128
+! Last modified: 2026/02/04 01:01:28
+! Blocked domains: 4589
 !
 00xvppy.cn
 img.0279.net
@@ -1109,6 +1109,8 @@ daque.cn
 daraz.com
 net.daraz.lk
 net.daraz.pk
+sgtm.darryring.com
+clickserve.dartsearch.net
 dashet.com
 gate.datacaciques.com
 pv.datacaciques.com
@@ -1238,7 +1240,6 @@ stun1.douyucdn.cn
 dotcounter.douyutv.com
 dpjzzgw.cn
 drdwy.com
-drivethelife.com
 dspunion.com
 parcel-locker.dsyl8.com
 analytics.dsyqt.com
@@ -1571,7 +1572,6 @@ gsxbxvd.cn
 gtcqbnu.cn
 pgdt.gtimg.cn
 splashqqlive.gtimg.com
-tui.gtimg.com
 wa.gtimg.com
 gtpxvpi.cn
 bd1.guancha.cn
@@ -1676,7 +1676,6 @@ iot-earbuds-cn.heytapmobi.com
 obus-cn.dc.heytapmobi.com
 obus-config-cn.heytapmobi.com
 obus-dc10-cn.heytapmobi.com
-obus-dc2-cn.heytapmobi.com
 obus-dc20058-cn.heytapmobi.com
 obus-dc2007-cn.heytapmobi.com
 obus-dc20123-cn.heytapmobi.com
@@ -1741,7 +1740,6 @@ auth-launcher-na.hismarttv.com
 auth-launcher-sa.hismarttv.com
 auth-na.hismarttv.com
 auth-phone-ap.hismarttv.com
-auth-phone-na.hismarttv.com
 auth-sa.hismarttv.com
 cdn-plugin-sync-upgrade-juui.hismarttv.com
 msg-na.hismarttv.com
@@ -2472,7 +2470,6 @@ mgzjin.cn
 resolver.gslb.mi-idc.com
 ad.mi.com
 d.g.mi.com
-h5.tv.mi.com
 idm.iot.mi.com
 in.tv.global.mi.com
 migc.g.mi.com
@@ -2507,7 +2504,6 @@ abroad.api.comm.intl.miui.com
 activity.browser.intl.miui.com
 adv.sec.miui.com
 adv.sec.intl.miui.com
-api-rec.stellar.intl.miui.com
 api.accelerator.intl.miui.com
 api.aurogon.intl.miui.com
 api.browser.intl.miui.com
@@ -2969,8 +2965,6 @@ mtrace.qq.com
 oimsgad.qq.com
 omgid.qq.com
 omgmta1.qq.com
-oth.eve.mdt.qq.com
-oth.str.mdt.qq.com
 p2p.qq.com
 p2pupdate.gamedl.qq.com
 p2pupgrade.gamedl.qq.com
@@ -3313,7 +3307,6 @@ log-lq.snssdk.com
 mcs.snssdk.com
 mercury-sdk.snssdk.com
 mon.snssdk.com
-mssdk-bu.snssdk.com
 open.snssdk.com
 pangolin.snssdk.com
 pc-mon.snssdk.com
@@ -3441,7 +3434,6 @@ clog.tanshudata.com
 seiya.tantanapp.com
 tanv.com
 click.tanx.com
-cms.tanx.com
 df.tanx.com
 ef-dongfeng.tanx.com
 et.tanx.com
@@ -3840,10 +3832,8 @@ asia-vpushonrt-stsdk.vivoglobal.com
 asia-vpushort-stsdk.vivoglobal.com
 cl-vcode-od.vivoglobal.com
 cname-asia-st-exappupgrade.vivoglobal.com
-cname-de-stsdk.vivoglobal.com
 cname-in-apport-stsdk.vivoglobal.com
 cname-in-bom01-nginxpool03.vivoglobal.com
-cname-in-ctdbonrt-stsdk.vivoglobal.com
 cname-sin01-stsdk09.vivoglobal.com
 co-domaincfg.vivoglobal.com
 co-onrt-stsdk.vivoglobal.com
@@ -3854,7 +3844,6 @@ co-timesync.vivoglobal.com
 co-vcode-api.vivoglobal.com
 co-vcode-od.vivoglobal.com
 co-vcode-or.vivoglobal.com
-de-gdpr-err-up.vivoglobal.com
 err.up.vivoglobal.com
 eu-cota.vivoglobal.com
 eu-domaincfg.vivoglobal.com

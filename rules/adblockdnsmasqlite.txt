@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260203164924
-# Last modified: 2026/02/03 16:49:24
-# Blocked domains: 4600
+# Version: 20260204010128
+# Last modified: 2026/02/04 01:01:28
+# Blocked domains: 4589
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -1109,6 +1109,8 @@ local=/daque.cn/
 local=/daraz.com/
 local=/net.daraz.lk/
 local=/net.daraz.pk/
+local=/sgtm.darryring.com/
+local=/clickserve.dartsearch.net/
 local=/dashet.com/
 local=/gate.datacaciques.com/
 local=/pv.datacaciques.com/
@@ -1238,7 +1240,6 @@ local=/stun1.douyucdn.cn/
 local=/dotcounter.douyutv.com/
 local=/dpjzzgw.cn/
 local=/drdwy.com/
-local=/drivethelife.com/
 local=/dspunion.com/
 local=/parcel-locker.dsyl8.com/
 local=/analytics.dsyqt.com/
@@ -1571,7 +1572,6 @@ local=/gsxbxvd.cn/
 local=/gtcqbnu.cn/
 local=/pgdt.gtimg.cn/
 local=/splashqqlive.gtimg.com/
-local=/tui.gtimg.com/
 local=/wa.gtimg.com/
 local=/gtpxvpi.cn/
 local=/bd1.guancha.cn/
@@ -1676,7 +1676,6 @@ local=/iot-earbuds-cn.heytapmobi.com/
 local=/obus-cn.dc.heytapmobi.com/
 local=/obus-config-cn.heytapmobi.com/
 local=/obus-dc10-cn.heytapmobi.com/
-local=/obus-dc2-cn.heytapmobi.com/
 local=/obus-dc20058-cn.heytapmobi.com/
 local=/obus-dc2007-cn.heytapmobi.com/
 local=/obus-dc20123-cn.heytapmobi.com/
@@ -1741,7 +1740,6 @@ local=/auth-launcher-na.hismarttv.com/
 local=/auth-launcher-sa.hismarttv.com/
 local=/auth-na.hismarttv.com/
 local=/auth-phone-ap.hismarttv.com/
-local=/auth-phone-na.hismarttv.com/
 local=/auth-sa.hismarttv.com/
 local=/cdn-plugin-sync-upgrade-juui.hismarttv.com/
 local=/msg-na.hismarttv.com/
@@ -2472,7 +2470,6 @@ local=/mgzjin.cn/
 local=/resolver.gslb.mi-idc.com/
 local=/ad.mi.com/
 local=/d.g.mi.com/
-local=/h5.tv.mi.com/
 local=/idm.iot.mi.com/
 local=/in.tv.global.mi.com/
 local=/migc.g.mi.com/
@@ -2507,7 +2504,6 @@ local=/abroad.api.comm.intl.miui.com/
 local=/activity.browser.intl.miui.com/
 local=/adv.sec.miui.com/
 local=/adv.sec.intl.miui.com/
-local=/api-rec.stellar.intl.miui.com/
 local=/api.accelerator.intl.miui.com/
 local=/api.aurogon.intl.miui.com/
 local=/api.browser.intl.miui.com/
@@ -2969,8 +2965,6 @@ local=/mtrace.qq.com/
 local=/oimsgad.qq.com/
 local=/omgid.qq.com/
 local=/omgmta1.qq.com/
-local=/oth.eve.mdt.qq.com/
-local=/oth.str.mdt.qq.com/
 local=/p2p.qq.com/
 local=/p2pupdate.gamedl.qq.com/
 local=/p2pupgrade.gamedl.qq.com/
@@ -3313,7 +3307,6 @@ local=/log-lq.snssdk.com/
 local=/mcs.snssdk.com/
 local=/mercury-sdk.snssdk.com/
 local=/mon.snssdk.com/
-local=/mssdk-bu.snssdk.com/
 local=/open.snssdk.com/
 local=/pangolin.snssdk.com/
 local=/pc-mon.snssdk.com/
@@ -3441,7 +3434,6 @@ local=/clog.tanshudata.com/
 local=/seiya.tantanapp.com/
 local=/tanv.com/
 local=/click.tanx.com/
-local=/cms.tanx.com/
 local=/df.tanx.com/
 local=/ef-dongfeng.tanx.com/
 local=/et.tanx.com/
@@ -3840,10 +3832,8 @@ local=/asia-vpushonrt-stsdk.vivoglobal.com/
 local=/asia-vpushort-stsdk.vivoglobal.com/
 local=/cl-vcode-od.vivoglobal.com/
 local=/cname-asia-st-exappupgrade.vivoglobal.com/
-local=/cname-de-stsdk.vivoglobal.com/
 local=/cname-in-apport-stsdk.vivoglobal.com/
 local=/cname-in-bom01-nginxpool03.vivoglobal.com/
-local=/cname-in-ctdbonrt-stsdk.vivoglobal.com/
 local=/cname-sin01-stsdk09.vivoglobal.com/
 local=/co-domaincfg.vivoglobal.com/
 local=/co-onrt-stsdk.vivoglobal.com/
@@ -3854,7 +3844,6 @@ local=/co-timesync.vivoglobal.com/
 local=/co-vcode-api.vivoglobal.com/
 local=/co-vcode-od.vivoglobal.com/
 local=/co-vcode-or.vivoglobal.com/
-local=/de-gdpr-err-up.vivoglobal.com/
 local=/err.up.vivoglobal.com/
 local=/eu-cota.vivoglobal.com/
 local=/eu-domaincfg.vivoglobal.com/
