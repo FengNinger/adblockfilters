@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2026/02/06 16:54:01
-#!support=4581
+#!date=2026/02/07 00:55:29
+#!support=4577
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,00xvppy.cn
@@ -48,6 +48,7 @@ DOMAIN-SUFFIX,iadmusicmatvideo.music.126.net
 DOMAIN-SUFFIX,img1.126.net
 DOMAIN-SUFFIX,img3.126.net
 DOMAIN-SUFFIX,mimg.126.net
+DOMAIN-SUFFIX,pg-ad-b1.ws.126.net
 DOMAIN-SUFFIX,stat.ws.126.net
 DOMAIN-SUFFIX,webstat.ws.126.net
 DOMAIN-SUFFIX,yt-adp.ws.126.net
@@ -538,7 +539,6 @@ DOMAIN-SUFFIX,jpg1.oss-cn-beijing.aliyuncs.com
 DOMAIN-SUFFIX,jun01.oss-cn-beijing.aliyuncs.com
 DOMAIN-SUFFIX,kmmgoogle.oss-ap-southeast-1.aliyuncs.com
 DOMAIN-SUFFIX,mobantong.oss-cn-hangzhou.aliyuncs.com
-DOMAIN-SUFFIX,o2o-ad-dev.oss-cn-shanghai.aliyuncs.com
 DOMAIN-SUFFIX,retcode-sg-lazada.arms.aliyuncs.com
 DOMAIN-SUFFIX,shaquevip.oss-cn-zhangjiakou.aliyuncs.com
 DOMAIN-SUFFIX,star-seo.oss-ap-northeast-1.aliyuncs.com
@@ -1422,6 +1422,7 @@ DOMAIN-SUFFIX,fugetech.com
 DOMAIN-SUFFIX,fujincenter.com
 DOMAIN-SUFFIX,adm.funshion.com
 DOMAIN-SUFFIX,jobsfe.funshion.com
+DOMAIN-SUFFIX,neirong.funshion.com
 DOMAIN-SUFFIX,po.funshion.com
 DOMAIN-SUFFIX,pub.funshion.com
 DOMAIN-SUFFIX,pv.funshion.com
@@ -1484,7 +1485,6 @@ DOMAIN-SUFFIX,doh.ptqy.gitv.tv
 DOMAIN-SUFFIX,ip.ptqy.gitv.tv
 DOMAIN-SUFFIX,liveats-vod.video.ptqy.gitv.tv
 DOMAIN-SUFFIX,msg.ptqy.gitv.tv
-DOMAIN-SUFFIX,ota.ptqy.gitv.tv
 DOMAIN-SUFFIX,policy.video.ptqy.gitv.tv
 DOMAIN-SUFFIX,sdk-cache.video.ptqy.gitv.tv
 DOMAIN-SUFFIX,sdk.ptqy.gitv.tv
@@ -1739,6 +1739,7 @@ DOMAIN-SUFFIX,auth-launcher-na.hismarttv.com
 DOMAIN-SUFFIX,auth-launcher-sa.hismarttv.com
 DOMAIN-SUFFIX,auth-na.hismarttv.com
 DOMAIN-SUFFIX,auth-phone-ap.hismarttv.com
+DOMAIN-SUFFIX,auth-phone-na.hismarttv.com
 DOMAIN-SUFFIX,auth-sa.hismarttv.com
 DOMAIN-SUFFIX,cdn-plugin-sync-upgrade-juui.hismarttv.com
 DOMAIN-SUFFIX,msg-na.hismarttv.com
@@ -2505,7 +2506,6 @@ DOMAIN-SUFFIX,adv.sec.miui.com
 DOMAIN-SUFFIX,adv.sec.intl.miui.com
 DOMAIN-SUFFIX,api.accelerator.intl.miui.com
 DOMAIN-SUFFIX,api.aurogon.intl.miui.com
-DOMAIN-SUFFIX,api.browser.intl.miui.com
 DOMAIN-SUFFIX,api.brs.intl.miui.com
 DOMAIN-SUFFIX,api.collect.data.intl.miui.com
 DOMAIN-SUFFIX,api.competition.intl.miui.com
@@ -3025,6 +3025,7 @@ DOMAIN-SUFFIX,tpush.html5.qq.com
 DOMAIN-SUFFIX,trace.qq.com
 DOMAIN-SUFFIX,unitelogreport.reader.qq.com
 DOMAIN-SUFFIX,up-hl.3g.qq.com
+DOMAIN-SUFFIX,updatecenter.qq.com
 DOMAIN-SUFFIX,uplog.inews.qq.com
 DOMAIN-SUFFIX,uu.qq.com
 DOMAIN-SUFFIX,video.dispatch.tc.qq.com
@@ -3843,7 +3844,6 @@ DOMAIN-SUFFIX,co-timesync.vivoglobal.com
 DOMAIN-SUFFIX,co-vcode-api.vivoglobal.com
 DOMAIN-SUFFIX,co-vcode-od.vivoglobal.com
 DOMAIN-SUFFIX,co-vcode-or.vivoglobal.com
-DOMAIN-SUFFIX,err.up.vivoglobal.com
 DOMAIN-SUFFIX,eu-cota.vivoglobal.com
 DOMAIN-SUFFIX,eu-domaincfg.vivoglobal.com
 DOMAIN-SUFFIX,eu-errup.vivoglobal.com
@@ -3875,7 +3875,6 @@ DOMAIN-SUFFIX,in-ctdbpnrt-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,in-domaincfg.vivoglobal.com
 DOMAIN-SUFFIX,in-errup.vivoglobal.com
 DOMAIN-SUFFIX,in-ex-adlog.vivoglobal.com
-DOMAIN-SUFFIX,in-monitor-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,in-news-abroad-backstage-interface.vivoglobal.com
 DOMAIN-SUFFIX,in-onrt-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,in-ort-stsdk.vivoglobal.com
@@ -3933,7 +3932,6 @@ DOMAIN-SUFFIX,ru-timesync.vivoglobal.com
 DOMAIN-SUFFIX,ru-vcode-api.vivoglobal.com
 DOMAIN-SUFFIX,ru-vcode-od.vivoglobal.com
 DOMAIN-SUFFIX,ru-vcode-or.vivoglobal.com
-DOMAIN-SUFFIX,sca-cota.vivoglobal.com
 DOMAIN-SUFFIX,sca-domaincfg.vivoglobal.com
 DOMAIN-SUFFIX,sca-err-up.vivoglobal.com
 DOMAIN-SUFFIX,sca-onrt-stsdk.vivoglobal.com
@@ -3947,7 +3945,6 @@ DOMAIN-SUFFIX,sca-timesync.vivoglobal.com
 DOMAIN-SUFFIX,sca-vcode-api.vivoglobal.com
 DOMAIN-SUFFIX,sca-vcode-od.vivoglobal.com
 DOMAIN-SUFFIX,sca-vcode-or.vivoglobal.com
-DOMAIN-SUFFIX,sg-cfg-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,stsdk.vivoglobal.com
 DOMAIN-SUFFIX,tr-cota.vivoglobal.com
 DOMAIN-SUFFIX,tr-domaincfg.vivoglobal.com
@@ -4515,7 +4512,6 @@ DOMAIN-SUFFIX,gecko3-lf.zijieapi.com
 DOMAIN-SUFFIX,gecko5-lf.zijieapi.com
 DOMAIN-SUFFIX,log.zijieapi.com
 DOMAIN-SUFFIX,log-klink.zijieapi.com
-DOMAIN-SUFFIX,log5-applog-hl.zijieapi.com
 DOMAIN-SUFFIX,log5-applog-lf.zijieapi.com
 DOMAIN-SUFFIX,mcs.zijieapi.com
 DOMAIN-SUFFIX,minigame5-normal-hl.zijieapi.com
