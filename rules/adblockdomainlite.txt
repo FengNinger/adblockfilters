@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260207164004
-! Last modified: 2026/02/07 16:40:04
-! Blocked domains: 4577
+! Version: 20260208003857
+! Last modified: 2026/02/08 00:38:57
+! Blocked domains: 4580
 !
 00xvppy.cn
 img.0279.net
@@ -423,7 +423,6 @@ report-edge.agora.io
 report-europe.agora.io
 report-north-america.agora.io
 statscollector-1.agora.io
-statscollector-1-asia.agora.io
 statscollector-1-north-america.agora.io
 tracking.agora.io
 webcollector-rtm.agora.io
@@ -1418,7 +1417,6 @@ fugetech.com
 fujincenter.com
 adm.funshion.com
 jobsfe.funshion.com
-neirong.funshion.com
 po.funshion.com
 pub.funshion.com
 pv.funshion.com
@@ -1481,6 +1479,7 @@ doh.ptqy.gitv.tv
 ip.ptqy.gitv.tv
 liveats-vod.video.ptqy.gitv.tv
 msg.ptqy.gitv.tv
+ota.ptqy.gitv.tv
 policy.video.ptqy.gitv.tv
 sdk-cache.video.ptqy.gitv.tv
 sdk.ptqy.gitv.tv
@@ -1664,6 +1663,7 @@ conf-sg.dc.heytapmobi.com
 darvin-ec.ads.heytapmobi.com
 data.ads.heytapmobi.com
 dcintl.push.heytapmobi.com
+dragate-cn.dc.heytapmobi.com
 dragate-sg.dc.heytapmobi.com
 epoch-id.cdo.heytapmobi.com
 httpdns.ocloud.heytapmobi.com
@@ -2502,6 +2502,7 @@ adv.sec.miui.com
 adv.sec.intl.miui.com
 api.accelerator.intl.miui.com
 api.aurogon.intl.miui.com
+api.browser.intl.miui.com
 api.brs.intl.miui.com
 api.collect.data.intl.miui.com
 api.competition.intl.miui.com
@@ -3293,6 +3294,7 @@ sensors.snaptube.app
 abtest-ch.snssdk.com
 applog.snssdk.com
 bds.snssdk.com
+extlog.snssdk.com
 gecko.snssdk.com
 ib.snssdk.com
 log.snssdk.com
@@ -3825,7 +3827,6 @@ asia-vcode-od.vivoglobal.com
 asia-vcode-or.vivoglobal.com
 asia-vpushonrt-stsdk.vivoglobal.com
 asia-vpushort-stsdk.vivoglobal.com
-cl-vcode-od.vivoglobal.com
 cname-asia-st-exappupgrade.vivoglobal.com
 cname-de-stsdk.vivoglobal.com
 cname-in-apport-stsdk.vivoglobal.com
@@ -3871,6 +3872,7 @@ in-ctdbpnrt-stsdk.vivoglobal.com
 in-domaincfg.vivoglobal.com
 in-errup.vivoglobal.com
 in-ex-adlog.vivoglobal.com
+in-monitor-stsdk.vivoglobal.com
 in-news-abroad-backstage-interface.vivoglobal.com
 in-onrt-stsdk.vivoglobal.com
 in-ort-stsdk.vivoglobal.com
@@ -4059,7 +4061,6 @@ helper-stats.wondershare.com
 platform.wondershare.com
 irurng.wondershare.jp
 woniu.com
-static.wooboo.com.cn
 analytics.woozooo.com
 statics.woozooo.com
 www.wowostar.cn
@@ -4100,6 +4101,7 @@ x-steam.com
 xbfk.cn
 xbtw.com
 d0.xcar.com.cn
+dw.xcar.com.cn
 jcmonitor.xcar.com.cn
 pv.xcar.com.cn
 pvx.xcar.com.cn
@@ -4508,6 +4510,7 @@ gecko3-lf.zijieapi.com
 gecko5-lf.zijieapi.com
 log.zijieapi.com
 log-klink.zijieapi.com
+log5-applog-hl.zijieapi.com
 log5-applog-lf.zijieapi.com
 mcs.zijieapi.com
 minigame5-normal-hl.zijieapi.com
