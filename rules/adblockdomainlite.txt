@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260212165652
-! Last modified: 2026/02/12 16:56:52
-! Blocked domains: 4589
+! Version: 20260213010730
+! Last modified: 2026/02/13 01:07:30
+! Blocked domains: 4577
 !
 00xvppy.cn
 img.0279.net
@@ -15,6 +15,7 @@ o.027eat.com
 0575bbs.com
 0597kk.com
 gg.0598yu.com
+0755rc.com
 080999.cn
 087tqb.cn
 0941.org
@@ -69,7 +70,6 @@ countly.mail.163.com
 crash.163.com
 crashlytics.163.com
 e-p4p.163.com
-fa.163.com
 fp-upload.dun.163.com
 g.163.com
 gb.corp.163.com
@@ -287,6 +287,7 @@ kl.67it.com
 6hejing.cn
 6u2h.cn
 6uzxtlv.cn
+6v4.cn
 6v4.work
 6v6.work
 trail.71baomu.com
@@ -993,6 +994,7 @@ clarins.com.cn
 log-api.cli.im
 bd1.click.com.cn
 clicki.cn
+7xi9g1.com1.z0.glb.clouddn.com
 bkt.clouddn.com
 advertise.cloudlinks.cn
 log.cmbchina.com
@@ -1721,8 +1723,6 @@ log-dre.platform.hihonorcloud.com
 log-drru.platform.hihonorcloud.com
 hiido.com
 analytics.shop.hisense.com
-api-4know-em.hismarttv.com
-api-4know-eu.hismarttv.com
 api-gps.hismarttv.com
 api-gps-eu.hismarttv.com
 api-gps-na.hismarttv.com
@@ -1737,7 +1737,6 @@ auth-launcher-na.hismarttv.com
 auth-launcher-sa.hismarttv.com
 auth-na.hismarttv.com
 auth-phone-ap.hismarttv.com
-auth-phone-na.hismarttv.com
 auth-sa.hismarttv.com
 cdn-plugin-sync-upgrade-juui.hismarttv.com
 msg-na.hismarttv.com
@@ -2448,7 +2447,6 @@ servicecut.meizu.com
 tongji.meizu.com
 tongji-res.meizu.com
 tongji-res1.meizu.com
-u.meizu.com
 umid.orion.meizu.com
 uxip.meizu.com
 ofd.meng-an.cn
@@ -2831,7 +2829,6 @@ www.q4ee.top
 qawxpzm.cn
 cp.qbaobei.com
 uplog.qbox.me
-log.qcast.cn
 qchannel04.cn
 log.qvb.qcloud.com
 tracker-00.qvb.qcloud.com
@@ -2871,7 +2868,6 @@ stats.qiumibao.com
 webstat.qiumibao.com
 qiuxl11.cn
 qiyegongqiu1.qiyegongqiu.com
-data.video.qiyi.com
 meta.video.qiyi.com
 msg.video.qiyi.com
 msg2.video.qiyi.com
@@ -3026,7 +3022,6 @@ tpush.html5.qq.com
 trace.qq.com
 unitelogreport.reader.qq.com
 up-hl.3g.qq.com
-updatecenter.qq.com
 uplog.inews.qq.com
 uu.qq.com
 video.dispatch.tc.qq.com
@@ -3253,7 +3248,6 @@ rm.sina.com.cn
 sax.sina.com.cn
 saxn.sina.com.cn
 sbeacon.sina.com.cn
-woocall.sina.com.cn
 s3.pfp.sina.net
 ad.us.sinaimg.cn
 newspush.sinajs.cn
@@ -3268,7 +3262,6 @@ analytics.sixt.cn
 1.sj33.net
 sjdfuvz.cn
 sjoy7rq.cn
-clog.skysrt.com
 m.slshiye.cn
 sm-tc.cn
 c.sm.cn
@@ -3524,7 +3517,6 @@ tongji.techweb.com.cn
 tecunonline.com
 tehxcmh3.com
 tekvea.shop
-telegramcn.co
 teleqpnm.cn
 apd-pcdnvodstat.teg.tencent-cloud.net
 apd-pcdnwxlogin.teg.tencent-cloud.net
@@ -3847,7 +3839,6 @@ co-timesync.vivoglobal.com
 co-vcode-api.vivoglobal.com
 co-vcode-od.vivoglobal.com
 co-vcode-or.vivoglobal.com
-err.up.vivoglobal.com
 eu-cota.vivoglobal.com
 eu-domaincfg.vivoglobal.com
 eu-errup.vivoglobal.com
@@ -3879,7 +3870,6 @@ in-ctdbpnrt-stsdk.vivoglobal.com
 in-domaincfg.vivoglobal.com
 in-errup.vivoglobal.com
 in-ex-adlog.vivoglobal.com
-in-monitor-stsdk.vivoglobal.com
 in-news-abroad-backstage-interface.vivoglobal.com
 in-onrt-stsdk.vivoglobal.com
 in-ort-stsdk.vivoglobal.com
@@ -4254,7 +4244,6 @@ xulizui6.com
 ad.xunkids.com
 adsp.xunlei.com
 advertpay-vip-ssl.xunlei.com
-advertpay.vip.xunlei.com
 analytics-union.xunlei.com
 kkpgv2.xunlei.com
 soa-vip-ssl.xunlei.com
@@ -4519,7 +4508,6 @@ gecko3-lf.zijieapi.com
 gecko5-lf.zijieapi.com
 log.zijieapi.com
 log-klink.zijieapi.com
-log5-applog-hl.zijieapi.com
 log5-applog-lf.zijieapi.com
 mcs.zijieapi.com
 minigame5-normal-hl.zijieapi.com
