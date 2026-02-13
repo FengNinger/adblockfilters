@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260213165331
-# Last modified: 2026/02/13 16:53:31
-# Blocked domains: 4563
+# Version: 20260214005650
+# Last modified: 2026/02/14 00:56:50
+# Blocked domains: 4556
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -591,7 +591,6 @@ local=/appgift.sinaapp.com/
 local=/iadsdk.apple.com/
 local=/securemetrics.apple.com.cn/
 local=/fpb1.apple886.com/
-local=/st.appsad.cn/
 local=/adx.appsdk.com.cn/
 local=/appsdt.com/
 local=/tracking.apptrackerlink.com/
@@ -809,7 +808,6 @@ local=/zz.bdstatic.com/
 local=/smetrics.beatsbydre.com/
 local=/smetrics.beatsbydre.com.cn/
 local=/beencounter.com/
-local=/analytics.behr.com/
 local=/images.explore.behr.com/
 local=/beizi.biz/
 local=/smetrics.benefitcosmetics.com.cn/
@@ -1479,7 +1477,6 @@ local=/liveats-vod.video.ptqy.gitv.tv/
 local=/msg.ptqy.gitv.tv/
 local=/ota.ptqy.gitv.tv/
 local=/policy.video.ptqy.gitv.tv/
-local=/puma-api.ptqy.gitv.tv/
 local=/sdk-cache.video.ptqy.gitv.tv/
 local=/sdk.ptqy.gitv.tv/
 local=/static.ptqy.gitv.tv/
@@ -1662,7 +1659,6 @@ local=/conf-sg.dc.heytapmobi.com/
 local=/darvin-ec.ads.heytapmobi.com/
 local=/data.ads.heytapmobi.com/
 local=/dcintl.push.heytapmobi.com/
-local=/dragate-cn.dc.heytapmobi.com/
 local=/dragate-sg.dc.heytapmobi.com/
 local=/epoch-id.cdo.heytapmobi.com/
 local=/httpdns.ocloud.heytapmobi.com/
@@ -3757,7 +3753,6 @@ local=/tx-p2p-pull.video-voip.com/
 local=/ws-p2p-pull.video-voip.com/
 local=/vingroupinvestment.com/
 local=/n-st.vip.com/
-local=/in.vipliangmei.com/
 local=/smetrics.visitsingapore.com.cn/
 local=/adlog.vivo.com/
 local=/bhwkju.vivo.com/
@@ -3916,7 +3911,6 @@ local=/ru-timesync.vivoglobal.com/
 local=/ru-vcode-api.vivoglobal.com/
 local=/ru-vcode-od.vivoglobal.com/
 local=/ru-vcode-or.vivoglobal.com/
-local=/sca-cota.vivoglobal.com/
 local=/sca-domaincfg.vivoglobal.com/
 local=/sca-err-up.vivoglobal.com/
 local=/sca-onrt-stsdk.vivoglobal.com/
@@ -4557,7 +4551,6 @@ local=/zttebe.top/
 local=/ad.zui.com/
 local=/ad.zuimeitianqi.com/
 local=/hw.zuimeitianqi.com/
-local=/log2.zuimeitianqi.com/
 local=/zukddms.cn/
 local=/1.zuowenjun.com/
 local=/zwjaoni.cn/
