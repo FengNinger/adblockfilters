@@ -4,9 +4,9 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20260218165514
-  # Last modified: 2026/02/18 16:55:14
-  # Blocked domains: 4567
+  # Version: 20260219011213
+  # Last modified: 2026/02/19 01:12:13
+  # Blocked domains: 4564
   #
   - '+.00xvppy.cn'
   - '+.img.0279.net'
@@ -132,7 +132,6 @@ payload:
   - '+.atom-log.3.cn'
   - '+.analytics.300624.com'
   - '+.301848.com'
-  - '+.30edu.com.cn'
   - '+.312c2n3g5.shop'
   - '+.312m11.shop'
   - '+.312m2s6.shop'
@@ -1854,7 +1853,6 @@ payload:
   - '+.ylog.huya.com'
   - '+.hypers.com'
   - '+.t.hypers.com.cn'
-  - '+.hzbxm.com'
   - '+.api.hzsanjiaomao.com'
   - '+.sdk.hzsanjiaomao.com'
   - '+.adashx.ut.hzshudian.com'
@@ -2025,8 +2023,7 @@ payload:
   - '+.eventlog.jackpot.de'
   - '+.a3.jandan.net'
   - '+.japps.cn'
-  - '+.jscode.jbzj.com'
-  - '+.mm.jbzj.com'
+  - '+.jbzj.com'
   - '+.stat.jc001.cn'
   - '+.addata.jd.com'
   - '+.ads-union.jd.com'
@@ -3079,6 +3076,7 @@ payload:
   - '+.r528e.cn'
   - '+.r75tia.cn'
   - '+.luaqxb.rainso.com'
+  - '+.ads-sdk-api.ranfenghd.com'
   - '+.bespoke-analytics.razerapi.com'
   - '+.rbjpti.top'
   - '+.rcqqlwb.cn'
@@ -3574,7 +3572,6 @@ payload:
   - '+.track.tom.com'
   - '+.track.tomwx.net'
   - '+.tongbaimi.cn'
-  - '+.fp.tongdun.net'
   - '+.sky.tongjiai.com'
   - '+.ato.tooopen.com'
   - '+.topsem.com'
