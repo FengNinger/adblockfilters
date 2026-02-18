@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20260218104406
-! Last modified: 2026/02/18 10:44:06
-! Blocked Filters: 42392
+! Version: 20260218165513
+! Last modified: 2026/02/18 16:55:13
+! Blocked Filters: 42399
 !
 ###AC_ad
 ###AD_160
@@ -15678,14 +15678,21 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 .com/*?*&refer=*fmovies.*&adb=
 .com/*?*&refer=*fmovies.*&adb=$all
 .com/*markerclusterer_compiled.js$script,third-party
+.com/00*00*00*_*c*p*v*.js$~third-party
 .com/0gg/gg*.js
+.com/11*11*11*_*c*p*v*.js$~third-party
 .com/17*?rid=17$third-party
 .com/1784b8bs/
 .com/1?z=$script,third-party
 .com/1clkn/
+.com/22*22*22*_*c*p*v*.js$~third-party
 .com/2?z=$script,third-party
+.com/33*33*33*_*c*p*v*.js$~third-party
 .com/4/js/$third-party
+.com/44*44*44*_*c*p*v*.js$~third-party
+.com/55*55*55*_*c*p*v*.js$~third-party
 .com/5y*/31*.$~third-party
+.com/66*66*66*_*c*p*v*.js$~third-party
 .com/?Intr=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?zoneid=*&xref=*&uuid=$redirect=nooptext,important
