@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260221103134
-! Last modified: 2026/02/21 10:31:34
-! Blocked Filters: 100825
+! Version: 20260221163934
+! Last modified: 2026/02/21 16:39:34
+! Blocked Filters: 100830
 !
 ###AC_ad
 ###AD_160
@@ -39606,6 +39606,7 @@ bestbuy.ca##[class^="sponsoredProdBoxGridArea"]
 bestbuy.ca##div.x-productListItem:has([class^="sponsoredProduct"])
 bestbuy.ca##div[data-automation^="criteo-sponsored-products-carousel-"]
 bestbuy.ca##section[data-automation="dynamic-content-ad-slot"]
+bestbuy.ca##section[data-automation="dynamic-content-featured-sku-list-home_fsl_sponsored"]
 bestbuy.ca#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.ad-text.adSense.adBlock.adContent.adBanner.banner.sponsored.sponsoredProduct.sponsoredProductLabel.sponsor.promote.promoted { display: block !important; }
 bestbuy.ca#@#.ad-text
 bestbuy.ca#@#.adBanner
@@ -59792,6 +59793,7 @@ macworld.com###articleLeaderboardWrapper
 macworld.com##.promo_wrap
 macys.com###sponsored-items-container
 macys.com##.media-component-siteMonetization
+macys.com##.plp-page-row:has(.monetization-brand-label)
 macys.com##.siteMonetization
 macys.com##.sortable-grid-sponsored-items
 macys.com##.sortablegrid-product.featured-item
@@ -70819,6 +70821,9 @@ seirsanduk.us#?##program > center:contains(Реклама)
 self.com##.promo-box
 self.com,pitchfork.com,wired.com,vanityfair.com##div[class^="StickyHeroAdWrapper"]
 sellthing.co#?##content > div.main-container:has(> div.container-fluid > div.widget-content > div.row > div.imageBanner)
+semafor.com##._adHeaderMargin_psyvh_111
+semafor.com##._adMargin_psyvh_211
+semafor.com##._homeMiddleAd_x95p9_29
 semafor.com##div[class^="styles_ad"]
 semafor.com#?#.suppress-rss:-abp-has(:-abp-contains(Supported by))
 semafor.com#?#.suppress-rss:has(:contains(Supported by))
