@@ -4,9 +4,9 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20260226103733
-  # Last modified: 2026/02/26 10:37:33
-  # Blocked domains: 4561
+  # Version: 20260226165805
+  # Last modified: 2026/02/26 16:58:05
+  # Blocked domains: 4562
   #
   - '+.00xvppy.cn'
   - '+.img.0279.net'
@@ -1346,7 +1346,6 @@ payload:
   - '+.falal.cn'
   - '+.api-ad-callback.falconnet.app'
   - '+.api-event.falconnet.app'
-  - '+.config.ad.falconnet.app'
   - '+.fancyapi.com'
   - '+.clickm.fang.com'
   - '+.clickn.fang.com'
@@ -4077,6 +4076,7 @@ payload:
   - '+.1500020991.vodplayer.wxamedia.com'
   - '+.1500022744.vodplayer.wxamedia.com'
   - '+.1500026601.vodplayer.wxamedia.com'
+  - '+.wxdgut.cn'
   - '+.wxdqgmr.cn'
   - '+.wy213.com'
   - '+.a.wzu.com'
@@ -4360,6 +4360,7 @@ payload:
   - '+.ykrectab.youku.com'
   - '+.youku-crm-product.youku.com'
   - '+.youmi.net'
+  - '+.report.ml.youngjoygame.com'
   - '+.api.youngle.site'
   - '+.youqunjx.com'
   - '+.yousuode.cn'
