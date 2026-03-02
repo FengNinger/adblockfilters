@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20260302165432
-! Last modified: 2026/03/02 16:54:32
-! Blocked domains: 4568
+! Version: 20260303005739
+! Last modified: 2026/03/03 00:57:39
+! Blocked domains: 4565
 ! unBlocked domains: 16
 !
 ||00xvppy.cn^
@@ -110,10 +110,7 @@
 ||tj.21ic.com^
 ||222aa333bb.com^
 ||2345.cn^
-||bd-js1.2345.com^
-||bd-retrieval1.2345.com^
-||bdcode.2345.com^
-||ggcode.2345.com^
+||2345.com^
 ||2481e.com^
 ||24klm.cn^
 ||25662zubo23739.com^
@@ -1860,6 +1857,7 @@
 ||ylog.huya.com^
 ||hypers.com^
 ||t.hypers.com.cn^
+||hzbxm.com^
 ||api.hzsanjiaomao.com^
 ||sdk.hzsanjiaomao.com^
 ||adashx.ut.hzshudian.com^
@@ -1942,6 +1940,7 @@
 ||link.infineon.cn^
 ||go.infineon.com^
 ||link.infineon.com^
+||reply.infineon.com^
 ||ssgtm.infineon.com^
 ||track-e.infineon.com^
 ||apidns.kwd.inkuai.com^
@@ -3735,7 +3734,6 @@
 ||uxlqwra.cn^
 ||v2.uyan.cc^
 ||uyunad.com^
-||uzzf.com^
 ||log.apk.v-mate.mobi^
 ||v-vay.com^
 ||1.v-x.com.cn^
@@ -4155,7 +4153,6 @@
 ||register.xmpush.global.xiaomi.com^
 ||resolver.mi.xiaomi.com^
 ||sdkconfig.ad.eu.xiaomi.com^
-||sdkconfig.ad.rus.xiaomi.com^
 ||stat.pandora.xiaomi.com^
 ||stats.music.xiaomi.com^
 ||storeconfig.mistat.intl.xiaomi.com^
