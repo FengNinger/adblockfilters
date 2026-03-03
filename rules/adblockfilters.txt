@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260303104148
-! Last modified: 2026/03/03 10:41:48
-! Blocked Filters: 100977
+! Version: 20260303165229
+! Last modified: 2026/03/03 16:52:29
+! Blocked Filters: 100984
 !
 ###AC_ad
 ###AD_160
@@ -22952,6 +22952,8 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 21ic.com##.appxb
 21ic.com##.couplet_ad2
 21ic.com,pyccoo.cn,qq.com##.topbanner
+21stcenturywire.com##.textwidget > div[id^="ld-"][style^="padding:"]
+21stcenturywire.com#?##sidebar > div.widget > div.widget-wrap > div.textwidget > div:not([class^="twitter-tweet"]) + p > script:upward(div.widget)
 21uscity.com##.R300x70
 21uscity.com##.ad300x60
 21yq.com###AD1
@@ -23254,6 +23256,8 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 3dtuning.com#%#//scriptlet('prevent-fetch', 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
 3dtuning.com#%#//scriptlet('set-constant', '__adsBlocked', 'false')
 3dtuning.com#%#//scriptlet('set-constant', '__adsLoaded', 'true')
+3dvf.com##div[data-id="215e330"]
+3dvf.com##div[data-id="e75ea9f"]
 3dzip.*#$?#.better-ads-listitemad { remove: true; }
 3dzip.info,katoikos.world,freepatternsarea.com,sampledrive.org,sharedwebs.com,fitnessplanss.com,mcxlive.org,okpeliz.com,bluedollar.net,nulljungle.com,cehennemstream.xyz,mangacrab.org,arigl.online,s0ft4pc.com,boyfuck.me,freereadnovel.online,idlixvip.asia,javboys.tv,asianboy.fans,techedubyte.com,yomucomics.com,tuksudia2.sbs,tuktukcinma.com#$#body > * { filter: none !important; }
 3dzip.info,katoikos.world,freepatternsarea.com,sampledrive.org,sharedwebs.com,fitnessplanss.com,mcxlive.org,okpeliz.com,bluedollar.net,nulljungle.com,cehennemstream.xyz,mangacrab.org,arigl.online,s0ft4pc.com,boyfuck.me,freereadnovel.online,idlixvip.asia,javboys.tv,asianboy.fans,techedubyte.com,yomucomics.com,tuksudia2.sbs,tuktukcinma.com#$#body > div[class*=" active"][style] + div[class]:has(> .active > [class*="-content"]) { display: none !important; }
@@ -28504,7 +28508,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||gakushuin.ac.jp/ad/common/$~third-party
 @@||galaxy.gala100.net^$generichide
 @@||galaxycrypto.net^$generichide
-@@||gambar123.com/pic/o/semprot-b-$image,domain=semprot.com
+@@||gambar123.com/pic/$image,domain=semprot.com|semprotyuk.com
 @@||game-cdn.poki.com/*/img/ads/Spinner.png
 @@||game-maps.com/ads.js
 @@||game-owl.com/wordpress/wp-content/plugins/ad-inserter/*/*.js
@@ -41001,7 +41005,6 @@ bt1207ma.xyz##a[href*="/uuribao.com/"] + .caption
 btbtt.me###wrapper2 > .width
 btc.ms###inter_popup_modal
 btc.ms##iframe#frame[src]
-btc.tokenview.io,xnview.com,apk4free.net,remixsearch.net,sexadultcomics.com,ourcoincash.xyz,nexusmods.com,techxplore.com,strats.gg,gtainside.com,mybestgames.dk,eshop-prices.com,quena.id,sexu.*,gameme.eu,pornwatch.ws,mollygram.com,onlinewebfonts.com,androjungle.com,filerice.com,10001.games,hoes.tube,i24news.tv,rpp.pe,4pig.com,love4porn.com,gametop.com,bluedollar.net,outlookindia.com,blabbermouth.net,ghettotube.com,mangoporn.net,javplay.me,jagranjosh.com,4kporn.xxx,bangkokpost.com,up-load.io,liveindex.org,freeshib.biz,apkmb.com,westkentuckystar.com,namekun.com,piliapp.com,photofunny.net,grazia.co.in,flightpedia.org,thelingerieaddict.com,banglanews24.com,swisscows.com,jagran.com,autocarindia.com,userupload.net,javbraze.com,laptrinhx.com,pinkvilla.com,youramateurporn.com,dausel.co,yesnetwork.com,indiatoday.in,appvn.com,tapas.io,freefrontend.com,myplaycity.com,mercadojobs.com,thepiratebay.org,sgxnifty.org,cyberscoop.com,filmcomment.com,youngpornvideos.com,eventcinemas.com.au,findyourlucky.com,linuxmint.com,mobafire.com,themepack.me,tmail.io##.ads
 btcadspace.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "AdBlock")
 btcbunch.com#%#//scriptlet("abort-on-property-write", "TestAd")
 btcbunch.com#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'window.location')
@@ -56296,6 +56299,7 @@ ix8.la##div[class^="ADTOPLB_"] > .bd
 ixbt.games##.desktop-c
 ixbt.games##.recommend-c
 ixbt.games##.sidebar-c
+ixbt.games##article > div.not-prose:has(> div[id^="ad-"])
 ixbtlabs.com#@#.bottom_ad_block
 ixdzs.tw##.abg
 ixigua.com##.J_ad
@@ -76679,6 +76683,8 @@ toeic-testpro.com#@#.ad-placement
 tojav.net###preroll
 tojav.net#%#//scriptlet('abort-current-inline-script', 'onload', 'puHref')
 tojimangas.com##.scrollToTop + div[id][class*=" "]
+tokenview.io##.header_tips:has(> .sevioads)
+tokenview.io,xnview.com,apk4free.net,remixsearch.net,sexadultcomics.com,ourcoincash.xyz,nexusmods.com,techxplore.com,strats.gg,gtainside.com,mybestgames.dk,eshop-prices.com,quena.id,sexu.*,gameme.eu,pornwatch.ws,mollygram.com,onlinewebfonts.com,androjungle.com,filerice.com,10001.games,hoes.tube,i24news.tv,rpp.pe,4pig.com,love4porn.com,gametop.com,bluedollar.net,outlookindia.com,blabbermouth.net,ghettotube.com,mangoporn.net,javplay.me,jagranjosh.com,4kporn.xxx,bangkokpost.com,up-load.io,liveindex.org,freeshib.biz,apkmb.com,westkentuckystar.com,namekun.com,piliapp.com,photofunny.net,grazia.co.in,flightpedia.org,thelingerieaddict.com,banglanews24.com,swisscows.com,jagran.com,autocarindia.com,userupload.net,javbraze.com,laptrinhx.com,pinkvilla.com,youramateurporn.com,dausel.co,yesnetwork.com,indiatoday.in,appvn.com,tapas.io,freefrontend.com,myplaycity.com,mercadojobs.com,thepiratebay.org,sgxnifty.org,cyberscoop.com,filmcomment.com,youngpornvideos.com,eventcinemas.com.au,findyourlucky.com,linuxmint.com,mobafire.com,themepack.me,tmail.io##.ads
 tokfm.pl#%#window.adsOk = !0;
 tokfm.pl#%#window.ads_ok = true;
 tokfm.pl,avanti24.pl,gazeta.pl,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##body .adviewDFPBanner:not(#style_important)
@@ -78502,6 +78508,7 @@ uploadrar.com##.card.border-warning
 uploadrar.com##.my-4 > form[method="POST"] > center
 uploadrar.com##a[href*="?"][target="_blank"]
 uploadrar.com##a[role="button"][href^="http://"]
+uploadrar.com##center > a.btn:not([href*="uploadrar.com"])
 uploadrar.com#?#div[class^="banner"]:not(:has(> div#commonId))
 uploadrar.com#?#div[class^="download"][class*="page"] div[class^="banner"]:has(> .as_ads_guard:only-child)
 uploadrar.com#?#div[class^="download"][class*="page"] div[class^="banner"]:has(> script:first-child + .adsbygoogle)
