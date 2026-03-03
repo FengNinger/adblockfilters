@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260303165230
-# Last modified: 2026/03/03 16:52:30
-# Blocked domains: 4564
+# Version: 20260304005800
+# Last modified: 2026/03/04 00:58:00
+# Blocked domains: 4569
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -1894,6 +1894,7 @@ local=/err.ifengcloud.ifeng.com/
 local=/exp.3g.ifeng.com/
 local=/qcvf.ifeng.com/
 local=/stadig.ifeng.com/
+local=/survey.news.ifeng.com/
 local=/ztyumn.ifeng.com/
 local=/c0.ifengimg.com/
 local=/y3.ifengimg.com/
@@ -2865,6 +2866,7 @@ local=/data.video.qiyi.com/
 local=/meta.video.qiyi.com/
 local=/msg.video.qiyi.com/
 local=/msg2.video.qiyi.com/
+local=/static.qiyi.com/
 local=/mall0.qiyipic.com/
 local=/qiyou.com/
 local=/8131.qizhihaotian.cn/
@@ -3193,6 +3195,7 @@ local=/shuiguo.com/
 local=/umini.shujupie.com/
 local=/shulsbs.cn/
 local=/js.shunqi.com/
+local=/ut2.shuqistat.com/
 local=/shuyu2001.cn/
 local=/shuzilm.cn/
 local=/sigmob.com/
@@ -4151,6 +4154,7 @@ local=/redirect.pandora.xiaomi.com/
 local=/register.xmpush.global.xiaomi.com/
 local=/resolver.mi.xiaomi.com/
 local=/sdkconfig.ad.eu.xiaomi.com/
+local=/sdkconfig.ad.rus.xiaomi.com/
 local=/stat.pandora.xiaomi.com/
 local=/stats.music.xiaomi.com/
 local=/storeconfig.mistat.intl.xiaomi.com/
@@ -4369,6 +4373,7 @@ local=/youxiaoad.com/
 local=/wenxue.youzhicn.com/
 local=/yoyi.tv/
 local=/analysis.yozocloud.cn/
+local=/ys630.com/
 local=/log.ys7.com/
 local=/ysdqww.com/
 local=/ysjwj.com/
