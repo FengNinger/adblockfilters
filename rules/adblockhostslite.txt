@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260305005543
-# Last modified: 2026/03/05 00:55:43
-# Blocked domains: 4554
+# Version: 20260305103729
+# Last modified: 2026/03/05 10:37:29
+# Blocked domains: 4552
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -283,7 +283,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	union.6.cn
 0.0.0.0	609999.xyz
 0.0.0.0	t1.612.com
-0.0.0.0	parcel-locker.628xg.com
 0.0.0.0	644446.com
 0.0.0.0	m5.66077.cn
 0.0.0.0	6669667.com
@@ -1250,7 +1249,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	drdwy.com
 0.0.0.0	drivethelife.com
 0.0.0.0	dspunion.com
-0.0.0.0	parcel-locker.dsyl8.com
 0.0.0.0	analytics.dsyqt.com
 0.0.0.0	duapp.com
 0.0.0.0	duapps.com
@@ -3511,7 +3509,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	log.tec73.com
 0.0.0.0	1.tecbbs.com
 0.0.0.0	tongji.techweb.com.cn
-0.0.0.0	tecunonline.com
+0.0.0.0	www.tecunonline.com
 0.0.0.0	tehxcmh3.com
 0.0.0.0	tekvea.shop
 0.0.0.0	apd-pcdnvodstat.teg.tencent-cloud.net
