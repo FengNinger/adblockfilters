@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20260312010057
-# Last modified: 2026/03/12 01:00:57
-# Blocked domains: 4545
+# Version: 20260312103923
+# Last modified: 2026/03/12 10:39:23
+# Blocked domains: 4542
 #
 [Rule]
 DOMAIN-SUFFIX,00xvppy.cn,REJECT-DROP
@@ -1385,7 +1385,6 @@ DOMAIN-SUFFIX,adv-sv-show.focus.cn,REJECT-DROP
 DOMAIN-SUFFIX,adv-sv-stat.focus.cn,REJECT-DROP
 DOMAIN-SUFFIX,bdu.focus.cn,REJECT-DROP
 DOMAIN-SUFFIX,foisonad.com,REJECT-DROP
-DOMAIN-SUFFIX,img.ford.com,REJECT-DROP
 DOMAIN-SUFFIX,metrics.ford.com,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.ford.com,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.sandbox.ford.com,REJECT-DROP
@@ -2711,7 +2710,6 @@ DOMAIN-SUFFIX,xml-v4.paddlewaver.com,REJECT-DROP
 DOMAIN-SUFFIX,pagechoice.net,REJECT-DROP
 DOMAIN-SUFFIX,paime.com,REJECT-DROP
 DOMAIN-SUFFIX,mm.paizi.net,REJECT-DROP
-DOMAIN-SUFFIX,pg.pampers.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,vip.panggugu.com,REJECT-DROP
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao2.com,REJECT-DROP
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao3.com,REJECT-DROP
@@ -3588,7 +3586,6 @@ DOMAIN-SUFFIX,toutiaopage.com,REJECT-DROP
 DOMAIN-SUFFIX,tovbus.cn,REJECT-DROP
 DOMAIN-SUFFIX,tovppl.cn,REJECT-DROP
 DOMAIN-SUFFIX,trackingio.com,REJECT-DROP
-DOMAIN-SUFFIX,traditionallyobjectlessblinked.com,REJECT-DROP
 DOMAIN-SUFFIX,tradplus.cn,REJECT-DROP
 DOMAIN-SUFFIX,tradplus.com,REJECT-DROP
 DOMAIN-SUFFIX,tradplusad.com,REJECT-DROP
