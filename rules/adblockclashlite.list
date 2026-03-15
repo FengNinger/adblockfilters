@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20260315164651
-# Last modified: 2026/03/15 16:46:51
-# Blocked domains: 4542
+# Version: 20260316003947
+# Last modified: 2026/03/16 00:39:47
+# Blocked domains: 4543
 #
 [Rule]
 DOMAIN-SUFFIX,00xvppy.cn,REJECT-DROP
@@ -2444,6 +2444,7 @@ DOMAIN-SUFFIX,resolver.gslb.mi-idc.com,REJECT-DROP
 DOMAIN-SUFFIX,ad.mi.com,REJECT-DROP
 DOMAIN-SUFFIX,d.g.mi.com,REJECT-DROP
 DOMAIN-SUFFIX,e.mi.com,REJECT-DROP
+DOMAIN-SUFFIX,h5.tv.mi.com,REJECT-DROP
 DOMAIN-SUFFIX,idm.iot.mi.com,REJECT-DROP
 DOMAIN-SUFFIX,in.tv.global.mi.com,REJECT-DROP
 DOMAIN-SUFFIX,migc.g.mi.com,REJECT-DROP
@@ -3134,7 +3135,6 @@ DOMAIN-SUFFIX,pay.sboot.cn,REJECT-DROP
 DOMAIN-SUFFIX,sc126.com,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.schindler.cn,REJECT-DROP
 DOMAIN-SUFFIX,scjpqut.cn,REJECT-DROP
-DOMAIN-SUFFIX,sckexing.cn,REJECT-DROP
 DOMAIN-SUFFIX,sckfcn.cn,REJECT-DROP
 DOMAIN-SUFFIX,statscollector.sd-rtn.com,REJECT-DROP
 DOMAIN-SUFFIX,sd6hon.cn,REJECT-DROP
@@ -3735,6 +3735,7 @@ DOMAIN-SUFFIX,tx-p2p-pull.video-voip.com,REJECT-DROP
 DOMAIN-SUFFIX,ws-p2p-pull.video-voip.com,REJECT-DROP
 DOMAIN-SUFFIX,vingroupinvestment.com,REJECT-DROP
 DOMAIN-SUFFIX,n-st.vip.com,REJECT-DROP
+DOMAIN-SUFFIX,in.vipliangmei.com,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.visitsingapore.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,adlog.vivo.com,REJECT-DROP
 DOMAIN-SUFFIX,bhwkju.vivo.com,REJECT-DROP
