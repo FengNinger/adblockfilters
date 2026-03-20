@@ -4,9 +4,9 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20260320010424
-  # Last modified: 2026/03/20 01:04:24
-  # Blocked domains: 4513
+  # Version: 20260320103748
+  # Last modified: 2026/03/20 10:37:48
+  # Blocked domains: 4514
   #
   - '+.00xvppy.cn'
   - '+.img.0279.net'
@@ -111,7 +111,10 @@ payload:
   - '+.tj.21ic.com'
   - '+.222aa333bb.com'
   - '+.2345.cn'
-  - '+.2345.com'
+  - '+.bd-js1.2345.com'
+  - '+.bd-retrieval1.2345.com'
+  - '+.bdcode.2345.com'
+  - '+.ggcode.2345.com'
   - '+.2481e.com'
   - '+.24klm.cn'
   - '+.25662zubo23739.com'
@@ -1292,7 +1295,6 @@ payload:
   - '+.egsxdp.cn'
   - '+.ehxyz.com'
   - '+.tr.ekatox.com'
-  - '+.glser-groupr.ekelk.com'
   - '+.adashx.ut.ele.me'
   - '+.app-monitor.ele.me'
   - '+.client-api.ele.me'
@@ -1766,7 +1768,6 @@ payload:
   - '+.support.hqts.com'
   - '+.hqzcths.cn'
   - '+.cdnjs.hro-cosmetics.com'
-  - '+.glser-groupr.hrqjr.com'
   - '+.hseda.com'
   - '+.hsrgnac.cn'
   - '+.hstpnetwork.com'
