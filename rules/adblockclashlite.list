@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20260327011103
-# Last modified: 2026/03/27 01:11:03
-# Blocked domains: 4508
+# Version: 20260327105358
+# Last modified: 2026/03/27 10:53:58
+# Blocked domains: 4504
 #
 [Rule]
 DOMAIN-SUFFIX,00xvppy.cn,REJECT-DROP
@@ -134,7 +134,6 @@ DOMAIN-SUFFIX,atom-log.3.cn,REJECT-DROP
 DOMAIN-SUFFIX,analytics.300624.com,REJECT-DROP
 DOMAIN-SUFFIX,301848.com,REJECT-DROP
 DOMAIN-SUFFIX,312c2n3g5.shop,REJECT-DROP
-DOMAIN-SUFFIX,312m11.shop,REJECT-DROP
 DOMAIN-SUFFIX,312m2s6.shop,REJECT-DROP
 DOMAIN-SUFFIX,d1.3158.cn,REJECT-DROP
 DOMAIN-SUFFIX,mg.32r.com,REJECT-DROP
@@ -305,7 +304,6 @@ DOMAIN-SUFFIX,7moor.com,REJECT-DROP
 DOMAIN-SUFFIX,7r227ut.cn,REJECT-DROP
 DOMAIN-SUFFIX,cp.7y7.com,REJECT-DROP
 DOMAIN-SUFFIX,812b122.com,REJECT-DROP
-DOMAIN-SUFFIX,812c123.com,REJECT-DROP
 DOMAIN-SUFFIX,812cf19.shop,REJECT-DROP
 DOMAIN-SUFFIX,812k127.com,REJECT-DROP
 DOMAIN-SUFFIX,812m121.com,REJECT-DROP
@@ -313,10 +311,8 @@ DOMAIN-SUFFIX,812n124.com,REJECT-DROP
 DOMAIN-SUFFIX,812ru17.shop,REJECT-DROP
 DOMAIN-SUFFIX,m1.81312.com,REJECT-DROP
 DOMAIN-SUFFIX,813cf13.com,REJECT-DROP
-DOMAIN-SUFFIX,813cm12.com,REJECT-DROP
 DOMAIN-SUFFIX,815dn12.shop,REJECT-DROP
 DOMAIN-SUFFIX,8181zx.com,REJECT-DROP
-DOMAIN-SUFFIX,83gn33.com,REJECT-DROP
 DOMAIN-SUFFIX,88362zubo95838.com,REJECT-DROP
 DOMAIN-SUFFIX,888abc333abc.com,REJECT-DROP
 DOMAIN-SUFFIX,888bb666cc.com,REJECT-DROP
