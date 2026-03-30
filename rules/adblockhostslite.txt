@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260330172112
-# Last modified: 2026/03/30 17:21:12
-# Blocked domains: 4510
+# Version: 20260331010416
+# Last modified: 2026/03/31 01:04:16
+# Blocked domains: 4508
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -236,6 +236,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.51wnl.com
 0.0.0.0	51yes.com
 0.0.0.0	game.51yund.com
+0.0.0.0	go.5211game.com
 0.0.0.0	52aoteman.com
 0.0.0.0	52kuwang.cn
 0.0.0.0	5y9nfpes.52pk.com
@@ -1305,6 +1306,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	h-adashx.ut.ele.me
 0.0.0.0	newton-api.ele.me
 0.0.0.0	metrics.ellechina.com
+0.0.0.0	trk.elmorietschle.cn
 0.0.0.0	emarbox.com
 0.0.0.0	ename.com.cn
 0.0.0.0	ename.net
@@ -2166,7 +2168,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	open.kuaishouzt.com
 0.0.0.0	pv.kuaizhan.com
 0.0.0.0	kuaizip.com
-0.0.0.0	kuaizitech.com
 0.0.0.0	m1.kuanff.com
 0.0.0.0	ads.service.kugou.com
 0.0.0.0	adservice.kugou.com
@@ -2689,7 +2690,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	turbo2sdk-push.oupeng.com
 0.0.0.0	ouplc.icu
 0.0.0.0	ad.ourgame.com
-0.0.0.0	ourl.cn
 0.0.0.0	outerinfo.com
 0.0.0.0	at-af.outfit7.com
 0.0.0.0	bidder.dsp.outfit7.com
@@ -2814,7 +2814,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	qdp.qidian.com
 0.0.0.0	qienews.cn
 0.0.0.0	haostat.qihoo.com
-0.0.0.0	js.passport.qihucdn.com
 0.0.0.0	qijpaih.cn
 0.0.0.0	roibest-report-sdk.qiliangjia.com
 0.0.0.0	up.qingdaonews.com
@@ -3169,6 +3168,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	shuyu2001.cn
 0.0.0.0	shuzilm.cn
 0.0.0.0	sigmob.com
+0.0.0.0	smetrics.marketing.signify.com.cn
 0.0.0.0	sikncs.com
 0.0.0.0	simicloud.com
 0.0.0.0	adblock.sina.cn
@@ -3354,6 +3354,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	uc9.suinidai.com.cn
 0.0.0.0	dcbpm.suning.cn
 0.0.0.0	ssac.suning.com
+0.0.0.0	sums.suning.com
 0.0.0.0	tad.suning.com
 0.0.0.0	sunriseoutdoor.cn
 0.0.0.0	superads.cn
@@ -3530,7 +3531,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	yptqys.tianqistatic.com
 0.0.0.0	gjh9v.tianshilv.cn
 0.0.0.0	fz.tiansys.cn
-0.0.0.0	tiexing.com
 0.0.0.0	wkrd.tingyun.com
 0.0.0.0	tisszhb.cn
 0.0.0.0	img2.titan007.com
@@ -3781,7 +3781,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	asia-vcode-or.vivoglobal.com
 0.0.0.0	asia-vpushonrt-stsdk.vivoglobal.com
 0.0.0.0	asia-vpushort-stsdk.vivoglobal.com
-0.0.0.0	cl-vcode-od.vivoglobal.com
 0.0.0.0	cname-asia-st-exappupgrade.vivoglobal.com
 0.0.0.0	cname-in-apport-stsdk.vivoglobal.com
 0.0.0.0	cname-in-bom01-nginxpool03.vivoglobal.com
@@ -3843,6 +3842,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	kz-ort-stsdk.vivoglobal.com
 0.0.0.0	kz-romsp-unifyconfig.vivoglobal.com
 0.0.0.0	kz-st-exappupgrade.vivoglobal.com
+0.0.0.0	kz-stsdk.vivoglobal.com
 0.0.0.0	kz-vcode-api.vivoglobal.com
 0.0.0.0	kz-vcode-od.vivoglobal.com
 0.0.0.0	kz-vcode-or.vivoglobal.com
@@ -3887,7 +3887,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	sca-onrt-stsdk.vivoglobal.com
 0.0.0.0	sca-ort-stsdk.vivoglobal.com
 0.0.0.0	sca-p.vivoglobal.com
-0.0.0.0	sca-pnrt-stsdk.vivoglobal.com
 0.0.0.0	sca-romsp-unifyconfig.vivoglobal.com
 0.0.0.0	sca-st-sl.vivoglobal.com
 0.0.0.0	sca-stsdk.vivoglobal.com
@@ -3978,7 +3977,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.weplayer.cc
 0.0.0.0	crosspromotion.weplayer.cc
 0.0.0.0	wesat.cn
-0.0.0.0	s1.wesiedu.com
 0.0.0.0	count.west263.com
 0.0.0.0	perfsight.wetest.net
 0.0.0.0	htrace.wetvinfo.com

@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260330172112
-! Last modified: 2026/03/30 17:21:12
-! Blocked domains: 4510
+! Version: 20260331010416
+! Last modified: 2026/03/31 01:04:16
+! Blocked domains: 4508
 !
 00xvppy.cn
 img.0279.net
@@ -221,6 +221,7 @@ ad.51wnl-cq.com
 ad.51wnl.com
 51yes.com
 game.51yund.com
+go.5211game.com
 52aoteman.com
 52kuwang.cn
 5y9nfpes.52pk.com
@@ -1290,6 +1291,7 @@ grand.ele.me
 h-adashx.ut.ele.me
 newton-api.ele.me
 metrics.ellechina.com
+trk.elmorietschle.cn
 emarbox.com
 ename.com.cn
 ename.net
@@ -2151,7 +2153,6 @@ wlog.kuaishou.com
 open.kuaishouzt.com
 pv.kuaizhan.com
 kuaizip.com
-kuaizitech.com
 m1.kuanff.com
 ads.service.kugou.com
 adservice.kugou.com
@@ -2674,7 +2675,6 @@ startup.oupeng.com
 turbo2sdk-push.oupeng.com
 ouplc.icu
 ad.ourgame.com
-ourl.cn
 outerinfo.com
 at-af.outfit7.com
 bidder.dsp.outfit7.com
@@ -2799,7 +2799,6 @@ game.qidian.com
 qdp.qidian.com
 qienews.cn
 haostat.qihoo.com
-js.passport.qihucdn.com
 qijpaih.cn
 roibest-report-sdk.qiliangjia.com
 up.qingdaonews.com
@@ -3154,6 +3153,7 @@ ut2.shuqistat.com
 shuyu2001.cn
 shuzilm.cn
 sigmob.com
+smetrics.marketing.signify.com.cn
 sikncs.com
 simicloud.com
 adblock.sina.cn
@@ -3339,6 +3339,7 @@ stats.studyquicks.com
 uc9.suinidai.com.cn
 dcbpm.suning.cn
 ssac.suning.com
+sums.suning.com
 tad.suning.com
 sunriseoutdoor.cn
 superads.cn
@@ -3515,7 +3516,6 @@ datas.tianqistatic.com
 yptqys.tianqistatic.com
 gjh9v.tianshilv.cn
 fz.tiansys.cn
-tiexing.com
 wkrd.tingyun.com
 tisszhb.cn
 img2.titan007.com
@@ -3766,7 +3766,6 @@ asia-vcode-od.vivoglobal.com
 asia-vcode-or.vivoglobal.com
 asia-vpushonrt-stsdk.vivoglobal.com
 asia-vpushort-stsdk.vivoglobal.com
-cl-vcode-od.vivoglobal.com
 cname-asia-st-exappupgrade.vivoglobal.com
 cname-in-apport-stsdk.vivoglobal.com
 cname-in-bom01-nginxpool03.vivoglobal.com
@@ -3828,6 +3827,7 @@ kz-onrt-stsdk.vivoglobal.com
 kz-ort-stsdk.vivoglobal.com
 kz-romsp-unifyconfig.vivoglobal.com
 kz-st-exappupgrade.vivoglobal.com
+kz-stsdk.vivoglobal.com
 kz-vcode-api.vivoglobal.com
 kz-vcode-od.vivoglobal.com
 kz-vcode-or.vivoglobal.com
@@ -3872,7 +3872,6 @@ sca-err-up.vivoglobal.com
 sca-onrt-stsdk.vivoglobal.com
 sca-ort-stsdk.vivoglobal.com
 sca-p.vivoglobal.com
-sca-pnrt-stsdk.vivoglobal.com
 sca-romsp-unifyconfig.vivoglobal.com
 sca-st-sl.vivoglobal.com
 sca-stsdk.vivoglobal.com
@@ -3963,7 +3962,6 @@ ws.wenshenxiu.com
 ad.weplayer.cc
 crosspromotion.weplayer.cc
 wesat.cn
-s1.wesiedu.com
 count.west263.com
 perfsight.wetest.net
 htrace.wetvinfo.com
