@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260331010416
-# Last modified: 2026/03/31 01:04:16
-# Blocked domains: 4508
+# Version: 20260331105308
+# Last modified: 2026/03/31 10:53:08
+# Blocked domains: 4500
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -146,7 +146,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	atom-log.3.cn
 0.0.0.0	analytics.300624.com
 0.0.0.0	301848.com
-0.0.0.0	312m2s6.shop
 0.0.0.0	d1.3158.cn
 0.0.0.0	mg.32r.com
 0.0.0.0	ad.dev.360.cn
@@ -317,10 +316,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	7moor.com
 0.0.0.0	7r227ut.cn
 0.0.0.0	cp.7y7.com
-0.0.0.0	812b122.com
-0.0.0.0	812n124.com
 0.0.0.0	m1.81312.com
-0.0.0.0	815dn12.shop
 0.0.0.0	8181zx.com
 0.0.0.0	88362zubo95838.com
 0.0.0.0	888abc333abc.com
@@ -608,7 +604,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	asycxtz.cn
 0.0.0.0	aiseet.aa.atianqi.com
 0.0.0.0	atpanel.com
-0.0.0.0	somni.aussiespecialist.cn
 0.0.0.0	somni.australia.cn
 0.0.0.0	so.auto999.cn
 0.0.0.0	al.autohome.com.cn
@@ -983,7 +978,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	yk-ssp-ad.cp31.ott.cibntv.net
 0.0.0.0	ykad-data.cp31.ott.cibntv.net
 0.0.0.0	metrics.citi.cn
-0.0.0.0	metrics.citibank.cn
 0.0.0.0	smetrics.citibank.cn
 0.0.0.0	tracker.citicsinfo.com
 0.0.0.0	3.cjcp.cn
@@ -1288,8 +1282,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	eblnzoq.cn
 0.0.0.0	jb.ecar168.cn
 0.0.0.0	eccki.cn
-0.0.0.0	pointball-llvwkkfsoo.edgeone.app
-0.0.0.0	wealotheoloagathalimda.edgeone.app
 0.0.0.0	eexlgyn.cn
 0.0.0.0	effectivehealthy.cn
 0.0.0.0	efusc.com
