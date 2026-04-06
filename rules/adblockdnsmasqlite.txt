@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260406171725
-# Last modified: 2026/04/06 17:17:25
-# Blocked domains: 4502
+# Version: 20260407005745
+# Last modified: 2026/04/07 00:57:45
+# Blocked domains: 4510
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -69,6 +69,7 @@ local=/count.mail.163.com/
 local=/countly.mail.163.com/
 local=/crash.163.com/
 local=/crashlytics.163.com/
+local=/e-p4p.163.com/
 local=/fp-upload.dun.163.com/
 local=/g.163.com/
 local=/gb.corp.163.com/
@@ -1019,6 +1020,7 @@ local=/moa-upload-online.coloros.com/
 local=/smartcard.apps.coloros.com/
 local=/commander1.com/
 local=/commandersact.com/
+local=/trk.compair.com.cn/
 local=/strack.concur.cn/
 local=/cu-cn-north00001.gala.convection.cn/
 local=/cu-cn-north00002.gala.convection.cn/
@@ -1949,6 +1951,7 @@ local=/static.g.iqiyi.com/
 local=/subscription.iqiyi.com/
 local=/tpa-hcdn.iqiyi.com/
 local=/yuedu.iqiyi.com/
+local=/trk.irco.com.cn/
 local=/irs03.com/
 local=/iscrv.com/
 local=/istartsurf.com/
@@ -2751,6 +2754,7 @@ local=/pqav.cn/
 local=/pqjprom.cn/
 local=/prbibo.top/
 local=/prlioxb.cn/
+local=/proewildfire.cn/
 local=/info.protiviti.com.cn/
 local=/dm.pstatp.com/
 local=/sf1-ttcdn-tos.pstatp.com/
@@ -3204,6 +3208,7 @@ local=/analytics.sixt.cn/
 local=/1.sj33.net/
 local=/sjdfuvz.cn/
 local=/sjoy7rq.cn/
+local=/clog.skysrt.com/
 local=/m.slshiye.cn/
 local=/sm-tc.cn/
 local=/c.sm.cn/
@@ -3493,6 +3498,7 @@ local=/sstats.thermoscientific.cn/
 local=/thinkingdata.cn/
 local=/thinkmd.cn/
 local=/tatrack.thinkyeah.com/
+local=/trail.thomsonreuters.cn/
 local=/tracking.ti.com/
 local=/tracking.mail.ti.com/
 local=/trackinginternal.ti.com/
@@ -3859,6 +3865,7 @@ local=/ru-timesync.vivoglobal.com/
 local=/ru-vcode-api.vivoglobal.com/
 local=/ru-vcode-od.vivoglobal.com/
 local=/ru-vcode-or.vivoglobal.com/
+local=/sca-cota.vivoglobal.com/
 local=/sca-domaincfg.vivoglobal.com/
 local=/sca-err-up.vivoglobal.com/
 local=/sca-onrt-stsdk.vivoglobal.com/
@@ -4107,6 +4114,7 @@ local=/us.api.micloud.xiaomi.net/
 local=/xiaomifood.cn/
 local=/xiaomovie.com/
 local=/xiaoxiuapp.com/
+local=/log.xiaoyi.com/
 local=/log.eu.xiaoyi.com/
 local=/log.us.xiaoyi.com/
 local=/ad-sdk.altamob.xiaoying.co/
