@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260420113242
-# Last modified: 2026/04/20 11:32:42
-# Blocked domains: 4508
+# Version: 20260420180404
+# Last modified: 2026/04/20 18:04:04
+# Blocked domains: 4506
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -1705,7 +1705,6 @@ local=/auth-launcher-na.hismarttv.com/
 local=/auth-launcher-sa.hismarttv.com/
 local=/auth-na.hismarttv.com/
 local=/auth-phone-ap.hismarttv.com/
-local=/auth-phone-na.hismarttv.com/
 local=/auth-sa.hismarttv.com/
 local=/cdn-plugin-sync-upgrade-juui.hismarttv.com/
 local=/msg-na.hismarttv.com/
@@ -2588,7 +2587,6 @@ local=/nasimobi.com/
 local=/dl.natgo.cn/
 local=/ncgqmzm.cn/
 local=/sdk.stat.foreign.nearme.com.cn/
-local=/stat.browser.nearme.com.cn/
 local=/storedl3f.nearme.com.cn/
 local=/finance.needtoday.com/
 local=/neolit.cn/
@@ -3213,6 +3211,7 @@ local=/analytics.sixt.cn/
 local=/1.sj33.net/
 local=/sjdfuvz.cn/
 local=/sjoy7rq.cn/
+local=/clog.skysrt.com/
 local=/m.slshiye.cn/
 local=/sm-tc.cn/
 local=/c.sm.cn/
@@ -3766,7 +3765,6 @@ local=/asia-vcode-od.vivoglobal.com/
 local=/asia-vcode-or.vivoglobal.com/
 local=/asia-vpushonrt-stsdk.vivoglobal.com/
 local=/asia-vpushort-stsdk.vivoglobal.com/
-local=/cl-vcode-od.vivoglobal.com/
 local=/cname-asia-st-exappupgrade.vivoglobal.com/
 local=/cname-in-apport-stsdk.vivoglobal.com/
 local=/cname-in-bom01-nginxpool03.vivoglobal.com/
@@ -3826,6 +3824,7 @@ local=/in-vpushonrt-stsdk.vivoglobal.com/
 local=/in-vpushort-stsdk.vivoglobal.com/
 local=/kz-onrt-stsdk.vivoglobal.com/
 local=/kz-ort-stsdk.vivoglobal.com/
+local=/kz-romsp-unifyconfig.vivoglobal.com/
 local=/kz-st-exappupgrade.vivoglobal.com/
 local=/kz-vcode-api.vivoglobal.com/
 local=/kz-vcode-od.vivoglobal.com/
@@ -3866,7 +3865,6 @@ local=/ru-timesync.vivoglobal.com/
 local=/ru-vcode-api.vivoglobal.com/
 local=/ru-vcode-od.vivoglobal.com/
 local=/ru-vcode-or.vivoglobal.com/
-local=/sca-cota.vivoglobal.com/
 local=/sca-domaincfg.vivoglobal.com/
 local=/sca-err-up.vivoglobal.com/
 local=/sca-onrt-stsdk.vivoglobal.com/
@@ -3880,7 +3878,6 @@ local=/sca-timesync.vivoglobal.com/
 local=/sca-vcode-api.vivoglobal.com/
 local=/sca-vcode-od.vivoglobal.com/
 local=/sca-vcode-or.vivoglobal.com/
-local=/sg-cfg-stsdk.vivoglobal.com/
 local=/stsdk.vivoglobal.com/
 local=/tr-cota.vivoglobal.com/
 local=/tr-domaincfg.vivoglobal.com/
@@ -4313,6 +4310,7 @@ local=/youxiaoad.com/
 local=/wenxue.youzhicn.com/
 local=/yoyi.tv/
 local=/analysis.yozocloud.cn/
+local=/ys630.com/
 local=/log.ys7.com/
 local=/ysdqww.com/
 local=/ysjwj.com/
