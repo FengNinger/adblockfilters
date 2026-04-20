@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260420005115
-! Last modified: 2026/04/20 00:51:15
-! Blocked Filters: 102347
+! Version: 20260420113241
+! Last modified: 2026/04/20 11:32:41
+! Blocked Filters: 102349
 !
 ###AC_ad
 ###AD_160
@@ -40421,6 +40421,7 @@ bitport.hu#?#.container > .col-lg-4 > .col2 > .right-block:has(a[href^="http://a
 bitsearch.to,solidtorrents.to#?##alart-box > .view-box:has(> #alart-message > a[target="_blank"])
 bitsnoop.com###vpnBar
 bittorrent.com###prodnews-cyberghost-tower-ad
+bitxzlhi*.top/$script,xmlhttprequest,third-party
 biz.chosun.com##.arcad-wrapper
 biz.chosun.com##.box--margin-bottom-xl.box--pad-top-xl.box--pad-bottom-xl.box--bg-grey-10
 biz.ifeng.com##.header
@@ -62063,7 +62064,6 @@ mixrootmods.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 mjakmalopolska.pl##.widget-advert_centralplacement
 mjakmalopolska.pl##div.text-center:has(> div.d-inline-block-not-important > small)
 mjzj.com##div[id^="sidebar-top-carouse"]
-mkfjbitxzlhijf*.top/$script,xmlhttprequest,third-party
 mkvcinemas.*###SH-Ads
 mkvcinemas.*##.code-block:has(a[title="mkvAnime"])
 mlb.com##.ad--article
@@ -85566,6 +85566,7 @@ zzzyk.com###Tinfo
 ||advert*.ultraweb.hu^
 ||adverticum.*.hu^
 ||advertisertape.com/stat/
+||advertising.civitai.
 ||advertizmenttoyou.com^$popup
 ||advgo.net/hits/
 ||advgo.net/mushroom/
@@ -87669,6 +87670,7 @@ zzzyk.com###Tinfo
 ||bzdiao.com/wp-content/uploads/bhOCwJfYleFC/
 ||bzhanyy.com^*.gif
 ||bzpics.com/jslib/st.js?
+||bzrcdn.openai.com/sdk/oaiq.min.js
 ||c*hit.zerkalo.io^
 ||c-ctrip.com/ResUnionOnline/R3/float/floating_normal.min.js
 ||c-ctrip.com/images/0101r120009e1kn7oCDCA.gif
