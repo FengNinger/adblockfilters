@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260421011240
-! Last modified: 2026/04/21 01:12:40
-! Blocked Filters: 102387
+! Version: 20260421112420
+! Last modified: 2026/04/21 11:24:20
+! Blocked Filters: 102401
 !
 ###AC_ad
 ###AD_160
@@ -66538,7 +66538,6 @@ pastebin.com##iframe[src="/_lead_custom.php"]
 pastebin.com#?#div[style]:not([class]):not([id]) > .adsbyvli:first-child:upward(1)
 pastebin.pl##a[href^="https://www.binance.com/"] > img
 pastedownload.com##.uk-list > li:has(> .uk-label + span > a[rel][target="_blank"])
-pastee.dev##[href="https://buyvm.net"]
 pasteflash.sx#%#//scriptlet('prevent-requestAnimationFrame', 'blocked')
 pastehouse.com##.col-md-9 > .text-center > a[target="_blank"][rel="nofollow"] > img
 pastehouse.com#%#//scriptlet('abort-current-inline-script', 'document.write', 'Banner')
@@ -94724,6 +94723,7 @@ zzzyk.com###Tinfo
 ||missav.to/page/300.html
 ||missav78.top/sample/placeholder.jpg$image,redirect=1x1-transparent.gif
 ||missevan.com^$domain=jijidown.com
+||misspkl.com^$popup
 ||missyuan.com/sy/
 ||mistat.*.xiaomi.com^
 ||mistressdestiny.com/forums/banner
@@ -95176,6 +95176,7 @@ zzzyk.com###Tinfo
 ||n5m5.com/static/js/playcon.js
 ||n74s9.com^$third-party
 ||naajie.com/float.js
+||nabauxou.net^$popup
 ||nabaza.com^$third-party
 ||nagpurtoday.in/wp-content/plugins/popup-builder/$script
 ||nagpurtoday.in/wp-content/uploads/*/*-adv.$image
@@ -95190,6 +95191,7 @@ zzzyk.com###Tinfo
 ||nakedteens.fun/*/quwet.js
 ||nakenprat.com/adfirst*.js
 ||nakenprat.com/adlast*.php^
+||nalraughaksie.net^$popup
 ||namecheap.com/graphics/linkus/
 ||namepros.com/bevt/
 ||namesilo.com/affiliate/banner_
@@ -95257,6 +95259,7 @@ zzzyk.com###Tinfo
 ||ndcomemunica.com^$popup
 ||ndmais.com.br/tracking-parceiros-ndmais/
 ||neatorama.com/story/view/
+||neeceeglogu.net^$popup
 ||needgayporn.com/fancyAds^
 ||needgayporn.com/guzguzson.js
 ||needgayporn.com/ohs-180x800.gif
@@ -95307,6 +95310,7 @@ zzzyk.com###Tinfo
 ||netlify.app/tags/ninja_$subdocument
 ||netnaija.com/s/$script
 ||netne.net/stats/
+||netpatas.com^$popup
 ||netquattro.com/stats/
 ||netreviews.eu/index.php?action=act_access&$third-party
 ||netscape.com/c.cgi?
@@ -95509,6 +95513,7 @@ zzzyk.com###Tinfo
 ||novret.com/?clickid=
 ||nownews.com/assets/js/setAds.js
 ||noypigeeks.com/wp-content/uploads/*/*/*-*-*-NoypiGeeks*.gif
+||nozoakamsaun.net^$popup
 ||npa.thetimes.com/stats
 ||npo-data.nl/tag/v3/npotag.js
 ||npo-data.nl/tags/tag.min.js
@@ -95552,6 +95557,7 @@ zzzyk.com###Tinfo
 ||nudespree.com/a^
 ||nudespree.com/t57f52d401ce.js
 ||nudevista.com/xhr/xhr.html
+||nukeluck.net^$popup
 ||nullforums.net/data/banner-uploads/
 ||nulltm.com/adv.js
 ||numista.com/*/banners/$image
@@ -95611,7 +95617,9 @@ zzzyk.com###Tinfo
 ||o2.pl^$replace=/(aabv\d[\s\S]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||o2videos.com/images/adbanner.jpg
 ||oa.hinews.cn/work/img/
+||oamsedsaiph.net^$popup
 ||oas.wpcdn.pl/*.mp4$media,redirect=noopmp4-1s,domain=dobreprogramy.pl|money.pl|o2.pl|pudelek.pl|wp.pl
+||oassackegh.net^$popup
 ||oataltaul.com^$popup
 ||obf-io.deobfuscate.io/nexus_banner.webp
 ||obislame.ru
@@ -95629,6 +95637,7 @@ zzzyk.com###Tinfo
 ||octaneai.com/api/v1/beacon
 ||octaneai.com^*/utrk
 ||octopart.com/kdRQnL15/init.js
+||odalrevaursartu.net^$popup
 ||odemonstrat.pro^$popup
 ||odintsures.click^$popup
 ||odnoklassniki.ru/dk?cmd=videoStatNew
@@ -95650,6 +95659,7 @@ zzzyk.com###Tinfo
 ||officetablntry.org^$popup
 ||official.cam/*/?track=*&*&campaign=$domain=ratedgross.com
 ||offidocs.com/media/system/*afi$script,~third-party
+||offshuppetchan.com^$popup
 ||ofmweb.wpcdn.pl/dist/*/static/chunks/*.js$replace=/adv:!.\,/adv:!1\,/,domain=open.fm
 ||ofphanpytor.com^$popup
 ||ofseedotom.com^$popup
@@ -95659,6 +95669,7 @@ zzzyk.com###Tinfo
 ||oggimilazzo.it/*/index.html
 ||ogladaj.in/assets/script.js
 ||oglalavoodoo.world^$popup
+||ogrepsougie.net^$popup
 ||oh100.com/js/pubuliu.
 ||ohayoo.io^$third-party
 ||ohmygore.com/ef_pub
@@ -95790,6 +95801,7 @@ zzzyk.com###Tinfo
 ||openadultdirectory.com/banner-
 ||opencart.com/application/view/image/banner/
 ||opendesktop.org/l/fp
+||opengalaxyapps.monster^$popup
 ||openguid.org^$third-party
 ||openlog.in^$third-party
 ||openstack.org/api/public/v1/sponsored-projects?
@@ -95822,6 +95834,7 @@ zzzyk.com###Tinfo
 ||oracleimg.com/us/assets/metrics/ora_docs.js
 ||orange.jo/ar/offers/pages/$domain=~orange.jo
 ||orangebuddies.nl/image/banners/
+||oraubsoux.net^$popup
 ||orb.ee/collect
 ||orbit*.lun.ua^
 ||orbita-lviv.com/jquerys.js
@@ -95865,6 +95878,7 @@ zzzyk.com###Tinfo
 ||ottogroup.media/ogm.nitro.
 ||ouest-france.fr/v1/javascripts/*-googletag-
 ||ouest-france.fr/v1/javascripts/*-prebid-
+||ougeechimp.net^$popup
 ||oulsaultaulert.com^$popup
 ||ouo.io/js/adv
 ||ouo.io/js/webpush.ma.js
