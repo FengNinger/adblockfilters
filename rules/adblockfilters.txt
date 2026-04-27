@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260427005346
-! Last modified: 2026/04/27 00:53:46
-! Blocked Filters: 102482
+! Version: 20260427113943
+! Last modified: 2026/04/27 11:39:43
+! Blocked Filters: 102484
 !
 ###AC_ad
 ###AD_160
@@ -46340,6 +46340,7 @@ downloadtimecalculator.com##.desktophead
 downloadtube.net##.itfloater
 downloadtwittervideo.com#%#//scriptlet('prevent-window-open')
 downmsn.com###downShow_tellDownload
+downornot.net##div.grid > div.flex.flex-col:has([href*="aff_c?"])
 downornot.net#?#.border-blue-500\/20:contains(Special offer)
 downornot.net#?#.border-blue-500\/20:has-text(Special offer)
 downsub.com##a[href^="https://www.aiarty.com/"]
@@ -87476,6 +87477,7 @@ zzzyk.com###Tinfo
 ||bmp1.ali213.net/js/
 ||bmp1.ali213.net/pubjs/index_sc_utf8.js
 ||bmp2.ali213.net/js/
+||bmtmicro.com^$popup
 ||bnamic.com/referrer/
 ||bnextmedia.com.tw/feed/fetch.js
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/cp_prebid
@@ -89824,7 +89826,6 @@ zzzyk.com###Tinfo
 ||easyporn.xxx/tmp/
 ||easysol.net^$third-party
 ||easyview.eu/sw.js
-||eatcells.com/land/$popup
 ||eatwell101.com/wp-content/themes/*/custom/ads/
 ||eazydata.io^$third-party
 ||ebay.com/delstats/
@@ -90015,6 +90016,7 @@ zzzyk.com###Tinfo
 ||epimg.net/js/gdt/
 ||epimg.net/js/vr/vrs.
 ||episerver.net/ia.js
+||epl.paypal-communication.com^$script
 ||epochtimes.de/epoch-mp/epoch_mp.min.js
 ||epoq.de/inbound-servletapi/event?
 ||eporner.com/cppb/
