@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260501012706
-# Last modified: 2026/05/01 01:27:06
-# Blocked domains: 4472
+# Version: 20260501115534
+# Last modified: 2026/05/01 11:55:34
+# Blocked domains: 4480
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -608,6 +608,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ftwo-feedback.autohome.com.cn
 0.0.0.0	ftwo-receiver.autohome.com.cn
 0.0.0.0	idm.api.autohome.com.cn
+0.0.0.0	pcmx.autohome.com.cn
 0.0.0.0	adm3.autoimg.cn
 0.0.0.0	img2.autoimg.cn
 0.0.0.0	adstatistics.av380.net
@@ -702,6 +703,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	log.music.baidu.com
 0.0.0.0	luimg.baidu.com
 0.0.0.0	m1.baidu.com
+0.0.0.0	miao.baidu.com
 0.0.0.0	miaowu.baidu.com
 0.0.0.0	mo.baidu.com
 0.0.0.0	mobads.baidu.com
@@ -1542,6 +1544,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	gsxbxvd.cn
 0.0.0.0	gtcqbnu.cn
 0.0.0.0	pgdt.gtimg.cn
+0.0.0.0	tianshu.gtimg.cn
+0.0.0.0	ra.gtimg.com
 0.0.0.0	splashqqlive.gtimg.com
 0.0.0.0	wa.gtimg.com
 0.0.0.0	gtpxvpi.cn
@@ -1578,6 +1582,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	stats.hanmaker.com
 0.0.0.0	as1.m.hao123.com
 0.0.0.0	mini.hao123.com
+0.0.0.0	hao222.com
 0.0.0.0	cdn.haocaa.com
 0.0.0.0	js1.haoge500.com
 0.0.0.0	haoghost.com
@@ -1699,6 +1704,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	api-launcher-eu.hismarttv.com
 0.0.0.0	api-launcher-na.hismarttv.com
 0.0.0.0	api-launcher-sa.hismarttv.com
+0.0.0.0	api.eu.hismarttv.com
 0.0.0.0	auth-em.hismarttv.com
 0.0.0.0	auth-eu.hismarttv.com
 0.0.0.0	auth-launcher-eu.hismarttv.com
@@ -1821,6 +1827,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ylog.huya.com
 0.0.0.0	hypers.com
 0.0.0.0	t.hypers.com.cn
+0.0.0.0	hzbxm.com
 0.0.0.0	api.hzsanjiaomao.com
 0.0.0.0	sdk.hzsanjiaomao.com
 0.0.0.0	adashx.ut.hzshudian.com
@@ -1949,7 +1956,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	paopao-monitor.iqiyi.com
 0.0.0.0	policy.video.iqiyi.com
 0.0.0.0	puma-api.iqiyi.com
-0.0.0.0	puma.api.iqiyi.com
 0.0.0.0	static-s.iqiyi.com
 0.0.0.0	static.g.iqiyi.com
 0.0.0.0	subscription.iqiyi.com
@@ -2523,6 +2529,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	mobisage.cn
 0.0.0.0	bd1.moguvet.com
 0.0.0.0	ad.api.moji.com
+0.0.0.0	adlaunch.moji.com
 0.0.0.0	fds.api.moji.com
 0.0.0.0	stat.moji.com
 0.0.0.0	app.moji001.com
@@ -3017,7 +3024,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	a.qunzou.com
 0.0.0.0	vn-ebay.quxlpuj.cn
 0.0.0.0	zzy1.quyaoya.com
-0.0.0.0	api.qvpublish.com
 0.0.0.0	qwer220.cn
 0.0.0.0	u.qxen.com
 0.0.0.0	msg.qy.net
@@ -3080,6 +3086,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sacre.cn
 0.0.0.0	sagetrc.com
 0.0.0.0	saitef.cn
+0.0.0.0	salat.cn
 0.0.0.0	smetrics.samsung.com.cn
 0.0.0.0	analytics-api.samsunghealthcn.com
 0.0.0.0	biz5.sandai.net
@@ -3122,7 +3129,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	sepyra.com
 0.0.0.0	sfbixfd.cn
 0.0.0.0	logstat.t.sfht.com
-0.0.0.0	track.sgdmobile.com
 0.0.0.0	sglyd.cn
 0.0.0.0	eywvko.shaddy.jp
 0.0.0.0	js.shangxueba.com
@@ -3141,7 +3147,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	umini.shujupie.com
 0.0.0.0	shulsbs.cn
 0.0.0.0	js.shunqi.com
-0.0.0.0	ut2.shuqistat.com
 0.0.0.0	shuyu2001.cn
 0.0.0.0	shuzilm.cn
 0.0.0.0	sigmob.com
@@ -3321,6 +3326,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	stargame.com
 0.0.0.0	staticfile.net
 0.0.0.0	staticfile.org
+0.0.0.0	steamproxy.net
 0.0.0.0	stg8.com
 0.0.0.0	stgowan.com
 0.0.0.0	studylabs.cn
@@ -3493,6 +3499,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	thinkmd.cn
 0.0.0.0	tatrack.thinkyeah.com
 0.0.0.0	trail.thomsonreuters.cn
+0.0.0.0	ad.thsi.cn
 0.0.0.0	tracking.ti.com
 0.0.0.0	tracking.mail.ti.com
 0.0.0.0	trackinginternal.ti.com
@@ -3525,7 +3532,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ato.tooopen.com
 0.0.0.0	topsem.com
 0.0.0.0	static.topxgun.com
-0.0.0.0	api.touch-moblie.com
 0.0.0.0	touclick.com
 0.0.0.0	toushibao.com
 0.0.0.0	ad.toutiao.com
@@ -3678,6 +3684,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	uxlqwra.cn
 0.0.0.0	v2.uyan.cc
 0.0.0.0	uyunad.com
+0.0.0.0	uzzf.com
 0.0.0.0	log.apk.v-mate.mobi
 0.0.0.0	v-vay.com
 0.0.0.0	1.v-x.com.cn
@@ -4118,6 +4125,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	mobwsa.ximalaya.com
 0.0.0.0	xdcs-collector.ximalaya.com
 0.0.0.0	xinbo-lora.cn
+0.0.0.0	xindalawyer.com
 0.0.0.0	ichc1.xinglinpukang.com
 0.0.0.0	www.xingpingmaoyi.cn
 0.0.0.0	a2.xinhuanet.com
