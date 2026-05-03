@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260503115002
-! Last modified: 2026/05/03 11:50:02
-! Blocked Filters: 102650
+! Version: 20260503172617
+! Last modified: 2026/05/03 17:26:17
+! Blocked Filters: 102657
 !
 ###AC_ad
 ###AD_160
@@ -53974,9 +53974,11 @@ hindustantimes.com###section_news
 hindustantimes.com##.advInBtweenNewsCard
 hindustantimes.com##.advStoryDetailInline
 hindustantimes.com##.affilaite-widget
+hindustantimes.com##.bottomFixAd
 hindustantimes.com##.cubeBox
 hindustantimes.com##.desktopAd
 hindustantimes.com##.epaper-ad
+hindustantimes.com##.h325
 hindustantimes.com##.headBanner
 hindustantimes.com##.ht-ad-holder-right:empty
 hindustantimes.com##.ht-dfp-ad
@@ -53984,6 +53986,7 @@ hindustantimes.com##.ht_outbrain
 hindustantimes.com##.ht_taboola
 hindustantimes.com##.inArticleAdCarouselWrapper
 hindustantimes.com##.m_headBanner
+hindustantimes.com##.middleTaboola
 hindustantimes.com##.moreFrom
 hindustantimes.com##.noAdLabel
 hindustantimes.com##.oyoAd
@@ -55758,6 +55761,7 @@ indianexpress.com##.amazon-widget
 indianexpress.com##.desktop-full-ad
 indianexpress.com##.gamingcubeiframe
 indianexpress.com##.h-text-widget
+indianexpress.com##.ie-ads-block-frontend
 indianexpress.com##.ie-adsbox
 indianexpress.com##.ie-adtext
 indianexpress.com##.ie-banner-wrapper
@@ -77138,6 +77142,8 @@ thetimes.com##.responsive__InlineAdWrapper-sc-4v1r4q-14
 thetimes.com##.styles__PromotedContentContainer-sc-1ul3b7n-3
 thetimes.com##article[id="article-main"] > div:has(#ad-header)
 thetimes.com##div[class^="styles__PromotedContentContainer"]
+thetimes.com.au##[href="https://workspace.google.com/lp/solutions/ai/"]
+thetimes.com.au##[href="https://www.oracle.com/anz/database/"]
 thetimestribune.com###floorboard_block
 thetoc.gr##.opap-section
 thetoyinsider.com##.apb-adblock
@@ -81176,6 +81182,7 @@ watchpornx.com#?#aside > div.widget_execphp:has(> div[class] script[type])
 watchseries.*##.bottom-bnr
 watchsomuch.to###VPN
 watchsomuch.to##.getVIPAds
+watchsports.to##.sp-promo-card
 watchtv24.com#%#//scriptlet('prevent-element-src-loading', 'script', 'imasdk.googleapis.com/js/sdkloader/ima3.js')
 watchtv24.com#%#//scriptlet('set-constant', 'Brid.A9.prototype.backfillAdUnits', 'emptyArr')
 waterfordwhispersnews.com##.wwn-ad-unit
