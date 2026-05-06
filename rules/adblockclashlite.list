@@ -3,8 +3,8 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20260506114255
-# Last modified: 2026/05/06 11:42:55
+# Version: 20260506182359
+# Last modified: 2026/05/06 18:23:59
 # Blocked domains: 4468
 #
 [Rule]
@@ -219,6 +219,7 @@ DOMAIN-SUFFIX,trace.51jingying.com,REJECT-DROP
 DOMAIN-SUFFIX,m1.51kaowang.com,REJECT-DROP
 DOMAIN-SUFFIX,a1.51shiti.cn,REJECT-DROP
 DOMAIN-SUFFIX,51taifu.com,REJECT-DROP
+DOMAIN-SUFFIX,ad.51wnl-cq.com,REJECT-DROP
 DOMAIN-SUFFIX,ad.51wnl.com,REJECT-DROP
 DOMAIN-SUFFIX,51yes.com,REJECT-DROP
 DOMAIN-SUFFIX,game.51yund.com,REJECT-DROP
@@ -246,6 +247,7 @@ DOMAIN-SUFFIX,3.5646.cn,REJECT-DROP
 DOMAIN-SUFFIX,dl.1003b.56a.com,REJECT-DROP
 DOMAIN-SUFFIX,56fba.cn,REJECT-DROP
 DOMAIN-SUFFIX,57573zubo36833.com,REJECT-DROP
+DOMAIN-SUFFIX,adtrack.58.com,REJECT-DROP
 DOMAIN-SUFFIX,brandshow.58.com,REJECT-DROP
 DOMAIN-SUFFIX,jing.58.com,REJECT-DROP
 DOMAIN-SUFFIX,poro.58.com,REJECT-DROP
@@ -331,7 +333,6 @@ DOMAIN-SUFFIX,9991.com,REJECT-DROP
 DOMAIN-SUFFIX,a1.99933.cn,REJECT-DROP
 DOMAIN-SUFFIX,a1.99966.cn,REJECT-DROP
 DOMAIN-SUFFIX,999aa666bb.com,REJECT-DROP
-DOMAIN-SUFFIX,999d.com,REJECT-DROP
 DOMAIN-SUFFIX,999xx333kk.com,REJECT-DROP
 DOMAIN-SUFFIX,99box.com,REJECT-DROP
 DOMAIN-SUFFIX,9ics.cn,REJECT-DROP
@@ -751,7 +752,6 @@ DOMAIN-SUFFIX,a.bake818.cn,REJECT-DROP
 DOMAIN-SUFFIX,h.baminw.cn,REJECT-DROP
 DOMAIN-SUFFIX,j.baminw.cn,REJECT-DROP
 DOMAIN-SUFFIX,baminw.com.cn,REJECT-DROP
-DOMAIN-SUFFIX,midinfo.baofeng.com,REJECT-DROP
 DOMAIN-SUFFIX,baycode.cn,REJECT-DROP
 DOMAIN-SUFFIX,bayescom.com,REJECT-DROP
 DOMAIN-SUFFIX,bayimob.com,REJECT-DROP
@@ -968,6 +968,7 @@ DOMAIN-SUFFIX,clarins.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,log-api.cli.im,REJECT-DROP
 DOMAIN-SUFFIX,bd1.click.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,clicki.cn,REJECT-DROP
+DOMAIN-SUFFIX,7xi9g1.com1.z0.glb.clouddn.com,REJECT-DROP
 DOMAIN-SUFFIX,bkt.clouddn.com,REJECT-DROP
 DOMAIN-SUFFIX,advertise.cloudlinks.cn,REJECT-DROP
 DOMAIN-SUFFIX,log.cmbchina.com,REJECT-DROP
@@ -1250,7 +1251,6 @@ DOMAIN-SUFFIX,stat.ea3w.com,REJECT-DROP
 DOMAIN-SUFFIX,eagle-tex.cn,REJECT-DROP
 DOMAIN-SUFFIX,track.easeus.com,REJECT-DROP
 DOMAIN-SUFFIX,easou.com,REJECT-DROP
-DOMAIN-SUFFIX,mini.eastday.com,REJECT-DROP
 DOMAIN-SUFFIX,ay.eastmoney.com,REJECT-DROP
 DOMAIN-SUFFIX,bdstatic.eastmoney.com,REJECT-DROP
 DOMAIN-SUFFIX,bdwblog.eastmoney.com,REJECT-DROP
@@ -2740,7 +2740,6 @@ DOMAIN-SUFFIX,prbibo.top,REJECT-DROP
 DOMAIN-SUFFIX,prlioxb.cn,REJECT-DROP
 DOMAIN-SUFFIX,info.protiviti.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,dm.pstatp.com,REJECT-DROP
-DOMAIN-SUFFIX,sf1-ttcdn-tos.pstatp.com,REJECT-DROP
 DOMAIN-SUFFIX,sf3-ttcdn-tos.pstatp.com,REJECT-DROP
 DOMAIN-SUFFIX,ptengine.cn,REJECT-DROP
 DOMAIN-SUFFIX,pufhzpt.cn,REJECT-DROP
@@ -3169,7 +3168,6 @@ DOMAIN-SUFFIX,emarketing.sina.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,int.dpool.sina.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,log.mix.sina.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,matwbp.iask.sina.com.cn,REJECT-DROP
-DOMAIN-SUFFIX,pfp.sina.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,sax.sina.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,saxn.sina.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,sbeacon.sina.com.cn,REJECT-DROP
@@ -3744,6 +3742,7 @@ DOMAIN-SUFFIX,cname-in-apport-stsdk.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,cname-in-bom01-nginxpool03.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,cname-in-ctdbonrt-stsdk.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,cname-sin01-stsdk09.vivoglobal.com,REJECT-DROP
+DOMAIN-SUFFIX,co-domaincfg.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,co-romsp-unifyconfig.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,co-st-sl.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,co-timesync.vivoglobal.com,REJECT-DROP
@@ -3837,6 +3836,7 @@ DOMAIN-SUFFIX,sca-err-up.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,sca-onrt-stsdk.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,sca-ort-stsdk.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,sca-p.vivoglobal.com,REJECT-DROP
+DOMAIN-SUFFIX,sca-pnrt-stsdk.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,sca-romsp-unifyconfig.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,sca-st-sl.vivoglobal.com,REJECT-DROP
 DOMAIN-SUFFIX,sca-stsdk.vivoglobal.com,REJECT-DROP
@@ -4060,7 +4060,6 @@ DOMAIN-SUFFIX,preload.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,redirect.pandora.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,register.xmpush.global.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,resolver.mi.xiaomi.com,REJECT-DROP
-DOMAIN-SUFFIX,sdkconfig.ad.eu.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,stat.pandora.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,stats.music.xiaomi.com,REJECT-DROP
 DOMAIN-SUFFIX,storeconfig.mistat.intl.xiaomi.com,REJECT-DROP
@@ -4322,6 +4321,7 @@ DOMAIN-SUFFIX,ws-p2p.pull.yximgs.com,REJECT-DROP
 DOMAIN-SUFFIX,cloud-log.yy.com,REJECT-DROP
 DOMAIN-SUFFIX,gt.yy.com,REJECT-DROP
 DOMAIN-SUFFIX,httpdns.gslb.yy.com,REJECT-DROP
+DOMAIN-SUFFIX,metrics.yy.com,REJECT-DROP
 DOMAIN-SUFFIX,stat.game.yy.com,REJECT-DROP
 DOMAIN-SUFFIX,yylady.cn,REJECT-DROP
 DOMAIN-SUFFIX,adapi.yynetwk.com,REJECT-DROP
