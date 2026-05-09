@@ -3,8 +3,8 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20260509172526
-# Last modified: 2026/05/09 17:25:26
+# Version: 20260510010158
+# Last modified: 2026/05/10 01:01:58
 # Blocked domains: 4467
 #
 [Rule]
@@ -340,6 +340,7 @@ DOMAIN-SUFFIX,a32a.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,a3p4.net,REJECT-DROP
 DOMAIN-SUFFIX,a48505.cn,REJECT-DROP
 DOMAIN-SUFFIX,a9v8.cn,REJECT-DROP
+DOMAIN-SUFFIX,aaaweb.cn,REJECT-DROP
 DOMAIN-SUFFIX,aaoffice.cn,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.abercrombie.cn,REJECT-DROP
 DOMAIN-SUFFIX,discover.absciex.com.cn,REJECT-DROP
@@ -945,8 +946,6 @@ DOMAIN-SUFFIX,chshcms.net,REJECT-DROP
 DOMAIN-SUFFIX,config.chsmarttv.com,REJECT-DROP
 DOMAIN-SUFFIX,data.chsmarttv.com,REJECT-DROP
 DOMAIN-SUFFIX,y66xvgo5i.chuimg.com,REJECT-DROP
-DOMAIN-SUFFIX,bd3.chuiyue.com,REJECT-DROP
-DOMAIN-SUFFIX,sbpb1.chuiyue.com,REJECT-DROP
 DOMAIN-SUFFIX,chuzushijian.cn,REJECT-DROP
 DOMAIN-SUFFIX,mipsa.ciae.ac.cn,REJECT-DROP
 DOMAIN-SUFFIX,ciajifmfsp.com,REJECT-DROP
@@ -2439,6 +2438,7 @@ DOMAIN-SUFFIX,abroad.api.comm.intl.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,activity.browser.intl.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,adv.sec.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,adv.sec.intl.miui.com,REJECT-DROP
+DOMAIN-SUFFIX,api-rec.stellar.intl.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,api.accelerator.intl.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,api.aurogon.intl.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,api.brs.intl.miui.com,REJECT-DROP

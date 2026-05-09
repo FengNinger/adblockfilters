@@ -4,8 +4,8 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20260509172526
-  # Last modified: 2026/05/09 17:25:26
+  # Version: 20260510010158
+  # Last modified: 2026/05/10 01:01:58
   # Blocked domains: 4467
   #
   - '+.00xvppy.cn'
@@ -340,6 +340,7 @@ payload:
   - '+.a3p4.net'
   - '+.a48505.cn'
   - '+.a9v8.cn'
+  - '+.aaaweb.cn'
   - '+.aaoffice.cn'
   - '+.smetrics.abercrombie.cn'
   - '+.discover.absciex.com.cn'
@@ -945,8 +946,6 @@ payload:
   - '+.config.chsmarttv.com'
   - '+.data.chsmarttv.com'
   - '+.y66xvgo5i.chuimg.com'
-  - '+.bd3.chuiyue.com'
-  - '+.sbpb1.chuiyue.com'
   - '+.chuzushijian.cn'
   - '+.mipsa.ciae.ac.cn'
   - '+.ciajifmfsp.com'
@@ -2439,6 +2438,7 @@ payload:
   - '+.activity.browser.intl.miui.com'
   - '+.adv.sec.miui.com'
   - '+.adv.sec.intl.miui.com'
+  - '+.api-rec.stellar.intl.miui.com'
   - '+.api.accelerator.intl.miui.com'
   - '+.api.aurogon.intl.miui.com'
   - '+.api.brs.intl.miui.com'

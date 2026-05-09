@@ -3,8 +3,8 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260509172526
-# Last modified: 2026/05/09 17:25:26
+# Version: 20260510010158
+# Last modified: 2026/05/10 01:01:58
 # Blocked domains: 4467
 #
 local=/00xvppy.cn/
@@ -339,6 +339,7 @@ local=/a32a.com.cn/
 local=/a3p4.net/
 local=/a48505.cn/
 local=/a9v8.cn/
+local=/aaaweb.cn/
 local=/aaoffice.cn/
 local=/smetrics.abercrombie.cn/
 local=/discover.absciex.com.cn/
@@ -944,8 +945,6 @@ local=/chshcms.net/
 local=/config.chsmarttv.com/
 local=/data.chsmarttv.com/
 local=/y66xvgo5i.chuimg.com/
-local=/bd3.chuiyue.com/
-local=/sbpb1.chuiyue.com/
 local=/chuzushijian.cn/
 local=/mipsa.ciae.ac.cn/
 local=/ciajifmfsp.com/
@@ -2438,6 +2437,7 @@ local=/abroad.api.comm.intl.miui.com/
 local=/activity.browser.intl.miui.com/
 local=/adv.sec.miui.com/
 local=/adv.sec.intl.miui.com/
+local=/api-rec.stellar.intl.miui.com/
 local=/api.accelerator.intl.miui.com/
 local=/api.aurogon.intl.miui.com/
 local=/api.brs.intl.miui.com/
