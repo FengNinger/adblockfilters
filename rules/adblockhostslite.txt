@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260510010158
-# Last modified: 2026/05/10 01:01:58
-# Blocked domains: 4467
+# Version: 20260510115219
+# Last modified: 2026/05/10 11:52:19
+# Blocked domains: 4469
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -881,6 +881,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	s.c-ctrip.com
 0.0.0.0	b1.c1km4.com
 0.0.0.0	c4d4.cn
+0.0.0.0	download.caihong.com
 0.0.0.0	gg.caixin.com
 0.0.0.0	ad.caiyunapp.com
 0.0.0.0	smetrics.calvinklein.cn
@@ -3451,7 +3452,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	log.tec73.com
 0.0.0.0	1.tecbbs.com
 0.0.0.0	tongji.techweb.com.cn
-0.0.0.0	tecunonline.com
+0.0.0.0	www.tecunonline.com
 0.0.0.0	apd-pcdnvodstat.teg.tencent-cloud.net
 0.0.0.0	apd-pcdnwxlogin.teg.tencent-cloud.net
 0.0.0.0	apd-pcdnwxnat.teg.tencent-cloud.net
@@ -3499,6 +3500,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	datas.tianqistatic.com
 0.0.0.0	yptqys.tianqistatic.com
 0.0.0.0	gjh9v.tianshilv.cn
+0.0.0.0	fz.tiansys.cn
 0.0.0.0	wkrd.tingyun.com
 0.0.0.0	tisszhb.cn
 0.0.0.0	img2.titan007.com
