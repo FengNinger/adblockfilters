@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260518121225
-# Last modified: 2026/05/18 12:12:25
-# Blocked domains: 4496
+# Version: 20260518195010
+# Last modified: 2026/05/18 19:50:10
+# Blocked domains: 4494
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -1623,6 +1623,7 @@ local=/conf-eu.dc.heytapmobi.com/
 local=/conf-sg.dc.heytapmobi.com/
 local=/darvin-ec.ads.heytapmobi.com/
 local=/data.ads.heytapmobi.com/
+local=/dcintl.push.heytapmobi.com/
 local=/dragate-sg.dc.heytapmobi.com/
 local=/epoch-id.cdo.heytapmobi.com/
 local=/httpdns.ocloud.heytapmobi.com/
@@ -1697,7 +1698,6 @@ local=/auth-launcher-na.hismarttv.com/
 local=/auth-launcher-sa.hismarttv.com/
 local=/auth-na.hismarttv.com/
 local=/auth-phone-ap.hismarttv.com/
-local=/auth-phone-na.hismarttv.com/
 local=/auth-sa.hismarttv.com/
 local=/cdn-plugin-sync-upgrade-juui.hismarttv.com/
 local=/msg-na.hismarttv.com/
@@ -3206,6 +3206,7 @@ local=/analytics.sixt.cn/
 local=/1.sj33.net/
 local=/sjdfuvz.cn/
 local=/sjoy7rq.cn/
+local=/clog.skysrt.com/
 local=/m.slshiye.cn/
 local=/sm-tc.cn/
 local=/c.sm.cn/
@@ -3817,7 +3818,6 @@ local=/in-vpushonrt-stsdk.vivoglobal.com/
 local=/in-vpushort-stsdk.vivoglobal.com/
 local=/kz-onrt-stsdk.vivoglobal.com/
 local=/kz-ort-stsdk.vivoglobal.com/
-local=/kz-romsp-unifyconfig.vivoglobal.com/
 local=/kz-st-exappupgrade.vivoglobal.com/
 local=/kz-vcode-api.vivoglobal.com/
 local=/kz-vcode-od.vivoglobal.com/
@@ -3857,13 +3857,11 @@ local=/ru-timesync.vivoglobal.com/
 local=/ru-vcode-api.vivoglobal.com/
 local=/ru-vcode-od.vivoglobal.com/
 local=/ru-vcode-or.vivoglobal.com/
-local=/sca-cota.vivoglobal.com/
 local=/sca-domaincfg.vivoglobal.com/
 local=/sca-err-up.vivoglobal.com/
 local=/sca-onrt-stsdk.vivoglobal.com/
 local=/sca-ort-stsdk.vivoglobal.com/
 local=/sca-p.vivoglobal.com/
-local=/sca-pnrt-stsdk.vivoglobal.com/
 local=/sca-romsp-unifyconfig.vivoglobal.com/
 local=/sca-st-sl.vivoglobal.com/
 local=/sca-stsdk.vivoglobal.com/
