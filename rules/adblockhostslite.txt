@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260525011012
-# Last modified: 2026/05/25 01:10:12
-# Blocked domains: 4458
+# Version: 20260525122102
+# Last modified: 2026/05/25 12:21:02
+# Blocked domains: 4464
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -1396,6 +1396,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	vs.funshion.com
 0.0.0.0	stat.funshion.net
 0.0.0.0	trk.futureelectronics.cn
+0.0.0.0	down.fwqlt.com
 0.0.0.0	ad.fx168api.com
 0.0.0.0	dms.fx678.com
 0.0.0.0	a.fxltsbl.com
@@ -3746,6 +3747,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	asia-vcode-or.vivoglobal.com
 0.0.0.0	asia-vpushonrt-stsdk.vivoglobal.com
 0.0.0.0	asia-vpushort-stsdk.vivoglobal.com
+0.0.0.0	cl-vcode-od.vivoglobal.com
 0.0.0.0	cname-asia-st-exappupgrade.vivoglobal.com
 0.0.0.0	cname-in-apport-stsdk.vivoglobal.com
 0.0.0.0	cname-in-bom01-nginxpool03.vivoglobal.com
@@ -3805,7 +3807,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	in-vpushort-stsdk.vivoglobal.com
 0.0.0.0	kz-onrt-stsdk.vivoglobal.com
 0.0.0.0	kz-ort-stsdk.vivoglobal.com
+0.0.0.0	kz-romsp-unifyconfig.vivoglobal.com
 0.0.0.0	kz-st-exappupgrade.vivoglobal.com
+0.0.0.0	kz-vcode-api.vivoglobal.com
 0.0.0.0	kz-vcode-od.vivoglobal.com
 0.0.0.0	kz-vcode-or.vivoglobal.com
 0.0.0.0	mx-cota.vivoglobal.com
@@ -3844,11 +3848,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	ru-vcode-api.vivoglobal.com
 0.0.0.0	ru-vcode-od.vivoglobal.com
 0.0.0.0	ru-vcode-or.vivoglobal.com
+0.0.0.0	sca-cota.vivoglobal.com
 0.0.0.0	sca-domaincfg.vivoglobal.com
 0.0.0.0	sca-err-up.vivoglobal.com
 0.0.0.0	sca-onrt-stsdk.vivoglobal.com
 0.0.0.0	sca-ort-stsdk.vivoglobal.com
 0.0.0.0	sca-p.vivoglobal.com
+0.0.0.0	sca-pnrt-stsdk.vivoglobal.com
 0.0.0.0	sca-romsp-unifyconfig.vivoglobal.com
 0.0.0.0	sca-st-sl.vivoglobal.com
 0.0.0.0	sca-stsdk.vivoglobal.com
