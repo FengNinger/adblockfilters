@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260612124019
-# Last modified: 2026/06/12 12:40:19
-# Blocked domains: 4417
+# Version: 20260612194844
+# Last modified: 2026/06/12 19:48:44
+# Blocked domains: 4408
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -229,6 +229,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	m1.51kaowang.com
 0.0.0.0	a1.51shiti.cn
 0.0.0.0	51taifu.com
+0.0.0.0	ad.51wnl-cq.com
 0.0.0.0	ad.51wnl.com
 0.0.0.0	51yes.com
 0.0.0.0	game.51yund.com
@@ -483,6 +484,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	bmvip.alimama.cn
 0.0.0.0	cb.alimama.cn
 0.0.0.0	acookie.alimama.com
+0.0.0.0	static.alimama.com
 0.0.0.0	openmonitor.alipay-eco.com
 0.0.0.0	amdc.alipay.com
 0.0.0.0	collect.alipay.com
@@ -895,6 +897,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	tracking.cat898.com
 0.0.0.0	adv.ccb.com
 0.0.0.0	ad.ccement.com
+0.0.0.0	mtrace.ysp.cctv.cn
 0.0.0.0	ad.cctv.com
 0.0.0.0	httpdns.cctv.com
 0.0.0.0	p.data.cctv.com
@@ -2473,7 +2476,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	notify.sec.miui.com
 0.0.0.0	port.sec.miui.com
 0.0.0.0	port.sec.intl.miui.com
-0.0.0.0	proxy.sec.miui.com
 0.0.0.0	srv.sec.miui.com
 0.0.0.0	tracking.miui.com
 0.0.0.0	tracking.eu.miui.com
@@ -2816,7 +2818,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	appcfg.v.qq.com
 0.0.0.0	applog.reader.qq.com
 0.0.0.0	appsupport.qq.com
-0.0.0.0	as.weixin.qq.com
 0.0.0.0	beacon.qq.com
 0.0.0.0	beacon.cdn.qq.com
 0.0.0.0	beaconcdn.qq.com
@@ -3208,6 +3209,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	log-hl.snssdk.com
 0.0.0.0	log-lq.snssdk.com
 0.0.0.0	mcs.snssdk.com
+0.0.0.0	mercury-sdk.snssdk.com
 0.0.0.0	mon.snssdk.com
 0.0.0.0	open.snssdk.com
 0.0.0.0	pangolin.snssdk.com
@@ -3806,18 +3808,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ru-vcode-api.vivoglobal.com
 0.0.0.0	ru-vcode-od.vivoglobal.com
 0.0.0.0	ru-vcode-or.vivoglobal.com
-0.0.0.0	sca-domaincfg.vivoglobal.com
-0.0.0.0	sca-err-up.vivoglobal.com
-0.0.0.0	sca-onrt-stsdk.vivoglobal.com
-0.0.0.0	sca-ort-stsdk.vivoglobal.com
-0.0.0.0	sca-p.vivoglobal.com
-0.0.0.0	sca-romsp-unifyconfig.vivoglobal.com
-0.0.0.0	sca-st-sl.vivoglobal.com
-0.0.0.0	sca-stsdk.vivoglobal.com
-0.0.0.0	sca-timesync.vivoglobal.com
-0.0.0.0	sca-vcode-api.vivoglobal.com
-0.0.0.0	sca-vcode-od.vivoglobal.com
-0.0.0.0	sca-vcode-or.vivoglobal.com
 0.0.0.0	sg-cfg-stsdk.vivoglobal.com
 0.0.0.0	stsdk.vivoglobal.com
 0.0.0.0	tr-domaincfg.vivoglobal.com
@@ -4286,6 +4276,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	cloud-log.yy.com
 0.0.0.0	gt.yy.com
 0.0.0.0	httpdns.gslb.yy.com
+0.0.0.0	metrics.yy.com
 0.0.0.0	stat.game.yy.com
 0.0.0.0	yylady.cn
 0.0.0.0	adapi.yynetwk.com
