@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260613021214
-! Last modified: 2026/06/13 02:12:14
-! Blocked Filters: 103609
+! Version: 20260613121941
+! Last modified: 2026/06/13 12:19:41
+! Blocked Filters: 103605
 !
 ###AC_ad
 ###AD_160
@@ -13299,7 +13299,6 @@
 ##.sponsored-ad-label
 ##.sponsored-add
 ##.sponsored-ads
-##.sponsored-article
 ##.sponsored-article-item
 ##.sponsored-article-widget
 ##.sponsored-block
@@ -71115,6 +71114,7 @@ reelsmunkey.com#%#//scriptlet('trusted-set-local-storage-item', 'adsTimer', '$no
 reelviews.net##.picHolder
 reference.medscape.com#%#//scriptlet("set-constant", "webmd.ads2.setPageTarget", "noopFunc")
 reflex.cz#@%#//scriptlet('ubo-acis.js', 'atob')
+refooty.com##.ad-placement-wrapper
 regex101.com#?#div > header + div > div + div:contains(Sponsors)
 regex101.com#?#div > header + div > div + div:has-text(Sponsors)
 regexlearn.com##.w-full.mb-3:has(a[href="/learn/regex-for-seo"])
@@ -82351,6 +82351,7 @@ wetransfer.com##.wallpaper
 wetter.com#%#//scriptlet('set-constant', 'wcomBlock', 'noopFunc')
 wetv.vip###google-ads-player
 wetv.vip#%#//scriptlet("adjust-setTimeout", "onAdsCompleted", "5000", "0.02")
+weworkremotely.com##.feature--ad
 wfmz.com###tncms-region-front-featured-top
 wfmz.com#@#.tnt-dmp-reactive
 wgnsradio.com##.bw-special-image
@@ -93634,7 +93635,6 @@ zzzyk.com###Tinfo
 ||ingress.rebelboost.com/_ingest-rbst-stats?
 ||inhe.*/Uploadfiles/adpublish
 ||inhe.net/Uploadfiles/inhegg2016/
-||inheritknow.com^$popup
 ||inhumanity.com/ajax/cb_iframe_data.php
 ||ininav.com/sites/default/files/js/js
 ||init.voz.party/info_hex.js
@@ -93861,7 +93861,6 @@ zzzyk.com###Tinfo
 ||itchygame.com/assets/cnd/7x9/6.mp4
 ||itechpost.com*adbk
 ||iterable.com/analytics.js
-||itespurrom.com^$popup
 ||ithardware.pl/js/mediaexpert-widget.js
 ||itheat.com/?show=
 ||ithome.com.tw/media/serve?
@@ -93907,7 +93906,6 @@ zzzyk.com###Tinfo
 ||ivpnoffers.com^$popup
 ||iwantgalleries.com/axxa^
 ||iwantmature.com/ixxi^
-||iwantusingle.com^$popup
 ||iwarship.net/wowsdb/static/img/banner.png
 ||ixigua.com/at/log/
 ||ixkw3.cc/wp-content/themes/wpMyTube/assets/js/mobile.
@@ -94397,7 +94395,6 @@ zzzyk.com###Tinfo
 ||keep2porn.net/templates/keep2porn/images/banerk2s.gif
 ||keep2porn.net/templates/keep2porn/images/vr300.gif
 ||keep2share.cc/images/i/$third-party
-||keewoach.net^$popup
 ||keirin.netkeiba.com/ndtracker/
 ||kejiwanjia.com/wp-content/uploads/*/1040x100.
 ||kekenet.com/Images/*/tom640X40.gif
@@ -94444,14 +94441,12 @@ zzzyk.com###Tinfo
 ||kijimea.it/javascript/script.js
 ||kikibobo.com/banner/
 ||kikinote.net/iframe
-||kiksajex.com^$popup
 ||killcovid2021.com/*.mp4
 ||kimonix.com/analytics/
 ||kindgirls.com/banners2/
 ||kinguin.net/affiliatepluswidget/$third-party
 ||kinohabr.net/*.php?id=*&type=
 ||kio.ac/analytics/
-||kirteexe.tv^$popup
 ||kissanime.*/api/pop.php$xmlhttprequest,~third-party
 ||kissanime.com.ru/api/pop*.php
 ||kissanimeonline.com/driectlink$popup
@@ -94844,7 +94839,6 @@ zzzyk.com###Tinfo
 ||lifeselector.com/iframetool/$third-party
 ||lifterpopup.com^$third-party
 ||lightning.ncaa.com/launch/$script
-||liglomsoltuwhax.net^$popup
 ||lihuasoft.net/images/ad_
 ||liisex.com/images/banners/
 ||likedatings.life^$popup
@@ -101164,7 +101158,8 @@ zzzyk.com###Tinfo
 ||tracking-*.trnox.com^
 ||tracking-v*.a.run.app^
 ||tracking.*.miui.com^
-||tracking.cds.dmm.
+||tracking.cds.dmm.co.jp^$image
+||tracking.cds.dmm.com^$image
 ||tracking.donnemagazine.it^$script
 ||tracking.foodblog.it^$script
 ||tracking.geo.*.amazonaws.com^
@@ -102369,6 +102364,7 @@ zzzyk.com###Tinfo
 ||wetpussygames.com/t78d42b806a3.js
 ||wettigo136.com^$popup
 ||wewomedia.com^$third-party
+||weworkremotely.com/listing_ads/8/impression?
 ||wf-box.net/sandboxed_ad_vendor_iframe.html
 ||wfiles.hcomic.net/indexSwiper/*_*x*_*_TC_gif.gif
 ||wfinterface.com/tracking/$domain=wellsfargo.com
