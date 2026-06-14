@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260614124638
-! Last modified: 2026/06/14 12:46:38
-! Blocked Filters: 103634
+! Version: 20260614185207
+! Last modified: 2026/06/14 18:52:07
+! Blocked Filters: 103616
 !
 ###AC_ad
 ###AD_160
@@ -14874,7 +14874,6 @@
 ##a[href^="https://pb-track.com/"]
 ##a[href^="https://playnano.online/offerwalls/?ref="]
 ##a[href^="https://porntubemate.com/"]
-##a[href^="https://postback1win.com/"]
 ##a[href^="https://quotationfirearmrevision.com/"]
 ##a[href^="https://rixofa.com/"]
 ##a[href^="https://service.bv-aff-trx.com/"]
@@ -42461,6 +42460,9 @@ chapmanganato.com##div[style^="width: 100%;overflow: hidden;"]
 chaptercheats.com##.dt_ad
 chaptercheats.com##.mid_d
 chaptercheats.com##div[class^="adright"]
+character.ai##.z-40.max-w-\[970px\]
+character.ai#?#.space-y-4 > .w-full:contains(Advertisement)
+character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 charbelnemnom.com#%#//scriptlet("set-constant", "advanced_ads_check_adblocker", "noopFunc")
 charexempire.com#%#//scriptlet("prevent-window-open")
 chargedretail.co.uk,foodstuffsa.co.za,thinkcomputers.org##.apPluginContainer
@@ -90525,7 +90527,6 @@ zzzyk.com###Tinfo
 ||doomovie-hd.com/assets/img/banner-new/
 ||doomovie.com/storage/go/*.gif$~third-party
 ||doomovie.sgp*.digitaloceanspaces.com/*.mp4$redirect=noopmp4-1s,domain=doomovie.com
-||doostozoa.net^$popup
 ||dopaleads.com^$popup
 ||dopansearor.com^$popup
 ||dope.autos^$popup
@@ -92184,7 +92185,6 @@ zzzyk.com###Tinfo
 ||glospowiatusredzkiego.pl/pl/js/qp.js
 ||glove.fit^$third-party
 ||glsfreeads.com^$popup
-||gluxouvauure.com^$popup
 ||glzy8.com/img/ceo/js.js
 ||gm99.com^$third-party
 ||gmarket.co.kr/js/common/uuid.js
@@ -93053,7 +93053,6 @@ zzzyk.com###Tinfo
 ||hsdn.org^$third-party
 ||hsex.men/nb/
 ||hsex.men/view/img/*.gif
-||hsrvz.com^$popup
 ||hstats*.hepsiburada.com^
 ||hsyipos.com/template/mxone/html_tplmx/vod/*.gif
 ||htm*.hepsiburada.com^
@@ -94661,7 +94660,6 @@ zzzyk.com###Tinfo
 ||lacentrale.fr/static/fragment-tracking/tracking-
 ||lacoccinelle.net/tools.js
 ||lacquerreddeform.com^$popup
-||ladrecaidroo.com^$popup
 ||ladyboygoo.com/lbg/banners/
 ||lagacetanewspaper.com/wp-content/uploads/banners/
 ||lagou.com/js/cooperation/
@@ -95037,6 +95035,7 @@ zzzyk.com###Tinfo
 ||lnkd.in/li/track
 ||lntrigulngdates.com^$popup
 ||lnzqw.net/js/
+||loader.gutefrage.net/loader.min.js$script,redirect=noopjs
 ||loader.masthead.me/prod/masthead/loader.min.js
 ||loader.to/ajax/a.php$popup
 ||loader.to/ajax/ad/l.php$popup
@@ -96688,7 +96687,6 @@ zzzyk.com###Tinfo
 ||nweon.com/wp-content/repo/ad/
 ||nwxs5.com/js/
 ||nxflv.com/nxflv.js
-||nxgmqhll.com^$popup
 ||nxgx.com/Scripts/fl12.js
 ||nxgx.com/php/*.php
 ||nxhh.net/gw/gw.js
@@ -96831,7 +96829,6 @@ zzzyk.com###Tinfo
 ||omonoia24.com/wp-content/uploads/*/PANIKOS-*.png
 ||omsnative.de/tracking/
 ||on-push.com^$third-party
-||on1nzbp3.com^$popup
 ||onboarding-ui.frontiersin.org/api/onboarding-ui/v1/session/logged
 ||ondigitalocean.app/*/index.php?cezp=$document
 ||ondigitalocean.app/*^phone=+1-$document
@@ -97053,7 +97050,6 @@ zzzyk.com###Tinfo
 ||p2peye.com/ajax.php?mod=ad&
 ||p2peye.com/ajax.php?mod=advertisement&
 ||p2pup*.gamedl.qq.com^
-||p8wj9zko.com^$popup
 ||pac.talksport.com/track
 ||paddle.com^*/analytics.js
 ||paella.adrise.tv/*.mp4$redirect=noopmp4-1s
@@ -97798,7 +97794,6 @@ zzzyk.com###Tinfo
 ||positivehealth.com/img/original/BannerAvatar/
 ||positivehealth.com/img/original/TopicbannerAvatar/
 ||postageapp.com/receipt/$third-party
-||postback1win.com^$popup
 ||posthog.com/*/?ip=$xmlhttprequest
 ||posthog.com/*/?retry_count
 ||posthog.com/*/logs?$xmlhttprequest
@@ -97806,7 +97801,6 @@ zzzyk.com###Tinfo
 ||posthog.com/api/signup-count
 ||posti.mail.ee/banners/
 ||postimg.cc^*-960x60.
-||postlnk.com^$popup
 ||potsdamer-stadtplan.com/t.gif
 ||pouvideo.cc/player*/vast.js
 ||powa-ingest-prod-*.video-player.arcpublishing.com^
@@ -97907,7 +97901,6 @@ zzzyk.com###Tinfo
 ||production-adserver-*.amazonaws.com^
 ||productsup.com^$third-party
 ||profamouslife.com/js/adcash.js
-||professionalswebcheck.com^$popup
 ||profitmetrics.io^$third-party
 ||profollow.com/form/
 ||proginn.com/cms/10000/
@@ -97950,25 +97943,20 @@ zzzyk.com###Tinfo
 ||ps557.com/link/
 ||ps886.us/js/*.js
 ||psarips.com/tools.js
-||psaugourtauy.com^$popup
 ||psdkeys.com/uploads/banner_
 ||psgonline.pl/wp-content/uploads/*/*/fortuna*-ligue1*.jpg
 ||psilaurgi.net^$popup
-||psockapa.net^$popup
 ||psotudev.com^$popup
 ||psumpupsauket.com^$popup
 ||pswec.com/px/$third-party
 ||pt-trx.com^$third-party
 ||pt.ptawe.com/vast/$script,xmlhttprequest,other,redirect=noopvast-2.0
-||ptaupsom.com^$popup
 ||ptbus.com/s.js
 ||ptfish.com/*/ad$image,object
 ||ptmind.com^$third-party
-||ptoakrok.net^$popup
 ||ptoftashulsee.com^$popup
 ||ptongouh.net^$popup
 ||ptp.stbm.it/pushdown/loader/av/players/player-custom-content.js$replace=/&&e\.loader\.opt\.hasAdv/&&!1/,script
-||ptugnins.net^$popup
 ||ptyalinbrattie.com^$popup
 ||ptyw.yiche.com/ssp/
 ||pu*ev.com/?form_email=*&form_phone=$all
@@ -99314,7 +99302,6 @@ zzzyk.com###Tinfo
 ||shipfa.st/js/script.js
 ||shipin188.com/66
 ||shipping.jp/raa/rd.js
-||shipwreckclassmate.com^$popup
 ||shitouxs.com/static/042417.js
 ||shobiddak.com/logging/
 ||shoebacca.com/YaRJwC0q/init.js
@@ -99604,7 +99591,6 @@ zzzyk.com###Tinfo
 ||smyw.org/popunder.min.js
 ||smyw.org/smyw_anima_1.gif
 ||smzy.com/v1/img/
-||sn00.net
 ||snacklink.co/js/web-script.js
 ||snacktools.net/bannersnack/$domain=~bannersnack.dev
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/dxf.js
@@ -99660,12 +99646,10 @@ zzzyk.com###Tinfo
 ||sockr.birdie.so/event
 ||socos.gitee.io/ss/poster/
 ||socsi.in^$third-party
-||sodefender.pro^$popup
 ||sodonsolution.org/*/Banner/
 ||sodu2020.com/js/ppc.js
 ||sofascore.com/affiliate/sofa/generate
 ||sofascore.com/bundles/sofascoreweb/js/bin/util/affiliate.min.js
-||sofinpushpile.com^$popup
 ||soft.mumayi.net/images/download.gif
 ||soft.mumayi.net/js/
 ||soft4fun.net/wp-content/themes/arthemia/js/common_footer_min.js
@@ -100244,7 +100228,6 @@ zzzyk.com###Tinfo
 ||streamelements.com/z/s.js
 ||streamelements.com/z/t
 ||streamen.com/exports/$third-party
-||streamereasy.click^$popup
 ||streamex.sh/pop.js
 ||streamfree.to/acebet-banner
 ||streamhls.to/js/noadblocker.js
@@ -100333,7 +100316,6 @@ zzzyk.com###Tinfo
 ||sucloud.xyz/js/tou.js
 ||sudokugame.org/archive/online*.php$subdocument,document,replace=/adBreak\(\{[\s\S]+?(jump\([^)]+\))[\s\S]+?\}\);/\$1;/
 ||sudokupad.app/api/event
-||sudukrirga.net^$popup
 ||sudupan.com^*.gif
 ||suedtirol.live/slc.js
 ||sufile.com/jsa/
