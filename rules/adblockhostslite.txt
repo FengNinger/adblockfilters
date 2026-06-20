@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260620183721
-# Last modified: 2026/06/20 18:37:21
-# Blocked domains: 4406
+# Version: 20260621014050
+# Last modified: 2026/06/21 01:40:50
+# Blocked domains: 4403
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -690,7 +690,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	log.music.baidu.com
 0.0.0.0	luimg.baidu.com
 0.0.0.0	m1.baidu.com
-0.0.0.0	miao.baidu.com
 0.0.0.0	miaowu.baidu.com
 0.0.0.0	mo.baidu.com
 0.0.0.0	mobads.baidu.com
@@ -1524,8 +1523,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	gsxbxvd.cn
 0.0.0.0	gtcqbnu.cn
 0.0.0.0	pgdt.gtimg.cn
-0.0.0.0	tianshu.gtimg.cn
-0.0.0.0	ra.gtimg.com
 0.0.0.0	splashqqlive.gtimg.com
 0.0.0.0	wa.gtimg.com
 0.0.0.0	gtpxvpi.cn
@@ -1562,7 +1559,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	stats.hanmaker.com
 0.0.0.0	as1.m.hao123.com
 0.0.0.0	mini.hao123.com
-0.0.0.0	hao222.com
 0.0.0.0	cdn.haocaa.com
 0.0.0.0	js1.haoge500.com
 0.0.0.0	haoghost.com
@@ -1800,7 +1796,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	va.huya.com
 0.0.0.0	ylog.huya.com
 0.0.0.0	hypers.com
-0.0.0.0	hzbxm.com
 0.0.0.0	api.hzsanjiaomao.com
 0.0.0.0	sdk.hzsanjiaomao.com
 0.0.0.0	adashx.ut.hzshudian.com
@@ -1928,6 +1923,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	paopao-monitor.iqiyi.com
 0.0.0.0	policy.video.iqiyi.com
 0.0.0.0	puma-api.iqiyi.com
+0.0.0.0	puma.api.iqiyi.com
 0.0.0.0	static-s.iqiyi.com
 0.0.0.0	static.g.iqiyi.com
 0.0.0.0	subscription.iqiyi.com
@@ -2281,7 +2277,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ws-p2p-pull.live-voip.com
 0.0.0.0	lixiangmo.com
 0.0.0.0	ljarfvg.cn
-0.0.0.0	lmeurbnjs.com
 0.0.0.0	lmlmvip.com
 0.0.0.0	lnhsjob.com
 0.0.0.0	lnk0.com
@@ -2497,7 +2492,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	mobisage.cn
 0.0.0.0	bd1.moguvet.com
 0.0.0.0	ad.api.moji.com
-0.0.0.0	adlaunch.moji.com
 0.0.0.0	fds.api.moji.com
 0.0.0.0	stat.moji.com
 0.0.0.0	app.moji001.com
@@ -2530,6 +2524,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	nsp-logservice-hiview-p07-dra.obs.ap-southeast-3.myhuaweicloud.com
 0.0.0.0	nsp-logservice-hiview-p08-dra.obs.ap-southeast-3.myhuaweicloud.com
 0.0.0.0	r39-g003-h8ig0w-u8f0we8-fgw0rgf-0we880e-rhgth.obs.ap-southeast-2.myhuaweicloud.com
+0.0.0.0	teslaamg.obs.cn-east-3.myhuaweicloud.com
 0.0.0.0	myhug.cn
 0.0.0.0	esa-reg-eup.myoppo.com
 0.0.0.0	12551-1311572332.cos.ap-shanghai.myqcloud.com
@@ -2730,7 +2725,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	pig.pupuapi.com
 0.0.0.0	puqer.cn
 0.0.0.0	pv4b.com
-0.0.0.0	pxhuiben.com
 0.0.0.0	pygokay.cn
 0.0.0.0	vv1.pyhfxdm.cn
 0.0.0.0	pypwxvo.cn
@@ -2981,6 +2975,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	a.qunzou.com
 0.0.0.0	vn-ebay.quxlpuj.cn
 0.0.0.0	zzy1.quyaoya.com
+0.0.0.0	api.qvpublish.com
 0.0.0.0	qwer220.cn
 0.0.0.0	u.qxen.com
 0.0.0.0	msg.qy.net
@@ -3042,7 +3037,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	sacre.cn
 0.0.0.0	sagetrc.com
 0.0.0.0	saitef.cn
-0.0.0.0	salat.cn
 0.0.0.0	smetrics.samsung.com.cn
 0.0.0.0	analytics-api.samsunghealthcn.com
 0.0.0.0	biz5.sandai.net
@@ -3085,6 +3079,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sepyra.com
 0.0.0.0	sfbixfd.cn
 0.0.0.0	logstat.t.sfht.com
+0.0.0.0	track.sgdmobile.com
 0.0.0.0	sglyd.cn
 0.0.0.0	eywvko.shaddy.jp
 0.0.0.0	js.shangxueba.com
@@ -3103,6 +3098,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	umini.shujupie.com
 0.0.0.0	shulsbs.cn
 0.0.0.0	js.shunqi.com
+0.0.0.0	ut2.shuqistat.com
 0.0.0.0	shuyu2001.cn
 0.0.0.0	shuzilm.cn
 0.0.0.0	sigmob.com
@@ -3485,6 +3481,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ato.tooopen.com
 0.0.0.0	topsem.com
 0.0.0.0	static.topxgun.com
+0.0.0.0	api.touch-moblie.com
 0.0.0.0	touclick.com
 0.0.0.0	toushibao.com
 0.0.0.0	ad.toutiao.com
@@ -3636,7 +3633,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	uxlqwra.cn
 0.0.0.0	v2.uyan.cc
 0.0.0.0	uyunad.com
-0.0.0.0	uzzf.com
 0.0.0.0	log.apk.v-mate.mobi
 0.0.0.0	v-vay.com
 0.0.0.0	1.v-x.com.cn
@@ -4168,6 +4164,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ymmobi.com
 0.0.0.0	yncjsc.cn
 0.0.0.0	ad123.ynet.com
+0.0.0.0	m.yocvn.com
 0.0.0.0	webtrans.yodao.com
 0.0.0.0	ocd.yodo1api.com
 0.0.0.0	olc.yodo1api.com
