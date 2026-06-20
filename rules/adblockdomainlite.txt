@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260620121241
-! Last modified: 2026/06/20 12:12:41
-! Blocked domains: 4408
+! Version: 20260620183721
+! Last modified: 2026/06/20 18:37:21
+! Blocked domains: 4406
 !
 00xvppy.cn
 img.0279.net
@@ -67,7 +67,6 @@ count.mail.163.com
 countly.mail.163.com
 crash.163.com
 crashlytics.163.com
-e-p4p.163.com
 fp-upload.dun.163.com
 g.163.com
 gb.corp.163.com
@@ -582,7 +581,6 @@ al.autohome.com.cn
 ftwo-feedback.autohome.com.cn
 ftwo-receiver.autohome.com.cn
 idm.api.autohome.com.cn
-pcmx.autohome.com.cn
 adm3.autoimg.cn
 img2.autoimg.cn
 adstatistics.av380.net
@@ -745,7 +743,6 @@ a.bake818.cn
 h.baminw.cn
 j.baminw.cn
 baminw.com.cn
-midinfo.baofeng.com
 baycode.cn
 bayescom.com
 bayimob.com
@@ -872,7 +869,6 @@ appres.camera360.com
 stratus.campaign-image.com.cn
 zc1.campaign-view.com.cn
 count.candou.com
-telemetry.canva.cn
 caomeixz7.xyz
 caonimazuzong.com
 baidu1.cardbaobao.com
@@ -932,7 +928,6 @@ feedbackstorage.blob.core.chinacloudapi.cn
 pcmactivity.chinacloudsites.cn
 same.chinadaily.com.cn
 sdkoptedge.chinanetcenter.com
-chinataiwan.org
 a2put.chinaz.com
 stats.chinaz.com
 chiq-cloud.com
@@ -1654,6 +1649,7 @@ grs.hicloud.com
 logbak.hicloud.com
 logservice.hicloud.com
 logservice-dra.platform.hicloud.com
+logservice-dre.platform.hicloud.com
 logservice1.hicloud.com
 ads-drcn.platform.hihonorcloud.com
 honorsearch-dra.hiboard.hihonorcloud.com
@@ -1979,7 +1975,6 @@ log.jd.com
 mapi.m.jd.com
 mars.jd.com
 mllog.jd.com
-nfa.jd.com
 orbit.jd.com
 policy.jd.com
 skdisplay.jd.com
@@ -2514,6 +2509,7 @@ mvamnng.cn
 mxevdii.cn
 apiyd.my91app.com
 myhst2024.com
+ceshi127722.obs.cn-north-4.myhuaweicloud.com
 nsp-logservice-hiview-p05-dra.obs.ap-southeast-3.myhuaweicloud.com
 nsp-logservice-hiview-p06-dra.obs.ap-southeast-3.myhuaweicloud.com
 nsp-logservice-hiview-p07-dra.obs.ap-southeast-3.myhuaweicloud.com
@@ -2803,6 +2799,7 @@ apikey.map.qq.com
 appcfg.v.qq.com
 applog.reader.qq.com
 appsupport.qq.com
+as.weixin.qq.com
 beacon.qq.com
 beacon.cdn.qq.com
 beaconcdn.qq.com
@@ -3069,7 +3066,6 @@ sdvfvgj.cn
 1640831964042.se-life.cn
 analytics.apps.seabroadnet.com
 sellfox.com
-senbiaojita.com
 sensorsdata.cn
 sepyra.com
 sfbixfd.cn
@@ -3203,7 +3199,6 @@ tbm.snssdk.com
 tnc3-aliec2.snssdk.com
 tnc3-alisc1.snssdk.com
 tnc3-bjlgy.snssdk.com
-toutiao-frontier.snssdk.com
 tsearch.snssdk.com
 ug.snssdk.com
 vcl-brain.snssdk.com
@@ -3321,7 +3316,6 @@ talkingdata.com
 clog.tanshudata.com
 seiya.tantanapp.com
 tanv.com
-click.tanx.com
 cms.tanx.com
 df.tanx.com
 ef-dongfeng.tanx.com
@@ -3444,7 +3438,6 @@ thinkingdata.cn
 thinkmd.cn
 tatrack.thinkyeah.com
 trail.thomsonreuters.cn
-ad.thsi.cn
 tracking.ti.com
 tracking.mail.ti.com
 trackinginternal.ti.com
@@ -3710,6 +3703,7 @@ cname-in-apport-stsdk.vivoglobal.com
 cname-in-bom01-nginxpool03.vivoglobal.com
 cname-in-ctdbonrt-stsdk.vivoglobal.com
 cname-sin01-stsdk09.vivoglobal.com
+co-domaincfg.vivoglobal.com
 co-romsp-unifyconfig.vivoglobal.com
 co-st-sl.vivoglobal.com
 co-timesync.vivoglobal.com
@@ -3761,6 +3755,7 @@ in-vcode-or.vivoglobal.com
 in-vpushonrt-stsdk.vivoglobal.com
 in-vpushort-stsdk.vivoglobal.com
 kz-onrt-stsdk.vivoglobal.com
+kz-ort-stsdk.vivoglobal.com
 kz-vcode-od.vivoglobal.com
 mx-cota.vivoglobal.com
 mx-domaincfg.vivoglobal.com
@@ -3787,6 +3782,7 @@ ru-exstsdk.vivoglobal.com
 ru-onrt-stsdk.vivoglobal.com
 ru-os-config-appstore.vivoglobal.com
 ru-p.vivoglobal.com
+ru-pnrt-stsdk.vivoglobal.com
 ru-romsp-unifyconfig.vivoglobal.com
 ru-st-exappupgrade.vivoglobal.com
 ru-st-sl.vivoglobal.com
@@ -4001,6 +3997,7 @@ in-miuilog.sms.intl.xiaomi.com
 misc.pandora.xiaomi.com
 notice.game.xiaomi.com
 o2o.api.xiaomi.com
+ottl7-l2.pandora.xiaomi.com
 package.box.xiaomi.com
 pi.ias.xiaomi.com
 preload.xiaomi.com
@@ -4262,6 +4259,7 @@ ws-p2p.pull.yximgs.com
 cloud-log.yy.com
 gt.yy.com
 httpdns.gslb.yy.com
+metrics.yy.com
 stat.game.yy.com
 yylady.cn
 adapi.yynetwk.com
