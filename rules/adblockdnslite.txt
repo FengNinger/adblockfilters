@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20260623120244
-! Last modified: 2026/06/23 12:02:44
-! Blocked domains: 4427
+! Version: 20260623192330
+! Last modified: 2026/06/23 19:23:30
+! Blocked domains: 4402
 ! unBlocked domains: 16
 !
 ||00xvppy.cn^
@@ -68,6 +68,7 @@
 ||countly.mail.163.com^
 ||crash.163.com^
 ||crashlytics.163.com^
+||e-p4p.163.com^
 ||fp-upload.dun.163.com^
 ||g.163.com^
 ||gb.corp.163.com^
@@ -214,7 +215,6 @@
 ||m1.51kaowang.com^
 ||a1.51shiti.cn^
 ||51taifu.com^
-||ad.51wnl-cq.com^
 ||ad.51wnl.com^
 ||51yes.com^
 ||game.51yund.com^
@@ -777,6 +777,7 @@
 ||smetrics.beatsbydre.com^
 ||smetrics.beatsbydre.com.cn^
 ||beencounter.com^
+||analytics.behr.com^
 ||images.explore.behr.com^
 ||beizi.biz^
 ||smetrics.benefitcosmetics.com.cn^
@@ -1125,7 +1126,6 @@
 ||events-drru.op.dbankcloud.ru^
 ||adx-dra-op-dbankcloud-com-dra.appacc.dbankedge.cn^
 ||adx-dra-op-dbankcloud-com-dra.edge.dbankedge.cn^
-||adx-dra-op-dbankcloud-com-dra.region.dbankedge.cn^
 ||events-dra-op-dbankcloud-cn-dra.appacc.dbankedge.cn^
 ||events-dra-op-dbankcloud-com-dra.appacc.dbankedge.cn^
 ||events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn^
@@ -1369,7 +1369,6 @@
 ||pub.funshion.com^
 ||pv.funshion.com^
 ||stat.funshion.com^
-||vs.funshion.com^
 ||stat.funshion.net^
 ||trk.futureelectronics.cn^
 ||down.fwqlt.com^
@@ -1583,7 +1582,6 @@
 ||adx-in.ads.heytapmobi.com^
 ||adx-sg.ads.heytapmobi.com^
 ||adx.ads.heytapmobi.com^
-||album-cn01a.ocloud.heytapmobi.com^
 ||album-sg01a.ocloud.heytapmobi.com^
 ||api-cn.cdo.heytapmobi.com^
 ||api-gl.cdo.heytapmobi.com^
@@ -1605,11 +1603,9 @@
 ||conf-sg.dc.heytapmobi.com^
 ||darvin-ec.ads.heytapmobi.com^
 ||data.ads.heytapmobi.com^
-||dcintl.push.heytapmobi.com^
 ||dragate-sg.dc.heytapmobi.com^
 ||epoch-id.cdo.heytapmobi.com^
 ||httpdns.ocloud.heytapmobi.com^
-||i-cn01a.ocloud.heytapmobi.com^
 ||i-sg01a.ocloud.heytapmobi.com^
 ||iot-earbuds-cn.heytapmobi.com^
 ||obus-cn.dc.heytapmobi.com^
@@ -1652,7 +1648,6 @@
 ||logbak.hicloud.com^
 ||logservice.hicloud.com^
 ||logservice-dra.platform.hicloud.com^
-||logservice-dre.platform.hicloud.com^
 ||logservice1.hicloud.com^
 ||ads-drcn.platform.hihonorcloud.com^
 ||honorsearch-dra.hiboard.hihonorcloud.com^
@@ -1665,7 +1660,6 @@
 ||hiido.com^
 ||analytics.shop.hisense.com^
 ||api-4know-em.hismarttv.com^
-||api-4know-eu.hismarttv.com^
 ||api-gps.hismarttv.com^
 ||api-gps-eu.hismarttv.com^
 ||api-gps-na.hismarttv.com^
@@ -1677,7 +1671,6 @@
 ||auth-launcher-na.hismarttv.com^
 ||auth-launcher-sa.hismarttv.com^
 ||auth-na.hismarttv.com^
-||auth-phone-ap.hismarttv.com^
 ||auth-sa.hismarttv.com^
 ||cdn-plugin-sync-upgrade-juui.hismarttv.com^
 ||msg-na.hismarttv.com^
@@ -1903,7 +1896,6 @@
 ||c.uaa.iqiyi.com^
 ||cards-css.iqiyi.com^
 ||cm.passport.iqiyi.com^
-||cs-feige.iqiyi.com^
 ||doh.iqiyi.com^
 ||emoticon-sns.iqiyi.com^
 ||emoticon.sns.iqiyi.com^
@@ -2372,7 +2364,6 @@
 ||tongji.meizu.com^
 ||tongji-res.meizu.com^
 ||tongji-res1.meizu.com^
-||u.meizu.com^
 ||umid.orion.meizu.com^
 ||uxip.meizu.com^
 ||ofd.meng-an.cn^
@@ -2428,7 +2419,6 @@
 ||adv.sec.intl.miui.com^
 ||api.accelerator.intl.miui.com^
 ||api.aurogon.intl.miui.com^
-||api.browser.intl.miui.com^
 ||api.brs.intl.miui.com^
 ||api.collect.data.intl.miui.com^
 ||api.competition.intl.miui.com^
@@ -2601,7 +2591,6 @@
 ||logserver.nzxcloud.cn^
 ||oaclrst.cn^
 ||oadz.com^
-||gtm.oasisfeng.com^
 ||analytics.oceanengine.com^
 ||offerstrack.net^
 ||officesoftcn.com^
@@ -2619,7 +2608,6 @@
 ||adsfs.oppomobile.com^
 ||httpdns.ocloud.oppomobile.com^
 ||httpdns.push.oppomobile.com^
-||imagzine.oppomobile.com^
 ||optimix.asia^
 ||visit.oschina.net^
 ||cp.oupeng.com^
@@ -2731,7 +2719,6 @@
 ||qawxpzm.cn^
 ||cp.qbaobei.com^
 ||uplog.qbox.me^
-||log.qcast.cn^
 ||qchannel04.cn^
 ||log.qvb.qcloud.com^
 ||tracker-00.qvb.qcloud.com^
@@ -2744,7 +2731,6 @@
 ||jspassport.ssl.qhimg.com^
 ||m.qhxcdmfj.cn^
 ||qhxtzwf.cn^
-||sensors-api.qiandao.cn^
 ||click.qianqian.com^
 ||jsb.qianzhan.com^
 ||qichetansuo.com^
@@ -3164,7 +3150,6 @@
 ||1.sj33.net^
 ||sjdfuvz.cn^
 ||sjoy7rq.cn^
-||clog.skysrt.com^
 ||m.slshiye.cn^
 ||sm-tc.cn^
 ||c.sm.cn^
@@ -3208,7 +3193,6 @@
 ||mon.snssdk.com^
 ||open.snssdk.com^
 ||pangolin.snssdk.com^
-||pc-mon.snssdk.com^
 ||tbm.snssdk.com^
 ||tnc3-aliec2.snssdk.com^
 ||tnc3-alisc1.snssdk.com^
@@ -3660,7 +3644,6 @@
 ||ws-p2p-pull.video-voip.com^
 ||vingroupinvestment.com^
 ||n-st.vip.com^
-||in.vipliangmei.com^
 ||smetrics.visitsingapore.com.cn^
 ||bhwkju.vivo.com^
 ||adlog.vivo.com.cn^
@@ -3720,7 +3703,6 @@
 ||cname-in-bom01-nginxpool03.vivoglobal.com^
 ||cname-in-ctdbonrt-stsdk.vivoglobal.com^
 ||cname-sin01-stsdk09.vivoglobal.com^
-||co-domaincfg.vivoglobal.com^
 ||co-romsp-unifyconfig.vivoglobal.com^
 ||co-st-sl.vivoglobal.com^
 ||co-timesync.vivoglobal.com^
@@ -3772,10 +3754,7 @@
 ||in-vpushonrt-stsdk.vivoglobal.com^
 ||in-vpushort-stsdk.vivoglobal.com^
 ||kz-onrt-stsdk.vivoglobal.com^
-||kz-ort-stsdk.vivoglobal.com^
-||kz-st-exappupgrade.vivoglobal.com^
 ||kz-vcode-od.vivoglobal.com^
-||kz-vcode-or.vivoglobal.com^
 ||mx-cota.vivoglobal.com^
 ||mx-domaincfg.vivoglobal.com^
 ||mx-err-up.vivoglobal.com^
@@ -3801,7 +3780,6 @@
 ||ru-onrt-stsdk.vivoglobal.com^
 ||ru-os-config-appstore.vivoglobal.com^
 ||ru-p.vivoglobal.com^
-||ru-pnrt-stsdk.vivoglobal.com^
 ||ru-romsp-unifyconfig.vivoglobal.com^
 ||ru-st-exappupgrade.vivoglobal.com^
 ||ru-st-sl.vivoglobal.com^
@@ -4016,7 +3994,6 @@
 ||misc.pandora.xiaomi.com^
 ||notice.game.xiaomi.com^
 ||o2o.api.xiaomi.com^
-||ottl7-l2.pandora.xiaomi.com^
 ||package.box.xiaomi.com^
 ||pi.ias.xiaomi.com^
 ||preload.xiaomi.com^
@@ -4039,7 +4016,6 @@
 ||xiaomifood.cn^
 ||xiaomovie.com^
 ||xiaoxiuapp.com^
-||log.eu.xiaoyi.com^
 ||log.us.xiaoyi.com^
 ||ad-sdk.altamob.xiaoying.co^
 ||viva.api.xiaoying.co^
@@ -4280,7 +4256,6 @@
 ||cloud-log.yy.com^
 ||gt.yy.com^
 ||httpdns.gslb.yy.com^
-||metrics.yy.com^
 ||stat.game.yy.com^
 ||yylady.cn^
 ||adapi.yynetwk.com^
