@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260626121238
-# Last modified: 2026/06/26 12:12:38
-# Blocked domains: 4397
+# Version: 20260626185628
+# Last modified: 2026/06/26 18:56:28
+# Blocked domains: 4404
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -101,6 +101,7 @@ local=/1uo9djbnsr.com/
 local=/1wkg.cn/
 local=/20091222.com/
 local=/u1.2048sj.com/
+local=/20wx.com/
 local=/2144.cn/
 local=/ssp.21ic.com/
 local=/tj.21ic.com/
@@ -956,6 +957,7 @@ local=/clarins.com.cn/
 local=/log-api.cli.im/
 local=/bd1.click.com.cn/
 local=/clicki.cn/
+local=/7xi9g1.com1.z0.glb.clouddn.com/
 local=/bkt.clouddn.com/
 local=/advertise.cloudlinks.cn/
 local=/log.cmbchina.com/
@@ -3640,6 +3642,7 @@ local=/tx-p2p-pull.video-voip.com/
 local=/ws-p2p-pull.video-voip.com/
 local=/vingroupinvestment.com/
 local=/n-st.vip.com/
+local=/in.vipliangmei.com/
 local=/smetrics.visitsingapore.com.cn/
 local=/bhwkju.vivo.com/
 local=/adlog.vivo.com.cn/
@@ -3705,6 +3708,7 @@ local=/co-timesync.vivoglobal.com/
 local=/co-vcode-api.vivoglobal.com/
 local=/co-vcode-od.vivoglobal.com/
 local=/de-gdpr-err-up.vivoglobal.com/
+local=/eu-cota.vivoglobal.com/
 local=/eu-domaincfg.vivoglobal.com/
 local=/eu-errup.vivoglobal.com/
 local=/eu-onrt-stsdk.vivoglobal.com/
@@ -3749,6 +3753,7 @@ local=/in-vcode-or.vivoglobal.com/
 local=/in-vpushonrt-stsdk.vivoglobal.com/
 local=/in-vpushort-stsdk.vivoglobal.com/
 local=/kz-onrt-stsdk.vivoglobal.com/
+local=/kz-ort-stsdk.vivoglobal.com/
 local=/kz-vcode-od.vivoglobal.com/
 local=/mx-cota.vivoglobal.com/
 local=/mx-domaincfg.vivoglobal.com/
@@ -3775,6 +3780,7 @@ local=/ru-exstsdk.vivoglobal.com/
 local=/ru-onrt-stsdk.vivoglobal.com/
 local=/ru-os-config-appstore.vivoglobal.com/
 local=/ru-p.vivoglobal.com/
+local=/ru-pnrt-stsdk.vivoglobal.com/
 local=/ru-romsp-unifyconfig.vivoglobal.com/
 local=/ru-st-exappupgrade.vivoglobal.com/
 local=/ru-st-sl.vivoglobal.com/
@@ -3977,6 +3983,7 @@ local=/appstore.pandora.xiaomi.com/
 local=/bigdata-lbs-pri-c3.alb.xiaomi.com/
 local=/bss.pandora.xiaomi.com/
 local=/cdn.exp.xiaomi.com/
+local=/data.game.xiaomi.com/
 local=/data.mistat.intl.xiaomi.com/
 local=/de.pandora.xiaomi.com/
 local=/dvb.pandora.xiaomi.com/
