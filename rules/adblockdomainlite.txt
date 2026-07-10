@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260710020216
-! Last modified: 2026/07/10 02:02:16
-! Blocked domains: 4405
+! Version: 20260710115135
+! Last modified: 2026/07/10 11:51:35
+! Blocked domains: 4406
 !
 00xvppy.cn
 img.0279.net
@@ -96,7 +96,6 @@ s.17173cdn.com
 d1.1ppt.com
 1qingdao.com
 1rtb.com
-1sapp.com
 1uo9djbnsr.com
 1wkg.cn
 20091222.com
@@ -106,7 +105,10 @@ ssp.21ic.com
 tj.21ic.com
 222aa333bb.com
 2345.cn
-2345.com
+bd-js1.2345.com
+bd-retrieval1.2345.com
+bdcode.2345.com
+ggcode.2345.com
 2481e.com
 24klm.cn
 25662zubo23739.com
@@ -1233,7 +1235,6 @@ a.dyjqd.com
 by.dyq.cn
 hl.dyq.cn
 dl.dzqzd.com
-api.e-toys.cn
 stat.ea3w.com
 eagle-tex.cn
 track.easeus.com
@@ -2637,6 +2638,7 @@ api-access.pangolin-sdk-toutiao2.com
 api-access.pangolin-sdk-toutiao3.com
 api-access.pangolin-sdk-toutiao4.com
 panyh123456.cn
+analytics.partnerboost.com
 passionsex.vip
 bt1.patexplorer.com
 pbaiyho.cn
@@ -3091,7 +3093,6 @@ shuzilm.cn
 sigmob.com
 smetrics.marketing.signify.com.cn
 sikncs.com
-simicloud.com
 adblock.sina.cn
 adimg.mobile.sina.cn
 cre.dp.sina.cn
@@ -3342,7 +3343,6 @@ adashx4yt.m.taobao.com
 adashxgc.ut.taobao.com
 ae-alimelog.taobao.com
 agoodm.m.taobao.com
-ai.taobao.com
 ai.m.taobao.com
 amdcopen.m.taobao.com
 audid-api.taobao.com
@@ -4152,6 +4152,7 @@ ymcdn.cn
 ymmobi.com
 yncjsc.cn
 ad123.ynet.com
+m.yocvn.com
 webtrans.yodao.com
 ocd.yodo1api.com
 olc.yodo1api.com
