@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260713113222
-# Last modified: 2026/07/13 11:32:22
-# Blocked domains: 4428
+# Version: 20260713191917
+# Last modified: 2026/07/13 19:19:17
+# Blocked domains: 4429
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -466,7 +466,6 @@ local=/bm.alimama.cn/
 local=/bmvip.alimama.cn/
 local=/cb.alimama.cn/
 local=/acookie.alimama.com/
-local=/static.alimama.com/
 local=/openmonitor.alipay-eco.com/
 local=/amdc.alipay.com/
 local=/collect.alipay.com/
@@ -778,7 +777,6 @@ local=/zz.bdstatic.com/
 local=/smetrics.beatsbydre.com/
 local=/smetrics.beatsbydre.com.cn/
 local=/beencounter.com/
-local=/analytics.behr.com/
 local=/images.explore.behr.com/
 local=/beizi.biz/
 local=/smetrics.benefitcosmetics.com.cn/
@@ -959,6 +957,7 @@ local=/clarins.com.cn/
 local=/log-api.cli.im/
 local=/bd1.click.com.cn/
 local=/clicki.cn/
+local=/7xi9g1.com1.z0.glb.clouddn.com/
 local=/bkt.clouddn.com/
 local=/advertise.cloudlinks.cn/
 local=/log.cmbchina.com/
@@ -1585,7 +1584,6 @@ local=/adx-id.ads.heytapmobi.com/
 local=/adx-in.ads.heytapmobi.com/
 local=/adx-sg.ads.heytapmobi.com/
 local=/adx.ads.heytapmobi.com/
-local=/album-cn01a.ocloud.heytapmobi.com/
 local=/album-sg01a.ocloud.heytapmobi.com/
 local=/api-cn.cdo.heytapmobi.com/
 local=/api-gl.cdo.heytapmobi.com/
@@ -2375,6 +2373,7 @@ local=/servicecut.meizu.com/
 local=/tongji.meizu.com/
 local=/tongji-res.meizu.com/
 local=/tongji-res1.meizu.com/
+local=/u.meizu.com/
 local=/umid.orion.meizu.com/
 local=/uxip.meizu.com/
 local=/ofd.meng-an.cn/
@@ -2466,7 +2465,6 @@ local=/mqs-log.miui.com/
 local=/notify.sec.miui.com/
 local=/port.sec.miui.com/
 local=/port.sec.intl.miui.com/
-local=/r.sg.sec.miui.com/
 local=/srv.sec.miui.com/
 local=/tracking.miui.com/
 local=/tracking.eu.miui.com/
@@ -2605,6 +2603,7 @@ local=/anews7.nvwu.com/
 local=/logserver.nzxcloud.cn/
 local=/oaclrst.cn/
 local=/oadz.com/
+local=/gtm.oasisfeng.com/
 local=/analytics.oceanengine.com/
 local=/offerstrack.net/
 local=/officesoftcn.com/
@@ -2773,6 +2772,7 @@ local=/stats.qiumibao.com/
 local=/webstat.qiumibao.com/
 local=/qiuxl11.cn/
 local=/qiyegongqiu1.qiyegongqiu.com/
+local=/data.video.qiyi.com/
 local=/meta.video.qiyi.com/
 local=/msg.video.qiyi.com/
 local=/msg2.video.qiyi.com/
@@ -4040,6 +4040,7 @@ local=/us.api.micloud.xiaomi.net/
 local=/xiaomifood.cn/
 local=/xiaomovie.com/
 local=/xiaoxiuapp.com/
+local=/log.eu.xiaoyi.com/
 local=/log.us.xiaoyi.com/
 local=/ad-sdk.altamob.xiaoying.co/
 local=/viva.api.xiaoying.co/
