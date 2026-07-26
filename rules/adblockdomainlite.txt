@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260726113111
-! Last modified: 2026/07/26 11:31:11
-! Blocked domains: 4403
+! Version: 20260726180612
+! Last modified: 2026/07/26 18:06:12
+! Blocked domains: 4420
 !
 00xvppy.cn
 img.0279.net
@@ -212,6 +212,7 @@ trace.51jingying.com
 m1.51kaowang.com
 a1.51shiti.cn
 51taifu.com
+ad.51wnl-cq.com
 ad.51wnl.com
 51yes.com
 game.51yund.com
@@ -1124,6 +1125,7 @@ adx-drru.op.dbankcloud.ru
 events-drru.op.dbankcloud.ru
 adx-dra-op-dbankcloud-com-dra.appacc.dbankedge.cn
 adx-dra-op-dbankcloud-com-dra.edge.dbankedge.cn
+adx-dra-op-dbankcloud-com-dra.region.dbankedge.cn
 events-dra-op-dbankcloud-cn-dra.appacc.dbankedge.cn
 events-dra-op-dbankcloud-com-dra.appacc.dbankedge.cn
 events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn
@@ -1365,6 +1367,7 @@ po.funshion.com
 pub.funshion.com
 pv.funshion.com
 stat.funshion.com
+vs.funshion.com
 stat.funshion.net
 trk.futureelectronics.cn
 down.fwqlt.com
@@ -1602,9 +1605,11 @@ conf-eu.dc.heytapmobi.com
 conf-sg.dc.heytapmobi.com
 darvin-ec.ads.heytapmobi.com
 data.ads.heytapmobi.com
+dcintl.push.heytapmobi.com
 dragate-sg.dc.heytapmobi.com
 epoch-id.cdo.heytapmobi.com
 httpdns.ocloud.heytapmobi.com
+i-cn01a.ocloud.heytapmobi.com
 i-sg01a.ocloud.heytapmobi.com
 iot-earbuds-cn.heytapmobi.com
 obus-cn.dc.heytapmobi.com
@@ -1647,6 +1652,7 @@ grs.hicloud.com
 logbak.hicloud.com
 logservice.hicloud.com
 logservice-dra.platform.hicloud.com
+logservice-dre.platform.hicloud.com
 logservice1.hicloud.com
 ads-drcn.platform.hihonorcloud.com
 honorsearch-dra.hiboard.hihonorcloud.com
@@ -1659,6 +1665,7 @@ log-drru.platform.hihonorcloud.com
 hiido.com
 analytics.shop.hisense.com
 api-4know-em.hismarttv.com
+api-4know-eu.hismarttv.com
 api-gps.hismarttv.com
 api-gps-eu.hismarttv.com
 api-gps-na.hismarttv.com
@@ -1670,6 +1677,7 @@ auth-launcher-eu.hismarttv.com
 auth-launcher-na.hismarttv.com
 auth-launcher-sa.hismarttv.com
 auth-na.hismarttv.com
+auth-phone-ap.hismarttv.com
 auth-sa.hismarttv.com
 cdn-plugin-sync-upgrade-juui.hismarttv.com
 msg-na.hismarttv.com
@@ -2419,6 +2427,7 @@ adv.sec.miui.com
 adv.sec.intl.miui.com
 api.accelerator.intl.miui.com
 api.aurogon.intl.miui.com
+api.browser.intl.miui.com
 api.brs.intl.miui.com
 api.collect.data.intl.miui.com
 api.competition.intl.miui.com
@@ -2454,6 +2463,7 @@ mqs-log.miui.com
 notify.sec.miui.com
 port.sec.miui.com
 port.sec.intl.miui.com
+r.sg.sec.miui.com
 srv.sec.miui.com
 tracking.miui.com
 tracking.eu.miui.com
@@ -2721,6 +2731,7 @@ www.q4ee.top
 qawxpzm.cn
 cp.qbaobei.com
 uplog.qbox.me
+log.qcast.cn
 qchannel04.cn
 log.qvb.qcloud.com
 tracker-00.qvb.qcloud.com
@@ -3188,6 +3199,7 @@ log.snssdk.com
 log-hl.snssdk.com
 log-lq.snssdk.com
 mcs.snssdk.com
+mercury-sdk.snssdk.com
 mon.snssdk.com
 open.snssdk.com
 pangolin.snssdk.com
@@ -3435,7 +3447,6 @@ thinkingdata.cn
 thinkmd.cn
 tatrack.thinkyeah.com
 trail.thomsonreuters.cn
-ad.thsi.cn
 tracking.ti.com
 tracking.mail.ti.com
 trackinginternal.ti.com
@@ -3701,6 +3712,7 @@ asia-vpushort-stsdk.vivoglobal.com
 cname-asia-st-exappupgrade.vivoglobal.com
 cname-in-apport-stsdk.vivoglobal.com
 cname-in-bom01-nginxpool03.vivoglobal.com
+cname-in-ctdbonrt-stsdk.vivoglobal.com
 cname-sin01-stsdk09.vivoglobal.com
 co-domaincfg.vivoglobal.com
 co-romsp-unifyconfig.vivoglobal.com
@@ -3755,7 +3767,9 @@ in-vpushonrt-stsdk.vivoglobal.com
 in-vpushort-stsdk.vivoglobal.com
 kz-onrt-stsdk.vivoglobal.com
 kz-ort-stsdk.vivoglobal.com
+kz-st-exappupgrade.vivoglobal.com
 kz-vcode-od.vivoglobal.com
+kz-vcode-or.vivoglobal.com
 mx-cota.vivoglobal.com
 mx-domaincfg.vivoglobal.com
 mx-err-up.vivoglobal.com
@@ -3781,6 +3795,7 @@ ru-exstsdk.vivoglobal.com
 ru-onrt-stsdk.vivoglobal.com
 ru-os-config-appstore.vivoglobal.com
 ru-p.vivoglobal.com
+ru-pnrt-stsdk.vivoglobal.com
 ru-romsp-unifyconfig.vivoglobal.com
 ru-st-exappupgrade.vivoglobal.com
 ru-st-sl.vivoglobal.com
@@ -4078,6 +4093,7 @@ xulizui6.com
 ad.xunkids.com
 adsp.xunlei.com
 advertpay-vip-ssl.xunlei.com
+advertpay.vip.xunlei.com
 analytics-union.xunlei.com
 kkpgv2.xunlei.com
 soa-vip-ssl.xunlei.com
@@ -4256,6 +4272,7 @@ ws-p2p.pull.yximgs.com
 cloud-log.yy.com
 gt.yy.com
 httpdns.gslb.yy.com
+metrics.yy.com
 stat.game.yy.com
 yylady.cn
 adapi.yynetwk.com
