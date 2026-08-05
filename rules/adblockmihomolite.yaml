@@ -4,9 +4,9 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20260805105514
-  # Last modified: 2026/08/05 10:55:14
-  # Blocked domains: 4374
+  # Version: 20260805184224
+  # Last modified: 2026/08/05 18:42:24
+  # Blocked domains: 4373
   #
   - '+.00xvppy.cn'
   - '+.img.0279.net'
@@ -211,7 +211,6 @@ payload:
   - '+.m1.51kaowang.com'
   - '+.a1.51shiti.cn'
   - '+.51taifu.com'
-  - '+.ad.51wnl-cq.com'
   - '+.ad.51wnl.com'
   - '+.51yes.com'
   - '+.game.51yund.com'
@@ -3294,6 +3293,7 @@ payload:
   - '+.clog.tanshudata.com'
   - '+.seiya.tantanapp.com'
   - '+.tanv.com'
+  - '+.click.tanx.com'
   - '+.cms.tanx.com'
   - '+.df.tanx.com'
   - '+.ef-dongfeng.tanx.com'
@@ -3678,8 +3678,8 @@ payload:
   - '+.cname-asia-st-exappupgrade.vivoglobal.com'
   - '+.cname-in-apport-stsdk.vivoglobal.com'
   - '+.cname-in-bom01-nginxpool03.vivoglobal.com'
+  - '+.cname-in-ctdbonrt-stsdk.vivoglobal.com'
   - '+.cname-sin01-stsdk09.vivoglobal.com'
-  - '+.co-domaincfg.vivoglobal.com'
   - '+.co-romsp-unifyconfig.vivoglobal.com'
   - '+.co-st-sl.vivoglobal.com'
   - '+.co-timesync.vivoglobal.com'
@@ -3920,7 +3920,6 @@ payload:
   - '+.pv.xcar.com.cn'
   - '+.pvx.xcar.com.cn'
   - '+.zio.xcar.com.cn'
-  - '+.analytics1.xdiarys.com'
   - '+.xdrig.com'
   - '+.dt.xfyun.cn'
   - '+.pics.xgo-img.com.cn'
@@ -3970,6 +3969,7 @@ payload:
   - '+.misc.pandora.xiaomi.com'
   - '+.notice.game.xiaomi.com'
   - '+.o2o.api.xiaomi.com'
+  - '+.ottl7-l2.pandora.xiaomi.com'
   - '+.package.box.xiaomi.com'
   - '+.pi.ias.xiaomi.com'
   - '+.preload.xiaomi.com'
@@ -4282,7 +4282,6 @@ payload:
   - '+.zhisuyunonline.cn'
   - '+.zhiziyun.com'
   - '+.w11.zhongkaohelp.com'
-  - '+.zhongkaowu.com'
   - '+.zhongsijiacheng.com'
   - '+.zhongwangmy.cn'
   - '+.jy.zhongxues.com'
