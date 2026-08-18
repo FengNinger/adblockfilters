@@ -3,8 +3,8 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20260818093502
-# Last modified: 2026/08/18 09:35:02
+# Version: 20260818164312
+# Last modified: 2026/08/18 16:43:12
 # Blocked domains: 4406
 #
 [Rule]
@@ -411,7 +411,6 @@ DOMAIN-SUFFIX,domain.aishengji.com,REJECT-DROP
 DOMAIN-SUFFIX,log.aispeech.com,REJECT-DROP
 DOMAIN-SUFFIX,aivaylaco.com,REJECT-DROP
 DOMAIN-SUFFIX,lcd.aivote.com,REJECT-DROP
-DOMAIN-SUFFIX,ro.aiwan4399.com,REJECT-DROP
 DOMAIN-SUFFIX,aiwanma99.com,REJECT-DROP
 DOMAIN-SUFFIX,aiwei365.net,REJECT-DROP
 DOMAIN-SUFFIX,dmm.aizhan.com,REJECT-DROP
@@ -1159,6 +1158,7 @@ DOMAIN-SUFFIX,do-global.com,REJECT-DROP
 DOMAIN-SUFFIX,zx.docin.com,REJECT-DROP
 DOMAIN-SUFFIX,doglobal.net,REJECT-DROP
 DOMAIN-SUFFIX,ads.doit.com.cn,REJECT-DROP
+DOMAIN-SUFFIX,go.domino.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,domob.cn,REJECT-DROP
 DOMAIN-SUFFIX,donchen501.cn,REJECT-DROP
 DOMAIN-SUFFIX,ap.dongdianqiu.com,REJECT-DROP
@@ -1546,6 +1546,7 @@ DOMAIN-SUFFIX,cdn.haocaa.com,REJECT-DROP
 DOMAIN-SUFFIX,js1.haoge500.com,REJECT-DROP
 DOMAIN-SUFFIX,haoghost.com,REJECT-DROP
 DOMAIN-SUFFIX,haoweb.top,REJECT-DROP
+DOMAIN-SUFFIX,haowei.me,REJECT-DROP
 DOMAIN-SUFFIX,2.haoxue360.com,REJECT-DROP
 DOMAIN-SUFFIX,download.haozip.com,REJECT-DROP
 DOMAIN-SUFFIX,log.dc.cn.happyelements.com,REJECT-DROP
@@ -2012,7 +2013,6 @@ DOMAIN-SUFFIX,ub1.job592.com,REJECT-DROP
 DOMAIN-SUFFIX,yqg.jobui.com,REJECT-DROP
 DOMAIN-SUFFIX,jojog.com,REJECT-DROP
 DOMAIN-SUFFIX,jollyspring.com,REJECT-DROP
-DOMAIN-SUFFIX,cookies.joneslanglasalle.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,email-ap.joneslanglasalle.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,email-em.joneslanglasalle.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,telemetry.api.joox.com,REJECT-DROP

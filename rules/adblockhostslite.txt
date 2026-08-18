@@ -3,8 +3,8 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260818093502
-# Last modified: 2026/08/18 09:35:02
+# Version: 20260818164312
+# Last modified: 2026/08/18 16:43:12
 # Blocked domains: 4406
 #
 127.0.0.1	localhost
@@ -425,7 +425,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	log.aispeech.com
 0.0.0.0	aivaylaco.com
 0.0.0.0	lcd.aivote.com
-0.0.0.0	ro.aiwan4399.com
 0.0.0.0	aiwanma99.com
 0.0.0.0	aiwei365.net
 0.0.0.0	dmm.aizhan.com
@@ -1173,6 +1172,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	zx.docin.com
 0.0.0.0	doglobal.net
 0.0.0.0	ads.doit.com.cn
+0.0.0.0	go.domino.com.cn
 0.0.0.0	domob.cn
 0.0.0.0	donchen501.cn
 0.0.0.0	ap.dongdianqiu.com
@@ -1560,6 +1560,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	js1.haoge500.com
 0.0.0.0	haoghost.com
 0.0.0.0	haoweb.top
+0.0.0.0	haowei.me
 0.0.0.0	2.haoxue360.com
 0.0.0.0	download.haozip.com
 0.0.0.0	log.dc.cn.happyelements.com
@@ -2026,7 +2027,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	yqg.jobui.com
 0.0.0.0	jojog.com
 0.0.0.0	jollyspring.com
-0.0.0.0	cookies.joneslanglasalle.com.cn
 0.0.0.0	email-ap.joneslanglasalle.com.cn
 0.0.0.0	email-em.joneslanglasalle.com.cn
 0.0.0.0	telemetry.api.joox.com

@@ -3,8 +3,8 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260818093502
-# Last modified: 2026/08/18 09:35:02
+# Version: 20260818164312
+# Last modified: 2026/08/18 16:43:12
 # Blocked domains: 4406
 #
 local=/00xvppy.cn/
@@ -410,7 +410,6 @@ local=/domain.aishengji.com/
 local=/log.aispeech.com/
 local=/aivaylaco.com/
 local=/lcd.aivote.com/
-local=/ro.aiwan4399.com/
 local=/aiwanma99.com/
 local=/aiwei365.net/
 local=/dmm.aizhan.com/
@@ -1158,6 +1157,7 @@ local=/do-global.com/
 local=/zx.docin.com/
 local=/doglobal.net/
 local=/ads.doit.com.cn/
+local=/go.domino.com.cn/
 local=/domob.cn/
 local=/donchen501.cn/
 local=/ap.dongdianqiu.com/
@@ -1545,6 +1545,7 @@ local=/cdn.haocaa.com/
 local=/js1.haoge500.com/
 local=/haoghost.com/
 local=/haoweb.top/
+local=/haowei.me/
 local=/2.haoxue360.com/
 local=/download.haozip.com/
 local=/log.dc.cn.happyelements.com/
@@ -2011,7 +2012,6 @@ local=/ub1.job592.com/
 local=/yqg.jobui.com/
 local=/jojog.com/
 local=/jollyspring.com/
-local=/cookies.joneslanglasalle.com.cn/
 local=/email-ap.joneslanglasalle.com.cn/
 local=/email-em.joneslanglasalle.com.cn/
 local=/telemetry.api.joox.com/
