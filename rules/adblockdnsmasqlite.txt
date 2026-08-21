@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260821094108
-# Last modified: 2026/08/21 09:41:08
-# Blocked domains: 4380
+# Version: 20260821164809
+# Last modified: 2026/08/21 16:48:09
+# Blocked domains: 4372
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -210,7 +210,6 @@ local=/trace.51jingying.com/
 local=/m1.51kaowang.com/
 local=/a1.51shiti.cn/
 local=/51taifu.com/
-local=/ad.51wnl-cq.com/
 local=/ad.51wnl.com/
 local=/51yes.com/
 local=/game.51yund.com/
@@ -671,7 +670,6 @@ local=/luimg.baidu.com/
 local=/m1.baidu.com/
 local=/miao.baidu.com/
 local=/miaowu.baidu.com/
-local=/mo.baidu.com/
 local=/mobads.baidu.com/
 local=/mobads-logs.baidu.com/
 local=/mountain.zhidao.baidu.com/
@@ -771,7 +769,6 @@ local=/zz.bdstatic.com/
 local=/smetrics.beatsbydre.com/
 local=/smetrics.beatsbydre.com.cn/
 local=/beencounter.com/
-local=/analytics.behr.com/
 local=/images.explore.behr.com/
 local=/beizi.biz/
 local=/smetrics.benefitcosmetics.com.cn/
@@ -948,7 +945,6 @@ local=/clarins.com.cn/
 local=/log-api.cli.im/
 local=/bd1.click.com.cn/
 local=/clicki.cn/
-local=/7xi9g1.com1.z0.glb.clouddn.com/
 local=/bkt.clouddn.com/
 local=/advertise.cloudlinks.cn/
 local=/log.cmbchina.com/
@@ -1825,6 +1821,7 @@ local=/seeder.igetget.com/
 local=/ihclam.cn/
 local=/fpbone.ihowguide.com/
 local=/ihtqqws.cn/
+local=/appadapi.ihuman.com/
 local=/iimedia.cn/
 local=/www.iiyout.cn/
 local=/ijinshan.com/
@@ -2611,7 +2608,6 @@ local=/at-af.outfit7.com/
 local=/bidder.dsp.outfit7.com/
 local=/hb-af-us-central1.outfit7.com/
 local=/revive.outin.cn/
-local=/ouyaoxiazai.com/
 local=/oyhurln.cn/
 local=/ozogame.com/
 local=/p2cdn.com/
@@ -2721,6 +2717,7 @@ local=/qhicumg.cn/
 local=/jspassport.ssl.qhimg.com/
 local=/m.qhxcdmfj.cn/
 local=/qhxtzwf.cn/
+local=/sensors-api.qiandao.cn/
 local=/click.qianqian.com/
 local=/jsb.qianzhan.com/
 local=/qichetansuo.com/
@@ -3182,7 +3179,6 @@ local=/tbm.snssdk.com/
 local=/tnc3-aliec2.snssdk.com/
 local=/tnc3-alisc1.snssdk.com/
 local=/tnc3-bjlgy.snssdk.com/
-local=/toutiao-frontier.snssdk.com/
 local=/tsearch.snssdk.com/
 local=/ug.snssdk.com/
 local=/vcl-brain.snssdk.com/
@@ -3327,7 +3323,6 @@ local=/adashx4sg.ut.taobao.com/
 local=/adashx4yt.m.taobao.com/
 local=/adashxgc.ut.taobao.com/
 local=/ae-alimelog.taobao.com/
-local=/agoodm.m.taobao.com/
 local=/ai.m.taobao.com/
 local=/amdcopen.m.taobao.com/
 local=/audid-api.taobao.com/
@@ -3631,7 +3626,6 @@ local=/tx-p2p-pull.video-voip.com/
 local=/ws-p2p-pull.video-voip.com/
 local=/vingroupinvestment.com/
 local=/n-st.vip.com/
-local=/in.vipliangmei.com/
 local=/smetrics.visitsingapore.com.cn/
 local=/bhwkju.vivo.com/
 local=/adlog.vivo.com.cn/
@@ -3692,7 +3686,6 @@ local=/cname-in-bom01-nginxpool03.vivoglobal.com/
 local=/cname-sin01-stsdk09.vivoglobal.com/
 local=/co-romsp-unifyconfig.vivoglobal.com/
 local=/co-st-sl.vivoglobal.com/
-local=/co-timesync.vivoglobal.com/
 local=/co-vcode-api.vivoglobal.com/
 local=/co-vcode-od.vivoglobal.com/
 local=/de-gdpr-err-up.vivoglobal.com/
@@ -3964,7 +3957,6 @@ local=/appstore.pandora.xiaomi.com/
 local=/bigdata-lbs-pri-c3.alb.xiaomi.com/
 local=/bss.pandora.xiaomi.com/
 local=/cdn.exp.xiaomi.com/
-local=/data.game.xiaomi.com/
 local=/data.mistat.intl.xiaomi.com/
 local=/de.pandora.xiaomi.com/
 local=/dvb.pandora.xiaomi.com/
