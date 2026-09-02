@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260902115534
-# Last modified: 2026/09/02 11:55:34
-# Blocked domains: 4429
+# Version: 20260902204132
+# Last modified: 2026/09/02 20:41:32
+# Blocked domains: 4431
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -773,7 +773,6 @@ local=/zz.bdstatic.com/
 local=/smetrics.beatsbydre.com/
 local=/smetrics.beatsbydre.com.cn/
 local=/beencounter.com/
-local=/analytics.behr.com/
 local=/images.explore.behr.com/
 local=/beizi.biz/
 local=/smetrics.benefitcosmetics.com.cn/
@@ -873,7 +872,6 @@ local=/super.cat898.com/
 local=/tracking.cat898.com/
 local=/adv.ccb.com/
 local=/ad.ccement.com/
-local=/mtrace.ysp.cctv.cn/
 local=/ad.cctv.com/
 local=/httpdns.cctv.com/
 local=/p.data.cctv.com/
@@ -1127,6 +1125,7 @@ local=/events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn/
 local=/events-dra-op-dbankcloud-com-dra.region.dbankedge.cn/
 local=/events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn/
 local=/events-dre-op-hicloud-com-dre.appacc.dbankedge.cn/
+local=/hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn/
 local=/ddbuwo.cn/
 local=/dm1.ddwk8.cn/
 local=/deeterno.cn/
@@ -1578,7 +1577,6 @@ local=/dhfs-my.heytapimage.com/
 local=/img-c.heytapimage.com/
 local=/ums-rum-cn.heytapimage.com/
 local=/ums-rum-global.heytapimage.com/
-local=/adm-smc-cn.heytapmobi.com/
 local=/adx-f.ads.heytapmobi.com/
 local=/adx-id.ads.heytapmobi.com/
 local=/adx-in.ads.heytapmobi.com/
@@ -1601,6 +1599,7 @@ local=/cl-data-in.ads.heytapmobi.com/
 local=/cl-data-sg.ads.heytapmobi.com/
 local=/cl-data.ads.heytapmobi.com/
 local=/conf-cn.dc.heytapmobi.com/
+local=/conf-eu.dc.heytapmobi.com/
 local=/conf-sg.dc.heytapmobi.com/
 local=/darvin-ec.ads.heytapmobi.com/
 local=/data.ads.heytapmobi.com/
@@ -3225,6 +3224,7 @@ local=/tbm.snssdk.com/
 local=/tnc3-aliec2.snssdk.com/
 local=/tnc3-alisc1.snssdk.com/
 local=/tnc3-bjlgy.snssdk.com/
+local=/toutiao-frontier.snssdk.com/
 local=/tsearch.snssdk.com/
 local=/ug.snssdk.com/
 local=/vcl-brain.snssdk.com/
@@ -3789,6 +3789,8 @@ local=/in-vcode-od.vivoglobal.com/
 local=/in-vcode-or.vivoglobal.com/
 local=/in-vpushonrt-stsdk.vivoglobal.com/
 local=/in-vpushort-stsdk.vivoglobal.com/
+local=/kz-onrt-stsdk.vivoglobal.com/
+local=/kz-vcode-od.vivoglobal.com/
 local=/mx-cota.vivoglobal.com/
 local=/mx-domaincfg.vivoglobal.com/
 local=/mx-err-up.vivoglobal.com/
@@ -3812,6 +3814,7 @@ local=/ru-comprt-stsdk.vivoglobal.com/
 local=/ru-err-up.vivoglobal.com/
 local=/ru-exstsdk.vivoglobal.com/
 local=/ru-onrt-stsdk.vivoglobal.com/
+local=/ru-os-config-appstore.vivoglobal.com/
 local=/ru-p.vivoglobal.com/
 local=/ru-romsp-unifyconfig.vivoglobal.com/
 local=/ru-st-exappupgrade.vivoglobal.com/
@@ -4361,7 +4364,6 @@ local=/gecko3-lf.zijieapi.com/
 local=/gecko5-lf.zijieapi.com/
 local=/log.zijieapi.com/
 local=/log-klink.zijieapi.com/
-local=/log5-applog-hl.zijieapi.com/
 local=/log5-applog-lf.zijieapi.com/
 local=/mcs.zijieapi.com/
 local=/minigame5-normal-hl.zijieapi.com/
