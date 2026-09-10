@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260910120429
-# Last modified: 2026/09/10 12:04:29
-# Blocked domains: 4403
+# Version: 20260910204948
+# Last modified: 2026/09/10 20:49:48
+# Blocked domains: 4402
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -215,6 +215,7 @@ local=/trace.51jingying.com/
 local=/m1.51kaowang.com/
 local=/a1.51shiti.cn/
 local=/51taifu.com/
+local=/ad.51wnl-cq.com/
 local=/ad.51wnl.com/
 local=/51yes.com/
 local=/game.51yund.com/
@@ -501,6 +502,7 @@ local=/jpg1.oss-cn-beijing.aliyuncs.com/
 local=/jun01.oss-cn-beijing.aliyuncs.com/
 local=/kmmgoogle.oss-ap-southeast-1.aliyuncs.com/
 local=/mobantong.oss-cn-hangzhou.aliyuncs.com/
+local=/o2o-ad-dev.oss-cn-shanghai.aliyuncs.com/
 local=/retcode-sg-lazada.arms.aliyuncs.com/
 local=/shaquevip.oss-cn-zhangjiakou.aliyuncs.com/
 local=/star-seo.oss-ap-northeast-1.aliyuncs.com/
@@ -672,6 +674,7 @@ local=/luimg.baidu.com/
 local=/m1.baidu.com/
 local=/miao.baidu.com/
 local=/miaowu.baidu.com/
+local=/mo.baidu.com/
 local=/mobads.baidu.com/
 local=/mobads-logs.baidu.com/
 local=/mountain.zhidao.baidu.com/
@@ -770,7 +773,6 @@ local=/zz.bdstatic.com/
 local=/smetrics.beatsbydre.com/
 local=/smetrics.beatsbydre.com.cn/
 local=/beencounter.com/
-local=/analytics.behr.com/
 local=/images.explore.behr.com/
 local=/beizi.biz/
 local=/smetrics.benefitcosmetics.com.cn/
@@ -1410,7 +1412,6 @@ local=/auth.api.gitv.tv/
 local=/doh.ptqy.gitv.tv/
 local=/liveats-vod.video.ptqy.gitv.tv/
 local=/msg.ptqy.gitv.tv/
-local=/ota.ptqy.gitv.tv/
 local=/policy.video.ptqy.gitv.tv/
 local=/puma-api.ptqy.gitv.tv/
 local=/sdk-cache.video.ptqy.gitv.tv/
@@ -3055,6 +3056,7 @@ local=/sc126.com/
 local=/smetrics.schindler.cn/
 local=/scjpqut.cn/
 local=/sckexing.cn/
+local=/sckfcn.cn/
 local=/statscollector.sd-rtn.com/
 local=/sd6hon.cn/
 local=/adrs.sdo.com/
@@ -3346,7 +3348,6 @@ local=/adashx4sg.ut.taobao.com/
 local=/adashx4yt.m.taobao.com/
 local=/adashxgc.ut.taobao.com/
 local=/ae-alimelog.taobao.com/
-local=/agoodm.m.taobao.com/
 local=/ai.m.taobao.com/
 local=/amdcopen.m.taobao.com/
 local=/audid-api.taobao.com/
@@ -3721,7 +3722,6 @@ local=/co-st-sl.vivoglobal.com/
 local=/co-vcode-api.vivoglobal.com/
 local=/co-vcode-od.vivoglobal.com/
 local=/de-gdpr-err-up.vivoglobal.com/
-local=/eu-cota.vivoglobal.com/
 local=/eu-domaincfg.vivoglobal.com/
 local=/eu-errup.vivoglobal.com/
 local=/eu-onrt-stsdk.vivoglobal.com/
@@ -3790,7 +3790,6 @@ local=/ru-comprt-stsdk.vivoglobal.com/
 local=/ru-err-up.vivoglobal.com/
 local=/ru-exstsdk.vivoglobal.com/
 local=/ru-onrt-stsdk.vivoglobal.com/
-local=/ru-os-config-appstore.vivoglobal.com/
 local=/ru-p.vivoglobal.com/
 local=/ru-romsp-unifyconfig.vivoglobal.com/
 local=/ru-st-exappupgrade.vivoglobal.com/
