@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260919120422
-! Last modified: 2026/09/19 12:04:22
-! Blocked domains: 4392
+! Version: 20260919202424
+! Last modified: 2026/09/19 20:24:24
+! Blocked domains: 4398
 !
 00xvppy.cn
 img.0279.net
@@ -208,6 +208,7 @@ ios-pclog.3u.com
 51240.com
 amradmin.5173.com
 log.51changdu.com
+log2.51changdu.com
 logs.51cto.com
 web.51fishplace.com
 trace.51jingying.com
@@ -499,6 +500,7 @@ jpg1.oss-cn-beijing.aliyuncs.com
 jun01.oss-cn-beijing.aliyuncs.com
 kmmgoogle.oss-ap-southeast-1.aliyuncs.com
 mobantong.oss-cn-hangzhou.aliyuncs.com
+o2o-ad-dev.oss-cn-shanghai.aliyuncs.com
 retcode-sg-lazada.arms.aliyuncs.com
 shaquevip.oss-cn-zhangjiakou.aliyuncs.com
 star-seo.oss-ap-northeast-1.aliyuncs.com
@@ -669,6 +671,7 @@ luimg.baidu.com
 m1.baidu.com
 miao.baidu.com
 miaowu.baidu.com
+mo.baidu.com
 mobads.baidu.com
 mobads-logs.baidu.com
 mountain.zhidao.baidu.com
@@ -863,6 +866,7 @@ super.cat898.com
 tracking.cat898.com
 adv.ccb.com
 ad.ccement.com
+mtrace.ysp.cctv.cn
 ad.cctv.com
 httpdns.cctv.com
 p.data.cctv.com
@@ -872,7 +876,6 @@ api-access.pangolin-sdk-toutiao-b.com.w.cdngslb.com
 api-access.pangolin-sdk-toutiao.com.w.cdngslb.com
 api-access.pangolin-sdk-toutiao1.com.w.cdngslb.com
 log-api.pangolin-sdk-toutiao.com.w.cdngslb.com
-sgtm.dhgate.com.cdngtm.com
 httpdns.c.cdnhwc2.com
 httpdns1.cc.cdnhwc5.com
 ad.cdnjm.cn
@@ -1055,7 +1058,6 @@ daque.cn
 daraz.com
 marketing.net.daraz.lk
 net.daraz.pk
-sgtm.darryring.com
 gate.datacaciques.com
 pv.datacaciques.com
 datamaster.com.cn
@@ -1405,12 +1407,12 @@ auth.api.gitv.tv
 doh.ptqy.gitv.tv
 liveats-vod.video.ptqy.gitv.tv
 msg.ptqy.gitv.tv
+ota.ptqy.gitv.tv
 policy.video.ptqy.gitv.tv
 puma-api.ptqy.gitv.tv
 sdk-cache.video.ptqy.gitv.tv
 sdk.ptqy.gitv.tv
 static.ptqy.gitv.tv
-t7z.cupid.ptqy.gitv.tv
 time.video.ptqy.gitv.tv
 50m.gkcyc.com
 gknybkl.cn
@@ -1585,7 +1587,6 @@ cl-data-in.ads.heytapmobi.com
 cl-data-sg.ads.heytapmobi.com
 cl-data.ads.heytapmobi.com
 conf-cn.dc.heytapmobi.com
-conf-eu.dc.heytapmobi.com
 conf-sg.dc.heytapmobi.com
 darvin-ec.ads.heytapmobi.com
 data.ads.heytapmobi.com
@@ -1647,6 +1648,7 @@ analytics.shop.hisense.com
 api-4know-em.hismarttv.com
 api-gps.hismarttv.com
 api-gps-eu.hismarttv.com
+api-gps-na.hismarttv.com
 api-launcher-eu.hismarttv.com
 api-launcher-na.hismarttv.com
 auth-em.hismarttv.com
@@ -1838,6 +1840,7 @@ seeder.igetget.com
 ihclam.cn
 fpbone.ihowguide.com
 ihtqqws.cn
+appadapi.ihuman.com
 iimedia.cn
 www.iiyout.cn
 ijinshan.com
@@ -1910,6 +1913,7 @@ msga.cupid.iqiyi.com
 ndct-data.video.iqiyi.com
 nl-rcd.iqiyi.com
 paopao.iqiyi.com
+paopao-monitor.iqiyi.com
 policy.video.iqiyi.com
 puma-api.iqiyi.com
 puma.api.iqiyi.com
@@ -3047,7 +3051,6 @@ sc126.com
 smetrics.schindler.cn
 scjpqut.cn
 sckexing.cn
-sckfcn.cn
 statscollector.sd-rtn.com
 sd6hon.cn
 adrs.sdo.com
@@ -3339,6 +3342,7 @@ adashx4sg.ut.taobao.com
 adashx4yt.m.taobao.com
 adashxgc.ut.taobao.com
 ae-alimelog.taobao.com
+agoodm.m.taobao.com
 ai.m.taobao.com
 amdcopen.m.taobao.com
 audid-api.taobao.com
@@ -3443,6 +3447,7 @@ tracking.mail.ti.com
 trackinginternal.ti.com
 tracking.ti.com.cn
 tracking.mail.ti.com.cn
+tianji520.cn
 tianjimedia.com
 tianmidian.com
 ip.tianqiapi.com
@@ -3615,7 +3620,6 @@ adscfg.uqualities.com
 adsoss.uqualities.com
 uqz.com
 uri6.com
-urlqh.cn
 usrzh.cn
 gyqpyr.utsource.net
 utywsi.cn
@@ -3797,11 +3801,13 @@ stsdk.vivoglobal.com
 tr-domaincfg.vivoglobal.com
 tr-onrt-stsdk.vivoglobal.com
 tr-ort-stsdk.vivoglobal.com
+tr-p.vivoglobal.com
 tr-romsp-unifyconfig.vivoglobal.com
 tr-st-sl.vivoglobal.com
 tr-timesync.vivoglobal.com
 tr-vcode-api.vivoglobal.com
 tr-vcode-od.vivoglobal.com
+tr-vcode-or.vivoglobal.com
 zasc-cota.vivoglobal.com
 vlgkotr.cn
 vlion.cn
@@ -3986,6 +3992,7 @@ de.pandora.xiaomi.com
 dvb.pandora.xiaomi.com
 global-ad-extranet-pri-azams.alb.xiaomi.com
 global-ad-intl-pri-alisgp.alb.xiaomi.com
+globalvideo.cdn.pandora.intl.xiaomi.com
 image.cdn.pandora.xiaomi.com
 in-miuilog.sms.intl.xiaomi.com
 misc.pandora.xiaomi.com
@@ -4277,7 +4284,6 @@ sys.zhangyue.com
 saad.ms.zhangyue.net
 smad.ms.zhangyue.net
 zhanzhang.net
-www.zhaohainan.cn
 mg09.zhaopin.com
 slotabrosdev.zharev.com
 slotabrosuat.zharev.com
