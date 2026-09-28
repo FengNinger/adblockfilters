@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260928124704
-! Last modified: 2026/09/28 12:47:04
-! Blocked domains: 4427
+! Version: 20260929003854
+! Last modified: 2026/09/29 00:38:54
+! Blocked domains: 4432
 !
 00xvppy.cn
 img.0279.net
@@ -673,7 +673,6 @@ luimg.baidu.com
 m1.baidu.com
 miao.baidu.com
 miaowu.baidu.com
-mipengine.baidu.com
 mo.baidu.com
 mobads.baidu.com
 mobads-logs.baidu.com
@@ -1057,6 +1056,7 @@ daque.cn
 daraz.com
 marketing.net.daraz.lk
 net.daraz.pk
+sgtm.darryring.com
 gate.datacaciques.com
 pv.datacaciques.com
 datamaster.com.cn
@@ -1109,6 +1109,7 @@ adx-drru.op.dbankcloud.ru
 events-drru.op.dbankcloud.ru
 adx-dra-op-dbankcloud-com-dra.appacc.dbankedge.cn
 adx-dra-op-dbankcloud-com-dra.edge.dbankedge.cn
+adx-dra-op-dbankcloud-com-dra.region.dbankedge.cn
 events-dra-op-dbankcloud-cn-dra.appacc.dbankedge.cn
 events-dra-op-dbankcloud-com-dra.appacc.dbankedge.cn
 events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn
@@ -1355,6 +1356,7 @@ po.funshion.com
 pub.funshion.com
 pv.funshion.com
 stat.funshion.com
+vs.funshion.com
 stat.funshion.net
 trk.futureelectronics.cn
 down.fwqlt.com
@@ -1648,6 +1650,7 @@ log-drru.platform.hihonorcloud.com
 hiido.com
 analytics.shop.hisense.com
 api-4know-em.hismarttv.com
+api-4know-eu.hismarttv.com
 api-gps.hismarttv.com
 api-gps-eu.hismarttv.com
 api-gps-na.hismarttv.com
@@ -1984,6 +1987,7 @@ log.jd.com
 mapi.m.jd.com
 mars.jd.com
 mllog.jd.com
+nfa.jd.com
 orbit.jd.com
 policy.jd.com
 skdisplay.jd.com
@@ -2085,6 +2089,7 @@ kmhmyaj.cn
 kmihknj.cn
 kmpxq.cn
 kmzayrt.cn
+kxlogo.knet.cn
 knliylh.cn
 ofkqiy.knowfashionstyle.com
 kokojia.com
@@ -2546,7 +2551,6 @@ nasimobi.com
 dl.natgo.cn
 ncgqmzm.cn
 sdk.stat.foreign.nearme.com.cn
-stat.browser.nearme.com.cn
 finance.needtoday.com
 neolit.cn
 tracking.nesox.com
@@ -2747,7 +2751,6 @@ qhicumg.cn
 jspassport.ssl.qhimg.com
 m.qhxcdmfj.cn
 qhxtzwf.cn
-sensors-api.qiandao.cn
 click.qianqian.com
 jsb.qianzhan.com
 qichetansuo.com
@@ -3203,6 +3206,7 @@ log.snssdk.com
 log-hl.snssdk.com
 log-lq.snssdk.com
 mcs.snssdk.com
+mercury-sdk.snssdk.com
 mon.snssdk.com
 open.snssdk.com
 pangolin.snssdk.com
@@ -3726,10 +3730,9 @@ cname-in-apport-stsdk.vivoglobal.com
 cname-in-bom01-nginxpool03.vivoglobal.com
 cname-in-ctdbonrt-stsdk.vivoglobal.com
 cname-sin01-stsdk09.vivoglobal.com
-co-onrt-stsdk.vivoglobal.com
-co-ort-stsdk.vivoglobal.com
 co-romsp-unifyconfig.vivoglobal.com
 co-st-sl.vivoglobal.com
+co-timesync.vivoglobal.com
 co-vcode-api.vivoglobal.com
 co-vcode-od.vivoglobal.com
 de-gdpr-err-up.vivoglobal.com
@@ -3780,6 +3783,7 @@ in-vpushonrt-stsdk.vivoglobal.com
 in-vpushort-stsdk.vivoglobal.com
 kz-onrt-stsdk.vivoglobal.com
 kz-ort-stsdk.vivoglobal.com
+kz-st-exappupgrade.vivoglobal.com
 kz-vcode-od.vivoglobal.com
 mx-cota.vivoglobal.com
 mx-domaincfg.vivoglobal.com
@@ -4047,6 +4051,7 @@ us.api.micloud.xiaomi.net
 xiaomifood.cn
 xiaomovie.com
 xiaoxiuapp.com
+log.xiaoyi.com
 log.us.xiaoyi.com
 ad-sdk.altamob.xiaoying.co
 viva.api.xiaoying.co
