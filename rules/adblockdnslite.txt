@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20260929131315
-! Last modified: 2026/09/29 13:13:15
-! Blocked domains: 4432
+! Version: 20260929224530
+! Last modified: 2026/09/29 22:45:30
+! Blocked domains: 4414
 ! unBlocked domains: 16
 !
 ||00xvppy.cn^
@@ -207,7 +207,6 @@
 ||51.la^
 ||511a.cn^
 ||51240.com^
-||5166.info^
 ||amradmin.5173.com^
 ||log.51changdu.com^
 ||log2.51changdu.com^
@@ -217,7 +216,6 @@
 ||m1.51kaowang.com^
 ||a1.51shiti.cn^
 ||51taifu.com^
-||ad.51wnl-cq.com^
 ||ad.51wnl.com^
 ||51yes.com^
 ||game.51yund.com^
@@ -501,7 +499,6 @@
 ||jun01.oss-cn-beijing.aliyuncs.com^
 ||kmmgoogle.oss-ap-southeast-1.aliyuncs.com^
 ||mobantong.oss-cn-hangzhou.aliyuncs.com^
-||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^
 ||retcode-sg-lazada.arms.aliyuncs.com^
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
 ||star-seo.oss-ap-northeast-1.aliyuncs.com^
@@ -914,6 +911,7 @@
 ||rankhit.china.com^
 ||sssvd.china.com^
 ||union.china.com.cn^
+||feedbackstorage.blob.core.chinacloudapi.cn^
 ||pcmactivity.chinacloudsites.cn^
 ||same.chinadaily.com.cn^
 ||sdkoptedge.chinanetcenter.com^
@@ -969,6 +967,7 @@
 ||adm.cloud.cnfol.com^
 ||abcd.cnhuoche.com^
 ||hmjs.cnmo-img.com.cn^
+||webcert.cnmstl.net^
 ||smuc.cnnfootballclub.com^
 ||adp.cnool.net^
 ||clickcount.cnool.net^
@@ -1016,12 +1015,15 @@
 ||ads.csdn.net^
 ||event.csdn.net^
 ||kunpeng.csdn.net^
+||kunyu.csdn.net^
 ||silkroad.csdn.net^
 ||zhannei-dm.csdn.net^
+||kunpeng-sc.csdnimg.cn^
 ||csjplatform.com^
 ||cslpf.cn^
 ||ctags.cn^
 ||doubleclick.ctfile.com^
+||mydisplay.ctfile.com^
 ||ma-adx.ctrip.com^
 ||ctrmi.com^
 ||z1.cwbaike.com^
@@ -1057,7 +1059,6 @@
 ||daraz.com^
 ||marketing.net.daraz.lk^
 ||net.daraz.pk^
-||sgtm.darryring.com^
 ||gate.datacaciques.com^
 ||pv.datacaciques.com^
 ||datamaster.com.cn^
@@ -1110,7 +1111,6 @@
 ||events-drru.op.dbankcloud.ru^
 ||adx-dra-op-dbankcloud-com-dra.appacc.dbankedge.cn^
 ||adx-dra-op-dbankcloud-com-dra.edge.dbankedge.cn^
-||adx-dra-op-dbankcloud-com-dra.region.dbankedge.cn^
 ||events-dra-op-dbankcloud-cn-dra.appacc.dbankedge.cn^
 ||events-dra-op-dbankcloud-com-dra.appacc.dbankedge.cn^
 ||events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn^
@@ -1357,7 +1357,6 @@
 ||pub.funshion.com^
 ||pv.funshion.com^
 ||stat.funshion.com^
-||vs.funshion.com^
 ||stat.funshion.net^
 ||trk.futureelectronics.cn^
 ||down.fwqlt.com^
@@ -1416,6 +1415,7 @@
 ||sdk-cache.video.ptqy.gitv.tv^
 ||sdk.ptqy.gitv.tv^
 ||static.ptqy.gitv.tv^
+||t7z.cupid.ptqy.gitv.tv^
 ||time.video.ptqy.gitv.tv^
 ||50m.gkcyc.com^
 ||gknybkl.cn^
@@ -1594,9 +1594,7 @@
 ||darvin-ec.ads.heytapmobi.com^
 ||data.ads.heytapmobi.com^
 ||dragate-sg.dc.heytapmobi.com^
-||epoch-id.cdo.heytapmobi.com^
 ||httpdns.ocloud.heytapmobi.com^
-||i-cn01a.ocloud.heytapmobi.com^
 ||i-sg01a.ocloud.heytapmobi.com^
 ||iot-earbuds-cn.heytapmobi.com^
 ||obus-cn.dc.heytapmobi.com^
@@ -1651,7 +1649,6 @@
 ||hiido.com^
 ||analytics.shop.hisense.com^
 ||api-4know-em.hismarttv.com^
-||api-4know-eu.hismarttv.com^
 ||api-gps.hismarttv.com^
 ||api-gps-eu.hismarttv.com^
 ||api-gps-na.hismarttv.com^
@@ -1663,7 +1660,6 @@
 ||auth-launcher-na.hismarttv.com^
 ||auth-launcher-sa.hismarttv.com^
 ||auth-na.hismarttv.com^
-||auth-phone-ap.hismarttv.com^
 ||auth-sa.hismarttv.com^
 ||cdn-plugin-sync-upgrade-juui.hismarttv.com^
 ||msg-na.hismarttv.com^
@@ -1908,7 +1904,6 @@
 ||c.uaa.iqiyi.com^
 ||cards-css.iqiyi.com^
 ||cm.passport.iqiyi.com^
-||cs-feige.iqiyi.com^
 ||doh.iqiyi.com^
 ||emoticon-sns.iqiyi.com^
 ||emoticon.sns.iqiyi.com^
@@ -2212,7 +2207,6 @@
 ||h-adashx.ut.lazada.com^
 ||orange-dc.lazada.com^
 ||ph-log-emagzal.lazada.com^
-||sg-log-emagzal.lazada.com^
 ||jmacs-m.lazada.com.my^
 ||msgacs-m.lazada.com.my^
 ||jmacs-m.lazada.com.ph^
@@ -2243,7 +2237,6 @@
 ||o.lenovo.com^
 ||s.lenovo.com^
 ||fsr.lenovomm.com^
-||prw.lenovomm.com^
 ||pushapi.lenovomm.com^
 ||susapi.lenovomm.com^
 ||uss-pid.lenovomm.com^
@@ -2403,7 +2396,6 @@
 ||in.tv.global.mi.com^
 ||migc.g.mi.com^
 ||migcreport.g.mi.com^
-||mis.g.mi.com^
 ||pandora.mi.com^
 ||stat.youpin.mi.com^
 ||miam4.cn^
@@ -2435,7 +2427,6 @@
 ||adv.sec.intl.miui.com^
 ||api.accelerator.intl.miui.com^
 ||api.aurogon.intl.miui.com^
-||api.browser.intl.miui.com^
 ||api.brs.intl.miui.com^
 ||api.collect.data.intl.miui.com^
 ||api.competition.intl.miui.com^
@@ -2740,7 +2731,6 @@
 ||qawxpzm.cn^
 ||cp.qbaobei.com^
 ||uplog.qbox.me^
-||log.qcast.cn^
 ||log.qvb.qcloud.com^
 ||tracker-00.qvb.qcloud.com^
 ||car.qcmrjx.com^
@@ -3150,6 +3140,7 @@
 ||sax.sina.com.cn^
 ||saxn.sina.com.cn^
 ||sbeacon.sina.com.cn^
+||woocall.sina.com.cn^
 ||s3.pfp.sina.net^
 ||ad.us.sinaimg.cn^
 ||newspush.sinajs.cn^
@@ -3207,7 +3198,6 @@
 ||log-hl.snssdk.com^
 ||log-lq.snssdk.com^
 ||mcs.snssdk.com^
-||mercury-sdk.snssdk.com^
 ||mon.snssdk.com^
 ||open.snssdk.com^
 ||pangolin.snssdk.com^
@@ -3332,6 +3322,7 @@
 ||clog.tanshudata.com^
 ||seiya.tantanapp.com^
 ||tanv.com^
+||click.tanx.com^
 ||cms.tanx.com^
 ||df.tanx.com^
 ||ef-dongfeng.tanx.com^
@@ -3357,7 +3348,6 @@
 ||adashx4yt.m.taobao.com^
 ||adashxgc.ut.taobao.com^
 ||ae-alimelog.taobao.com^
-||agoodm.m.taobao.com^
 ||ai.m.taobao.com^
 ||amdcopen.m.taobao.com^
 ||audid-api.taobao.com^
@@ -3456,6 +3446,7 @@
 ||tatrack.thinkyeah.com^
 ||trk.thomas-pump.cn^
 ||trail.thomsonreuters.cn^
+||ad.thsi.cn^
 ||tracking.ti.com^
 ||tracking.mail.ti.com^
 ||trackinginternal.ti.com^
@@ -3729,11 +3720,9 @@
 ||cname-asia-st-exappupgrade.vivoglobal.com^
 ||cname-in-apport-stsdk.vivoglobal.com^
 ||cname-in-bom01-nginxpool03.vivoglobal.com^
-||cname-in-ctdbonrt-stsdk.vivoglobal.com^
 ||cname-sin01-stsdk09.vivoglobal.com^
 ||co-romsp-unifyconfig.vivoglobal.com^
 ||co-st-sl.vivoglobal.com^
-||co-timesync.vivoglobal.com^
 ||co-vcode-api.vivoglobal.com^
 ||co-vcode-od.vivoglobal.com^
 ||de-gdpr-err-up.vivoglobal.com^
@@ -3783,8 +3772,6 @@
 ||in-vpushonrt-stsdk.vivoglobal.com^
 ||in-vpushort-stsdk.vivoglobal.com^
 ||kz-onrt-stsdk.vivoglobal.com^
-||kz-ort-stsdk.vivoglobal.com^
-||kz-st-exappupgrade.vivoglobal.com^
 ||kz-vcode-od.vivoglobal.com^
 ||mx-cota.vivoglobal.com^
 ||mx-domaincfg.vivoglobal.com^
@@ -3806,7 +3793,6 @@
 ||ru-comort-stsdk.vivoglobal.com^
 ||ru-compnrt-stsdk.vivoglobal.com^
 ||ru-comprt-stsdk.vivoglobal.com^
-||ru-cota.vivoglobal.com^
 ||ru-err-up.vivoglobal.com^
 ||ru-exstsdk.vivoglobal.com^
 ||ru-onrt-stsdk.vivoglobal.com^
@@ -3958,7 +3944,6 @@
 ||wsds.cn^
 ||wsnew.cn^
 ||wstatslive.com^
-||mlog.wangsu.com.wswebcdn.com^
 ||cdn-ad.wtzw.com^
 ||wukongtongji.com^
 ||wumii.cn^
@@ -4018,7 +4003,6 @@
 ||bigdata-lbs-pri-c3.alb.xiaomi.com^
 ||bss.pandora.xiaomi.com^
 ||cdn.exp.xiaomi.com^
-||data.game.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||de.pandora.xiaomi.com^
 ||dvb.pandora.xiaomi.com^
@@ -4030,7 +4014,6 @@
 ||misc.pandora.xiaomi.com^
 ||notice.game.xiaomi.com^
 ||o2o.api.xiaomi.com^
-||ottl7-l2.pandora.xiaomi.com^
 ||package.box.xiaomi.com^
 ||pi.ias.xiaomi.com^
 ||preload.xiaomi.com^
@@ -4289,7 +4272,6 @@
 ||cloud-log.yy.com^
 ||gt.yy.com^
 ||httpdns.gslb.yy.com^
-||metrics.yy.com^
 ||stat.game.yy.com^
 ||yylady.cn^
 ||adapi.yynetwk.com^
