@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260930130031
-! Last modified: 2026/09/30 13:00:31
-! Blocked domains: 4414
+! Version: 20260930224809
+! Last modified: 2026/09/30 22:48:09
+! Blocked domains: 4405
 !
 00xvppy.cn
 img.0279.net
@@ -206,6 +206,7 @@ ios-pclog.3u.com
 51.la
 511a.cn
 51240.com
+5166.info
 amradmin.5173.com
 log.51changdu.com
 log2.51changdu.com
@@ -539,6 +540,7 @@ anquan.org
 api.antibanads.com
 bu.antutu.net
 srtj.antutu.net
+yanjiapi.antutu.net
 anysdk.com
 aoqinglv.cn
 log-pub-hk.aoshitang.com
@@ -735,7 +737,6 @@ h.baminw.cn
 j.baminw.cn
 n.baminw.com.cn
 q.baminw.com.cn
-midinfo.baofeng.com
 baycode.cn
 bayimob.com
 bbbazlp.cn
@@ -1022,7 +1023,6 @@ csjplatform.com
 cslpf.cn
 ctags.cn
 doubleclick.ctfile.com
-mydisplay.ctfile.com
 ma-adx.ctrip.com
 ctrmi.com
 z1.cwbaike.com
@@ -1116,7 +1116,6 @@ events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn
 events-dra-op-dbankcloud-com-dra.region.dbankedge.cn
 events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn
 events-dre-op-hicloud-com-dre.appacc.dbankedge.cn
-hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn
 ddbuwo.cn
 dm1.ddwk8.cn
 deeterno.cn
@@ -1408,7 +1407,6 @@ auth.api.gitv.tv
 doh.ptqy.gitv.tv
 liveats-vod.video.ptqy.gitv.tv
 msg.ptqy.gitv.tv
-ota.ptqy.gitv.tv
 policy.video.ptqy.gitv.tv
 puma-api.ptqy.gitv.tv
 sdk-cache.video.ptqy.gitv.tv
@@ -1650,7 +1648,6 @@ analytics.shop.hisense.com
 api-4know-em.hismarttv.com
 api-gps.hismarttv.com
 api-gps-eu.hismarttv.com
-api-gps-na.hismarttv.com
 api-launcher-eu.hismarttv.com
 api-launcher-na.hismarttv.com
 auth-em.hismarttv.com
@@ -1842,7 +1839,6 @@ seeder.igetget.com
 ihclam.cn
 fpbone.ihowguide.com
 ihtqqws.cn
-appadapi.ihuman.com
 iimedia.cn
 www.iiyout.cn
 ijinshan.com
@@ -1915,7 +1911,6 @@ msga.cupid.iqiyi.com
 ndct-data.video.iqiyi.com
 nl-rcd.iqiyi.com
 paopao.iqiyi.com
-paopao-monitor.iqiyi.com
 policy.video.iqiyi.com
 puma-api.iqiyi.com
 puma.api.iqiyi.com
@@ -2863,7 +2858,6 @@ p2pupgrade.gamedl.qq.com
 pcm-img.zhls.qq.com
 pingjs.qq.com
 pingma.qq.com
-pingmid.qq.com
 pingtas.qq.com
 pmir.3g.qq.com
 pms.mb.qq.com
@@ -3139,7 +3133,6 @@ matwbp.iask.sina.com.cn
 sax.sina.com.cn
 saxn.sina.com.cn
 sbeacon.sina.com.cn
-woocall.sina.com.cn
 s3.pfp.sina.net
 ad.us.sinaimg.cn
 newspush.sinajs.cn
@@ -3204,7 +3197,6 @@ tbm.snssdk.com
 tnc3-aliec2.snssdk.com
 tnc3-alisc1.snssdk.com
 tnc3-bjlgy.snssdk.com
-toutiao-frontier.snssdk.com
 tsearch.snssdk.com
 ug.snssdk.com
 vcl-brain.snssdk.com
@@ -3770,7 +3762,6 @@ in-vcode-od.vivoglobal.com
 in-vcode-or.vivoglobal.com
 in-vpushonrt-stsdk.vivoglobal.com
 in-vpushort-stsdk.vivoglobal.com
-kz-onrt-stsdk.vivoglobal.com
 kz-vcode-od.vivoglobal.com
 mx-cota.vivoglobal.com
 mx-domaincfg.vivoglobal.com

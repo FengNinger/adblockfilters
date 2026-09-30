@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260930130031
-# Last modified: 2026/09/30 13:00:31
-# Blocked domains: 4414
+# Version: 20260930224809
+# Last modified: 2026/09/30 22:48:09
+# Blocked domains: 4405
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -206,6 +206,7 @@ local=/50bang.org/
 local=/51.la/
 local=/511a.cn/
 local=/51240.com/
+local=/5166.info/
 local=/amradmin.5173.com/
 local=/log.51changdu.com/
 local=/log2.51changdu.com/
@@ -539,6 +540,7 @@ local=/anquan.org/
 local=/api.antibanads.com/
 local=/bu.antutu.net/
 local=/srtj.antutu.net/
+local=/yanjiapi.antutu.net/
 local=/anysdk.com/
 local=/aoqinglv.cn/
 local=/log-pub-hk.aoshitang.com/
@@ -735,7 +737,6 @@ local=/h.baminw.cn/
 local=/j.baminw.cn/
 local=/n.baminw.com.cn/
 local=/q.baminw.com.cn/
-local=/midinfo.baofeng.com/
 local=/baycode.cn/
 local=/bayimob.com/
 local=/bbbazlp.cn/
@@ -1022,7 +1023,6 @@ local=/csjplatform.com/
 local=/cslpf.cn/
 local=/ctags.cn/
 local=/doubleclick.ctfile.com/
-local=/mydisplay.ctfile.com/
 local=/ma-adx.ctrip.com/
 local=/ctrmi.com/
 local=/z1.cwbaike.com/
@@ -1116,7 +1116,6 @@ local=/events-dra-op-dbankcloud-com-dra.edge.dbankedge.cn/
 local=/events-dra-op-dbankcloud-com-dra.region.dbankedge.cn/
 local=/events-dre-op-dbankcloud-com-dre.appacc.dbankedge.cn/
 local=/events-dre-op-hicloud-com-dre.appacc.dbankedge.cn/
-local=/hisearch-dra-dt-dbankcloud-com-dra.appacc.dbankedge.cn/
 local=/ddbuwo.cn/
 local=/dm1.ddwk8.cn/
 local=/deeterno.cn/
@@ -1408,7 +1407,6 @@ local=/auth.api.gitv.tv/
 local=/doh.ptqy.gitv.tv/
 local=/liveats-vod.video.ptqy.gitv.tv/
 local=/msg.ptqy.gitv.tv/
-local=/ota.ptqy.gitv.tv/
 local=/policy.video.ptqy.gitv.tv/
 local=/puma-api.ptqy.gitv.tv/
 local=/sdk-cache.video.ptqy.gitv.tv/
@@ -1650,7 +1648,6 @@ local=/analytics.shop.hisense.com/
 local=/api-4know-em.hismarttv.com/
 local=/api-gps.hismarttv.com/
 local=/api-gps-eu.hismarttv.com/
-local=/api-gps-na.hismarttv.com/
 local=/api-launcher-eu.hismarttv.com/
 local=/api-launcher-na.hismarttv.com/
 local=/auth-em.hismarttv.com/
@@ -1842,7 +1839,6 @@ local=/seeder.igetget.com/
 local=/ihclam.cn/
 local=/fpbone.ihowguide.com/
 local=/ihtqqws.cn/
-local=/appadapi.ihuman.com/
 local=/iimedia.cn/
 local=/www.iiyout.cn/
 local=/ijinshan.com/
@@ -1915,7 +1911,6 @@ local=/msga.cupid.iqiyi.com/
 local=/ndct-data.video.iqiyi.com/
 local=/nl-rcd.iqiyi.com/
 local=/paopao.iqiyi.com/
-local=/paopao-monitor.iqiyi.com/
 local=/policy.video.iqiyi.com/
 local=/puma-api.iqiyi.com/
 local=/puma.api.iqiyi.com/
@@ -2863,7 +2858,6 @@ local=/p2pupgrade.gamedl.qq.com/
 local=/pcm-img.zhls.qq.com/
 local=/pingjs.qq.com/
 local=/pingma.qq.com/
-local=/pingmid.qq.com/
 local=/pingtas.qq.com/
 local=/pmir.3g.qq.com/
 local=/pms.mb.qq.com/
@@ -3139,7 +3133,6 @@ local=/matwbp.iask.sina.com.cn/
 local=/sax.sina.com.cn/
 local=/saxn.sina.com.cn/
 local=/sbeacon.sina.com.cn/
-local=/woocall.sina.com.cn/
 local=/s3.pfp.sina.net/
 local=/ad.us.sinaimg.cn/
 local=/newspush.sinajs.cn/
@@ -3204,7 +3197,6 @@ local=/tbm.snssdk.com/
 local=/tnc3-aliec2.snssdk.com/
 local=/tnc3-alisc1.snssdk.com/
 local=/tnc3-bjlgy.snssdk.com/
-local=/toutiao-frontier.snssdk.com/
 local=/tsearch.snssdk.com/
 local=/ug.snssdk.com/
 local=/vcl-brain.snssdk.com/
@@ -3770,7 +3762,6 @@ local=/in-vcode-od.vivoglobal.com/
 local=/in-vcode-or.vivoglobal.com/
 local=/in-vpushonrt-stsdk.vivoglobal.com/
 local=/in-vpushort-stsdk.vivoglobal.com/
-local=/kz-onrt-stsdk.vivoglobal.com/
 local=/kz-vcode-od.vivoglobal.com/
 local=/mx-cota.vivoglobal.com/
 local=/mx-domaincfg.vivoglobal.com/
