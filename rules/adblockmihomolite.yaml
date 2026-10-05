@@ -4,9 +4,9 @@ payload:
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
   # Homepage: https://github.com/217heidai/adblockfilters
   # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20261005130230
-  # Last modified: 2026/10/05 13:02:30
-  # Blocked domains: 4441
+  # Version: 20261006010046
+  # Last modified: 2026/10/06 01:00:46
+  # Blocked domains: 4442
   #
   - '+.00xvppy.cn'
   - '+.img.0279.net'
@@ -217,6 +217,7 @@ payload:
   - '+.m1.51kaowang.com'
   - '+.a1.51shiti.cn'
   - '+.51taifu.com'
+  - '+.ad.51wnl-cq.com'
   - '+.ad.51wnl.com'
   - '+.51yes.com'
   - '+.game.51yund.com'
@@ -2045,6 +2046,7 @@ payload:
   - '+.jsdajp.click'
   - '+.jsebmcv.cn'
   - '+.jsing.net'
+  - '+.jslogo.cn'
   - '+.jsmxkj.com'
   - '+.fpb1.jsq886.com'
   - '+.jszctech.com'
@@ -3739,7 +3741,6 @@ payload:
   - '+.cname-asia-st-exappupgrade.vivoglobal.com'
   - '+.cname-in-apport-stsdk.vivoglobal.com'
   - '+.cname-in-bom01-nginxpool03.vivoglobal.com'
-  - '+.cname-in-ctdbonrt-stsdk.vivoglobal.com'
   - '+.cname-sin01-stsdk09.vivoglobal.com'
   - '+.co-onrt-stsdk.vivoglobal.com'
   - '+.co-ort-stsdk.vivoglobal.com'
