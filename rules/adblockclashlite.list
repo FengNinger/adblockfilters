@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20261007232424
-# Last modified: 2026/10/07 23:24:24
-# Blocked domains: 4425
+# Version: 20261008050914
+# Last modified: 2026/10/08 05:09:14
+# Blocked domains: 4423
 #
 [Rule]
 DOMAIN-SUFFIX,00xvppy.cn,REJECT-DROP
@@ -228,7 +228,6 @@ DOMAIN-SUFFIX,52z.com,REJECT-DROP
 DOMAIN-SUFFIX,a.52zxw.com,REJECT-DROP
 DOMAIN-SUFFIX,53kf.com,REJECT-DROP
 DOMAIN-SUFFIX,54kefu.net,REJECT-DROP
-DOMAIN-SUFFIX,down.54nb.com,REJECT-DROP
 DOMAIN-SUFFIX,55.la,REJECT-DROP
 DOMAIN-SUFFIX,55726zubo56686.com,REJECT-DROP
 DOMAIN-SUFFIX,acs.56.com,REJECT-DROP
@@ -2944,7 +2943,6 @@ DOMAIN-SUFFIX,ysdk.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,yun-hl.3g.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,wxaintpcos.wxqcloud.qq.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,a1.qqan.com,REJECT-DROP
-DOMAIN-SUFFIX,down.qqfarmer.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,sdk-ab-config.qquanquan.com,REJECT-DROP
 DOMAIN-SUFFIX,tracelog-debug.qquanquan.com,REJECT-DROP
 DOMAIN-SUFFIX,f.qstatic.com,REJECT-DROP
