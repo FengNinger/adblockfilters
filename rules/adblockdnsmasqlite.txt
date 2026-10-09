@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20261009133356
-# Last modified: 2026/10/09 13:33:56
-# Blocked domains: 4424
+# Version: 20261009230925
+# Last modified: 2026/10/09 23:09:25
+# Blocked domains: 4431
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -739,6 +739,7 @@ local=/h.baminw.cn/
 local=/j.baminw.cn/
 local=/n.baminw.com.cn/
 local=/q.baminw.com.cn/
+local=/midinfo.baofeng.com/
 local=/baycode.cn/
 local=/bayimob.com/
 local=/bbbazlp.cn/
@@ -1329,6 +1330,7 @@ local=/fiwyjar.cn/
 local=/fjshxjs.cn/
 local=/flash.cn/
 local=/bd1.flfgw.cn/
+local=/api-flow.flyme.cn/
 local=/bro.flyme.cn/
 local=/t-e.flyme.cn/
 local=/t-flow.flyme.cn/
@@ -1410,12 +1412,12 @@ local=/auth.api.gitv.tv/
 local=/doh.ptqy.gitv.tv/
 local=/liveats-vod.video.ptqy.gitv.tv/
 local=/msg.ptqy.gitv.tv/
-local=/ota.ptqy.gitv.tv/
 local=/policy.video.ptqy.gitv.tv/
 local=/puma-api.ptqy.gitv.tv/
 local=/sdk-cache.video.ptqy.gitv.tv/
 local=/sdk.ptqy.gitv.tv/
 local=/static.ptqy.gitv.tv/
+local=/t7z.cupid.ptqy.gitv.tv/
 local=/time.video.ptqy.gitv.tv/
 local=/50m.gkcyc.com/
 local=/gknybkl.cn/
@@ -1543,6 +1545,7 @@ local=/haoghost.com/
 local=/haoweb.top/
 local=/2.haoxue360.com/
 local=/download.haozip.com/
+local=/log.dc.cn.happyelements.com/
 local=/hapying.com/
 local=/hashnest.com/
 local=/a.hbf23.cn/
@@ -1765,6 +1768,7 @@ local=/huanqiucaijing.cn/
 local=/ads.huantest.com/
 local=/hwa.his.huawei.com/
 local=/httpdns.huaweicloud.com/
+local=/uba.huaweicloud.com/
 local=/hubcloud.com.cn/
 local=/hubiazhi.com/
 local=/huishenghuiying.com.cn/
@@ -2828,6 +2832,7 @@ local=/e.qq.com/
 local=/file.daihuo.qq.com/
 local=/fodder.qq.com/
 local=/fodder.tc.qq.com/
+local=/fusion.qq.com/
 local=/fw.qq.com/
 local=/gdt.qq.com/
 local=/hd2.3g.qq.com/
@@ -3143,6 +3148,7 @@ local=/matwbp.iask.sina.com.cn/
 local=/sax.sina.com.cn/
 local=/saxn.sina.com.cn/
 local=/sbeacon.sina.com.cn/
+local=/woocall.sina.com.cn/
 local=/s3.pfp.sina.net/
 local=/ad.us.sinaimg.cn/
 local=/newspush.sinajs.cn/
@@ -3448,6 +3454,7 @@ local=/thinkmd.cn/
 local=/tatrack.thinkyeah.com/
 local=/trk.thomas-pump.cn/
 local=/trail.thomsonreuters.cn/
+local=/ad.thsi.cn/
 local=/tracking.ti.com/
 local=/tracking.mail.ti.com/
 local=/trackinginternal.ti.com/
@@ -3522,7 +3529,6 @@ local=/trcakingapp.trnox.com/
 local=/ta.trs.cn/
 local=/trustutn.org/
 local=/ts166.net/
-local=/ttdbh.com/
 local=/www.ttyyuuoo.com/
 local=/ad.api.3g.tudou.com/
 local=/go.tuev.cn/
@@ -4007,10 +4013,12 @@ local=/api.hybrid.xiaomi.com/
 local=/api.installer.xiaomi.com/
 local=/api.miui.security.xiaomi.com/
 local=/appstore.cdn.pandora.xiaomi.com/
+local=/appstore.pandora.xiaomi.com/
 local=/awssgp0-files.fds.api.xiaomi.com/
 local=/bigdata-lbs-pri-c3.alb.xiaomi.com/
 local=/bss.pandora.xiaomi.com/
 local=/cdn.exp.xiaomi.com/
+local=/data.game.xiaomi.com/
 local=/data.mistat.intl.xiaomi.com/
 local=/de.pandora.xiaomi.com/
 local=/dvb.pandora.xiaomi.com/
@@ -4252,7 +4260,6 @@ local=/yw800.com.cn/
 local=/ywkkmze.cn/
 local=/ywsywh.cn/
 local=/123.ywxww.net/
-local=/adsclick.yx.js.cn/
 local=/qiniuyunxz.yxflzs.com/
 local=/yxgfcj.com/
 local=/ad.a.yximgs.com/
